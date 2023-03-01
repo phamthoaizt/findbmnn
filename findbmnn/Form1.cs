@@ -1,11 +1,18 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.ComTypes;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Aspose.Words;
+using Aspose.Words.Rendering;
 using IFilterTextReader;
+using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
 
 namespace findbmnn
@@ -30,103 +37,91 @@ namespace findbmnn
 
         #region code xử lý giao diện
         // hàm hiển thị log
-        public void AppendTextBox(string value)
+        public void AppendTextBox(string value, int stylevalue)
         {
             if (InvokeRequired)
             {
-                this.Invoke(new Action<string>(AppendTextBox), new object[] { value });
+                this.Invoke(new Action<string, int>(AppendTextBox), new object[] { value, stylevalue });
                 return;
             }
 
+            if (stylevalue == 1)
+            {
+                richTextBoxLog.AppendText(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + value + Environment.NewLine);
+                richTextBoxLog.ForeColor = Color.Green;
+                richTextBoxLog.AppendText("- - - - - - - - - - - - - - - - - - - " + Environment.NewLine);
+                richTextBoxLog.ScrollToCaret();
+            }
             richTextBoxLog.AppendText(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + value + Environment.NewLine);
+            richTextBoxLog.ForeColor = Color.Black;
             richTextBoxLog.AppendText("- - - - - - - - - - - - - - - - - - - " + Environment.NewLine);
             richTextBoxLog.ScrollToCaret();
         }
 
         // xử lý nút tìm kiếm
-        private void CheckKeyWords()
-        {
-            string keywords = richTextBoxKey.Text.Trim().ToLower();
-            string[] listKey = GetListKey(keywords);
-            AppendTextBox("Tổng số key cần phân tích: " + listKey.Length.ToString());
-            foreach (string key in listKey)
-            {
-                AppendTextBox(key);
-            }
-            listKeys.AddRange(listKey);
-        }
+
         private async void buttonSearch_Click(object sender, EventArgs e)
         {
-            /* load all file txt
-            string pathCurr = Directory.GetCurrentDirectory();
-            string pathTxt = Path.Combine(pathCurr, "convertTxt\\");
-            List<string> listFileTxt = GetAllFilesFromFolder(pathTxt, "*.txt", true);
-            */
-
             List<Task> tasks = new List<Task>();
 
             buttonResult.Visible = true;
-
-            // bat dau chien
-            CheckKeyWords();
-            string subPath = CreateFolder();
-
-            /* convert sang txt
-            foreach (string fileDoc in listFileDoc)
+            // kiểm tra đã tồn tại file kết quả load chưa
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string fullpath = currentDirectory + @"\save_data\resultLoadFileWord.txt";
+            
+            if (!File.Exists(fullpath))
             {
-                ConvertFileToTxt(fileDoc);
+                MessageBox.Show("Chưa tồn tại file để load dữ liệu", "Cảnh báo", MessageBoxButtons.OK);
+
             }
-            */
-
-            // tim kiem theo tu khoa
-
-            foreach (string pathFile in listFileDoc)
+            else
             {
-                tasks.Add(Task.Run(() =>
+                List<string> listpathfileword = File.ReadAllLines(fullpath).ToList();
+                // tạo đường dẫn chứa kết quả
+                string pathResultSearchString = currentDirectory + @"\save_data\resultSearchString.txt";
+
+                foreach (string pathfileword in listpathfileword)
                 {
-                    try
+                    // Khởi tạo đối tượng Document từ tệp Word
+                                       
+                    tasks.Add(Task.Run(() =>
                     {
-                        
-                        string contentFile = "";
-
-
-                        using (TextReader reader = new FilterReader(pathFile))
+                        try
                         {
-                            contentFile = reader.ReadToEnd().ToLower();
-                        }
-                        AppendTextBox(contentFile);
-                        
-                        /*
-                        foreach (string key in listKeys)
-                        {
-                            try
+                            Document doc = new Document(pathfileword);
+                            string content = doc.GetText().ToLower();
+                            Console.WriteLine(content);
+                            bool detectkey = false;
+                            foreach (string searchString in listKeys)
                             {
-                                bool check = contentFile.Contains(key); // ham nay tra ve gia tri boolean  
-
-                                if (check)
+                                if (content.Contains(searchString))
                                 {
-                                    AppendTextBox(pathFile);
+                                    AppendTextBox("Tìm thấy chuỗi '" + searchString + "' trong file " + pathfileword, 1);
+                                    // thiết lập file chứa kết quả
+                                    detectkey = true; 
+                                } else
+                                {
+                                    AppendTextBox("Không tìm thấy chuỗi '" + searchString + "' trong file " + pathfileword, 1);
                                 }
-
                             }
-                            catch
+                            if (detectkey)
                             {
-                                // Do Nothing
+                                File.AppendAllText(pathResultSearchString, pathfileword);
                             }
-                        }*/
+                        }
+                        catch
+                        {
+                            // Do Nothing
+                        }
+                    }));
 
-                    }
-                    catch
-                    {
-                        // Do Nothing
-                    }
-                }));
+                }
+
+                await Task.WhenAll(tasks);
+                AppendTextBox("Đã tìm kiếm xong!", 1);
+
             }
-
-            await Task.WhenAll(tasks);
         }
-
-
 
 
         private async void buttonLoadDisk_Click(object sender, EventArgs e)
@@ -136,18 +131,18 @@ namespace findbmnn
             List<Task> tasks = new List<Task>();
 
             // lấy thông tin và load file
-            AppendTextBox("Lấy thông tin toàn bộ file word trên máy tính");
+            AppendTextBox("Lấy thông tin toàn bộ file word trên máy tính", 1);
             foreach (DriveInfo d in allDrives)
             {
-                AppendTextBox("Kết quả load file tại ổ: " + d.Name);
+                AppendTextBox("Kết quả load file tại ổ: " + d.Name, 1);
                 tasks.Add(Task.Run(() =>
                 {
                     try
                     {
                         List<string> list1 = GetAllFilesFromFolder(d.Name, "*.doc", true);
-                        //List<string> list2 = GetAllFilesFromFolder(d.Name, "*.docx", true);
+                        List<string> list2 = GetAllFilesFromFolder(d.Name, "*.docx", true);
                         listFileDoc.AddRange(list1);
-                        //listFileDoc.AddRange(list2);
+                        listFileDoc.AddRange(list2);
                     }
                     catch
                     {
@@ -158,20 +153,11 @@ namespace findbmnn
 
             await Task.WhenAll(tasks);
 
-            buttonSearch.Visible = true;
+            // tạo file lưu path 
+            string subPath = CreateFolder();
+            string filename = "resultLoadFileWord.txt";
+            SaveAllText(filename, listFileDoc);
             buttonLoadDisk.Enabled = false;
-
-            /*Task t = Task.WhenAll(tasks);
-            try
-            {
-                t.Wait();
-            }
-            catch { }
-
-            if (t.Status == TaskStatus.RanToCompletion)
-                AppendTextBox("Load file thành công!");
-            else if (t.Status == TaskStatus.Faulted)
-                AppendTextBox("Load file thất bại!"); */
 
         }
         #endregion
@@ -180,11 +166,50 @@ namespace findbmnn
 
         #region vùng backend
 
+        // lưu file sau khi load
+        private void SaveAllText(string filename, List<string> contentfile)
+        {
+            // Lấy thư mục của User trên hệ thống
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string subPath = Path.Combine(currentDirectory, "save_data");
+            var fullpath = Path.Combine(subPath, filename);
+            if (!Directory.Exists(fullpath))
+            {
+                using (StreamWriter writer = new StreamWriter(fullpath, true))
+                {
+                    foreach (string content in contentfile)
+                    {
+                        writer.WriteLine(content);
+                    }
+                }
+                AppendTextBox("Đã lưu file tại: " + fullpath, 1);
+            }
+            else
+            {
+                string[] contentfiles = contentfile.ToArray();
+                // File đã tồn tại - nối thêm nội dung
+                File.AppendAllLines(fullpath, contentfiles);
+                AppendTextBox("File đã tồn tại", 1);
+                AppendTextBox("Đã lưu tiếp tại đường dẫn: " + fullpath, 1);
+            }
+        }
+        private void CheckKeyWords()
+        {
+            string keywords = richTextBoxKey.Text.Trim().ToLower();
+            string[] listKey = GetListKey(keywords);
+            AppendTextBox("Tổng số key cần phân tích: " + listKey.Length.ToString(), 1);
+            foreach (string key in listKey)
+            {
+                AppendTextBox(key, 0);
+            }
+            listKeys.AddRange(listKey);
+        }
+
         // tao thu muc chua file .txt
         private string CreateFolder()
         {
             string pathCurr = Directory.GetCurrentDirectory();
-            string subPath = Path.Combine(pathCurr, "convertTxt");
+            string subPath = Path.Combine(pathCurr, "save_data");
             if (!Directory.Exists(subPath))
             {
                 // Try to create the directory.
@@ -214,7 +239,7 @@ namespace findbmnn
                     string[] filesInCurrent = Directory.GetFiles(currentFolder, typeFile, SearchOption.TopDirectoryOnly);
                     foreach (string item in filesInCurrent)
                     {
-                        AppendTextBox(item);
+                        AppendTextBox(item, 0);
                     }
                     files.AddRange(filesInCurrent);
                 }
@@ -239,61 +264,6 @@ namespace findbmnn
                 }
             }
             return files;
-        }
-        //phân tích file theo thư viện aspose.word
-        private void ConvertFileToTxt(string path)
-        {
-            try
-            {
-                Document doc = new Document(path);
-                string filename = Path.GetFileNameWithoutExtension(path);
-                string pathCurr = Directory.GetCurrentDirectory();
-
-                string subPath = Path.Combine(pathCurr, "convertTxt\\");
-                string pathFile = subPath + filename + ".txt";
-                doc.Save(pathFile);
-                AppendTextBox("Lưu file: " + pathFile);
-            }
-            catch
-            {
-                // Do Nothing
-            }
-
-        }
-
-
-        private string AnalysisWithKey(string pathFile, List<string> listKey)
-        {
-
-            string contentFile = "";
-
-
-            using (TextReader reader = new FilterReader(pathFile))
-            {
-                contentFile = reader.ReadToEnd().ToLower();
-            }
-            AppendTextBox(contentFile);
-
-            foreach (string key in listKey)
-            {
-                try
-                {
-                    bool check = contentFile.Contains(key); // ham nay tra ve gia tri boolean  
-
-                    if (check)
-                    {
-                        AppendTextBox(pathFile);
-                        return pathFile;
-                    }
-
-                }
-                catch
-                {
-                    // Do Nothing
-                }
-            }
-
-            return "";
         }
         #endregion
 

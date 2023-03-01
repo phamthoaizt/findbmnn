@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonResult = new System.Windows.Forms.Button();
             this.buttonLoadDisk = new System.Windows.Forms.Button();
             this.richTextBoxKey = new System.Windows.Forms.RichTextBox();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBoxLog = new System.Windows.Forms.RichTextBox();
-            this.buttonResult = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -46,12 +46,25 @@
             this.groupBox1.Controls.Add(this.buttonLoadDisk);
             this.groupBox1.Controls.Add(this.richTextBoxKey);
             this.groupBox1.Controls.Add(this.buttonSearch);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1121, 136);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Cài đặt";
+            this.groupBox1.Text = "Input keyword";
+            // 
+            // buttonResult
+            // 
+            this.buttonResult.BackColor = System.Drawing.Color.Red;
+            this.buttonResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonResult.Location = new System.Drawing.Point(979, 95);
+            this.buttonResult.Name = "buttonResult";
+            this.buttonResult.Size = new System.Drawing.Size(113, 32);
+            this.buttonResult.TabIndex = 8;
+            this.buttonResult.Text = "Result";
+            this.buttonResult.UseVisualStyleBackColor = false;
+            this.buttonResult.Visible = false;
             // 
             // buttonLoadDisk
             // 
@@ -82,20 +95,20 @@
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(113, 32);
             this.buttonSearch.TabIndex = 4;
-            this.buttonSearch.Text = "Phân tích";
+            this.buttonSearch.Text = "Find";
             this.buttonSearch.UseVisualStyleBackColor = false;
-            this.buttonSearch.Visible = false;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.richTextBoxLog);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 154);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1121, 677);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Hiển thị logs";
+            this.groupBox2.Text = "Show logs";
             // 
             // richTextBoxLog
             // 
@@ -105,18 +118,6 @@
             this.richTextBoxLog.Size = new System.Drawing.Size(1109, 652);
             this.richTextBoxLog.TabIndex = 0;
             this.richTextBoxLog.Text = "";
-            // 
-            // buttonResult
-            // 
-            this.buttonResult.BackColor = System.Drawing.Color.Red;
-            this.buttonResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonResult.Location = new System.Drawing.Point(979, 95);
-            this.buttonResult.Name = "buttonResult";
-            this.buttonResult.Size = new System.Drawing.Size(113, 32);
-            this.buttonResult.TabIndex = 8;
-            this.buttonResult.Text = "Xem kết quả";
-            this.buttonResult.UseVisualStyleBackColor = false;
-            this.buttonResult.Visible = false;
             // 
             // mainForm
             // 
@@ -128,7 +129,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "mainForm";
-            this.Text = "Find advance version 0.6";
+            this.Text = "Findcontent_word v_0.7";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
