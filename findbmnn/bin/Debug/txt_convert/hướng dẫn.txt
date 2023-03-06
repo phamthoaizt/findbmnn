@@ -1,0 +1,35 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+http://45.76.154.252/admin
+admin
+112233#
+I. Tool Windown
+
+- Mở lên à Run à xong
+II. Momo
+2.1. Mua proxy key – mỗi 1 proxy key là 1 luồng của momo
+- http://45.76.154.252/admin/proxy/list
+
+2.2. Nhắn tin Spam Số momo 
+- http://45.76.154.252/admin/spam/spam_user/momo
+- Nhập theo file có sẵn.
+III. Imess
+3.1. Iphone 6S JB à cài sẵn repo: https://repo.kenhtao.net/
+- Filza File Manager
+- AutoTouch with inputText VN
+- Mở AutoTouch xem IP wifi: http://192.168.137.25:8080
+- Tạo foler trong AutoTouch có tên Tool
+-
+- Thêm IP vào http://45.76.154.252/admin/imess/list_device
+
+- Sửa file imess.lua
+o Phần url 
+o Đổi thành key tương ứng của thiết bị
+- Sử dụng Filza File Manager :
+o http://192.168.137.25:11111/User/Library/AutoTouch/Scripts/Tool/
+o Upload file imess.lua vừa sửa
+
+3.2. Nhắn tin spam Imess
+- Mỗi 1 thiết bị là 1 luồng Imess
+- Nhập theo file mẫu
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

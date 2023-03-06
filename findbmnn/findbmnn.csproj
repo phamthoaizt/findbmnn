@@ -33,11 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words">
-      <HintPath>..\..\scandbmnn\Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words, Version=11.3.0.0, Culture=neutral, PublicKeyToken=47d5d0e1ef9d080b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Aspose.Words\Aspose.Words.dll</HintPath>
     </Reference>
     <Reference Include="IFilterTextReader, Version=1.7.8.0, Culture=neutral, PublicKeyToken=d9137dea244ecc2a, processorArchitecture=MSIL">
       <HintPath>..\packages\IFilterTextReader.1.7.8\lib\netstandard2.0\IFilterTextReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>

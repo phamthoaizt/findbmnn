@@ -1,0 +1,31 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+Building Block Template
+
+Building Block Property
+Value
+Type:
+Text Boxes
+Category:
+ Report
+Name:
+Text Sidebar
+Description:
+
+Insertion Options
+Content
+Languages:
+
+Loc Comments:
+
+
+
+
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
+
+“Got something very important to point out to your readers? Use a pull quote to make it stand out.”
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

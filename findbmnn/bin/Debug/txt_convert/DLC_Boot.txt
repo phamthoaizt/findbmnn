@@ -1,0 +1,209 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+DLC Boot 2015
+    
+Thông tin chi tiết DLC Boot 2015
+
+* Tích hợp bản Mini Windows 8 64bit do mình chỉnh sửa từ bản của anhdv (hỗ trợ nghe nhạc, xem phim, lướt web, 3G, wifi).
+* Tích hợp bản Mini Windows XP trong Hiren’s BootCD 15.2 và đã được mình bào chế tối ưu lại.
+
+* Các công cụ ngoài DOS:
+    Plop Boot Manager 5.0.14
+    Partition Tools:
+        Partition Magic Pro 8.05
+        Partition Guru Pro 4.3.0
+        Disk Patch 4.0.300
+    Backup Tools:
+        Norton Ghost 11.5.1
+    Password & Registry Tools:
+        Offline NT/2000/XP/Vista/7/8 Password Changer
+        Active Password Changer Pro 5.0.0011 (NT/2000/XP/2003/Vista/7/8)
+        Kon-Boot 2.4 (to bypass Password XP/Vista/7/8)
+    Hard Disk Tools:
+        Partition Table Doctor 3.5
+        Ontrack Disk Manager 9.57
+        Norton Disk Doctor 2002
+        Norton Disk Editor 2002
+        HDD Regenerator 2011 (full)
+        Smart Fdisk 2.05
+        HDAT2 v4.5.3
+        MHDD 4.6
+    Testing Tools:
+        Memtest86+
+    NTFS Ext2FS, Ext3FS (FileSystems) Tools:
+        NTFS4Dos 1.9
+    Other Tools:
+        Test LCD
+* Các công cụ trong Mini Windows:
+Tools for Mini Windows:
+Add Fonts for Mini XP
+Set DLC1Temp
+Disable TeraCopy Pro 2.27
+Enable TeraCopy Pro 2.27
+Set PageFile
+ImDisk Virtual Disk Driver 1.9.1
+Clear Temp Folder
+Disk Tools:
+        + MiniTool Partition Wizard Server Edition 9.0
+        + Aomei Partition Assistant Server Edition 5.6
+        + Partition Guru Pro 4.6.1
+        + Active Kill Disk 9.1.0.0
+        + HD Tune Pro 5.50
+        + Victoria 4.47
+        + BootICE 1.3.2.1
+        + Grub4Dos Setup
+        + HDD Low Level Format Tool 4.40
+        + Raid Reconstructor 4.32
+        + Aomei NTFS to FAT32 Pro 2.0
+        + LinuxReader 1.9.2.0
+        + MapDrive 1.0
+        + Crystal Disk Info 6.3.0
+Backup:
+  + Acronis True Image Shell
+        + Acronis True Image 2014 17 Build 6673
+        + Acronis True Image 2015 18 Build 6525
+        + Norton Ghost 12.0.0.4112
+        + Ghost Explorer 12.0.0.4112
+        + GhostCast Server 11.5.0.2113
+        + OneKey Ghost 14.5.8.215
+        + Delete junk files before Backup
+        + Advanced Tokens Manager 3.5 RC5
+Driver:
+        + Driver Genius Pro 14.0.328
+        + 3DP Chip 14.12
+        + Double Driver 4.1.0
+Network:
+        + Opera 12.17
+        + Internet Download Manager 6.21.17
+        + TeamViewer 6.0.10642 (run in Mini Windows)
+        + TeamViewer 10.0.36244 Corporate (run in your windows)
+        + UltraSurf 14.05
+        + Fix Internet 4.0
+        + SoftPerfect Network Scanner 6.0.2
+        + TFtpd32 (Boot from LAN)
+        + DNS Jumper 1.0.6
+        + Remote Computer Manager 6.0.6
+        + MyLanViewer 4.18.2
+        + Change MAC Address 2.8.0.95
+        + RealVNC Enterprise Edition 5.0.5
+        + Wake Me On Lan 1.67
+        + Free WiFi Hotspot 3.2.1.0
+Recovery:
+        + Digital Rescue 4 Premium 4.0.0.2E
+        + GetDataBack Simple 1.0
+        + EASEUS Data Recovery Wizard 8.5.0
+        + Ontrack EasyRecovery Enterprise 11.0.2.0
+        + MiniTool Power Data Recovery 6.8
+        + iCare Data Recovery Professional 5.4
+        + O&O DiskRecovery 8.0.335
+        + CardRecovery 6.10.1210
+        + Partition Find and Mount Pro 2.31
+        + Active Partition Recovery 11.0.4.0
+        + Active File Recovery Pro 13.1.1.0        
+Hardware Tools:
+        + HWiNFO32 4.48.2350
+        + CPU-Z 1.71.1
+        + GPU-Z 0.8.0
+        + Devlib GetDiskSerial DLL 5.00
+        + Hard Disk Serial Number Changer
+        + Hardware Monitor Pro 1.21
+        + Video Memory Stress Test 1.7.116
+        + Is My LCD OK 2.5.7.0
+        + PassMark KeyboardTest 3.0.1002
+        + BatteryMon 2.1.1004
+Office:
+        + SoftMaker Office 2012 rev 656
+        + Unikey 4.0 RC2
+        + Microsoft Paint 5.1
+        + SumatraPDF 3.0
+Antivirus:
+        + Kaspersky TDSSKiller 3.0.0.42
+        + Remove Fake Antivirus 1.9.9
+        + Win32/Sality Remover 1.2.0.616
+        + Windows Worms Doors Cleaner 1.4.1
+System:
+        + Total Uninstall Pro 6.8.0
+        + WinNTSetup 3.7.2
+        + Avast! Registry Editor
+        + Defraggler Technician Edition 2.18.945
+        + PCHunter 1.35 (XueTr Update Version)
+        + Print Queue Cleaner 1.1
+        + Fix My Printer 1.0
+        + TorchSoft Registry Workshop 4.6.2
+        + PowerTool 4.3
+        + Process Explorer 15.20     
+        + Fix NTLDR is Missing
+        + NTBOOT AutoFix 2.6.0           
+        + Install NET Framework for Windows 8 (Offline)+++++++++++++
+        + Active Set Day Time
+        + Active Load Hive
+Utilities:
+        + Total Commander 8.51a Final
+        + 7-Zip 9.20
+        + Cleaner Technician Edition 5.00.5050
+        + File Splitter & Joiner 3.3
+        + RAR Repair Tool 4.0.1
+        + Resource Hacker 3.6.0.92
+        + Turn Off Monitor 1.0
+        + Blank And Secure 4.01        
+        + On Screen Keyboard
+        + Mouse Emulator
+        + UltraISO Premium 9.6.2.3059
+        + Express Burn Plus 4.65        
+        + Nuclear Coffee Recover Keys Enterprise 8.0.3.112
+        + Duplicate File Finder 3.5.0.0	
+        + VLC Media Player 2.0.5        	
+USB Tools:
+        + USB Disk Storage Format
+        + USB Show 1.0
+        + Test USB 1.4
+        + Rufus 1.4.12.535
+        + Flash Memory Toolkit 2.00
+        + SD Formatter 4.0
+        + NTFS Drive Protection 1.1
+Password Tools:
+        + Anti Deep Freeze 0.1
+        + Anti Deep Freeze 0.5.3
+        + CMOS De-Animator 3.0
+        + Active Password Changer Pro 6.0.619.0
+        + Admin Password Resetter
+        + WebBrowser Password Viewer 1.57
+        + PDF Password Remover 5.0
+        + Get Password 1.0
+        + Windows Gate 1.1
+        + Nuclear Coffee Recover Passwords 1.0.0.21
+Windows Crack:
+        + Remove WGA 1.2 (Crack Windows XP)
+        + RemoveWAT 2.2.6 (Crack Windows 7)
+        + Windows 7 Loader 2.2.2 (Crack Windows Server/Vista/7)
+        + HEU KMS Activator 7.8.8 (Crack: Windows Server 2008&2012/Vista/7/8, Office 2010/2013)
+Menu boot chính
+
+
+
+
+Reboot: Khởi động lại máy.
+Shutdown: Tắt máy.
+Boot From HDD: Boot từ ổ cứng.
+Plop Boot Manager 5.0: Lựa chọn Boot từ ổ cứng, CD, USB, v.v….
+Boot from Operating System: Boot vào Windows XP, Windows Vista, Windows 7 hoặc Windows 8.
+
+Dos Programs: Vào menu các phần mềm cũ ngoài Dos của bản Hiren’s BootCD.
+Mini Windows 8 64Bit: Vào Mini Windows 7 (do mình build, với giao diện làm việc giống MiniXP).
+Mini Windows XP: Vào Mini Windows XP (đã được tích hợp 1 số chương trình mới).
+
+Other Tools: Boot vào Menu với các tiện ích khác.
+Disk Tools: Boot vào Menu với các tiện ích về ổ đĩa cứng.
+Backup or Restore: Boot vào Menu với các tiện ích về sao lưu và phục hồi ổ đĩa.
+
+
+
+
+
+
+
+
+
+
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

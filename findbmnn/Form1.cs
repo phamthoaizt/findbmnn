@@ -9,11 +9,13 @@ using System.Runtime.InteropServices.ComTypes;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Aspose.Words;
-using Aspose.Words.Rendering;
 using IFilterTextReader;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
+
+// lib thao tac file word
+using Aspose.Words;
+using System.Diagnostics;
 
 namespace findbmnn
 {
@@ -48,14 +50,24 @@ namespace findbmnn
             if (stylevalue == 1)
             {
                 richTextBoxLog.AppendText(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + value + Environment.NewLine);
-                richTextBoxLog.ForeColor = Color.Green;
                 richTextBoxLog.AppendText("- - - - - - - - - - - - - - - - - - - " + Environment.NewLine);
+                richTextBoxLog.ForeColor = Color.Green;
                 richTextBoxLog.ScrollToCaret();
             }
-            richTextBoxLog.AppendText(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + value + Environment.NewLine);
-            richTextBoxLog.ForeColor = Color.Black;
-            richTextBoxLog.AppendText("- - - - - - - - - - - - - - - - - - - " + Environment.NewLine);
-            richTextBoxLog.ScrollToCaret();
+            if (stylevalue == 0)
+            {
+                richTextBoxLog.AppendText(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + value + Environment.NewLine);
+                richTextBoxLog.AppendText("- - - - - - - - - - - - - - - - - - - " + Environment.NewLine);
+                richTextBoxLog.ForeColor = Color.Black;
+                richTextBoxLog.ScrollToCaret();
+            }
+            if (stylevalue == 3)
+            {
+                richTextBoxLog.AppendText(DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + value + Environment.NewLine);
+                richTextBoxLog.AppendText("- - - - - - - - - - - - - - - - - - - " + Environment.NewLine);
+                richTextBoxLog.ForeColor = Color.Red;
+                richTextBoxLog.ScrollToCaret();
+            }
         }
 
         // xử lý nút tìm kiếm
@@ -64,11 +76,11 @@ namespace findbmnn
         {
             List<Task> tasks = new List<Task>();
 
-            buttonResult.Visible = true;
+            buttonSearch.Enabled = false;
             // kiểm tra đã tồn tại file kết quả load chưa
             string currentDirectory = Directory.GetCurrentDirectory();
             string fullpath = currentDirectory + @"\save_data\resultLoadFileWord.txt";
-            
+
             if (!File.Exists(fullpath))
             {
                 MessageBox.Show("Chưa tồn tại file để load dữ liệu", "Cảnh báo", MessageBoxButtons.OK);
@@ -76,21 +88,37 @@ namespace findbmnn
             }
             else
             {
+                // lấy keyword để tìm
+                CheckKeyWords();
                 List<string> listpathfileword = File.ReadAllLines(fullpath).ToList();
                 // tạo đường dẫn chứa kết quả
                 string pathResultSearchString = currentDirectory + @"\save_data\resultSearchString.txt";
+                if (File.Exists(pathResultSearchString))
+                {
+                    File.Delete(pathResultSearchString);
+                    File.Create(pathResultSearchString);
+                }
+                else
+                {
+                    File.Create(pathResultSearchString);
+                }
+                // tạo folder chứa kết quả convert file txt
+                string pathsavefoldertxt = CreateFolder("txt_convert");
+                DeleleAllFile(pathsavefoldertxt);
 
                 foreach (string pathfileword in listpathfileword)
                 {
-                    // Khởi tạo đối tượng Document từ tệp Word
-                                       
+                    // khởi tạo task đối với từng file word
+
                     tasks.Add(Task.Run(() =>
                     {
                         try
                         {
                             Document doc = new Document(pathfileword);
-                            string content = doc.GetText().ToLower();
-                            Console.WriteLine(content);
+                            string pathfiletxt = pathsavefoldertxt + @"\" + Path.GetFileNameWithoutExtension(pathfileword) + ".txt";
+                            AppendTextBox("Đã tạo file " + pathfiletxt, 1);
+                            doc.Save(pathfiletxt);
+                            string content = File.ReadAllText(pathfiletxt).ToLower();
                             bool detectkey = false;
                             foreach (string searchString in listKeys)
                             {
@@ -98,20 +126,21 @@ namespace findbmnn
                                 {
                                     AppendTextBox("Tìm thấy chuỗi '" + searchString + "' trong file " + pathfileword, 1);
                                     // thiết lập file chứa kết quả
-                                    detectkey = true; 
-                                } else
+                                    detectkey = true;
+                                }
+                                else
                                 {
-                                    AppendTextBox("Không tìm thấy chuỗi '" + searchString + "' trong file " + pathfileword, 1);
+                                    AppendTextBox("Không tìm thấy chuỗi '" + searchString + "' trong file " + pathfileword, 0);
                                 }
                             }
                             if (detectkey)
                             {
-                                File.AppendAllText(pathResultSearchString, pathfileword);
+                                File.AppendAllText(pathResultSearchString, pathfileword + @"\n");
                             }
                         }
-                        catch
+                        catch (Exception ex)
                         {
-                            // Do Nothing
+                            AppendTextBox("Không đọc được file: " + ex.ToString(), 3);
                         }
                     }));
 
@@ -119,7 +148,8 @@ namespace findbmnn
 
                 await Task.WhenAll(tasks);
                 AppendTextBox("Đã tìm kiếm xong!", 1);
-
+                buttonResult.Visible = true;
+                buttonSearch.Enabled = true;
             }
         }
 
@@ -139,10 +169,8 @@ namespace findbmnn
                 {
                     try
                     {
-                        List<string> list1 = GetAllFilesFromFolder(d.Name, "*.doc", true);
-                        List<string> list2 = GetAllFilesFromFolder(d.Name, "*.docx", true);
-                        listFileDoc.AddRange(list1);
-                        listFileDoc.AddRange(list2);
+                        FindDocs(d.Name, "*.doc", true);
+                        FindDocs(d.Name, "*.docx", true);
                     }
                     catch
                     {
@@ -154,10 +182,29 @@ namespace findbmnn
             await Task.WhenAll(tasks);
 
             // tạo file lưu path 
-            string subPath = CreateFolder();
+            List<string> uniquepathfileword = listFileDoc.Distinct().ToList();
+
+
+            string subPath = CreateFolder("save_data");
             string filename = "resultLoadFileWord.txt";
-            SaveAllText(filename, listFileDoc);
+            SaveAllText(filename, uniquepathfileword);
             buttonLoadDisk.Enabled = false;
+
+        }
+
+        private void buttonResult_Click(object sender, EventArgs e)
+        {
+            // Lấy thư mục của User trên hệ thống
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string pathResultSearchString = currentDirectory + @"\save_data\resultSearchString.txt";
+            if (File.Exists(pathResultSearchString))
+            {
+                Process.Start(pathResultSearchString);
+            }
+            else
+            {
+                AppendTextBox("Không tìm thấy file kết quả", 3);
+            }
 
         }
         #endregion
@@ -165,6 +212,23 @@ namespace findbmnn
 
 
         #region vùng backend
+
+        // xóa toàn bộ file trong folder
+        private void DeleleAllFile(string path_name)
+        {
+            DirectoryInfo dir = new DirectoryInfo(path_name);
+
+            foreach (FileInfo fi in dir.GetFiles())
+            {
+                fi.Delete();
+            }
+
+            foreach (DirectoryInfo di in dir.GetDirectories())
+            {
+                DeleleAllFile(di.FullName);
+                di.Delete();
+            }
+        }
 
         // lưu file sau khi load
         private void SaveAllText(string filename, List<string> contentfile)
@@ -189,15 +253,15 @@ namespace findbmnn
                 string[] contentfiles = contentfile.ToArray();
                 // File đã tồn tại - nối thêm nội dung
                 File.AppendAllLines(fullpath, contentfiles);
-                AppendTextBox("File đã tồn tại", 1);
-                AppendTextBox("Đã lưu tiếp tại đường dẫn: " + fullpath, 1);
+                AppendTextBox("File đã tồn tại", 3);
+                AppendTextBox("Đã lưu tiếp tại đường dẫn: " + fullpath, 3);
             }
         }
         private void CheckKeyWords()
         {
             string keywords = richTextBoxKey.Text.Trim().ToLower();
             string[] listKey = GetListKey(keywords);
-            AppendTextBox("Tổng số key cần phân tích: " + listKey.Length.ToString(), 1);
+            AppendTextBox("Tổng số key cần phân tích: " + richTextBoxKey.Text.Trim().ToLower(), 1);
             foreach (string key in listKey)
             {
                 AppendTextBox(key, 0);
@@ -206,10 +270,10 @@ namespace findbmnn
         }
 
         // tao thu muc chua file .txt
-        private string CreateFolder()
+        private string CreateFolder(string newname)
         {
             string pathCurr = Directory.GetCurrentDirectory();
-            string subPath = Path.Combine(pathCurr, "save_data");
+            string subPath = Path.Combine(pathCurr, newname);
             if (!Directory.Exists(subPath))
             {
                 // Try to create the directory.
@@ -224,46 +288,36 @@ namespace findbmnn
             string[] arrListStr = param.Split(',');
             return arrListStr;
         }
-
-        // load toàn bộ file
-        public List<string> GetAllFilesFromFolder(string root, string typeFile, bool searchSubfolders)
+        // lấy toàn bộ danh sách file
+        private void FindDocs(string path, string typeFile, bool searchSubfolders)
         {
-            Queue<string> folders = new Queue<string>();
-            List<string> files = new List<string>();
-            folders.Enqueue(root);
-            while (folders.Count != 0)
+            try
             {
-                string currentFolder = folders.Dequeue();
-                try
+                // Lấy danh sách các tệp tin .doc trong thư mục hiện tại
+                string[] files = Directory.GetFiles(path, typeFile);
+                foreach (string file in files)
                 {
-                    string[] filesInCurrent = Directory.GetFiles(currentFolder, typeFile, SearchOption.TopDirectoryOnly);
-                    foreach (string item in filesInCurrent)
-                    {
-                        AppendTextBox(item, 0);
-                    }
-                    files.AddRange(filesInCurrent);
+                    // Xử lý file .doc tại đây
+                    AppendTextBox(file, 0);
                 }
-                catch
+                // thêm vào danh sách trả về
+                listFileDoc.AddRange(files);
+
+                // Duyệt qua tất cả các thư mục con và tìm kiếm các tệp tin .doc
+                string[] directories = Directory.GetDirectories(path);
+                foreach (string directory in directories)
                 {
-                    // Do Nothing
-                }
-                try
-                {
-                    if (searchSubfolders)
-                    {
-                        string[] foldersInCurrent = Directory.GetDirectories(currentFolder, "*.*", SearchOption.TopDirectoryOnly);
-                        foreach (string _current in foldersInCurrent)
-                        {
-                            folders.Enqueue(_current);
-                        }
-                    }
-                }
-                catch
-                {
-                    // Do Nothing
+                    FindDocs(directory, typeFile, searchSubfolders);
                 }
             }
-            return files;
+            catch (UnauthorizedAccessException ex)
+            {
+                AppendTextBox("Không thể truy cập thư mục " + path + ": " + ex.Message, 3);
+            }
+            catch (Exception ex)
+            {
+                AppendTextBox("Lỗi: " + ex.Message, 1);
+            }
         }
         #endregion
 

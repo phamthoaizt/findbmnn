@@ -1,0 +1,71 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+	Nghiên cứu xử lý vi phạm hành chính: Hành vi vi phạm về thiết lập ứng dụng bán hàng trên nền tảng di động và website thương mại điện tử.
+	1. Giải thích từ ngữ
+	- Theo quy định tại Khoản 2, Điều 3 Thông tư số 59/2015/TT-BCT ngày 31/12/2015 của Bộ Công thương v/v quy định về quản lý hoạt động thương mại điện tử qua ứng dụng trên thiết bị di động: 
+	Ứng dụng bán hàng là ứng dụng thương mại điện tử trên thiết bị di động do thương nhân, tổ chức, cá nhân thiết lập để phục vụ hoạt động xúc tiến thương mại, bán hàng hóa hoặc cung ứng dịch vụ của mình.
+	- Theo quy định tại Khoản 8, Điều 3 Nghị định số 52/2013/NĐ-CP ngày 16/5/2013 về thương mại điện tử:
+	Website thương mại điện tử (dưới đây gọi tắt là website) là trang thông tin điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch vụ sau bán hàng.
+Theo Điều 25 Nghị định 52/2013/NĐ-CP, được sửa đổi bởi khoản 7 Điều 1 Nghị định 85/2021/NĐ-CP quy định về các hình thức tổ chức hoạt động thương mại điện tử như sau:
+- Website thương mại điện tử bán hàng là website thương mại điện tử do các thương nhân, tổ chức, cá nhân thiết lập để phục vụ hoạt động xúc tiến thương mại, bán hàng hóa hoặc cung ứng dịch vụ của mình.
+2. Căn cứ xử lý
+- Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 về việc quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng (viết tắt là Nghị định số 98);
+- Nghị định 17/2022/NĐ-CP ngày 31 tháng 01 năm 2022 về việc sửa đổi, bổ sung một số điều của các nghị định quy định về xử phạt vi phạm hành chính trong lĩnh vực hóa chất và vật liệu nổ công nghiệp; điện lực, an toàn đập thủy điện, sử dụng năng lượng tiết kiệm và hiệu quả; hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng; hoạt động dầu khí, kinh doanh xăng dầu và khí (viết tắt là Nghị định số 17);
+- Văn bản hợp nhất: Nghị định số 04/VBHN-BCT ngày 24/02/2022 của Bộ Công thương quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng (viết tắt là Nghị định số 04).
+	3. Quy định xử lý vi phạm
+	Hành vi vi phạm bị xử lý hành chính theo quy định tại Điểm a, Khoản 3, Điều 62, Nghị định số 98 (Điều 62 nằm ở Mục 10, Chương II của nghị định này):
+	“Điều 62. Hành vi vi phạm về thiết lập website thương mại điện tử hoặc ứng dụng thương mại điện tử trên nền tảng di động (gọi tắt là ứng dụng di động)
+	…
+	3. Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng đối với một trong các hành vi vi phạm sau đây:
+	a) Không thông báo website thương mại điện tử bán hàng hoặc ứng dụng bán hàng với cơ quan quản lý nhà nước có thẩm quyền theo quy định;”
+ 	và được sửa đổi tại Điểm d, Khoản 33, Điều 3, Nghị định số 17:
+	“Điều 3. Sửa đổi, bổ sung một số điều của Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng
+...
+33. Sửa đổi, bổ sung một số điểm, khoản của Điều 62 như sau:
+...
+d) Sửa đổi, bổ sung điểm a khoản 3 như sau: 
+“a) Không thông báo website thương mại điện tử bán hàng hoặc ứng dụng bán hàng với cơ quan quản lý nhà nước có thẩm quyền theo quy định trước khi bán hàng hoặc cung ứng dịch vụ đến người tiêu dùng;”
+	4. Các quy định có liên quan khác được quy định tại Nghị định số 98 và Nghị định số 17	
+	- Về mức phạt tiền đối với cá nhân và tổ chức, quy định tại Khoản 4, Điều 4, Nghị định số 98 được sửa đổi tại Điểm b, Khoản 1, Điều 3, Nghị định số 17:
+“Điều 3. Sửa đổi, bổ sung một số điều của Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng
+1. Sửa đổi, bổ sung một số điểm, khoản của Điều 4 như sau:
+...
+b) Sửa đổi, bổ sung khoản 4 như sau:
+“a) Mức phạt tiền tối đa trong lĩnh vực thương mại là 100.000.000 đồng đối với cá nhân và 200.000.000 đồng đối với tổ chức; mức phạt tiền tối đa trong lĩnh vực sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng là 200.000.000 đồng đối với cá nhân và 400.000.000 đồng đối với tổ chức;
+b) Mức phạt tiền quy định tại Chương II của Nghị định này là mức phạt tiền áp dụng đối với hành vi vi phạm hành chính do cá nhân thực hiện, trừ các hành vi vi phạm hành chính quy định tại Điều 33, Điều 34, Điều 35, Điều 68, Điều 70, khoản 6, 7, 8, 9 Điều 73 và khoản 6, 7, 8 Điều 77 của Nghị định này. Trường hợp hành vi vi phạm hành chính do tổ chức thực hiện thì phạt tiền gấp hai lần mức phạt tiền quy định đối với cá nhân.”
+	- Về thẩm quyền trong Công an nhân dân:
+	+ Trưởng Phòng PA05 quy định tại Khoản 46, Điều 3 Nghị định số 17 (tại Nghị đinh 98 chưa phân quyền cho Trưởng Phòng PA05):
+	“Điều 3. Sửa đổi, bổ sung một số điều của Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng
+…
+	46. Sửa đổi, bổ sung Điều 83 như sau:
+	…
+	4. Trưởng Công an huyện, …, Trưởng phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao…
+a) Phạt cảnh cáo;
+b) Phạt tiền đến 25.000.000 đồng đối với các hành vi vi phạm quy định tại Mục 2 và Mục 9 Chương II của Nghị định này; phạt tiền đến 20.000.000 đồng đối với các hành vi vi phạm khác quy định tại Nghị định này;
+c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;
+d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 50.000.000 đồng đối với các hành vi vi phạm quy định tại Mục 2 và Mục 9 Chương II của Nghị định này; không vượt quá 40.000.000 đồng đối với các hành vi vi phạm khác quy định tại Nghị định này;
+đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại các điểm b, h, i, k và l khoản 3 Điều 4 của Nghị định này (đối với trường hợp này áp dung biên pháp k) Buộc thu hồi tên miền “.vn” của website thương mại điện tử hoặc buộc gỡ bỏ ứng dụng di động trên các kho ứng dụng hoặc trên các địa chỉ đã cung cấp).”
++ Giám đốc Công an tỉnh quy định tại Khoản 5, Điều 83 Nghị định số 98 được sửa đổi tại tại Khoản 46, Điều 3 Nghị định số 17:
+ 	“Điều 3. Sửa đổi, bổ sung một số điều của Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng
+…
+	46. Sửa đổi, bổ sung Điều 83 như sau:
+	…
+	5. Giám đốc Công an cấp tỉnh có quyền:
+	a) Phạt cảnh cáo;
+	b) Phạt tiền đến 100.000.000 đồng đối với các hành vi vi phạm quy định tại Mục 2 và Mục 9 Chương II của Nghị định này; phạt tiền đến 50.000.000 đồng đối với các hành vi vi phạm khác quy định tại Nghị định này;
+	c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;
+	d) Tịch thu tang vật, phương tiện vi phạm hành chính;
+	đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại các điểm b, e, h, i, k và l khoản 3 Điều 4 của Nghị định này (đối với trường hợp này áp dung biên pháp k) Buộc thu hồi tên miền “.vn” của website thương mại điện tử hoặc buộc gỡ bỏ ứng dụng di động trên các kho ứng dụng hoặc trên các địa chỉ đã cung cấp).”
+	- Về phân định thẩm quyền quy định tại Khoản 3, Điều 88 Nghị định số 98:
+“Điều 88. Phân định thẩm quyền xử phạt
+….
+3. Những người có thẩm quyền của Công an nhân dân có thẩm quyền xử phạt vi phạm hành chính, áp dụng các biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính quy định tại Nghị định này theo thẩm quyền quy định tại Điều 83 Nghị định này và chức năng, nhiệm vụ, quyền hạn được giao.”
+	
+
+	Kết quả rà soát một số trang không thông báo website thương mại điện tử bán hàng hoặc ứng dụng bán hàng với cơ quan quản lý nhà nước:
+Trang tra cứu của bộ công thương: http://online.gov.vn/WebDetails#
+https://danhtra.com/ : Thái Nguyên: Phố Cầu Thông, Thị Trấn Hùng Sơn – Huyện Đại Từ – Tỉnh Thái Nguyên ĐT: 0916423152 (Zalo)
+https://trathainguyenngon.com/:  Nhà máy: KV Tân Cương - TP Thái Nguyên
+☎️ Hotline: 0888.3888.65
+- App bán hàng: TP mart của Thanh phạm
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
