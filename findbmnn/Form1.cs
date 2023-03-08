@@ -135,7 +135,7 @@ namespace findbmnn
                             }
                             if (detectkey)
                             {
-                                File.AppendAllText(pathResultSearchString, pathfileword + @"\n");
+                                File.AppendAllText(pathResultSearchString, pathfileword + Environment.NewLine);
                             }
                         }
                         catch (Exception ex)
@@ -186,8 +186,19 @@ namespace findbmnn
 
 
             string subPath = CreateFolder("save_data");
-            string filename = "resultLoadFileWord.txt";
-            SaveAllText(filename, uniquepathfileword);
+            string pathResultSearchString = subPath + @"\resultLoadFileWord.txt";
+            if (File.Exists(pathResultSearchString))
+            {
+                File.Delete(pathResultSearchString);
+                File.Create(pathResultSearchString);
+            }
+            else
+            {
+                File.Create(pathResultSearchString);
+            }
+            foreach(string pathfile in uniquepathfileword)
+            File.WriteAllText(pathResultSearchString, pathfile + Environment.NewLine);
+
             buttonLoadDisk.Enabled = false;
 
         }
