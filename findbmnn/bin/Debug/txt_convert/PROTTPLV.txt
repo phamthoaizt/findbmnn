@@ -1,4 +1,0 @@
-﻿
-Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
-Permission for this document is currently restricted. If you are not running Microsoft Office 2003 or an application that supports documents with restricted permission, you can read this document by downloading the Rights Management Add-on for Internet Explorer.
-Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
