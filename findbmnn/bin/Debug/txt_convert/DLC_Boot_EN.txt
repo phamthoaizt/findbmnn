@@ -1,0 +1,202 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+Create Boot from USB DLC
+With the second type Extract or ISO
+
+· Method 1: Create DLC Boot Extract
+Step 1
+Running DLC1Menu.exe file on CD / DVD or USB (or run directly in DLC1\DLC1Menu.exe)
+
+Step 2
+Select the Other Tools tab, and run USB Boot.When it appears black command window and list the USB is plugged, you tap into your USB characters (eg I), and press Enter.Then, enter y and press Enter to continue. Then the program will automatically create DLC Boot USB is fully automated for you.
+
+Step 3
+Restart your computer and enjoy the results. Or you can run to check MobaLiveCD boot the virtual machine.
+
+
+· Method 2: Create DLC Boot with ISO
+Step 1
+Running DLC1Menu.exe file on CD / DVD or USB (or run directly in DLC1\DLC1Menu.exe )
+
+Step 2
+Select the Tools tab, and run USB Boot ISO. When it appears black command window and list the USB is plugged, you tap into your USB characters (eg I), and press Enter.Then, enter y and press Enter to continue. Then the program will automatically create DLC Boot USB is fully automated for you.
+
+Step 3
+Restart your computer and enjoy the results. Or you can run to check MobaLiveCD boot the virtual machine.
+Switch between the two types of boot
+SysLinux and Grub4DOS
+
+With one of its Main (especially Main Foxcoon) may not be able to boot after following the above instructions, then you need to convert from a syslinux Boot to Grub4Dos by following the instructions below
+
+Step 1
+Running DLC1Menu.exe file on CD / DVD or USB (or run directly in DLC1\DLC1Menu.exe)
+
+Step 2
+Select the Tools tab, and run SysLinux Grub4DOS. When it appears black command window and list the USB is plugged, you tap into your USB characters (eg I), and press Enter.Then, enter y and press Enter to continue. Then the program will automatically Switch between SysLinux and Grub4DOS is fully automated for you.
+
+
+Step 3
+Restart your computer and enjoy the results. Or you can run to check MobaLiveCD boot the virtual machine.
+
+ReFormat USB
+
+With one of its Main (especially Main Foxcoon) may not be able to boot after following the above instructions, then you need to ReFormat USB by following the instructions below
+
+Step 1
+Running DLC1Menu.exe file on CD / DVD or USB (or run directly in DLC1\DLC1Menu.exe)
+
+Step 2
+Select the Tools tab, and run USB Format. When it appears black command window and list the USB is plugged, you tap into your USB characters (eg I), and press Enter.Then, enter y and press Enter to continue. Then the program will automatically ReFormat USB is fully automated for you.
+Integrated DLC Boot Menu Boot to Win XP/Vista/7/8
+Step 1
+Running DLC1Menu.exe file on CD / DVD or USB (or run directly in DLC1\DLC1Menu.exe)
+
+Step 2
+Select the Tools tab, if you are running Windows 7/8, you remember Disable UAC after running the program will automatically restart, after restarting, then you continue with Step 2.
+ 
+Select the Tools tab, and run the corresponding item to install or remove the Windows Boot Menu XP/Vista/7/8. The program automatically integrated into the DLC Boot Menu Boot for you.
+ 
+
+Step 3
+Restart your computer and enjoy the results.Or you can run to check MobaLiveCD boot the virtual machine.
+ISO Guide Rebuild by DLC
+Step 1
+Copy DLC1 folder\Tools\Create_or_Extract hard drive (eg drive I)
+ 
+Step 2
+Copy all the files in the boot of her in I:\Create_or_Extract\put_your_file_for_creat_iso (as shown)
+ 
+Step 3
+You go to the folder I:\Create_or_Extract\put_your_file_for_creat_iso Rebuild the conduct of DLC personal liking you.
+ 
+Step 4
+Running DLCCreatOrExtract.exe and select Create ISO, then the program will start the process of packing the file back DLC.Boot.2013.iso
+ 
+Step 5
+Use a burning program and burn with Burn Image to Disk feature.
+
+Installers Guide more
+Windows XP and Windows 7/8
+For boot from CD / DVD version
+
+
+Step 1
+Copy Create_or_Extract folder on your hard drive (eg drive I, hard drive must be formatted NTFS)
+ 
+Step 2
+Copy all the files in the boot of her in I:\Create_or_Extract\put_your_file_for_creat_iso (as shown)
+ 
+Step 3
+Unzip the iso file of the installation Win XP and Win 7/8 on the folder I:\Create_or_Extract\put_your_file_for_creat_iso.
+ 
+Step 4
+Open the file put_your_file_for_creat_iso\isolinux.cfg to find and delete the # before the line 
+ 
+ #label OSSetupDLC
+ #menu label Operating System Setup
+ #kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/OSSetupCD.cfg
+
+Open the file put_your_file_for_creat_iso\isolinuxVN.cfg to find and delete the # before the line
+
+ #label OSSetupDLC
+ #menu label Cai dat he dieu hanh
+ #kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/OSSetupCDVN.cfg
+ 
+Step 5
+Running DLCCreatOrExtract.exe and select Create ISO, then the program will start the process of packing the file back DLC.Boot.2013.iso
+ 
+Step 6
+Use a burning program and burn with Burn Image to Disk feature.
+Installers Guide more
+Windows XP and Windows 7
+For boot from USB version
+
+Step 1
+Unzip the iso file of Windows 7/8 installation disc into USB
+ 
+Step 2
+Copy iso file to install Windows XP on the USB root directory and rename it to xp.iso
+ 
+Step 3
+Open syslinux.cfg file to find and delete the # before the line
+#label OSSetup
+#menu label Operating System Setup
+#kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/OSSetupUSB.cfg
+ 
+Open syslinuxVN.cfg file to find and delete the # before the line
+ #label OSSetupDLC
+ #menu label Cai dat he dieu hanh
+ #kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/OSSetupUSBVN.cfg
+
+Open DLC1\Menu\menu.lst file to find and delete the # before the line
+#title Windows Setup Menu\n
+#find --set-root /DLC1/Menu/MenuOSSetup.lst
+#configfile /DLC1/Menu/MenuOSSetup.lst
+
+Open DLC1\Menu\menuVN.lst file to find and delete the # before the line
+ #title Cai dat he dieu hanh\n
+ #find --set-root /DLC1/Menu/MenuOSSetupVN.lst
+ #configfile /DLC1/Menu/MenuOSSetupVN.lst
+ 
+When installing Windows XP on USB by XP.iso file, you should note:
++ If the driver is installed automatically customized with Winnt.sif file is in the OemPreinstall = Yes you need to adjust the OemPreinstall = No if the installation will fail.
++ In the settings menu, select the Select before last, after this procedure, and restarted after you choose the Select line (load iso file into RAM to install) or Select after Low RAM (load iso file directly to install , used in case of low-capacity RAM)
++ During the installation process, at the startup of the first set (Select before), you press F6 when requested screen appears press F6 to install driver, stopped at the next screen S = Specify Additional Device, you press S and then choose Enter FiraDisk Driver then keep pressing S and then choose WinVBlock Bus Enter, then Enter to continue the installation process
+BackTrack and Ubuntu Guide more
+For boot from CD version
+
+Step 1
+Copy Create_or_Extract folder on your hard drive (eg drive I, hard drive must be formatted NTFS)
+ 
+Step 2
+Copy all the files in the boot of her in I:\Create_or_Extract\put_your_file_for_creat_iso (as shown)
+ 
+Step 3
+Iso file unzip the folder BackTrack disk I:\Create_or_Extract\put_your_file_for_creat_iso\DLC1\LinuxAdd\BackTrack
+ 
+Unpack iso file of Ubuntu disk into the folder I:\Create_or_Extract\put_your_file_for_creat_iso\DLC1\LinuxAdd\Ubuntu
+ 
+ 
+Step 4
+Open the file put_your_file_for_creat_iso\isolinux.cfg to find and delete the # before the line
+ 
+#label OSSetup
+#menu label Operating System Setup
+#kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/OSSetupCD.cfg
+
+Open the file put_your_file_for_creat_iso\isolinuxVN.cfg to find and delete the # before the line
+ #label OSSetupDLC
+ #menu label Cai dat he dieu hanh
+ #kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/OSSetupCDVN.cfg
+
+Open the file put_your_file_for_creat_iso\DLC1\Menu\OSSetupCD.cfg to find and delete the # before the line
+#label Ubuntu
+#menu label Ubuntu Menu
+#kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/UbuntuCD.cfg
+
+#label BackTrack
+#menu label BackTrack Menu
+#kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/BackTrackCD.cfg
+
+Open the file put_your_file_for_creat_iso\DLC1\Menu\OSSetupCDVN.cfg to find and delete the # before the line
+#label UbuntuDLC
+#menu label Trinh don Ubuntu
+#kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/UbuntuCDVN.cfg
+
+#label BackTrackDLC
+#menu label Trinh don BackTrack
+#kernel /DLC1/Boot/menu.c32 APPEND /DLC1/Menu/BackTrackCDVN.cfg
+ 
+Step 5
+Running DLCCreatOrExtract.exe and select Create ISO, then the program will start the packaging process the file back DLC.Boot.2013.iso
+ 
+Step 6
+Use a burning program and burn with Burn Image to Disk.
+BackTrack and Ubuntu Guide more
+For boot from USB version
+
+Step 1
+Unpack iso file of BackTrack disk into the folder DLC1\LinuxAdd\BackTrack on USB 
+Unpack iso file of Ubuntu disk into the folder DLC1\LinuxAdd\Ubuntu on USB
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

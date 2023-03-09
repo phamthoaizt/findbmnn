@@ -1,0 +1,123 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+ĐỀ CƯƠNG ÔN TẬP HỌC KÌ I CÔNG NGHỆ 6 NĂM HỌC 2022 - 2023
+I. TRẮC NGHIỆM:
+Bài 3:
+ Câu 1: Đâu không phải hệ thống trong ngôi nhà thông minh?
+A. Hệ thống an ninh, an toàn	B. Hệ thống kiểm soát nhiệt độ
+C. Hệ thống nhúng			D. Hệ thống giải trí
+Câu 2: Nguyên tắc hoạt động của hệ thống trong ngôi nhà thông minh
+A. Xử lý - chấp hành - nhận lệnh - hoạt động		B. Hoạt động - xử lý - chấp hành - nhận lệnh
+C. Nhận lệnh - xử lý - chấp hành			D. Nhận lệnh - xử lý - chấp hành - hoạt động
+Câu 3: Các thiết bị trong ngôi nhà thông minh được điều khiển từ xa bởi các thiết bị như
+A. Điện thoại đời cũ, máy tính bảng có kết nối internet
+B. Điện thoại, máy tính bảng không có kết nối internet
+C. Điều khiển, máy tính không có kết nối internet
+D. Điện thoại thông minh, máy tính bảng có kết nối internet
+Câu 4: Thế nào là sử dụng năng lượng tiết kiệm và hiệu quả?
+A. Sử dụng năng lượng mọi lúc, mọi nơi			C. Giảm mức tiêu thụ năng lượng tối đa
+B. Sử dụng ít năng lượng mà vẫn đảm bảo được nhu cầu	D. Sử dụng thiết bị có công suất nhỏ nhất
+Câu 5: Nội dung nào sau đây không đúng khi sử dụng năng lượng tiết kiệm và hiệu quả trong gia đình?
+A. Sử dụng các vật liệu có khả năng cách nhiệt tốt
+B. Thiết kế nhà phải đảm bảo tính thông thoáng, tăng cường sử dụng ánh sáng tự nhiên
+C. Giảm mức tiêu thụ năng lượng tối đa, sử dụng thiết bị có công suất nhỏ nhất
+D. Tận dụng các nguồn năng lượng thân thiện với môi trường
+Bài 4:
+Câu 6: Vai trò của thực phẩm đối với con người là gì?
+A. Là nguồn cung cấp chất dinh dưỡng cần thiết cho cơ thể.
+B. Giúp con người phát triển cân đối.
+C. Giúp con người phát triển khỏe mạnh.
+D. Là nguồn cung cấp chất dinh dưỡng cần thiết cho cơ thể, giúp con người phát triển cân đối và khỏe mạnh
+Câu 7. Em hãy cho biết có mấy nhóm thực phẩm chính?
+A. 5                     B. 4		C. 3				D.2
+Câu 8: Hãy cho biết, nhóm thực phẩm nào là thành phần dinh dưỡng để cấu trúc cơ thể và giúp cơ thể phát triển tốt.
+A. Nhóm thực phẩm giàu chất khoáng.		B. Nhóm thực phẩm giàu chất đạm.
+C. Nhóm thực phẩm giàu chất béo.			D. Nhóm thực phẩm giàu vitamin.
+Câu 9: Hãy cho biết, nhóm thực phẩm nào cung cấp năng lượng cho cơ thể, tích trữ dưới da ở dạng lớp mỡ để bảo vệ co thể và giúp chuyển hóa một số loại vitamin.
+A. Nhóm thực phẩm giàu chất khoáng.		B. Nhóm thực phẩm giàu chất đạm.
+C. Nhóm thực phẩm giàu chất béo.			D. Nhóm thực phẩm giàu vitamin.
+Câu 10:Trong các bữa ăn, bữa ăn nào quan trọng nhất.
+A. Bữa sáng		B. Bữa trưa		C. Bữa tối               D. Cả 3 đáp án trên
+Bài 5:
+Câu 11. Bảo quản thực phẩm là quá trình xử lí thực phẩm:
+A. Kéo dài thời gian sử dụng thực phẩm.		B. Vẫn đảm bảo chất lượng sản phẩm.
+C. Vẫn đảm bảo chất dinh dưỡng của thực phẩm.	D. Cả 3 đáp án trên
+Câu 12. Chế biến thực phẩm là quá trình xử lí thực phẩm tạo ra món ăn:
+A. Đảm bảo chất dinh dưỡng			B. Đa dạng món ăn
+C. Sự hấp dẫn cho món ăn			D. Cả 3 đáp án trên.
+Câu 13. Đối với phương pháp làm lạnh, thực phẩm được bảo quản ở nhiệt độ nào?
+A. – 1oC		B. Trên 7oC		C. Từ 1oC đến 7oC	D. Dưới 0oC
+Câu 14. Đối với phương pháp đông lạnh, thực phẩm được bảo quản ở nhiệt độ nào?
+A. – 1oC		B. Trên 7oC		C. Từ 1oC đến 7oC		D. Dưới 0oC
+Câu 15: Ưu điểm của phương pháp luộc là: 
+A, Món ăn có hương vị hấp dẫn;
+B, Món ăn có độ giòn, độ ngậy;
+C, Phù hợp chế biến nhiều loại thực phẩm, đơn giản và dễ thực hiện;
+D, Món ăn mềm, có hương vị đậm đà.
+Câu 16: Hạn chế của món luộc là:
+A, Món ăn nhiều chất béo;	B, Thực phẩm dễ bị cháy, gây biến chất;
+C, Thời gian chế biến lâu;	D, Một số loại vitamin trong thực phẩm có thể bị hòa tan trong nước.
+II. TỰ LUẬN:
+Câu 1: Em hãy trình bày đặc điểm của ngôi nhà thông minh
+Gợi ý: 
+1. Tiện ích
+- Các thiết bị trong ngôi nhà thông minh có thể điều khiển từ xa thông qua các ứng dụng được cài đặt trên các thiết bị điện tử như: điện thoại thông minh, máy tính bảng có kết nối internet 
+2. An ninh, an toàn 
+- Các thiết bị được lắp đặt sẽ giúp cảnh báo tới chủ nhà các tình huống gây mất an ninh, an toàn như: có người lạ đột nhập, quên đóng cửa hay nguy cơ cháy nổ có thể xảy ra 
+3. Tiết kiệm năng lượng 
+- Các thiết bị công nghệ sẽ điều khiển, giám sát việc sử dụng hợp lí các nguồn năng lượng trong ngôi nhà, từ đó giúp tiết kiệm năng lượng 
+- Tận dụng các nguồn năng lượng tự nhiên như gió, ánh sáng, năng lượng mặt trời giúp ngôi nhà vừa tiết kiệm năng lượng vừa thân thiện với môi trường. 
+
+Câu 2: Để sử dụng năng lượng tiết kiệm và hiệu quả trong gia đình cần lưu ý những điểm nào
+Gợi ý: 
+
+ + Thiết kế nhà phải đảm bảo tính thông thoáng, tăng cường sử dụng ánh sáng tự nhiên 
+   + Sử dụng các vật liệu có khả năng cách nhiệt tốt 
+   + Lựa chọn các thiết bị tiết kiệm năng lượng 
+   + Sử dụng các nguồn năng lượng thân thiện với môi trường như năng lượng gió, năng lượng mặt trời 
+   + Sử dụng các thiết bị tiêu thụ điện đúng cách, tiết kiệm năng lượng. 
+
+Câu 3: Đề xuất một số việc làm để hình thành thói quen ăn uống khoa học cho gia đình của mình
+Gợi ý: 
+- Ăn đúng bữa: Mỗi ngày cần ăn 3 bữa chính: bữa sáng, bữa trưa và bữa tối. Bữa sáng là quan trọng nhất. Các bữa ăn cách nhau 4-5 giờ.
+- Ăn đúng cách: Tập trung, nhai kĩ và cảm nhận hương vị món ăn, tạo bầu không khí thân mật, vui vẻ
+- Đảm bảo vệ sinh an toàn thực phẩm: Thực phẩm được lựa chọn, bảo quản, chế biến cẩn thận, đúng cách. 
+- Uống đủ nước: Mỗi ngày từ 1.5l đến 2l nước
+
+Câu 4:
+A, trình bày bản chất, ưu điểm và nhược điểm của phương pháp chế biến món ăn có sử dụng nhiệt? 
+Gợi ý: 
+Bản chất
+Là phương pháp làm chín thực phẩm trong nước hoặc bằng sức nóng trực tiếp của nguồn nhiệt.
+Ưu điểm
+Phù hợp chế biến nhiều loại thực phẩm, hương vị hấp dẫn
+Hạn chế
+Thời gian chế biến lâu
+
+B, Trình bày bản chất, ưu điểm và nhược điểm của phương pháp chế biến món ăn không sử dụng nhiệt?
+Gợi ý: 
+
+Bản chất
+Là phương pháp trộn các thực phẩm hoặc làm thực phẩm lên men vi sinh trong thời gian cần thiết
+Ưu điểm
+Dễ làm, món ăn ít dầu mỡ
+Nhược điểm
+Khó khăn trong lựa chọn thực phẩm và bảo quản
+
+Câu 5: Nêu vai trò và ý nghĩa của bảo quản và chế biến thực phẩm? (Bài 5)
+Gợi ý: 
+
+Bảo quản thực phẩm có vai trò làm chậm quá trình thực phẩm bị hư hỏng, kéo dài thời gian sử dụng mà thực phẩm vẫn đảm bảo được chất lượng và dinh dưỡng 
+ - Chế biến thực phẩm là quá trình xử lí thực phẩm tạo ra các món ăn được đảm bảo chất dinh dưỡng, sự đa dạng và hấp dẫn. 
+Câu 6: An toàn vệ sinh thực phẩm là gì? Em hãy kể tên một sô biện pháp đảm bảo an toàn vệ sinh thực phẩm?
+Gợi ý: 
+ - Khái niệm: An toàn vệ sinh thực phẩm là các biện pháp, điều kiện cần thiết để giữ cho thực phẩm không bị biến chất; không bị chất độc, vi khuẩn có hại xâm nhập giúp bảo vệ sức khỏe con người ra các món ăn được đảm bảo chất dinh dưỡng, sự đa dạng và hấp dẫn 
+ - Biện pháp: 
+   + Giữ thực phẩm trong môi trường sạch sẽ, có che đậy tránh bụi bẩn và các loại côn trùng 
+   + Để riêng thực phẩm sống và thực phẩm chín  
+   + Rửa tay sạch trước khi chế biến thực phẩm
+   + Sử dụng riêng các loại dụng cụ dành cho thực phẩm sống và thực phẩm chín 
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

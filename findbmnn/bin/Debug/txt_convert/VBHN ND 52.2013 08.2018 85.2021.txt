@@ -1,0 +1,206 @@
+﻿2
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc 
+
+NGHỊ ĐỊNH
+Về thương mại điện tử
+Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 7 năm 2013, được sửa đổi, bổ sung bởi:
+1. Nghị định số 08/2018/NĐ-CP ngày 15 tháng 01 năm 2018 của Chính phủ sửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Công Thương, có hiệu lực kể từ ngày 15 tháng 01 năm 2018;
+2. Nghị định số 85/2021/NĐ-CP ngày 25 tháng 9 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+Căn cứ Luật Tổ chức Chính phủ ngày 25 tháng 12 năm 2001;
+Căn cứ Bộ luật Dân sự ngày 14 tháng 6 năm 2005;
+Căn cứ Luật Thương mại ngày 14 tháng 6 năm 2005;
+Căn cứ Luật Giao dịch điện tử ngày 29 tháng 11 năm 2005;
+Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+Căn cứ Luật Cạnh tranh ngày 03 tháng 12 năm 2004;
+Căn cứ Luật Bảo vệ quyền lợi người tiêu dùng ngày 17 tháng 11 năm 2010;
+Theo đề nghị của Bộ trưởng Bộ Công Thương;
+Chính phủ ban hành Nghị định về thương mại điện tử, Nghị định số 08/2018/NĐ-CP sửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Công Thương, có hiệu lực kể từ ngày 15 tháng 01 năm 2018 có căn cứ ban hành như sau:
+“Căn cứ Luật tổ chức Chính phủ ngày 19 tháng 6 năm 2015;
+Căn cứ Luật thương mại ngày 14 tháng 6 năm 2005;
+Căn cứ Luật chất lượng sản phẩm, hàng hóa ngày 21 tháng 11 năm 2007;
+Căn cứ Luật hóa chất ngày 21 tháng 11 năm 2007;
+Căn cứ Luật an toàn thực phẩm ngày 17 tháng 6 năm 2010;
+Căn cứ Luật phòng, chống tác hại thuốc lá ngày 18 tháng 6 năm 2012;
+Căn cứ Luật điện lực ngày 03 tháng 12 năm 2004 và Luật sửa đổi, bổ sung một số Điều của Luật điện lực ngày 20 tháng 11 năm 2012;
+Căn cứ Pháp lệnh quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ ngày 30 tháng 6 năm 2011 và Pháp lệnh sửa đổi, bổ sung một số Điều Pháp lệnh quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ ngày 12 tháng 7 năm 2013;
+Căn cứ Luật đầu tư ngày 26 tháng 11 năm 2014 và Luật sửa đổi, bổ sung Điều 6 và Phụ lục 4 về danh Mục ngành, nghề đầu tư kinh doanh có Điều kiện của Luật đầu tư ngày 22 tháng 11 năm 2016;
+Theo đề nghị của Bộ trưởng Bộ Công Thương,
+Chính phủ ban hành Nghị định sửa đổi một số Nghị định liên quan đến Điều kiện đầu tư kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Công Thương.”
+Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử có căn cứ ban hành như sau:
+“Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;
+Căn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;
+Căn cứ Luật Thương mại ngày 14 tháng 6 năm 2005;
+Căn cứ Luật Giao dịch điện tử ngày 29 tháng 11 năm 2005;
+Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+Căn cứ Luật Bảo vệ quyền lợi người tiêu dùng ngày 17 tháng 11 năm 2010;
+Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+Căn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;
+Căn cứ Luật Cạnh tranh ngày 12 tháng 6 năm 2018;
+Căn cứ Luật Đầu tư ngày 17 tháng 6 năm 2020;
+Theo đề nghị của Bộ trưởng Bộ Công Thương;
+Chính phủ ban hành Nghị định sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử (Nghị định số 52/2013/NĐ-CP).”
+
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh Điều này được sửa đổi, bổ sung theo quy định tại khoản 1 Điều 1 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+
+1.	 Nghị định này quy định về việc phát triển, ứng dụng và quản lý hoạt động thương mại điện tử. Hoạt động thương mại điện tử thực hiện theo quy định của Nghị định này và pháp luật có liên quan, trừ quy định tại khoản 2 Điều này.
+2. Hoạt động thương mại điện tử trong lĩnh vực dịch vụ tài chính, ngân hàng, tín dụng, bảo hiểm, xổ số; mua bán, trao đổi tiền, vàng, ngoại hối và các phương tiện thanh toán khác; dịch vụ đặt cược hoặc trò chơi có thưởng; dịch vụ phân phối, phát hành sản phẩm nội dung thông tin số, dịch vụ phát thanh, truyền hình đã được quy định tại pháp luật chuyên ngành không thuộc phạm vi điều chỉnh của Nghị định này.
+Điều 2. Đối tượng áp dụng
+1. Nghị định này áp dụng đối với các thương nhân, tổ chức, cá nhân tham gia hoạt động thương mại điện tử trên lãnh thổ Việt Nam, bao gồm:
+a) Thương nhân, tổ chức, cá nhân Việt Nam;
+b) Cá nhân nước ngoài cư trú tại Việt Nam;
+c) Điểm này được sửa đổi, bổ sung theo quy định tại khoản 2 Điều 1 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ Thương nhân, tổ chức nước ngoài có hoạt động thương mại điện tử quy định tại Mục 5 Chương IV Nghị định này tại Việt Nam.
+2. Khoản này được bãi bỏ theo quy định tại khoản 1 Điều 2 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ (được bãi bỏ)
+Điều 3. Giải thích từ ngữ
+Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+1. Hoạt động thương mại điện tử là việc tiến hành một phần hoặc toàn bộ quy trình của hoạt động thương mại bằng phương tiện điện tử có kết nối với mạng Internet, mạng viễn thông di động hoặc các mạng mở khác.
+2. Chương trình phát triển thương mại điện tử quốc gia là tập hợp các nội dung, nhiệm vụ về hoạt động phát triển thương mại điện tử theo từng giai đoạn nhằm mục tiêu khuyến khích, hỗ trợ ứng dụng thương mại điện tử để nâng cao hiệu quả sản xuất, kinh doanh, thúc đẩy giao dịch thương mại trong nước và xuất khẩu, xây dựng kết cấu hạ tầng thương mại điện tử theo hướng hiện đại hóa.
+3. Chứng từ điện tử trong giao dịch thương mại (dưới đây gọi tắt là chứng từ điện tử) là hợp đồng, đề nghị, thông báo, xác nhận hoặc các tài liệu khác ở dạng thông điệp dữ liệu do các bên đưa ra liên quan tới việc giao kết hay thực hiện hợp đồng.
+Chứng từ điện tử trong Nghị định này không bao gồm hối phiếu, lệnh phiếu, vận đơn, hóa đơn gửi hàng, phiếu xuất nhập kho hay bất cứ chứng từ có thể chuyển nhượng nào cho phép bên nắm giữ chứng từ hoặc bên thụ hưởng được quyền nhận hàng hóa, dịch vụ hoặc được trả một khoản tiền.
+4. Người khởi tạo là bên, hoặc người đại diện của bên đó, đã tạo ra hoặc gửi đi chứng từ điện tử trước khi lưu trữ nó. Người khởi tạo không bao gồm bên hoạt động với tư cách là người trung gian liên quan tới chứng từ điện tử.
+5. Người nhận là bên nhận được chứng từ điện tử theo chủ ý của người khởi tạo. Người nhận không bao gồm bên hoạt động với tư cách là người trung gian liên quan tới chứng từ điện tử.
+6. Hệ thống thông tin tự động là hệ thống thông tin được sử dụng để khởi tạo, gửi, nhận, hoặc phản hồi các thông điệp dữ liệu nhưng không có sự can thiệp hoặc kiểm tra của con người mỗi lần một hoạt động được thực hiện.
+7. Địa điểm kinh doanh là cơ sở cố định để tiến hành hoạt động kinh doanh, không bao gồm cơ sở cung cấp tạm thời hàng hóa hay dịch vụ.
+8. Website thương mại điện tử (dưới đây gọi tắt là website) là trang thông tin điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch vụ sau bán hàng.
+9. Sàn giao dịch thương mại điện tử là website thương mại điện tử cho phép các thương nhân, tổ chức, cá nhân không phải chủ sở hữu website có thể tiến hành một phần hoặc toàn bộ quy trình mua bán hàng hóa, dịch vụ trên đó.
+Sàn giao dịch thương mại điện tử trong Nghị định này không bao gồm các website giao dịch chứng khoán trực tuyến.
+10. Website khuyến mại trực tuyến là website thương mại điện tử do thương nhân, tổ chức thiết lập để thực hiện khuyến mại cho hàng hóa, dịch vụ của thương nhân, tổ chức, cá nhân khác theo các điều khoản của hợp đồng dịch vụ khuyến mại.
+11. Website đấu giá trực tuyến là website thương mại điện tử cung cấp giải pháp cho phép thương nhân, tổ chức, cá nhân không phải chủ sở hữu website có thể tổ chức đấu giá cho hàng hóa của mình trên đó.
+12. Chức năng đặt hàng trực tuyến là một chức năng được cài đặt trên website thương mại điện tử hoặc trên thiết bị đầu cuối của khách hàng và kết nối với website thương mại điện tử để cho phép khách hàng khởi đầu quá trình giao kết hợp đồng theo những điều khoản được công bố trên website đó, bao gồm cả việc giao kết hợp đồng với hệ thống thông tin tự động.
+13. Thông tin cá nhân là các thông tin góp phần định danh một cá nhân cụ thể, bao gồm tên, tuổi, địa chỉ nhà riêng, số điện thoại, thông tin y tế, số tài khoản, thông tin về các giao dịch thanh toán cá nhân và những thông tin khác mà cá nhân mong muốn giữ bí mật.
+Thông tin cá nhân trong Nghị định này không bao gồm thông tin liên hệ công việc và những thông tin mà cá nhân đã tự công bố trên các phương tiện truyền thông.
+14. Thu thập thông tin cá nhân là hoạt động thu thập để đưa vào một cơ sở dữ liệu bao gồm thông tin cá nhân của nhiều người tiêu dùng là khách hàng hoặc khách hàng tiềm năng của thương nhân, tổ chức, cá nhân hoạt động thương mại điện tử.
+15. Dịch vụ chứng thực hợp đồng điện tử là dịch vụ của bên thứ ba về lưu trữ và bảo đảm tính toàn vẹn của chứng từ điện tử do các bên khởi tạo trong quá trình giao kết và thực hiện hợp đồng.
+16. Khoản này được bổ sung theo quy định tại khoản 3 Điều 1 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ Dịch vụ thương mại điện tử là hoạt động thương mại điện tử theo đó thương nhân, tổ chức cung cấp dịch vụ thương mại điện tử thiết lập website thương mại điện tử để cung cấp môi trường cho thương nhân, tổ chức, cá nhân khác tiến hành hoạt động xúc tiến thương mại, bán hàng hóa hoặc cung ứng dịch vụ.
+Thương nhân, tổ chức cung cấp dịch vụ thương mại điện tử không bao gồm các thương nhân, tổ chức chỉ thực hiện cung cấp dịch vụ thiết kế website và không tham gia trực tiếp vào hoạt động kinh doanh, điều hành hoặc điều phối các hoạt động trên website đó.
+Điều 4. Các hành vi bị cấm trong hoạt động thuơng mại điện tử
+1. Vi phạm về hoạt động kinh doanh thương mại điện tử:
+a) Điểm này được sửa đổi, bổ sung theo quy định tại khoản 4 Điều 1 Nghị định số 85/2021/NĐ-CP của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ Lợi dụng hoạt động thương mại điện tử để kinh doanh theo phương thức đa cấp nhưng chưa được cấp giấy chứng nhận đăng ký hoạt động bán hàng đa cấp theo quy định của pháp luật về quản lý hoạt động kinh doanh theo phương thức đa cấp.
+b) Lợi dụng thương mại điện tử để kinh doanh hàng giả, hàng hóa, dịch vụ vi phạm quyền sở hữu trí tuệ; hàng hóa, dịch vụ thuộc danh mục hàng hóa, dịch vụ cấm kinh doanh;
+c) Lợi dụng danh nghĩa hoạt động kinh doanh thương mại điện tử để huy động vốn trái phép từ các thương nhân, tổ chức, cá nhân khác;
+d) Cung cấp các dịch vụ thương mại điện tử hoặc dịch vụ giám sát, đánh giá và chứng thực trong thương mại điện tử khi chưa đăng ký Cụm từ “hoặc chưa được cấp phép” được bãi bỏ theo quy định tại khoản 2 Điều 2 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ theo các quy định của Nghị định này;
+đ) Cung cấp các dịch vụ thương mại điện tử hoặc dịch vụ giám sát, đánh giá và chứng thực trong thương mại điện tử không đúng với thông tin trong hồ sơ đăng ký hoặc cấp phép;
+e) Có hành vi gian dối hoặc cung cấp thông tin sai sự thật khi thực hiện các thủ tục thông báo thiết lập website thương mại điện tử, đăng ký website cung cấp dịch vụ thương mại điện tử, đăng ký Cụm từ “hoặc xin cấp phép” được bãi bỏ theo quy định tại khoản 2 Điều 2 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ các dịch vụ giám sát, đánh giá và chứng thực trong thương mại điện tử.
+2. Vi phạm về thông tin trên website thương mại điện tử:
+a) Giả mạo thông tin đăng ký hoặc không tuân thủ các quy định về hình thức, quy cách công bố thông tin đăng ký trên website thương mại điện tử;
+b) Sử dụng biểu trưng của các chương trình đánh giá tín nhiệm website thương mại điện tử khi chưa được những chương trình này công nhận;
+c) Sử dụng các đường dẫn, biểu trưng hoặc công nghệ khác trên website thương mại điện tử để gây nhầm lẫn về mối liên hệ với thương nhân, tổ chức, cá nhân khác;
+d) Sử dụng đường dẫn để cung cấp những thông tin trái ngược hoặc sai lệch so với thông tin được công bố tại khu vực website có gắn đường dẫn này.
+3. Vi phạm về giao dịch trên website thương mại điện tử:
+a) Thực hiện các hành vi lừa đảo khách hàng trên website thương mại điện tử;
+b) Giả mạo thông tin của thương nhân, tổ chức, cá nhân khác để tham gia hoạt động thương mại điện tử;
+c) Can thiệp vào hệ điều hành và trình duyệt Internet tại các thiết bị điện tử truy cập vào website nhằm buộc khách hàng lưu lại website trái với ý muốn của mình.
+4. Các vi phạm khác:
+a) Đánh cắp, sử dụng, tiết lộ, chuyển nhượng, bán các thông tin liên quan đến bí mật kinh doanh của thương nhân, tổ chức, cá nhân khác hoặc thông tin cá nhân của người tiêu dùng trong thương mại điện tử khi chưa được sự đồng ý của các bên liên quan, trừ trường hợp pháp luật có quy định khác;
+b) Giả mạo hoặc sao chép giao diện website thương mại điện tử của thương nhân, tổ chức, cá nhân khác để kiếm lợi hoặc để gây nhầm lẫn, gây mất lòng tin của khách hàng đối với thương nhân, tổ chức, cá nhân đó.
+Điều 5. Nội dung quản lý nhà nước về thương mại điện tử
+1. Khoản này được sửa đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ Xây dựng và tổ chức thực hiện cơ chế, chính sách, chiến lược, quy hoạch, chương trình phát triển thương mại điện tử và chuyển đổi số trong lĩnh vực thương mại.
+2. Ban hành và tổ chức thực hiện các văn bản quy phạm pháp luật về hoạt động thương mại điện tử, tiêu chuẩn, quy chuẩn ứng dụng thương mại điện tử và các quy định về quản lý dịch vụ thương mại điện tử đặc thù.
+3. Quản lý, giám sát các hoạt động thương mại điện tử.
+4. Tuyên truyền, phổ biến giáo dục pháp luật về thương mại điện tử.
+5. Tổ chức thực hiện hoạt động nghiên cứu, ứng dụng, chuyển giao công nghệ trong thương mại điện tử.
+6. Tổ chức thực hiện các hoạt động tư vấn, hỗ trợ doanh nghiệp triển khai, ứng dụng thương mại điện tử.
+7. Tổ chức thực hiện công tác đào tạo, bồi dưỡng nhân lực cho thương mại điện tử.
+8. Thống kê về thương mại điện tử.
+9. Hợp tác quốc tế trong lĩnh vực thương mại điện tử.
+10. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong hoạt động thương mại điện tử.
+Điều 6. Trách nhiệm quản lý nhà nước về thương mại điện tử
+1. Bộ Công Thương chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về thương mại điện tử.
+2. Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối hợp với Bộ Công Thương thực hiện quản lý nhà nước về thương mại điện tử.
+Điều 7. Chương trình phát triển thương mại điện tử quốc gia
+1. Nhà nước có chính sách và biện pháp thích hợp nhằm thúc đẩy thương mại điện tử phát triển minh bạch, bền vững thông qua Chương trình phát triển thương mại điện tử quốc gia.
+2. Nội dung hoạt động thuộc Chương trình phát triển thương mại điện tử quốc gia gồm:
+a) Xây dựng, phát triển kết cấu hạ tầng thương mại điện tử;
+b) Tuyên truyền, phổ biến, nâng cao nhận thức về thương mại điện tử;
+c) Đào tạo, phát triển nguồn nhân lực thương mại điện tử;
+d) Phát triển các sản phẩm, giải pháp thương mại điện tử;
+đ) Tư vấn xây dựng kế hoạch ứng dụng thương mại điện tử;
+e) Hợp tác quốc tế về thương mại điện tử;
+g) Nâng cao năng lực quản lý và tổ chức hoạt động phát triển thương mại điện tử;
+h) Các nội dung khác.
+3. Thủ tướng Chính phủ quy định về đối tượng tham gia, phạm vi áp dụng, cơ chế quản lý, hỗ trợ kinh phí của Chương trình phát triển thương mại điện tử quốc gia.
+Điều 8. Thống kê về thương mại điện tử
+1. Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương thu thập số liệu thống kê về tình hình ứng dụng thương mại điện tử của địa phương, hàng năm báo cáo Bộ Công Thương để tổng hợp.
+2. Thương nhân, tổ chức cung cấp dịch vụ thương mại điện tử có nghĩa vụ định kỳ báo cáo về hoạt động cung cấp dịch vụ của mình để phục vụ công tác thống kê thương mại điện tử.
+3. Bộ trưởng Bộ Công Thương quy định cụ thể chế độ báo cáo thống kê đối với các thương nhân, tổ chức cung cấp dịch vụ thương mại điện tử và các địa phương có doanh nghiệp hoạt động kinh doanh thương mại điện tử.
+Chương II
+GIAO KẾT HỢP ĐỒNG TRONG THƯƠNG MẠI ĐIỆN TỬ
+Mục 1
+CHỨNG TỪ ĐIỆN TỬ TRONG GIAO DỊCH THƯƠNG MẠI
+Điều 9. Giá trị pháp lý như bản gốc
+1. Chứng từ điện tử trong giao dịch thương mại có giá trị pháp lý như bản gốc nếu đáp ứng cả hai điều kiện sau:
+a) Có sự bảo đảm đủ tin cậy về tính toàn vẹn của thông tin chứa trong chứng từ điện tử từ thời điểm thông tin được khởi tạo lần đầu tiên dưới dạng chứng từ điện tử;
+b) Thông tin chứa trong chứng từ điện tử có thể truy cập, sử dụng được dưới dạng hoàn chỉnh khi cần thiết.
+2. Tiêu chí đánh giá tính toàn vẹn là thông tin còn đầy đủ và chưa bị thay đổi, ngoài những thay đổi về hình thức phát sinh trong quá trình trao đổi, lưu trữ hoặc hiển thị chứng từ điện tử.
+3. Tiêu chí về sự bảo đảm đủ tin cậy là khi một trong những biện pháp sau được áp dụng trên cơ sở thỏa thuận giữa các bên trao đổi và sử dụng chứng từ điện tử:
+a) Ký chứng từ điện tử bằng chữ ký số do tổ chức cung cấp dịch vụ chứng thực chữ ký số hợp pháp cấp;
+b) Lưu trữ chứng từ điện tử tại hệ thống của một tổ chức cung cấp dịch vụ chứng thực hợp đồng điện tử Cụm từ “đã được cấp phép” được bãi bỏ theo quy định tại khoản 2 Điều 2 Nghị định số 85/2021/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 52/2013/NĐ-CP ngày 16 tháng 5 năm 2013 của Chính phủ về thương mại điện tử, có hiệu lực kể từ ngày 01 tháng 01 năm 2022.
+ mà các bên thỏa thuận lựa chọn;
+c) Có sự bảo đảm từ phía thương nhân, tổ chức cung cấp hạ tầng cho việc khởi tạo, gửi và lưu trữ chứng từ điện tử về tính toàn vẹn của thông tin chứa trong chứng từ điện tử trong quá trình gửi và lưu trữ trên hệ thống;
+d) Biện pháp khác mà các bên thống nhất lựa chọn.
+Điều 10. Thời điểm, địa điểm gửi và nhận chứng từ điện tử
+1. Thời điểm gửi một chứng từ điện tử là thời điểm chứng từ điện tử đó rời khỏi hệ thống thông tin dưới sự kiểm soát của người khởi tạo hay đại diện của người khởi tạo. Trong trường hợp chứng từ điện tử không rời khỏi hệ thống thông tin dưới sự kiểm soát của người khởi tạo hay đại diện của người khởi tạo, thời điểm gửi là thời điểm nhận được chứng từ điện tử.
+2. Trong trường hợp các bên không có thỏa thuận khác, thời điểm nhận một chứng từ điện tử là thời điểm chứng từ điện tử đó tới được địa chỉ điện tử do người nhận chỉ ra và có thể truy cập được.
+3. Địa điểm kinh doanh của người khởi tạo được coi là địa điểm gửi chứng từ điện tử và địa điểm kinh doanh của người nhận được coi là địa điểm nhận chứng từ điện tử.
+Điều 11. Địa điểm kinh doanh của các bên
+1. Địa điểm kinh doanh của mỗi bên là địa điểm do bên đó chỉ ra, trừ khi bên khác nêu rõ bên đó không có địa điểm kinh doanh tại địa điểm này.
+2. Trong trường hợp một bên có nhiều địa điểm kinh doanh nhưng không chỉ ra địa điểm kinh doanh nào thì địa điểm kinh doanh là địa điểm có mối quan hệ mật thiết nhất với hợp đồng liên quan xét tới mọi bối cảnh trước và tại thời điểm giao kết hợp đồng.
+3. Trong trường hợp một cá nhân không có địa điểm kinh doanh thì địa điểm kinh doanh là nơi đăng ký thường trú của cá nhân đó.
+4. Một địa điểm không được coi là địa điểm kinh doanh nếu địa điểm đó chỉ là nơi đặt máy móc, thiết bị công nghệ của hệ thống thông tin do một bên sử dụng để giao kết hợp đồng hoặc chỉ là nơi các bên khác có thể truy cập hệ thống thông tin đó.
+5. Một địa danh gắn với tên miền hay địa chỉ thư điện tử của một bên không nhất thiết liên quan tới địa điểm kinh doanh của bên đó.
+Điều 12. Thông báo về đề nghị giao kết hợp đồng không có bên nhận cụ thể
+Một thông báo bằng chứng từ điện tử về đề nghị giao kết hợp đồng mà không có bên nhận cụ thể thì chỉ là thông báo mời đề nghị giao kết hợp đồng. Thông báo đó chưa được coi là đề nghị giao kết hợp đồng, trừ khi bên thông báo chỉ rõ tại thông báo đó trách nhiệm của mình trong trường hợp nhận được trả lời chấp nhận.
+Điều 13. Sử dụng hệ thống thông tin tự động
+Hợp đồng được giao kết từ sự tương tác giữa một hệ thống thông tin tự động với một người hoặc giữa các hệ thống thông tin tự động với nhau không bị phủ nhận giá trị pháp lý chỉ vì không có sự kiểm tra hay can thiệp của con người vào từng hành động cụ thể do các hệ thống thông tin tự động thực hiện hay hợp đồng được giao kết.
+Điều 14. Lỗi nhập thông tin trong chứng từ điện tử
+1. Trường hợp một người mắc phải lỗi nhập thông tin trong một chứng từ điện tử được sử dụng để trao đổi với hệ thống thông tin tự động của bên khác nhưng hệ thống thông tin tự động này không hỗ trợ cho người đó sửa lại lỗi thì người đó hoặc thương nhân, tổ chức, cá nhân mà người đó đại diện có quyền rút bỏ phần chứng từ điện tử có lỗi nếu đáp ứng hai điều kiện sau:
+a) Ngay khi biết có lỗi, người đó hoặc thương nhân, tổ chức, cá nhân mà người đó đại diện thông báo cho bên kia về lỗi và nêu rõ đã mắc phải lỗi trong chứng từ điện tử này;
+b) Người đó hoặc thương nhân, tổ chức, cá nhân mà người đó đại diện vẫn chưa sử dụng hoặc có được bất kỳ lợi ích vật chất hay giá trị nào từ hàng hóa, dịch vụ nhận được từ bên kia.
+2. Quyền rút bỏ phần chứng từ điện tử có lỗi không ảnh hưởng tới trách nhiệm giải quyết hậu quả các lỗi phát sinh ngoài những quy định tại Khoản 1 Điều này.
+Mục 2
+GIAO KẾT HỢP ĐỒNG SỬ DỤNG CHỨC NĂNG ĐẶT HÀNG 
+TRỰC TUYẾN TRÊN WEBSITE THƯƠNG MẠI ĐIỆN TỬ
+Điều 15. Thông báo mời đề nghị giao kết hợp đồng
+Nếu một website thương mại điện tử có chức năng đặt hàng trực tuyến áp dụng cho từng hàng hóa hoặc dịch vụ cụ thể được giới thiệu trên website đó, thì các thông tin giới thiệu về hàng hóa, dịch vụ và các điều khoản liên quan được coi là thông báo mời đề nghị giao kết hợp đồng của thương nhân, tổ chức, cá nhân bán hàng theo quy định tại Điều 12 Nghị định này.
+Điều 16. Cung cấp các điều khoản của hợp đồng khi sử dụng chức năng đặt hàng trực tuyến trên website thương mại điện tử
+Website thương mại điện tử có chức năng đặt hàng trực tuyến phải cung cấp cho khách hàng thông tin về các điều khoản của hợp đồng được quy định từ Điều 30 đến Điều 34 Nghị định này trước thời điểm khách hàng gửi đề nghị giao kết hợp đồng.
+Điều 17. Đề nghị giao kết hợp đồng
+Chứng từ điện tử do khách hàng khởi tạo và gửi đi bằng cách sử dụng chức năng đặt hàng trực tuyến được coi là đề nghị giao kết hợp đồng của khách hàng đối với hàng hóa hoặc dịch vụ gắn kèm chức năng đặt hàng trực tuyến đó.
+Điều 18. Rà soát và xác nhận nội dung hợp đồng
+Website thương mại điện tử phải có cơ chế cho phép khách hàng rà soát, bổ sung, sửa đổi và xác nhận nội dung giao dịch trước khi sử dụng chức năng đặt hàng trực tuyến để gửi đề nghị giao kết hợp đồng. Cơ chế rà soát và xác nhận này phải đáp ứng các điều kiện sau:
+1. Hiển thị cho khách hàng những thông tin sau:
+a) Tên hàng hóa hoặc dịch vụ, số lượng và chủng loại;
+b) Phương thức và thời hạn giao hàng hoặc cung ứng dịch vụ;
+c) Tổng giá trị của hợp đồng và các chi tiết liên quan đến phương thức thanh toán được khách hàng lựa chọn.
+Những thông tin này phải có khả năng lưu trữ, in ấn được trên hệ thống thông tin của khách hàng và hiển thị được về sau.
+2. Hiển thị cho khách hàng những thông tin về cách thức trả lời chấp nhận đề nghị giao kết hợp đồng và thời hạn trả lời đề nghị giao kết hợp đồng.
+3. Cho phép khách hàng sau khi rà soát những thông tin nói trên được lựa chọn hủy giao dịch hoặc xác nhận việc đề nghị giao kết hợp đồng.
+Điều 19. Trả lời đề nghị giao kết hợp đồng
+1. Trả lời chấp nhận hoặc không chấp nhận đề nghị giao kết hợp đồng phải được thực hiện dưới hình thức phù hợp để thông tin có thể lưu trữ, in và hiển thị được tại hệ thống thông tin của khách hàng.
+2. Khi trả lời chấp nhận đề nghị giao kết hợp đồng của khách hàng, thương nhân, tổ chức, cá nhân bán hàng phải cung cấp cho khách hàng những thông tin sau:
+a) Danh sách toàn bộ hàng hóa hoặc dịch vụ khách hàng đặt mua, số lượng, giá của từng sản phẩm và tổng giá trị hợp đồng;
+b) Thời hạn giao hàng hoặc cung ứng dịch vụ;
+c) Thông tin liên hệ để khách hàng có thể hỏi về tình trạng thực hiện hợp đồng khi cần thiết.
+Điều 20. Chấm dứt đề nghị giao kết hợp đồng
+1. Trường hợp thương nhân, tổ chức, cá nhân bán hàng có công bố thời hạn trả lời đề nghị giao kết hợp đồng, nếu hết thời hạn này mà khách hàng vẫn không được trả lời thì đề nghị giao kết hợp đồng của khách hàng chấm dứt hiệu lực. Việc trả lời chấp nhận sau thời hạn này được coi là một đề nghị giao kết hợp đồng khác từ phía thương nhân, tổ chức, cá nhân bán hàng.
+2. Trường hợp thương nhân, tổ chức, cá nhân bán hàng không công bố rõ thời hạn trả lời đề nghị giao kết hợp đồng, nếu trong vòng 12 (mười hai) giờ kể từ khi gửi đề nghị giao kết hợp đồng, khách hàng không nhận được trả lời đề nghị giao kết hợp đồng thì đề nghị giao kết hợp đồng của khách hàng được coi là chấm dứt hiệu lực.
+Điều 21. Thời điểm giao kết hợp đồng khi sử dụng chức năng đặt hàng trực tuyến trên website thương mại điện tử
+Thời điểm giao kết hợp đồng khi sử dụng chức năng đặt hàng trực tuyến trên website thương mại điện tử là thời điểm khách hàng nhận được trả lời của thương nhân, tổ chức, cá nhân bán hàng chấp nhận đề nghị giao kết hợp đồng theo quy định tại Khoản 2 Điều 19 Nghị định này.
+Điều 22. Thủ tục chấm dứt hợp đồng đối với hợp đồng dịch vụ thương mại điện tử và các dịch vụ trực tuyến khác
+1. Website cung cấp dịch vụ thương mại điện tử và website cung cấp các dịch vụ trực tuyến khác phải cung cấp công cụ trực tuyến để khách hàng có thể gửi thông báo chấm dứt hợp đồng khi hết nhu cầu sử dụng dịch vụ. Công cụ này phải đáp ứng các điều kiện sau:
+a) Cho phép khách hàng lưu trữ và hiển thị thông báo chấm dứt hợp đồng trong hệ thống thông tin của mình sau khi gửi đi;
+b) Có cơ chế phản hồi để khách hàng biết thông báo chấm dứt hợp đồng của mình đã được gửi.
+2. Website cung cấp dịch vụ thương mại điện tử và website cung cấp các dịch vụ trực tuyến khác phải công bố thông tin minh bạch, đầy đủ về quy trình, thủ tục chấm dứt hợp đồng, bao gồm các nội dung sau:
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

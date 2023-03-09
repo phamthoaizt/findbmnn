@@ -1,0 +1,203 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+Tài liệu quản trị Facebook 
+
+Tài liệu quản trị Facebook	1
+1. Xây dựng Fanpage Tổng Hợp (Reup)	2
+1.1. Nguồn nội dung video	2
+1.1.1. Nguồn video từ Facebook	2
+1.1.2. Nguồn video từ Instagram	3
+1.1.3. Nguồn video từ Reddit	3
+1.1.4. Nguồn video từ Tiktok	7
+1.1.5. Nguồn video từ Youtube / Dailymotion	11
+1.2. Quy trình quản trị page	12
+1.2.1. Đối với page chính	12
+1.2.2. Đối với page vệ tinh	12
+1.2.3. Chạy quảng cáo cho các page	13
+1.2.4. Quy trình SEO video cho page	13
+2. Khai thác doanh thu	13
+2.1. Tiêu chí video tốt	13
+2.2. Bố cục video	13
+2.3. Video tổng hợp reup lại của page khác	14
+2.4. Gửi yêu cầu bật kiếm tiền cho video	15
+
+
+1. Xây dựng Fanpage Tổng Hợp (Reup)
+1.1. Nguồn nội dung video
+Chú ý quan trọng: Khi tìm kiếm nguồn video từ các kênh bên dưới đây, nếu tìm được trang nguồn nào hay có thể lấy content được thì thêm link đó vào trong file excel Nguồn Contents
+1.1.1. Nguồn video từ Facebook
+
+Tiêu chuẩn : 
+- Nguồn dữ liệu rõ nét, không quá mờ.
+- Xác định nguồn dữ liệu đủ để đáp ứng được yêu cầu của ý tưởng -> xây dựng. 
+- Dữ liệu mới, lạ và thu hút. 
+- Nguồn dữ liệu sử dụng phối hợp với nhau không quá chênh lệch về chất lượng, bối cảnh, màu sắc…
+-
+Cách thức tìm kiếm : 
+Xác định các từ khóa được tìm kiếm :
+Facebook: https://www.facebook.com/ (Dựa vào chủ đề để chọn  keyword phù hợp. Tìm kiếm các trang fanpage cùng chủ đề). Xem đề xuất trang từ facebook tại các trang cùng chủ đề.
+Chẳng hạn: natute -> animals, ocean, ...
+Trong animal: dog, cat, spider, bird....(tìm kiếm tư khóa tương tự)
+Google : https://trends.google.com/trends/?geo=US
+YouTube Search : https://www.youtube.com/ 
+
+Tải video
+
+- Tải video trên fb dùng trình duyệt: https://fbdown.net
+- Copy link video trên fb cần tải -> Chọn Download
+
+Chọn tiếp Download Video in Normal Quality -> CTR +S lưu về máy.
+- Chọn, ghép video > 3p (3'5 - 3'10)
+- Tập trung hình ảnh thu hút đầu video (1'03 - 1'05)
+- Chọn video rõ nét, thu hút để edit.
+- Ghép nhạc phù hợp
+- Lách: làm mờ logo nếu có, đổi nhạc, đảo cảnh....
+1.1.2. Nguồn video từ Instagram
+Cài tool Downloader for Instagram™ (+ Upload photo) vào trình duyệt để download video và hình ảnh từ instagram:
+https://chrome.google.com/webstore/detail/downloader-for-instagram/olkpikmlhoaojbbmmpejnimiglejmboe
+
+- Truy cập instagram.com trên máy tính và đăng nhập
+- Tìm kiếm video theo #hashtag trên thanh tìm kiếm ( dog, cat, animal, puppy, kitty, travel…)
+- Theo dõi hoặc lưu lại các trang có nguồn video hay.
+- Khi click theo dõi instagram sẽ hiện ra một loạt gợi ý các trang tương tự
+
+
+
+Click vào xem tất cả để xem các trang gợi ý. 
+
+
+1.1.3. Nguồn video từ Reddit
+
+Truy cập
+ và tạo tài khoản:
+
+Sau khi hoàn thành các thông tin tạo tk sẽ có phần gợi ý các cộng đồng theo chủ đề (Animals, Art, DIY, Travel,...):
+
+
+Subscribe các cộng đồng liên quan 
+Ngoài ra có thể tìm video theo từ khóa trên thanh tìm kiếm
+
+Cách Download video trên reddit
+
+Video up trực tiếp lên reddit:
+
+
+
+Click vào phần video title để mở video
+
+Sau đó thêm chữ “dl” vào URL video rồi nhấn enter
+Hoặc paste link video vào trang redv.co
+
+
+Nhấn download và save video. Click vào biểu tượng “...” để tải âm thanh (nếu cần âm thanh).
+
+Ngoài ra còn có các video dẫn từ các nguồn khác sẽ có đường link màu xanh hoặc mũi tên màu xanh ở góc video:
+
+
+
+Click vào đường link để mở các video này. Một số video dẫn nguồn từ imgur có thể save về luôn. Các video từ nguồn khác có thể dùng cốc cốc để download
+
+
+1.1.4. Nguồn video từ Tiktok
+
+Cài đặt tools download video tiktok
+ 
+- Cài đặt extensions User javascript and css https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld
+- Vào trang https://www.tiktok.com/
+- Bấm vào icon extension trên trình duyệt chọn Add New
+- Copy code ở bên trái vào khung bên trái / bên phải vào khung bên phải https://pastebin.com/raw/ddWRWaSF
+- Chọn Options -> Tích như hình bên dưới -> Save
+
+
+Lấy video từ tiktok
+
+Lấy video trên trang tiktok trending https://www.tiktok.com/en/trending
+
+
+
+
+Bấm vào video để xem thử nội dung phù hợp thì có thể bấm nút Download sau đó save video về máy
+
+
+
+
+
+Lấy video theo chủ đề
+
+Theo dõi trên trang chủ tiktok có trending hashtags có thể lấy video theo chủ đề các hashtag đó 
+Ngoài ra có thể lấy các tag khác bằng tìm kiếm trên
+
+Khi lướt video nếu thấy kênh / nick user nào hay hay thì có thể bấm vào user đó để xem và lấy video của user đó tổng hợp thành 1 clip dài. Khi làm video có thể ghi credit cho họ tránh bị khiếu nại.
+
+
+Lấy video các tag khác
+
+- Sử dụng app tiktok trên mobile 
+- Bấm vào tab thứ 2 để tìm kiếm chủ đề
+- Bấm vào nút 3 chấm trên góc của màn hình hashtags -> chọn copy link -> Gửi vào facebook / skype hay bất kì phần mềm nào có thể mở trên máy tính để lấy link
+-
+
+
+Mở link gửi từ điện thoại lên có dạng 
+https://t.tiktok.com/i18n/share/challenge/57465
+
+Lấy số 57465 là ID của hashtag thay vào số link bên dưới bên dưới
+
+https://www.tiktok.com/share/challenge/57465
+
+Ghi chú: Có thể nhớ và sửa trực tiếp link bên trên cho nhanh: xóa chữ t. Và i18n/
+
+Link này có thể download những video theo hashtag
+
+
+
+
+1.1.5. Nguồn video từ Youtube / Dailymotion
+Youtube:
+- Truy cập youtube, xác định chủ đề tìm kiếm. 
+ - Xác định các từ khóa được tìm kiếm nhiều qua : 
+Google : https://trends.google.com/trends/?geo=US
+YouTube Search : https://www.youtube.com/ 
+
+-  Cách thức tìm kiếm được tiến hành theo các từ khóa lớn, từ khóa ngách.
+Ví dụ: Từ khóa lớn animal, dog...Từ khóa ngách sẽ là animal funny, dog funny, dog videos …
+-> Khi tìm từ khóa chú ý đến từ youtube đề xuất. Đây là những từ được tìm kiếm nhiều nhất do youtube đề xuất (trend).
+
+- Tìm kiếm dữ liệu trên các kênh lớn cùng chủ đề: Dựa vào nguồn video trên các kênh lớn đã thực hiện để sáng tạo sản phẩm theo chủ đề, ý tưởng.
+
+Tiêu chuẩn chọn video trên youtube:
+
+- Đảm bảo cơ sở dữ liệu có đủ để đáp ứng được yêu cầu của ý tưởng -> xây dựng sản phẩm.
+- Dữ liệu được chọn mới lạ, thu hút người xem. 
+- Hình ảnh dữ liệu ưu tiên có độ nét cao.
+- Nguồn dữ liệu lựa chọn sử dụng không nên có độ chênh lệch quá lớn: độ sắc nét, màu sắc...
+ 
+Tải video youtube:
+Đối với trình duyệt cốc cốc: Xem video -> chọn tải xuống -> ok 
+Đối với chorme cài đặt Internet Download Manager -> tải video như bình thường.
+=> Sáng tạo sản phẩm từ nguồn cơ sở dữ liệu đã chọn
+1.2.	Quy trình quản trị page
+1.2.1. Đối với page chính
+
+- Phân tích insights page hàng tuần. Đánh giá những loại bài đăng nào nhận được nhiều tương tác và bài nào ít tương tác. Từ đó đánh giá và điều chỉnh content cho hợp lý.
+- Khung content đăng lên page: 
+- Mỗi ngày cần 1 video 3 phút đăng trên page chính
+- Thêm 1-2 video dạng ngắn để kéo tương tác
+- Có đăng những bải ảnh hay nhưng cần tập trung vào video hơn. Cân bằng tỉ lệ ảnh / video tùy thuộc vào nội dung page.
+- Page chính hạn chế share link từ page khác, chỉ share những video chủ đề tương tự, hoặc link do leader gửi.
+- Các bài share link chéo ưu tiên theo thứ tự sau: 
++ Bài video được kiếm tiền (sẽ nói ở phần dưới)
++ Bài post mới của 1 page trong hệ thống tương tác tốt thì share ngay lên các page khác trong hệ thống để kéo thêm
++ Những bài tốt nhất của page, nhiều tương tác, nhiều views có thể lâu lâu share lại, kể cả bài đã cũ. Cách lọc video cũ nhiều views: Vào Creator Studio -> Thư viện videos -> Chọn Filter Views > 500k views thì có thể share lại.
+
+- Quan trọng: Dùng nick facebook phụ tạo 1 trang linh tinh chuyên để test video trước khi up lên page thật tránh bị dính bản quyền chết page thật. Toàn bộ video trước khi up lên page thật cần được up lên page fake (ghi tiêu đề mô tả linh tinh, hoặc không ghi cũng được). Các video sau khi up lên facebook 15 phút nếu không bị thông báo bản quyền, hay có nội dung của bên khác thì mới up lên page chính. Nếu video tổng hợp mà dính 1 đoạn 10-15s của bên khác thì cắt đoạn đó đi, ghép thêm đoạn khác vào.
+
+- Thời gian đăng bài: xem page insights->posts để biết thời gian user online nhiều. Tốt nhất loại trừ khoảng 5h sáng -> 4 giờ chiều ( có thể post 1 bài lúc 12h-1h chiều)
+
+1.2.2. Đối với page vệ tinh
+- Chủ yếu đăng các video không bật kiếm tiền dưới 3 phút
+- Thỉnh thoảng dùng để đăng chéo video trên 3 phút từ những page chính
+- Nhiệm vụ chính của page vệ tinh là share link các video từ page chính và share link của các thành viên khác trong team.
+- Có đăng những bải ảnh hay nhưng cần tập trung vào video hơn
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

@@ -1,0 +1,16 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+d) Hiện nay Trung tâm dữ liệu đã được triển khai, vận hành các hệ thống thông tin dùng chung cấp tỉnh sau:
+- Hệ thống Thư điện tử công vụ với hơn 10.000 tài khoản;
+- Hệ thống Quản lý văn bản và điều hành với quy mô từ cấp tỉnh đến cấp xã, phường; 
+- Hệ thống Một cửa điện tử của các Sở, Ban, Ngành và các huyện, thành phố, thị xã .
+- Cổng dịch vụ công trực tuyến tỉnh Thái Nguyên;
+- Hệ thống giám sát điều hành an ninh mạng SOC;
+- Trục tích hợp kết nối, chia sẻ dữ liệu cấp tỉnh LGSP; 
+- Hệ thống thông tin điều hành tác nghiệp của Tỉnh ủy tỉnh Thái Nguyên; 
+- Hệ thống phần mềm phục vụ công tác điều hành, tác nghiệp của các cơ quan Hội đồng nhân dân tỉnh; 
+- Hệ thống phần mềm quản lý cán bộ công chức, viên chức tỉnh Thái Nguyên;
+- Hệ thống phần mềm Sổ tay đảng viên điện tử;
+- Các hệ thống thông tin chuyên ngành của các sở, ban, ngành (Sở Lao động, Thương binh và Xã hội, Sở Giáo dục và Đào tạo, Sở Văn hóa, Thể thao và Du lịch, Sở Nông nghiệp và Phát triển nông thôn, Sở Y tế, Sở Tư pháp)
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

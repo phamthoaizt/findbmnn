@@ -1,0 +1,31 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+Danh sách số điện thoại đối tượng theo dõi
+TT
+SĐT
+HỌ TÊN
+GHI CHÚ
+1
+0868.643.333
+0866.061.323
+PHÙNG ANH TUẤN (Tuấn Phán)
+
+2
+0386.007.309
+0398.971.111
+NGUYỄN VĂN ĐỊNH
+
+3
+0855.245.678
+TRẦN TUẤN THÀNH 
+
+4
+0962.315.888
+LÂM HỒNG ĐỨC (Đức ỉn)
+
+5
+0961.675.888
+NGUYỄN MINH QUẢNG (QUẢNG MƯỜI)
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

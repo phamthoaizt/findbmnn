@@ -1,0 +1,50 @@
+﻿2
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+BỘ CÔNG AN
+CÔNG AN TỈNH THÁI NGUYÊN
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+
+Số:           /BC-CAT(PA05)
+Thái nguyên, ngày 22 tháng 12 năm 2022
+
+BÁO CÁO
+kết quả bước đầu xác minh vụ việc tấn công mạng 
+vào hệ thống thông tin trên địa bàn tỉnh Thái Nguyên 
+
+
+Kính gửi: Đ/c Chủ tịch UBND tỉnh Thái Nguyên.
+
+Thực hiện công văn số 6389/UBND-KGVX ngày 17/12/2022 của UBND tỉnh Thái Nguyên về việc rà soát, tăng cường giám sát, đảm bảo an toàn thông tin mạng cho các hệ thống thông tin; Công an tỉnh báo cáo kết quả như sau:
+1. Tình hình 
+Công an tỉnh đã phối hợp với Sở Thông tin và Truyền thông tỉnh kiểm tra tại hệ thống máy chủ web (tại Trung tâm Công nghệ thông tin và truyền thông) bước đầu xác định ngày 15/12/2022 đã xảy ra cuộc tấn công mạng vào hệ thống máy chủ web lưu trữ cơ sở dữ liệu của 03 đơn vị: Văn phòng UBND tỉnh, Sở Văn hóa, Thể thao và Du lịch, Sở Lao động Thương binh và Xã hội. Ngay sau khi xảy ra vụ việc, Sở Thông tin và Truyền thông tỉnh đã chỉ đạo bộ phận chuyên môn nghiệp vụ cô lập máy chủ bị nhiễm mã độc, tiến hành khôi phục cơ sở dữ liệu từ bản sao lưu ngày 14/12/2022.
+Thủ đoạn tấn công: nhận định ban đầu đây là cuộc tấn công leo thang đặc quyền từ người dùng của hệ thống. Kẻ tấn công tải file thực thi lên nhiều lần, nhằm mục đích khai thác máy chủ cơ sở dữ liệu, kẻ tấn công xóa hết cơ sở dữ liệu, xóa toàn bộ nhật ký hoạt động của máy chủ web và để lại tin nhắn đòi tiền chuộc; các hành vi nghi ngờ tấn công diễn ra từ ngày 13/12/2022 (thông qua các file lạ được đẩy lên hệ thống). Hậu quả: làm tê liệt toàn bộ hệ thống quản lý văn bản và ảnh hưởng rất lớn đến công tác tham mưu, chỉ đạo, điều hành của của 03 đơn vị trên.
+Tại thời điểm kiểm tra, hệ thống máy chủ web sử dụng đang chạy trên Window server 2008 r2, Apche 2.2.8 - phiên bản lỗi thường không còn được hỗ trợ bảo mật, tường lửa cứng juniper SRX 1500.
+2. Nhận xét, đề xuất
+- Công tác đảm bảo an toàn, an ninh mạng và ứng cứu sự cố của cán bộ được giao phụ trách đã có trách nhiệm xử lý kịp thời. Tuy nhiên, do hệ thống đã đưa vào sử dụng nhiều năm, khối lượng công việc phải xử lý lớn, lực lượng mỏng nên đã ảnh hưởng không nhỏ đến tiến độ công việc.
+- Hệ thống máy chủ web sử dụng hệ thống phần mềm cũ, phiên bản website quản trị hệ thống văn bản được xây dựng từ những năm 2010 tồn tại nhiều lỗ hổng bảo mật. 
+Do đó, Công an tỉnh đề xuất UBND tỉnh chỉ đạo Sở Thông tin và Truyền thông tỉnh thực hiện một số giải pháp cấp bách sau:
+- Nhanh chóng khôi phục toàn bộ cơ sở dữ liệu đã sao lưu từ trước thực hiện nghiêm theo quy trình đã đề ra; khôi phục lại trạng thái hoạt động bình thường như trước khi tấn công của hệ thống văn bản.
+- Tăng cường quản lý về an ninh mạng đối với toàn bộ hệ thống trang web, máy chủ hệ thống văn bản trên phạm vi toàn tỉnh Thái Nguyên. Nâng cấp hệ thống phần mềm, cấu hình của máy chủ web; kịp thời cập nhật các bản vá các lỗ hổng bảo mật. 
+Công an tỉnh báo cáo đồng chí Chủ tịch UBND tỉnh biết, chỉ đạo./.
+
+Nơi nhận:
+- Như trên;
+- Đ/c Lê Quang Tiến - Phó CT UBND tỉnh: Báo cáo;
+- Văn phòng UBND tỉnh: Trao đổi;
+- Lưu VT, PA05 (Đ1).
+
+
+GIÁM ĐỐC
+
+
+
+
+
+
+Đại tá Bùi Đức Hải
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
+

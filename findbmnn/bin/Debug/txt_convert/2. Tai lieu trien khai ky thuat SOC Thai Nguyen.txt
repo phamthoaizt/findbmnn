@@ -1,0 +1,198 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+
+
+
+TÀI LIỆU THIẾT KẾ TRIỂN KHAI
+HỆ THỐNG GIÁM SÁT AN TOÀN THÔNG TIN CHO SỞ THÔNG TIN TRUYỀN THÔNG TỈNH THÁI NGUYÊN
+
+
+
+
+
+
+
+I. MỤC ĐÍCH - YÊU CẦU
+1.1. Mục đích
+Kế hoạch triển khai nhằm xây dựng hệ thống giám sát an toàn thông tin SOC (Security Operation Center) để tích hợp toàn diện, phục vụ cho việc giám sát và bảo vệ hệ thống cũng như dữ liệu của Sở Thông tin truyền thông tỉnh Thái Nguyên. Đảm bảo việc giám sát và bảo vệ được thực hiện ở nhiều tầng, phòng thủ theo chiều sâu ( Defense in Depth), bảo vệ hệ thống và dữ liệu ở mức cao, đồng thời quản lý được các rủi ro mất an toàn thông tin bên trong hệ thống.
+Hệ thống sẽ thực hiện các chức năng:
+- Tập hợp nguồn dữ liệu từ thiết bị mạng, các thông tin log từ hệ thống máy chủ, ứng dụng, CSDL, máy tính người dùng và các thông tin từ các hệ thống giải pháp ATTT khác nhằm phục vụ việc phân tích, giám sát, phát hiện các dạng tấn công xâm nhập, tấn công APT và bảo vệ hệ thống 
+- Khi các dấu hiệu cảnh báo về ATTT được xác định là các sự cố, lỗ hổng ATTT, việc phân tích, xử lý sẽ trở thành các ticket được quản lý bởi hệ thống và quy trình xử lý sự cố (ticket) phát sinh do hệ thống phát hiện được. Các luồng xử lý ticket có thể được tùy chỉnh để phù hợp với nghiệp vụ vận hành của đơn vị, vòng đời ticket được quản lý theo quy trình SOC.
+- Hệ thống SOC tạo ra một điểm giám sát tập trung toàn bộ các cảnh báo, sự kiện diễn ra trong toàn bộ hệ thống máy chủ, mạng. Phục vụ công tác trực giám sát cảnh báo bất thường về ATTT 24/7.
+	1.2. Yêu cầu
+- Quá trình rà soát, triển khai đảm bảo ATTT cho các hệ thống , nhằm tạo nền tảng để triển khai dài hạn các giải pháp, tuy nhiên cần đảm bảo không gây gián đoạn đến hoạt động của các hệ thống.
+- Quá trình triển khai tổng thể các giải pháp cần thực hiện theo lộ trình, hạn chế tối đa các rủi ro về an toàn thông tin có thể gặp phải.
+II. TRIỂN KHAI CHI TIẾT
+1. Mô hình mạng hệ thống
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
+
+                                                                                         VIETTEL CYBER SECURITY CENTER
+2. Mô tả 
+2.1. Tổng quan hệ thống
+Hệ thống SOC cho Sở TTTT Thái Nguyên bao gồm 7 server ảo hóa là các server giải pháp tập trung nằm trên hạ tầng ảo hóa Cloud của Sở và 01 server vật lý đóng vai trò làm nhiệm vụ nhận và phân tích các lưu lượng kết nối trong mạng DC của Sở. 
+Lưu lượng ra/vào internet của toàn bộ hệ thống sẽ được giám sát bằng cách mirror dữ liệu trên các switch cửa ngõ của các zone trong hệ thống, sau đó đẩy xuống sensor NSM. 	
+2.2. Mô tả chi tiết chức năng thành phần
+STT
+Máy chủ
+IP
+Chức năng
+1
+SIEM
+10.136.250.68
+Máy chủ SIEM cài đặt các giải pháp về thu thập và xử lý log do Công ty ANM Viettel tự phát triển. Máy chủ SIEM có nhiệm vụ thu thập log từ nhiều nguồn khác nhau: từ log endpoint (máy chủ, máy trạm), log lớp mạng (từ NSM sensor) đến các log các loại thiết bị bảo mật (Firewall, IPS, IDS…). Các loại log này được xử lý, phân tích để tìm ra các dấu hiệu mất ATTT, từ đó hệ thống sinh ra cảnh báo cho người quản trị, vận hành hệ thống.
+2
+NSM_SERVER
+10.136.250.64
+Máy chủ NSM server cài đặt các phần mềm do Công ty ANM Viettel tự phát triển, có nhiệm vụ nhận log lớp mạng từ các NSM sensor, sau đó gửi log này về SIEM để phân tích. Ngoài ra NSM server còn có nhiệm vụ health check các NSM sensor.
+3
+SE_API
+10.136.250.61
+Máy chủ SE API là thành phần giao tiếp giữa các máy chủ SE khác với máy chủ SIEM
+4
+SE_CA
+10.136.250.60
+Máy chủ SE CA là thành phần quản lý certificate của hệ thống
+5
+SE_SYNDIC
+10.136.250.62
+Máy chủ SE Syndic là thành phần trung gian đóng vai trò proxy trong kết nối từ agent lên master, chứa các file cài đặt agent và nhận nhật ký máy chủ từ các agent gửi về. 
+
+6
+SE_MASTER
+10.136.250.63
+Máy chủ SE master là thành phần server điều khiển, gửi các lệnh thực thi cho agent và nhận kết quả trả về
+7
+EDR
+10.136.250.66
+EDR là một giải pháp anti APT trên máy người dùng (sử dụng hệ điều hành Windows 7 trở lên) và máy chủ chạy Windows (từ Windows server 2008 trở lên). Giải pháp thu thập các hành vi trên máy người dùng, phân tích hành vi và xử lý tập trung, quản lý chính sách ATTT trên máy người dùng
+8
+NSM_SENSOR
+10.136.250.69
+NSM sensor cài đặt các module do Công ty ANM Viettel tự phát triển, có nhiệm vụ thu thập log từ các switch mạng, phân tích log và gửi về NSM server. Thành phần NSM sensor cũng có module để ghi full traffic raw trong 1 khoảng thời gian ngắn nhằm mục đích hỗ trợ cho việc forensic khi có sự cố ATTT
+9
+KAS_SERVER
+10.136.250.65
+Server KAS
+
+2.3. Mô tả chi tiết các giải pháp ATTT triển khai tại Sở TTTT Thái Nguyên
+2.3.1. Giải pháp chống APT lớp Endpoint (EDR)
+
+
+- EDR là giải pháp phát hiện và chống tấn công có chủ đích lớp Endpoint được xây dựng dựa trên các công nghệ mới nhất trên thế giới, phù hợp với mọi mô hình tổ chức và doanh nghiệp.
+- Các thiết bị máy tính khi cài đặt EDR sẽ được giám sát một cách toàn diện, đảm bảo loại bỏ tất cả các nguy cơ bị khai thác và chiếm quyền điều khiển.
+· Đặc tính kỹ thuật:
+- Giám sát các hành vi bất thường ở mức sâu trên máy chủ và máy trạm.
+- Phân tích hành vi và xử lý tập trung.
+- Quản lý thực thi chính sách an toàn thông tin trên Endpoint.
+- Cảnh báo kịp thời các mối nguy hại bất thường phất hiện trên Endpoint.
+- Cung cấp giao diện điều tra khép kín các cuộc tấn công: Detection – Investigation – Response.
+- Chiếm ít tài nguyên của máy chủ, máy trạm (<1%).
+- Thông tin các hành vi thu thập trên máy endpoint
+EventID
+Hành vi thu thập trên máy endpoint
+Ghi chú
+14
+Đổi tên registry key hoặc value
+
+12
+Tạo hoặc xóa một registry key/value
+
+13
+Tạo mới và ghi dữ liệu cho registry value
+
+1
+Tạo mới một process
+
+5
+Xóa một process
+
+10
+Truy cập vào một process đang chạy
+
+7
+Một Image được load
+
+22
+Ghi vào virual memory của một process
+
+8
+Tạo mới một remote thread
+
+6
+Một driver được load
+
+3
+Có kết nối network
+
+11
+Truy cập vào một file
+
+15
+Tạo một file stream
+
+9
+Truy cập trực tiếp vào sector của thiết bị lưu trữ ngoài
+
+17
+Một pipe được tạo
+
+18
+Một pipe được kết nối
+
+19
+Sự kiện WMIEventFilter
+
+20
+Sự kiện WMIEventConsumer
+
+21
+Sự kiện WMIEventComsumterToFilter
+
+2.3.2. Giải pháp quản lý, giảm sát ATTT trên máy chủ (SE)
+
+Hệ thống theo dõi hoạt động của các server theo thời gian thực, đảm bảo phát hiện kịp thời mọi hành vi bất thường và quản lý chính sách an toàn thông tin trên server.
+· Giải pháp Server Endpoint bao gồm 3 thành phần chính:
+ü Agent Server Endpoint Security (SES Agent): Là thành phần được cài đặt trên từng server, có nhiệm vụ thu thập các thông tin, sau đó gửi về cụm máy chủ xử lý tập trung.
+ü Cụm server xử lý tập trung và lưu trữ: Là thành phần xử lý dữ liệu do SES Agent cung cấp, đóng vai trò chính trong việc phân tích và xử lý dữ liệu theo thời gian thực.
+ü Thành phần Web Portal: Là thành phần mà người quản trị sẽ sử dụng để theo dõi, giám sát và đánh giá mức độ ATTT trên server dựa vào thông tin của hệ thống.
+· Các chức năng chính:
+ü Quản lý tài nguyên trên server: Giải pháp Server Endpoint Security cung cấp một giao diện với đầy đủ các thông tin cần thiết trên từng server: thông tin interface, các ứng dụng đang chạy trênserver, quản lý user, các outbound, crontab đang tồn tại trên server. Việc có một góc nhìn tổng thể về server một cách dễ dàng luôn là điều cần thiết đối với tổ chức.
+ü Kiểm soát thay đổi trên máy chủ: Tất cả các hành động bất thường của một mã độc trên máy chủ đều được ghi nhận, một cổng mới được mở trên máy chủ có thể là hành vi mở cửa hậu, thay đổi về hệ thống tài khoản có thể là hành vi khai thác các lổ hổng để tạo và nâng quyền hệ thống tài khoản, một tiến trình mới có thể là do kẻ tấn công tạo ra. Từng thay đổi nhỏ nhất trên máy chủ sẽ được ghi nhận và cảnh báo.
+ü Giám sát thay đổi ứng dụng Web: Sau khi khai thác một lỗ hổng ứng dụng web, để leo thang sâu vào hệ thống, kẻ tấn công phải thực hiện đưa webshell lên ứng dụng web. Tính năng này của Server Endpoint Security giúp phát hiện và ngăn chặn kịp thời hành vi của kẻ tấn công.
+ü Kiểm soát tuân thủ chính sách ATTT của tổ chức trên máy chủ: Các chính sách an toàn thông tin trên máy chủ được tạo ra để giảm thiểu rủi ro về ATTT đối với hệ thống. Tổ chức tạo các Baseline Security cho từng thành phần của hệ thống như hệ điều hành, cơ sở dữ liệu, thiết bị mạng, thiết bị bảo mật, webserver… Tuy nhiên, thách thức đặt ra là việc duy trì thực thi chính sách trên diện rộng của tổ chức là một vấn đề khó vì các quản trị hệ thống thường tìm cách bypass các chính sách này. Server Endpoint Security giúp tổ chức kiểm soát việc thực hiện baseline security trên diện rộng. Quản trị hệ thống có thể nhìn thấy tình trạng thực hiện chính sách trên từng điểm, từng dịch vụ, từng máy chủ.
+· Đặc tính kỹ thuật:
+- Quản lý profile máy chủ.
+- Quản lý và cảnh báo tác động, thay đổi trên máy chủ.
+- Quản lý thực thi chính sách ATTT trên máy chủ dựa trên các baseline security.
+- Giám sát các thông tin interface, các ứng dụng đang chạy, các outbound, crontab tồn tại trên máy chủ.
+- Giám sát thay đổi của ứng dụng Web.
+o Các tin thu thập trên máy chủ của agent:
+STT
+Đối tượng
+Cơ chế hoạt động
+Lệnh hoặc loại lệnh
+Tần suất chạy
+Module
+1
+Windows
+Lấy thông tin HĐH
+wmic bios get serialnumber
+wmic cpu get name
+ipconfig
+5 phút/ lần
+vsm.profile
+Kiểm tra trạng thái Web server IIS
+wmic service where (name="WAS" or name="W3SVC") get State /format:list
+5 phút 1 lần
+vsm.profile
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
+Tài liệu thuộc sở hữu của Tập đoàn Viễn thông Quân đội, nghiêm cấm mọi hình thức sao chép,chia sẻ trái phép
+20/20
+

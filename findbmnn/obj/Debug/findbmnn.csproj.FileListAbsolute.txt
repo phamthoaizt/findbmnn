@@ -37,3 +37,4 @@ E:\Csharps\findbmnn\findbmnn\obj\Debug\findbmnn.csproj.CopyComplete
 E:\Csharps\findbmnn\findbmnn\obj\Debug\findbmnn.exe
 E:\Csharps\findbmnn\findbmnn\obj\Debug\findbmnn.pdb
 D:\Csharps\findbmnn\findbmnn\bin\Debug\Aspose.Words.dll
+E:\Csharps\findbmnn\findbmnn\bin\Debug\Aspose.Words.dll

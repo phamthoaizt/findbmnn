@@ -1,0 +1,120 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+Tài liệu cài đặt EDR Agent và Phần mềm diệt virus Kaspersky tại máy trạm
+(Áp dung người dùng tại Sở/ngành/địa phương)
+
+
+
+
+Mục lục
+PHẦN I: GIỚI THIỆU GIẢI PHÁP EDR&AV	3
+1.	Tổng quan Giải pháp giám sát bất thường trên máy trạm - Endpoint Detection and Response (EDR) và phần mềm diệt virus	3
+2.	Đặc tính kỹ thuật:	4
+3.	Phương án triển khai hệ thống:	4
+4.	Hiệu quả:	5
+PHẦN 2: HƯỚNG DẪN TRIỂN KHAI EDR&AV	6
+1. Yêu cầu đảm bảo cài đặt	6
+1.1 Hệ điều hành	6
+1.2 Cấu hình phần cứng	6
+1.3 Kết nối mạng	6
+2. Hướng dẫn cài đặt	6
+
+
+PHẦN I: GIỚI THIỆU GIẢI PHÁP EDR&AV
+1. Tổng quan Giải pháp giám sát bất thường trên máy trạm - Endpoint Detection and Response (EDR) và phần mềm diệt virus
+
+Mô hình triển khai giải pháp EDR
+
+Mô hình kết nối giữa hệ thống mã độc tỉnh Thái Nguyên 
+Endpoint Detection & Response (EDR) là giải pháp phát hiện và chống tấn công có chủ đích và diệt virus lớp Endpoint được xây dựng dựa trên các công nghệ mới nhất trên thế giới, phù hợp với mọi mô hình tổ chức và doanh nghiệp.
+Các thiết bị máy tính khi cài đặt EDR sẽ được giám sát một cách toàn diện, đảm bảo loại bỏ tất cả các nguy cơ bị khai thác và chiếm quyền điều khiển, phát hiện và diệt các loại virus dựa theo chữ ký của virus.
+Các mã độc được phát hiện tại Thái Nguyên sẽ được chia sẻ với hệ thống quản lý mã độc của các cơ quan chức năng và ngược lại.
+2. Đặc tính kỹ thuật:
+- Giám sát các hành vi bất thường ở mức sâu trên máy chủ và máy trạm.
+- Phát hiện và diệt virus.
+- Phân tích hành vi và xử lý tập trung.
+- Quản lý thực thi chính sách an toàn thông tin trên Endpoint.
+- Cảnh báo kịp thời các mối nguy hại bất thường phất hiện trên Endpoint.
+- Cung cấp giao diện quản lý các máy trạm tập trung, điều tra khép kín các cuộc tấn công: Detection – Investigation – Response.
+- Cung cấp API để hệ thống khác có thể kết nối và chia sẻ các thông tin tổng hợp thống kê trên hệ thống.
+- Chiếm ít tài nguyên của máy chủ, máy trạm (<1%).
+3. Phương án triển khai hệ thống:
+Hệ thống EDR (Endpoint Detection and Response) được triển khai dưới dạng Client-Server. Với các thành phần Endpoint Agent được cài đặt trên các máy trạm. Có nhiệm vụ giám sát chính sách cấu hình ATTT và các dấu hiệu bất thường trên máy tính, gửi nhật ký về máy chủ quản trị tập trung.
+
+4. Hiệu quả:
+- Ngăn chặn phát hiện sớm các cuộc tấn công mới và chưa biết (Zero day attacks) theo thời gian thực.
+- Tích hợp với các giải pháp bảo mật khác để ra quyết định bảo vệ chính xác và tức thì.
+- Nâng cao bảo mật với việc chia sẻ thông tin tấn công tới hệ thống quản lý sự kiện an ninh, các chuyên gia an ninh mạng sớm tìm ra tấn công và đưa ra các mẫu tấn công.
+
+PHẦN 2: HƯỚNG DẪN TRIỂN KHAI EDR&AV
+1. Yêu cầu đảm bảo cài đặt
+1.1 Hệ điều hành
+Tương thích cài đặt với các máy Windows 7, Windows Server 2008 R2 và các phiên bản mới hơn.
+1.2 Cấu hình phần cứng
+Yêu cầu tối thiểu:
+- RAM 2GB
+- CPU 1 core
+1.3 Kết nối mạng
+Đảm bảo thông kết nối tới hệ thống quản lý tập trung 10.136.250.66 (IP local) hoặc 222.255.41.178 (IP public) theo các port (8888, 4443, 5672, 80, 443, 8443)
+2. Hướng dẫn cài đặt
+2.1. Kiểm tra phiên bản Windows:
+- Chuột phải vào biểu tượng hình máy tính trên màn hình desktop.
+- Chọn Properties.
+- Đọc thông tin dòng: System type là 64-bit hoặc 32-bit.
+
+
+
+
+
+
+
+
+
+
+2.2. Đổi tên máy
+
+- Chuột phải vào biểu tượng hình máy tính trên màn hình desktop.
+- Chọn Properties.
+- Chọn Change settings.
+- Chọn Change..
+- Gõ tên máy tính trong mục Computername theo quy tắc: [Tên viết tắt của đơn vị cha]_[Tên viết tắt của đơn vị con]_[Mail người dùng]
+Tên máy tính đặt theo định dạng sau:
+
+Sau khi nhập xong têm máy chọn OK và khởi động lại máy tính.
+
+2.3. Download file cài đặt. Cần download 02 file để thực hiện cài đặt.
+Link download file cài đặt https://222.255.41.178/repo/
+Phần mềm Agent EDR:
+- VEDR_1.0.1_x64.msi  với máy có System type là 64-bit  
+- VEDR_1.0.1_x86.msi với máy có System type là 32-bit
+Phần mềm Antivirus Kaspersky
+- Kav_internet.exe  với máy có System type là 64-bit  hoặc 32-bit
+
+2.4.  Cài đặt 
+ü Phần mềm EDR Agent
+Chuột phải vào phân mềm cần cài đặt. Chọn Run as administrator
+
+Chọn Next
+
+Chọn Next
+
+Chọn Instal. Đợi phần mềm thực hiện quá trình cài đặt
+
+Chọn finish để hoàn thành cài đặt
+
+ü Phần mềm antivirus kaspersky
+Chuột phải vào phân mềm cần cài đặt. Chọn Run as administrator
+
+Chọn Start installation Đợi phần mềm thực hiện quá trình cài đặt
+
+
+Chọn OK. Để hoàn thành cài đặt
+
+
+Trong quá trình cài đặt, nếu phát sinh các vấn đề bất thường hoặc yêu cầu hướng dẫn, vui lòng liên hệ:
+1. Ông: Bùi Bá Khôi - Chuyên viên CNTT - Viettel Thái Nguyên. SĐT: 0983.204.979
+2. Ông: Trần Văn Quý - Chuyên viên CNTT - Viettel Thái Nguyên. SĐT: 0868.749.888
+
+--------------------- Hết ----------------------------
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
+3

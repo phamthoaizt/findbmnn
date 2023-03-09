@@ -1,0 +1,69 @@
+﻿2
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+CÔNG AN TỈNH THÁI NGUYÊN
+PHÒNG AN NINH MẠNG & PCTP 
+SỬ DỤNG CÔNG NGHỆ CAO
+
+
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+
+Thái Nguyên, ngày       tháng 01 năm 2023
+PHÊ DUYỆT CỦA Đ/C
+PHÓ GIÁM ĐỐC CÔNG AN TỈNH
+
+
+
+
+
+Đại tá Đặng Văn Khoa
+
+
+KẾ HOẠCH
+V/v truy vết, điều tra làm rõ hành vi tấn công mạng 
+vào hệ thống thông tin của các sở, ngành trên địa bàn tỉnh Thái Nguyên
+
+Kính gửi: 
+Đ/c Đại tá Đặng Văn Khoa - Phó Giám đốc Công an tỉnh.
+ 	
+Thực hiện ý kiến chỉ đạo của Lãnh đạo Công an tỉnh tại văn bản số 284/UBND-NC ngày 27/12/2022 của UBND tỉnh Thái Nguyên về việc khắc phục việc tấn công mạng vào hệ thống thông tin trên địa bàn tỉnh Thái Nguyên; Phòng PA05 xây dựng kế hoạch với những nội dung sau:
+* Tóm tắt nội dung vụ việc: Vào hồi 14h00 ngày 15/12/2022, trên hệ thống quản lý văn bản và điều hành của các đơn vị: Văn phòng UBND tỉnh; Sở Văn hóa, Thể thao và Du lịch tỉnh; Sở Lao động Thương binh và Xã hội tỉnh, xảy ra sự cố không thể đăng nhập vào hệ thống để làm việc. Sau khi nhận được thông tin về việc xảy ra sự cố trên Trung tâm Công nghệ thông tin và Truyền thông - Sở Thông tin và Truyền thông tỉnh đã tiến hành đăng nhập vào hệ thống máy chủ dữ liệu phát hiện toàn bộ dữ liệu quản lý văn bản và điều hành của các đơn vị trên đã bị xóa, kẻ tấn công để lại tin nhắn có nội dung tống tiền chuộc dữ liệu bằng tiếng anh, kèm theo địa chỉ email “sqlrecov4813@proton.me” (có hình ảnh kèm theo).
+Hiện nay, Sở Thông tin và Truyền thông tỉnh đang phối hợp với đơn vị phát triển phẩn mềm (Công ty phát triển phần mềm Unitech, địa chỉ tại số 02 Quang Trung, TP. Đà Nẵng) tiến hành khôi phục cơ sở dữ liệu để đưa hệ thống vào hoạt động bình thường như trước khi bị tấn công.
+I. MỤC ĐÍCH, YÊU CẦU
+- Thu thập tài liệu, xác minh làm rõ nội dung, tính chất vụ việc.
+- Kịp thời điều tra làm rõ vụ việc, trách nhiệm các bên liên quan và và xử lý nghiêm theo đúng quy định của pháp luật. 
+- Quá trình xác minh, thu thập tài liệu phải đảm bảo khách quan, toàn diện, đầy đủ, chính xác kịp thời, đúng pháp luật. 
+- Chấp hành đúng quy trình công tác và chế độ thông tin báo cáo.
+II. NỘI DUNG BIỆN PHÁP TIẾN HÀNH
+1. Phối hợp với Sở Thông tin và Truyền thông tỉnh tiến hành thu thập toàn bộ file log, dữ liệu của máy chủ web, file nghi ngờ là virus,… để tiến hành phân tích log, phân tích mã nguồn (có sự hỗ trợ từ Cục A05 - Bộ Công an) để xác định quy mô, tính chất, hậu quả của vụ tấn công.
+2. Làm việc với cán bộ, lãnh đạo các phòng ban, trung tâm trực thuộc Sở Thông tin và Truyền thông tỉnh có chức năng, nhiệm vụ đảm bảo an toàn thông tin, an ninh mạng đối với hệ thống thông tin bị tấn công mạng làm rõ việc trực ứng cứu khi có vụ việc tấn công mạng có thực hiện theo đúng quy trình hay không? công tác chỉ đạo, tham mưu thực hiện các bản vá lỗ hổng bảo mật, nâng cấp phần mềm cho hệ thống từ khi đi vào hoạt động đến khi bị tấn công?
+3. Làm việc với Công ty phát triển phần mềm Unitech làm rõ các điều khoản trong hợp đồng thiết kế, phát triển hệ thống của các sở, ngành trên địa bàn tỉnh Thái Nguyên.
+4. Tiếp tục củng cố hồ sơ, tài liệu đối chiếu các quy định của pháp luật, quy định của UBND tỉnh nếu phát hiện dấu hiệu vi phạm đề xuất hình thức xử lý theo đúng quy định.
+III. THỜI GIAN: kể từ ngày 09/01/2023 đến khi kết thúc.
+IV. TỔ CHỨC THỰC HIỆN
+1. Phân công nhiệm vụ
+- Chỉ đạo chung: Đ/c Trung tá Dương Tất Thành - Phó trưởng phòng.
+- CBCS tham gia: gồm các đ/c Ngô Xuân Hà, Ngô Văn Hà, Tạ Hồng Hà, Nguyễn Anh Tuấn, Đỗ Tiến Thịnh, Phạm Anh Đức.
+2. Phương tiện sử dụng, kinh phí hỗ trợ
+- Phương tiện: ô tô, mô tô cá nhân.
+- Kinh phí hỗ trợ: sử dụng các nguồn kinh phí đã được phân bổ cho đơn vị.
+Trong quá trình thực hiện kế hoạch phải khẩn trương và thường xuyên báo cáo tình hình, kết quả về Giám đốc Công an tỉnh để chỉ đạo./.
+Nơi nhận:
+- Đ/c Trưởng phòng: Báo cáo;
+- Lưu PA05 (Đ1)/Độ mật:MẬT (02b)
+
+
+STVB: Đ/c Hà
+Tài liệu được phép sao, chụp
+
+KT. TRƯỞNG PHÒNG
+PHÓ TRƯỞNG PHÒNG
+
+
+
+
+
+Trung tá Dương Tất Thành
+ 
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

@@ -1,0 +1,54 @@
+﻿3
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+
+BIÊN BẢN LÀM VIỆC
+V/v liên quan đến truy vết, điều tra làm rõ hành vi tấn công mạng vào hệ thống thông tin của các sở, ngành trên địa bàn tỉnh Thái Nguyên
+
+
+Hồi ............ giờ …….... ngày 11 tháng 01 năm 2023 tại Sở Thông tin và Truyền thông tỉnh Thái Nguyên.
+Chúng tôi gồm:
+1. Đại diện Sở Thông tin và Truyền thông tỉnh gồm:
+- Đ/c Đào Ngọc Tuất - Phó Giám đốc Sở Thông tin và Truyền thông tỉnh.
+- Đ/c Vũ Đình Giang - Phó Giám đốc phụ trách Trung tâm Công nghệ thông tin và truyền thông, Sở Thông tin và Truyền thông.
+- Đ/c  Tạ Tuấn Dũng - Trưởng phòng Quản trị hệ thống và An ninh mạng, thuộc Trung tâm Công nghệ thông tin và truyền thông, Sở Thông tin và Truyền thông. 
+- Đ/c Phạm Văn Nối - Phó Trưởng phòng Quản trị hệ thống và An ninh mạng, thuộc Trung tâm Công nghệ thông tin và truyền thông, Sở Thông tin và Truyền thông.
+2. Đại điện Cục A05 - Bộ Công an gồm:
+- Đ/c Đại úy Phạm Ngọc Huy - cán bộ Phòng 8, Cục A05 - Bộ Công an.
+- Đ/c Thượng úy Nguyễn Hổng Hải - cán bộ Phòng 8, Cục A05 - Bộ Công an.
+3. Đại diện Công an tỉnh Thái Nguyên gồm:
+- Đ/c Trung tá Dương Tất Thành - Phó trưởng Phòng PA05.
+- Đ/c Thiếu tá Ngô Xuân Hà - Đội trưởng Phòng PA05.
+- Đ/c Thượng úy Tạ Hồng Hà - cán bộ Phòng PA05.
+Tiến hành làm việc về nội dung sau: liên quan đến truy vết, điều tra làm rõ hành vi tấn công mạng vào hệ thống thông tin của các sở, ngành trên địa bàn tỉnh Thái Nguyên.
+KẾT QUẢ LÀM VIỆC
+1. Sở Thông tin và Truyền thông tỉnh thông tin vụ việc tấn công mạng xảy ra ngày 15/12/2022, vào máy chủ web lưu trữ cơ sở dữ liệu của 03 đơn vị: Văn phòng UBND tỉnh, Sở Văn hóa thể thao và du lịch, Sở Lao động thương binh và lao động xã hội. Hậu quả: kẻ tấn công đã xóa toàn bộ cơ sở dữ liệu và để lại tin nhắn đòi tiền chuộc.
+2. Cục A05 - Bộ Công an trao đổi:
+- Đề nghị Sở Thông tin và Truyền thông tỉnh cung cấp sơ bộ thông tin, cấu trúc của máy chủ web lưu trữ cơ sở dữ liệu của 03 đơn vị trên, cung cấp sơ đồ logic và vật lý hệ thống máy chủ; file log của hệ thống tường lửa, hệ thống SOC.
+3. Công an tỉnh 
+Đề nghị Sở Thông tin và Truyền thông tỉnh cung cấp hồ sơ, tài liệu liên quan đến quy chế
+Hồ sơ thể hiện lịch trực
+
+
+
+
+Đ/c Phạm Văn Nối cung cấp thông tin sau: Vào hồi 14h ngày 15/12/2022 xảy ra cuộc tấn công mạng vào máy chủ web lưu trữ cơ sở dữ liệu của 03 đơn vị: Văn phòng UBND tỉnh, Sở Văn hóa thể thao và du lịch, Sở Lao động thương binh và lao động xã hội. Hậu quả: kẻ tấn công đã xóa toàn bộ cơ sở dữ liệu và để lại tin nhắn đòi tiền chuộc.
+ Ngay sau khi xảy ra sự cố, Trung tâm Công nghệ thông tin và truyền thông đã tiến hành cô lập hệ thống máy chủ web bị tấn công. Khôi phục lại dữ liệu sao lưu để phục hồi hoạt động bình thường của các đơn vị.
+Bước đầu, xác định đây là cuộc tấn công leo thang đặc quyền từ người dùng của hệ thống. Kẻ tấn công tải file thực thi lên nhiều lần, nhằm mục đích khai thác máy chủ cơ sở dữ liệu, kẻ tấn công xóa hết cơ sở dữ liệu, xóa toàn bộ nhật ký hoạt động của máy chủ web và để lại tin nhắn đòi tiền chuộc; thời gian diễn ra từ ngày 13/12/2022.
+Thông tin hệ thống: máy chủ web của 03 đơn vị đang chạy trên Window server 2008 r2, Apche 2.2.8, tường lửa cứng juniper SRX 1500.
+Biên bản làm việc kết thúc hồi       giờ      ngày    tháng 12 năm 2022, biên bản được lập thành 03 bản, một bản được giao cho Sở Thông tin và Truyền thông tỉnh, một bản giao cho Công an tỉnh, một bản giao cho Cục A05 - Bộ Công an. 
+Biên bản này đã đọc cho những người có tên trên nghe công nhận đúng và ký tên xác nhận dưới đây./.
+SỞ THÔNG TIN VÀ TRUYỀN THÔNG TỈNH
+CÔNG AN TỈNH
+
+
+
+
+
+CỤC A05 - BỘ CÔNG AN
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

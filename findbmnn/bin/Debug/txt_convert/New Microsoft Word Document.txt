@@ -1,0 +1,48 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+Việc xử phạt vi phạm hành chính có lập biên bản được quy định tại khoản 1 Điều 57 Luật Xử lý vi phạm hành chính 2012, cụ thể: khi phát hiện vi phạm hành chính thuộc lĩnh vực quản lý của mình, người có thẩm quyền đang thi hành công vụ phải kịp thời lập biên bản, trừ trường hợp xử phạt cảnh cáo hoặc phạt tiền đến 250.000 đồng đối với cá nhân và 500.000 đồng đối với tổ chức.
+Bước 1: Lập biên bản vi phạm hành chính.
+Bước 2: Xác minh tình tiết của vụ việc vi phạm hành chính.
+Khi xem xét ra quyết định xử phạt vi phạm hành chính, trong trường hợp cần thiết người có thẩm quyền xử phạt có trách nhiệm xác minh các tình tiết được quy định tại Điều 59 Luật Xử lý vi phạm hành chính 2012: 
+- Có hay không có vi phạm hành chính; 
+- Cá nhân, tổ chức thực hiện hành vi vi phạm hành chính, lỗi, nhân thân của cá nhân vi phạm hành chính; 
+- Tình tiết tăng nặng, giảm nhẹ; 
+- Tính chất, mức độ thiệt hại do vi phạm hành chính gây ra; 
+- Trường hợp không ra quyết định xử phạt vi phạm hành chính:
++ Trường hợp không xử phạt vi phạm hành chính do thực hiện hành vi vi phạm hành chính trong tình thế cấp thiết, do phòng vệ chính đáng, sự kiện bất ngờ, sự kiện bất khả kháng;
++ Không xác định được đối tượng vi phạm hành chính; 
++ Hết thời hiệu xử phạt vi phạm hành chính hoặc hết thời hạn ra quyết định xử phạt; 
++ Cá nhân vi phạm hành chính chết, mất tích, tổ chức vi phạm hành chính đã giải thể, phá sản trong thời gian xem xét ra quyết định xử phạt;
++ Chuyển hồ sơ vụ vi phạm có dấu hiệu tội phạm.
++ Tình tiết khác có ý nghĩa đối với việc xem xét, quyết định xử phạt.
+Bước 3: Xác định giá trị tang vật vi phạm hành chính để làm căn cứ xác định khung tiền phạt và thẩm quyền xử phạt.
+Trong trường hợp cần xác định giá trị tang vật, phương tiện vi phạm hành chính để làm căn cứ xác định khung tiền phạt, thẩm quyền xử phạt, người có thẩm quyền đang giải quyết vụ việc phải xác định giá trị tang vật, phương tiện và phải chịu trách nhiệm về việc xác định đó theo quy định tại Điều 60 Luật Xử lý vi phạm hành chính 2012 sửa đổi, bổ sung 2020
+Bước 4: Giải trình: 
+Đối với hành vi vi phạm hành chính mà pháp luật quy định áp dụng hình thức xử phạt tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn hoặc áp dụng mức phạt tiền tối đa của khung hình phạt đối với hành vi đó từ 15.000.000 đồng trở lên đối với cá nhân, từ 30.000.000 đồng trở lên đối với tổ chức thì cá nhân, tổ chức vi phạm có quyền giải trình trực tiếp hoặc bằng văn bản với người có thẩm quyền xử phạt vi phạm hành chính theo quy định tại Điều 61 Luật Xử lý vi phạm hành chính 2012 được sửa đổi bởi Khoản 30 Điều 1 Luật Xử lý vi phạm hành chính sửa đổi 2020.
+Bước 5: Chuyển hồ sơ vụ vi phạm
+Khi xem xét vụ vi phạm để quyết định xử phạt vi phạm hành chính, nếu xét thấy hành vi vi phạm có dấu hiệu tội phạm, thì người có thẩm quyền xử phạt phải chuyển ngay hồ sơ vụ vi phạm cho cơ quan tiến hành tố tụng hình sự theo khoản 1 Điều 62 Luật Xử lý vi phạm hành chính 2012.
+Đối với vụ việc do cơ quan có thẩm quyền tiến hành tố tụng hình sự thụ lý, giải quyết, nhưng sau đó lại có một trong các quyết định không khởi tố vụ án hình sự, quyết định hủy bỏ quyết định khởi tố vụ án hình sự, quyết định đình chỉ điều tra, quyết định đình chỉ vụ án, quyết định đình chỉ vụ án đối với bị can, miễn trách nhiệm, hình sự theo bản án nếu hành vi có dấu hiệu vi phạm hành chính thì cơ quan có thẩm quyền tiến hành tố tụng hình sự phải chuyển quyết định nêu trên kèm theo hồ sơ, tang vật, phương tiện của vụ vi phạm (nếu có) và văn bản đề nghị xử phạt vi phạm hành chính đến người có thẩm quyền xử phạt vi phạm hành chính trong thời hạn 03 ngày làm việc, kể từ ngày quyết định có hiệu lực theo quy định tại Điều 63 Luật Xử lý vi phạm hành chính 2012 sửa đổi bổ sung bởi khoản 31 Điều 1 Luật Xử lý vi phạm hành chính sửa đổi 2020.
+Thẩm quyền xử lý vi phạm hành chính về hàng giả, hàng kém chất lượng thuộc về ai?
+Tùy theo mức phạt tiền mà thẩm quyền xử phạt vi phạm hành chính của Quản lý thị trường về hàng giả, hàng kém chất lượng cũng thay đổi theo quy định tại Điều 82 Nghị định 98/2020/NĐ-CP sửa đổi bổ sung bởi khoản 45 Điều 3 Nghị định 17/2022/NĐ-CP, cụ thể:
+- Kiểm soát viên thị trường đang thi hành công vụ có quyền: 
++ Phạt cảnh cáo; 
++ Phạt tiền đến 500.000 đồng.
+- Đội trưởng Đội Quản lý thị trường, Trưởng phòng Nghiệp vụ thuộc Cục Nghiệp vụ quản lý thị trường có quyền: 
++ Phạt cảnh cáo; 
++ Phạt tiền đến 25.000.000 đồng; 
++ Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 50.000.000 đồng; 
++ Áp dụng các biện pháp khắc phục hậu quả, trừ biện pháp Buộc đưa ra khỏi lãnh thổ nước Cộng hoà xã hội chủ nghĩa Việt Nam hoặc tái xuất hàng hóa, vật phẩm, phương tiện;.
+- Cục trưởng Cục Quản lý thị trường cấp tỉnh, Cục trưởng Cục Nghiệp vụ quản lý thị trường thuộc Tổng cục Quản lý thị trường có quyền: 
++ Phạt cảnh cáo; 
++ Phạt tiền đến 50.000.000 đồng; 
++ Tịch thu tang vật, phương tiện vi phạm hành chính; 
++ Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; 
++ Áp dụng các biện pháp khắc phục hậu quả.
+- Tổng cục trưởng Tổng cục Quản lý thị trường có quyền:
++ Phạt cảnh cáo; 
++ Phạt tiền đến mức tối đa quy định tại Nghị định này; 
++ Tịch thu tang vật, phương tiện vi phạm hành chính; 
++ Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; 
++ Áp dụng các biện pháp khắc phục hậu quả.
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

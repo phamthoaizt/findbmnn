@@ -1,0 +1,106 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+TỔNG HỢP CHIA SẺ BUỔI OFFLINE 27/7/2019
+
+Hi, buổi Off có mang theo giấy bút nhưng lu bu quá nên giờ mới chép lại được cho anh em ko tham gia.
+
+Cảm ơn đội ngũ Min/Mod đã tổ chức 1 buổi off rất bổ ích, và gần như là Official của "ngành" Ad Breaks VN  vào 1 ngày ko thể matched hơn, 27/7 :))) Bản thân mình đây, buổi sáng bị TKT buổi chiều đi Off, đắng :)) 
+
+
+
+Thôi, đi thẳng vào vấn đề, nếu ghi chép sai gì thì anh em nói mình sửa lại nhé.
+
+1. Xây dựng page và quản trị (Shark Nguyễn Tuấn Dương )
+
+- Xây nhiều page, chỉ chạy Ad, mỗi page ngân sách 2 triệu quay đầu và target quảng cáo rộng. Cách làm của Dương là BKT đúng thời điểm được đề xuất để "ăn nhanh", thường vài ngày đến 10 ngày page chết thì làm page mới.
+
+- Mỗi page 1 QTV 3 BTV, 1 TK nhà quảng cáo riêng
+
+- Tìm content viral: chịu khó lướt Watch, để ý content nào hay thì ngoài chia sẻ còn chú ý đến tương tác cụ thể như icon Tim, Haha…. để hiểu được phản ứng chung của người xem về video.
+
+- Phân biệt đề xuất video và đề xuất page: đề xuất page là khi có nhiều video được đề xuất cùng lúc, và phía trên trái khi xem video có hiện số người đang xem
+
+2. Kinh nghiệm mua page và cách chọn ngách / key (Shark Việt Nguyễn )
+
+- Khi mua page cần lưu ý: page 60-70% là video, có video được đề xuất là tốt, ví dụ các video trung bình vài chục K view, có 1,2 video view vượt hẳn vài trăm k hay triệu view => page đã từng được đề xuất.
+
+- Ko nên đá ngay Admin cũ ra dễ bị bóp reach, mà hãy chuyển xuống BTV
+
+- Chọn hướng content: nên chọn những video mà người xem sẽ xem đến cuối, ví dụ có nhiều giai đoạn / bước, xem bước này thì sẽ muốn xem bước sau. Ví dụ như video sản xuất 1 sản phẩm gì đó, how-to videos, cụ thể các bạn nghiên cứu thêm nha.
+
+3. Về kiểm soát chất lượng trang (Shark Huỳnh PC)
+
+- Đây có lẽ là giai đoạn của Bán content, anh em làm thuần Reup rất khó => nên edit, chèn text, thay nhạc để video khác đi
+
+- Trường hợp bị đánh gậy: Nick BTV đăng bài nên là nick có email thật, để khi bị đánh gậy thì sẽ có mail thông báo về bên đánh gậy, có thể đàm phán gỡ gậy
+
+- Phần Hình thì FB chưa gắt lắm, nhưng phần Tiếng thì FB bắt khá chặt, nên anh em lưu ý
+
+- Page có thể pha cả "content sạch", dù ko cần view nhưng FB có thể đánh giá page có tỷ lệ content tốt
+
+- Video nào ko còn view thì xóa đi tránh rủi ro, để ít video thôi cũng được, vid nào ngon thì bơm ad 50k / ngày
+
+- Video bạn làm kiểu gì, nếu như mang lại giá trị cho người dùng thì đều được FB đánh giá cao
+
+- TK payment rất quan trọng, ae lưu ý nên để nhiều nick cầm payment phòng nick bị die
+
+- Hiện tại team của Huỳnh làm nhiều mảng gồm cả reup, bán content và mua content xịn của bọn Tây lông => cũng là 1 hướng đi cho anh em.
+
+4. Người có đam mê bất tận đối với SPAM (Shark Anh -)
+
+- Cách bạn làm là xây hệ thống "tự động bằng cơm": tức là nuôi 30 nhân viên đi spam vào các group, view ngoại nên RPM cao, mỗi ngày mỗi nhân viên $30 x 30 nv là shark cũng có 1k dắt túi rồi  Spam bằng tay chứ ko spam bằng tool, nên bền hơn.
+
+- 1 nick chỉ share 5 lần 1 ngày
+
+- 1 post chỉ nên share dưới 20 phát, 3 ngày sau lại 20 phát khác (cái này mình ko chắc chắn lắm)
+
+5. Chia sẻ rất hay của 1 bạn khán giả có tên Donny Chu :)))
+
+- Khi tạo nick FB thì IP lúc tạo quan trọng hơn là IP khi login sử dụng, nên mua Proxy thì sẽ tốt hơn là dùng addon fake IP
+
+- Làm content thì nên có 1 con RM phòng thân
+
+- Cách sử dụng RM: đăng lên kho tham chiếu để ở chế độ âm thầm giám sát, tức là hệ thống sẽ báo trùng content với những bên nào. Nếu trùng trên 3 bên thì ko nên dùng video đó. Nếu video ko phải của mình thì sau khi test nên xóa béng đi, để là có khi 1 ngày RM ra đi.
+
+- Nếu làm thị trường nước ngoài thì nên tham khảo Google trends và các công cụ 'social listening', build theo trend sẽ nhanh lên
+
+6. Quản lý dòng tiền khi làm MMO (Rất quan trọng nè) Shark Khanh
+
+- Không bỏ trứng vào 1 giỏ, nên có nhiều nguồn thu khác nhau
+
+- Xây dựng dòng tiền bền vững, cân đối thu - chi, để sao cho nếu 6 tháng sau ko làm ra tiền thì vẫn sống được
+
+- Áp dụng quy luật 80/20, nên làm có tập trung chứ đừng đẽo cày giữa đường thấy ai làm gì hay cũng làm
+
+- Nên có 1 Quỹ tái đầu tư hoặc là Dự phòng tài chính để có thể mở rộng và giảm thiểu rủi ro
+
+7. TUT tránh bóp reach:
+
+- Việt: người hãy quên em đi
+
+- Huỳnh: để đấy 7 ngày sau đăng reach lại về
+
+- Anh An Ta: chọn video nào ngon nhất livestream, sau đó chạy quảng cáo đến Fans cho video đó, tầm 7 ngày
+
+8. TUT nội dung không nguyên gốc: edit, edit và edit.
+
+9. TUT Kháng lỗi tương tác giả của bác An Ta:
+
+- Chụp ảnh biểu đồ quảng cáo (chart) có ID của bài đăng và kháng theo link kháng nội dung / đối tác phổ biến đó, chờ 7 ngày
+
+- Chỉ áp dụng với page mà traffic chủ yếu đến từ AD, bác An Ta đã kháng 3 về 2
+
+- Mình cũng thử làm nhưng giờ FB auto reply rồi, vài tiếng đã có trả lời, và xịt
+
+10. TUT bật kiếm tiền lại page đã tắt:
+
+- Xóa toàn bộ video, post
+
+- Đăng 5-6 video content sạch, đừng có trùng với bên nào
+
+- Đợi khoảng 20 ngày
+
+- TUT này trước khi nghe tại buổi Off mình cũng có nghe 1 bạn khác chia sẻ trên group, anh em thử xem
+
+Lời cuối: Cảm ơn Ban Quản Trị rất nhiều vì 1 buổi Off rất chất lượng & bổ ích. Mọi người rất nhiệt tình và hòa đồng!
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

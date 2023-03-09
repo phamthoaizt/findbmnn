@@ -1,0 +1,48 @@
+﻿2
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+
+BIÊN BẢN LÀM VIỆC
+V/v thu thập tài liệu phục vụ truy vết, điều tra 
+làm rõ hành vi tấn công mạng vào hệ thống thông tin của 
+Văn phòng UBND tỉnh, Sở Văn hóa, Thể thao và Du lịch tỉnh và Sở Lao động - Thương binh và xã hội tỉnh
+
+
+
+Hồi ............ giờ …….... ngày      tháng 02 năm 2023 tại Sở Thông tin và Truyền thông tỉnh Thái Nguyên.
+Chúng tôi gồm:
+- Thành phần của Sở Thông tin và Truyền thông tỉnh Thái Nguyên
+1. Đ/c Đào Ngọc Tuấn - Phó Giám đốc Sở.
+2. Đ/c Vũ Đình Giang - Phó Giám đốc phụ trách Trung tâm CNTT và Truyền thông.
+3. Đ/c Tạ Tuấn Dũng - Trưởng phòng QTHT và ANM, Trung tâm CNTT và Truyền thông.
+- Thành phần của Công an tỉnh Thái Nguyên:
+1. Đ/c Thiếu tá Ngô Xuân Hà - Đội trưởng, Phòng PA05.
+2. Đ/c Thượng úy Tạ Hồng Hà - cán bộ Phòng PA05.
+Tiến hành làm việc về nội dung sau: thu thập tài liệu phục vụ truy vết, điều tra làm rõ hành vi tấn công mạng vào hệ thống thông tin của Văn phòng UBND tỉnh, Sở Văn hóa, Thể thao và Du lịch tỉnh và Sở Lao động - Thương binh và xã hội tỉnh.
+KẾT QUẢ LÀM VIỆC
+Tại buổi làm việc Sở Thông tin và Truyền thông tỉnh trao đổi như sau:
+Liên quan đến việc triển khai hệ thống quản lý văn bản và điều hành của 03 đơn vị trên: các hệ thống trên được triển khai theo chỉ đạo của UBND tỉnh. Thời gian triển khai: hệ thống của Sở Văn hóa, Thể thao và Du lịch tỉnh và Sở Lao động - Thương binh và xã hội tỉnh được triển khai năm 2014, hệ thống của Văn phòng UBND tỉnh được triển khai năm 2016; do Sở Thông tin và Truyền thông tỉnh trực tiếp tham mưu thực hiện, trong đó đã lựa chọn Công ty UNITECH là nhà thầu cung cấp, triển khai hệ thống quản lý văn bản đi đến và hỗ trợ điều hành.
+Các đơn vị gồm Văn phòng UBND tỉnh, Sở Văn hóa, Thể thao và Du lịch tỉnh và Sở Lao động - Thương binh và xã hội tỉnh đều là đơn vị thụ hưởng, khai thác tính năng của phần mềm, không trực tiếp làm gói thầu với đơn vị phát triển phần mềm.  
+Nhiệm vụ duy trì, vận hành hệ thống, sao lưu dữ liệu, lưu trữ thông tin điện tử của hệ thống để đảm bảo an toàn, an ninh mạng, bảo mật thông tin của hệ thống quản lý văn bản (trong đó có 03 hệ thống quản lý văn bản và điều hành bị tấn công ngày 15/12/2022) theo quy định hiện hành được giao cho Trung tâm CNTT và Truyền thông tỉnh thuộc Sở Thông tin và Truyền thông tỉnh theo Quyết định số 28/2018/QĐ-UBND ngày 03/12/2018 về việc Ban hành Quy chế quản lý, vận hành và sử dụng hệ thống phần mềm Quản lý văn bản và điều hành liên thông trên địa bàn tỉnh Thái Nguyên.
+Quá trình thực hiện nhiệm vụ đã triển khai rà soát, gỡ bỏ mã độc cho 03 hệ thống trên (tổng số … lần, có tài liệu kèm theo).
+Đồng thời, đã xây dựng hồ sơ đề xuất cấp độ của hệ thống thông tin theo quy định của Bộ Thông tin và Truyền thông (đối chiếu các quy định của Bộ 03 hệ thống này thuộc mức độ 2, có tài liệu kèm theo).
+Tài liệu cung cấp: 
+- Tài liệu liên quan đến phê duyệt chủ trương triển khai hệ thống quản lý văn bản điều hành các đơn vị: Văn phòng UBND tỉnh, Sở Văn hóa, Thể thao và Du lịch tỉnh và Sở Lao động - Thương binh và xã hội tỉnh.
+- Tài liệu thể hiện kết quả rà soát, gỡ bỏ mã độc cho 03 hệ thống quản lý văn bản và điều hành của các đơn vị: Văn phòng UBND tỉnh, Sở Văn hóa, Thể thao và Du lịch tỉnh và Sở Lao động - Thương binh và xã hội tỉnh từ khi đưa vào sử dụng đến nay.
+- Tài liệu thể hiện hồ sơ đề xuất cấp độ của hệ thống thông tin.
+Biên bản làm việc kết thúc hồi …….... giờ …….... ngày     tháng 02 năm 2023, được lập thành 02 bản, mỗi bên giữ một bản.
+Biên bản này đã đọc cho những người có tên trên nghe công nhận đúng và ký tên xác nhận dưới đây./.
+Đại diện Sở TT&TT
+Thành phần tham gia
+Cán bộ lập biên bản
+
+
+
+
+
+
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

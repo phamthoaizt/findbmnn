@@ -1,0 +1,41 @@
+﻿2
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+
+BIÊN BẢN LÀM VIỆC
+V/v thu thập tài liệu phục vụ truy vết, điều tra làm rõ 
+hành vi tấn công mạng vào hệ thống thông tin của các sở, ngành trên địa bàn tỉnh Thái Nguyên
+
+
+Hồi ............ giờ …….... ngày 31 tháng 01 năm 2023 tại Sở Lao động, Thương binh và xã hội tỉnh Thái Nguyên.
+Chúng tôi gồm:
+I. Thành phần của Sở Lao động, Thương binh và xã hội tỉnh
+
+
+
+II. Thành phần của Công an tỉnh
+1. Đ/c Ngô Xuân Hà - Đội trưởng, Phòng PA05.
+2. Đ/c Thượng úy Tạ Hồng Hà - cán bộ Phòng PA05.
+Tiến hành làm việc về nội dung sau: thu thập tài liệu phục vụ truy vết, điều tra làm rõ hành vi tấn công mạng vào hệ thống thông tin của các sở, ngành trên địa bàn tỉnh Thái Nguyên.
+KẾT QUẢ LÀM VIỆC
+1. Tại buổi làm việc đồng chí Phạm Văn Nối trao đổi thông tin như sau:
+
+
+
+
+- Toàn bộ dữ liệu máy chủ chứa dữ liệu của hệ thống quản lý văn bản điều hành Văn phòng UBND tỉnh từ khi đưa vào sử dụng đến ngày 15/12/2022.
+- File log của hệ thống SOC thu thập được từ tường lửa cứng juniper SRX 1500 của Trung tâm Dữ liêu tỉnh, thời gian từ 11h30’ ến 14h30’ ngày 15/12/2022.
+Toàn bộ dữ liêu trên được lưu trữ trên 01 (một) ổ cứng di động, bàn giao cho đồng chí Tạ Hồng Hà phục vụ công tác điều tra truy vết việc tấn công mạng vào hệ thống thông tin của các sở, ngành trên địa bàn tỉnh Thái Nguyên.
+Biên bản làm việc kết thúc hồi …….... giờ …….... ngày 16 tháng 01 năm 2023, được lập thành 02 bản, mỗi bên giữ một bản.
+Biên bản này đã đọc cho những người có tên trên nghe công nhận đúng và ký tên xác nhận dưới đây./.
+Đại diện Trung tâm Công nghệ thông tin và truyền thông
+Cán bộ lập biên bản
+
+
+
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

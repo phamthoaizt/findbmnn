@@ -1,0 +1,42 @@
+﻿2
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+
+BIÊN BẢN LÀM VIỆC
+V/v thu thập tài liệu phục vụ truy vết, điều tra 
+làm rõ hành vi tấn công mạng vào hệ thống thông tin của Sở Lao động - Thương binh và xã hội tỉnh
+
+
+Hồi ............ giờ …….... ngày 31 tháng 01 năm 2023 tại Sở Lao động - Thương binh và xã hội tỉnh Thái Nguyên.
+Chúng tôi gồm:
+- Thành phần của Sở Lao động - Thương binh và xã hội tỉnh
+1. Đ/c Phạm Hoàng Hải - Phó Giám đốc Sở.
+2. Đ/c Nguyễn Đức Dân - Phó chánh Văn phòng.
+3. Đ/c Hà Thế Kiền - nhân viên Văn phòng(phụ trách công nghệ thông tin).
+- Thành phần của Công an tỉnh
+1. Đ/c Ngô Xuân Hà - Đội trưởng, Phòng PA05.
+2. Đ/c Thượng úy Tạ Hồng Hà - cán bộ Phòng PA05.
+Tiến hành làm việc về nội dung sau: thu thập tài liệu phục vụ truy vết, điều tra làm rõ hành vi tấn công mạng vào hệ thống thông tin của Sở Lao động - Thương binh và xã hội tỉnh.
+KẾT QUẢ LÀM VIỆC
+Tại buổi làm việc Sở Lao động - Thương binh và xã hội tỉnh trao đổi thông tin như sau:
+Hiện nay, Sở Lao động - Thương binh và xã hội tỉnh đang sử dụng hệ thống quản lý văn bản và điều hành tại địa chỉ https://qlvbsoldtbxh.thainguyen.gov.vn/. 
+Phần mềm hệ thống quản lý văn bản và điều hành tại địa chỉ trên được giao cho Sở Lao động - Thương binh và xã hội tỉnh sử dụng từ năm 2014, sở chỉ là đơn vị thụ hưởng, khai thác tính năng của phần mềm, không trực tiếp làm hợp đồng với đơn vị phát triển phần mềm. Tài liệu liên quan phần mềm mềm hệ thống quản lý văn bản và điều hành Sở Lao động - Thương binh và xã hội tỉnh sẽ cung cấp cho Công an tỉnh sau (thời hạn: trước ngày 06/2/2023).
+Tại thời điểm làm việc, trên phần mềm hệ thống quản lý văn bản và điều hành sở đang có 162 tài khoản đang hoạt động (có 04 tài khoản bị khóa) cho cán bộ và các trung tâm trực thuộc sở để sử dụng.
+Trong thời gian 02 ngày 14/12/2022 và 15/12/2022, trên hệ thống quản lý văn bản và điều hành có địa chỉ như trên sở phát hiện xảy ra sự cố không thể truy cập được vào hệ thống; ngay sau khi xảy ra sự cố sở đã thông báo ngay cho Sở Thông tin và Truyền thông tỉnh để khắc phục sự cố trên; đến ngày 16/12/2022, sự cố đã được khắc phục, hệ thống trở lại hoạt động bình thường.
+Biên bản làm việc kết thúc hồi …….... giờ …….... ngày 31 tháng 01 năm 2023, được lập thành 02 bản, mỗi bên giữ một bản.
+Biên bản này đã đọc cho những người có tên trên nghe công nhận đúng và ký tên xác nhận dưới đây./.
+Đại diện Sở LĐTB&XH
+Thành phần tham gia
+Cán bộ lập biên bản
+
+
+
+
+
+
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

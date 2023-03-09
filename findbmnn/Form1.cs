@@ -16,6 +16,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
 // lib thao tac file word
 using Aspose.Words;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace findbmnn
 {
@@ -122,7 +123,9 @@ namespace findbmnn
                             bool detectkey = false;
                             foreach (string searchString in listKeys)
                             {
-                                if (content.Contains(searchString))
+                                Regex myRegex = new Regex(searchString);
+                                var results = myRegex.Matches(content);
+                                if (results.Count > 0)
                                 {
                                     AppendTextBox("Tìm thấy chuỗi '" + searchString + "' trong file " + pathfileword, 1);
                                     // thiết lập file chứa kết quả
@@ -182,25 +185,12 @@ namespace findbmnn
             await Task.WhenAll(tasks);
 
             // tạo file lưu path 
-            List<string> uniquepathfileword = listFileDoc.Distinct().ToList();
-
-
             string subPath = CreateFolder("save_data");
-            string pathResultSearchString = subPath + @"\resultLoadFileWord.txt";
-            if (File.Exists(pathResultSearchString))
-            {
-                File.Delete(pathResultSearchString);
-                File.Create(pathResultSearchString);
-            }
-            else
-            {
-                File.Create(pathResultSearchString);
-            }
-            foreach(string pathfile in uniquepathfileword)
-            File.WriteAllText(pathResultSearchString, pathfile + Environment.NewLine);
+            string filename = "resultLoadFileWord.txt";
+            List<string> resultFileLoaded = listFileDoc;
+            SaveAllText(filename, resultFileLoaded);
 
             buttonLoadDisk.Enabled = false;
-
         }
 
         private void buttonResult_Click(object sender, EventArgs e)
@@ -262,8 +252,16 @@ namespace findbmnn
             else
             {
                 string[] contentfiles = contentfile.ToArray();
-                // File đã tồn tại - nối thêm nội dung
-                File.AppendAllLines(fullpath, contentfiles);
+                // File đã tồn tại - xóa, thêm nội dung
+                File.Delete(fullpath);
+                File.Create(fullpath);
+                using (StreamWriter writer = new StreamWriter(fullpath, true))
+                {
+                    foreach (string content in contentfile)
+                    {
+                        writer.WriteLine(content);
+                    }
+                }
                 AppendTextBox("File đã tồn tại", 3);
                 AppendTextBox("Đã lưu tiếp tại đường dẫn: " + fullpath, 3);
             }
