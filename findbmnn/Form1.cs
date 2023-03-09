@@ -89,7 +89,7 @@ namespace findbmnn
             }
             else
             {
-                // lấy keyword để tìm
+                // lấy keyword để tìm kiếm
                 CheckKeyWords();
                 List<string> listpathfileword = File.ReadAllLines(fullpath).ToList();
                 // tạo đường dẫn chứa kết quả
