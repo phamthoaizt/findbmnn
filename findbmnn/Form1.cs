@@ -1,22 +1,17 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.ComTypes;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using IFilterTextReader;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
-
 // lib thao tac file word
 using Aspose.Words;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
+using GhostscriptSharp;
+using Tesseract;
+using iText.Kernel.Pdf;
 
 namespace findbmnn
 {
@@ -30,15 +25,20 @@ namespace findbmnn
 
         List<string> listFileDoc;
         List<string> listKeys;
+        List<string> listFilePDF;
+        //Tessdata Folder
+        string training_data = Directory.GetCurrentDirectory() + @"data\vie.traineddata";
 
         private void Init()
         {
             listFileDoc = new List<string>();
             listKeys = new List<string>();
+            listFilePDF = new List<string>();
         }
 
 
         #region code xử lý giao diện
+        
         // hàm hiển thị log
         public void AppendTextBox(string value, int stylevalue)
         {
@@ -70,6 +70,44 @@ namespace findbmnn
                 richTextBoxLog.ScrollToCaret();
             }
         }
+        // tìm kiếm file pdf 
+        private void buttonSearchpdf_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void FindContentPDF(string input_path, string output_path)
+        {
+            PdfReader pdf = new PdfReader(input_path);
+            PdfDocument pdfDoc = new PdfDocument(pdf);
+            int n = pdfDoc.GetNumberOfPages();
+            pdf.Close();
+            using (IResultRenderer renderer = Tesseract.PdfResultRenderer.CreatePdfRenderer(output_path, training_data, false))
+            {
+                using (renderer.BeginDocument("Serachablepdftest"))
+                {
+                    for (int i = 1; i <= n; i++)
+                    {
+
+                        GhostscriptWrapper.GeneratePageThumbs(input_path, "example" + i + ".jpg", i, n, 200, 200);
+                        string configurationFilePath = training_data;
+                        string configfile = Path.Combine(training_data, "pdf.ttf");
+                        using (TesseractEngine engine = new TesseractEngine(configurationFilePath, "eng", EngineMode.TesseractAndLstm, configfile))
+                        {
+                            using (var img = Pix.LoadFromFile("example" + i + ".jpg"))
+                            {
+                                using (var page = engine.Process(img, "Serachablepdftest"))
+                                {
+                                    renderer.AddPage(page);
+
+                                }
+                            }
+                        }
+                        Console.WriteLine("Page " + i + "done\n");
+                    }
+                }
+            }
+        }
 
         // xử lý nút tìm kiếm
 
@@ -93,16 +131,9 @@ namespace findbmnn
                 CheckKeyWords();
                 List<string> listpathfileword = File.ReadAllLines(fullpath).ToList();
                 // tạo đường dẫn chứa kết quả
-                string pathResultSearchString = currentDirectory + @"\save_data\resultSearchString.txt";
-                if (File.Exists(pathResultSearchString))
-                {
-                    File.Delete(pathResultSearchString);
-                    File.Create(pathResultSearchString);
-                }
-                else
-                {
-                    File.Create(pathResultSearchString);
-                }
+                string pathResultSearchString = currentDirectory + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + @"\save_data\resultSearchString.txt";
+                File.Create(pathResultSearchString);
+
                 // tạo folder chứa kết quả convert file txt
                 string pathsavefoldertxt = CreateFolder("txt_convert");
                 DeleleAllFile(pathsavefoldertxt);
@@ -110,7 +141,6 @@ namespace findbmnn
                 foreach (string pathfileword in listpathfileword)
                 {
                     // khởi tạo task đối với từng file word
-
                     tasks.Add(Task.Run(() =>
                     {
                         try
@@ -141,9 +171,9 @@ namespace findbmnn
                                 File.AppendAllText(pathResultSearchString, pathfileword + Environment.NewLine);
                             }
                         }
-                        catch (Exception ex)
+                        catch
                         {
-                            AppendTextBox("Không đọc được file: " + ex.ToString(), 3);
+                            AppendTextBox("Không đọc được file: " + pathfileword, 3);
                         }
                     }));
 
@@ -174,6 +204,7 @@ namespace findbmnn
                     {
                         FindDocs(d.Name, "*.doc", true);
                         FindDocs(d.Name, "*.docx", true);
+                        FindDocs(d.Name, "*.pdf", true);
                     }
                     catch
                     {
@@ -186,9 +217,12 @@ namespace findbmnn
 
             // tạo file lưu path 
             string subPath = CreateFolder("save_data");
-            string filename = "resultLoadFileWord.txt";
+            string filenameword = "resultLoadFileWord.txt";
+            string filenamepdf = "resultLoadFilePDF.txt";
             List<string> resultFileLoaded = listFileDoc;
-            SaveAllText(filename, resultFileLoaded);
+            List<string> resultFileLoadPDF = listFilePDF;
+            SaveAllText(filenameword, resultFileLoaded);
+            SaveAllText(filenamepdf, resultFileLoadPDF);
 
             buttonLoadDisk.Enabled = false;
         }
@@ -257,7 +291,7 @@ namespace findbmnn
                 File.Create(fullpath);
                 using (StreamWriter writer = new StreamWriter(fullpath, true))
                 {
-                    foreach (string content in contentfile)
+                    foreach (string content in contentfiles)
                     {
                         writer.WriteLine(content);
                     }
@@ -329,6 +363,7 @@ namespace findbmnn
             }
         }
         #endregion
+
 
     }
 }
