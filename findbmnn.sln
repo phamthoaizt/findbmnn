@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findbmnn", "findbmnn\findbm
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "findbmnn-export", "findbmnn-export\findbmnn-export.vdproj", "{E8391738-BEA4-4A1F-BEDF-133F68652CCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOrcPDF", "TestOrcPDF\TestOrcPDF.csproj", "{85122C4F-31E4-418A-8A9D-3016658817C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{76F9A3BA-181C-4158-9F76-5EA6A9DB0B04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E8391738-BEA4-4A1F-BEDF-133F68652CCC}.Debug|Any CPU.ActiveCfg = Debug
 		{E8391738-BEA4-4A1F-BEDF-133F68652CCC}.Release|Any CPU.ActiveCfg = Release
+		{85122C4F-31E4-418A-8A9D-3016658817C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85122C4F-31E4-418A-8A9D-3016658817C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85122C4F-31E4-418A-8A9D-3016658817C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85122C4F-31E4-418A-8A9D-3016658817C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

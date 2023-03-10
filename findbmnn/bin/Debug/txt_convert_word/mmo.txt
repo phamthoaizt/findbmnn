@@ -1,0 +1,767 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+TỔNG QUAN VỀ POD DROPSHIP
+Bài khá dài anh em chịu khó đọc để bắt đầu được tốt nhất.
+
+POD là gì, bản chất của POD: Bán áo thun là cụm từ hay dùng nhất để nói ngắn gọn về bán pod nhưng POD lại rộng lớn hơn rất nhiều cái cụm từ “bán áo thun” Ngoài bán áo thun ra bạn còn có thể bán cốc, mũ, khăn, sịp, khẩu trang vân vân và vân vân.. nói chung là cái cái gì in được lên và có bên nó in lên và ship cho khách hàng của bạn (suppilers) thì đó là POD. vậy bản chất bạn “làm”POD là bạn bán cái gì? Simple is the best, hiểu đơn giản đó chính là bạn bán cái artwork bạn dùng để in lên cái áo thun, cái cốc, sịp, hay khẩu trang vv... và vv đó. Bạn có png artwork>>upload lên mockup áo, cốc, mũ...>>>chạy quảng cáo link sản phẩm, làm sao tiếp cận được đến nhiều khách hàng nhất, spam đến họ nhiều nhất có thể>> đếm sale
+Artwork về chủ đề (niche) có rất nhiều niche từ sạch đến trade mark: chó, mèo, lợn, gà, y tá, cựu chiến binh, phim, ca nhạc, ca sĩ, thể thao, đội bóng, bệnh tật (tự kỉ, ung thư, packison...) nói chung là tất cả các sở thích của người mua, miễn sao là họ mua cái sản phẩm có in hình niche họ thích.
+Bài viết này tôi sẽ đi thẳng vào việc review và làm sao để chỉ sau bài viết này là bạn làm được luôn, chứ tôi ko đi vào định nghĩa thêm, bla bla các khái niệm cơ bản,
+- Các bước bán POD ăn liền bao gồm:
++ Nghiên cứu sp: nói thì nguy hiểm nhưng lên tool mà tìm các sp các sellers khác làm được rồi, bán được rồi, tìm các post có lượng like share lớn, niche trade mark nặng mà bóc nền hoặc tự redesign hoặc ko làm đc thì thuê design
++ Upload design đó lên mockup đem chạy ads (Fb ads, GG ads, Twiter Ads, Pinterest Ads, Instagram Ads, Amazon ads và mọi nguồn ads khác) >> có tiền về tài khoản
++ Fullfillment và support: In artwork lên sản phẩm và ship đi cho khách, chăm sóc khách hàng bằng email hoặc phone
+Nghiên cứu sản phẩm: có hai hướng
+- Tự lên design về idea, tự built cho mình 1 brand theo chủ đề (niche): Cái này không phải là không có nhưng ít sellers đi theo hướng này từ đầu, thường là sau khi đã bán được hoặc có vốn, data khách hàng rồi thì mới bắt đầu, thường là các niche sạch như chó, mèo, lợn, gà, y tá, ...
+- Clone bóc nền hoặc redesign lại rồi chạy: Lên tool spypro.io kiếm các post nào nhiều like 1 tí, theo dõi xem nó tăng like ra làm sao, tương tác của khách hàng ntn rồi clone đem về upload lên của mình lấy link đăng post mà chạy ads, hoặc nói thằng toẹt là lấy thẳng cái mockup hay nội dung content của họ đem về mà bán. Anh em black UG mới vào cái ý tưởng và cái cách tìm ra sản phẩm này còn bỡ ngỡ, nhưng được cái ae black UG có lượng ngân sách lớn để test nên cách làm này nhanh và đang được anh em xài nhiệt tình hehe
+Bán POD gồm bán trên platform được cung cấp bởi một bên thứ 3 và bán trên trên nền tảng tự mình xây dựng
+1. Bán trên platform được cung cấp bởi 1 bên thứ 3 platform:
+Bán POD trên platform được khuyến khích cho newbie mới bắt đầu tham gia thị trường, vì các lợi ích và bất cập:
+- Nhanh: bạn chỉ việc có PNG artwork (tự design hoặc bóc nền-phần lớn anh em vào nghề hầu như là đi clone và bóc nền của những sp đang bán được
+- Không phải lo lắng về cổng thanh toán và việc fullfill sau khi bán, profit được các bên thứ 3 trả trực tiếp cho anh em qua tài khoản payoneer, paypal hoặc wire trực tiếp về bank cho anh em
+- Bất cập: Anh em ko lấy được tiền ngay, thường là sau 3 ngày bên platform họ mới trả anh em, và nếu anh em vi phạm rules của họ, là họ đéo trả, nhiều platform còn bẩn bựa, tính sai profit, trừ phí vô tội vạ và thậm chí đéo trả tiền anh em, khóa mẹ tài khoản lại với lý do bạn vi phạm chính sách của họ, mặc dù check khách hàng vẫn in và chuyển sản phẩm đến khách hàng, cái này điển hình là thằng merch amazon và thằng mặt lồn teechip
+Các platform thứ 3 điển hình anh em nên chơi bao gồm:
+- Teechip: thằng này là của thằng tàu, giả danh mỹ, sản phẩm in ra cực kì kém chất lượng, nó có thằng fullfill đằng sau là scaleale express, hiện tại các plf khác cũng lọ mọ đến ìn qua thằng scaleable express này, đến bây giờ tôi cũng đéo hiểu tại sao nó tồn tại được, nhưng về site của nó thì đúng là ngon số 1, anh em newbie black UG đều biết đến nó, trước nó bảo kê cho team chạy donate trong thành phố hồ chí minh, bị facebook ban đỏ domain teechip.com, đéo hiểu sao nó lại chạy lại được, rồi nó cũng ra thằng pro.teechip và domain riêng, nhưng nếu bạn đen, fb nó phát hiện vẫn chết tk hoặc page một cách mà bạn đéo thể hiểu nổi với 1 câu nói “em bán sạch mà vẫn chết”
+*bán donate là một dạng bán hàng kêu gọi người mua 1 cái áo 24 đô và hứa sẽ quyên góp vào quỹ abc nào đó số tiền 25$, đương nhiên là làm lồn gì có chuyện quyên góp, nghe đâu 1 ngày các bạn ấy bán được từ 10k đến 23k áo, vụ donate nổi tiếng trong lịch sử làng pod. đứng sau vụ donate này là thằng teechip với nhiều góc khuất rất là vl, kèm theo nhiều sellers Ko ra mặt và người đứng referal cho teechip rất là có tiếng trong làng áo thun.
+- Moteefe: plf này thì quá quen với anh em black mới vào nghề, moteefe là 1 con kì lân của anh, làm platform thì lỗ sấp mặt lồn ra nhưng được cái kêu gọi vốn thì rất ok, anh em black vào clone sản phẩm và vã moteefe với những tấm gương 100k solds, 200k solds mọc như nấm, anh em cười như phá cỗ, mua nhà mua mẹc ầm ầm, hehe nhưng tuyền anh em lên vẫn kêu chạy grab với bình vôi
+- Teehag: lom dom từ rất lâu rồi, plf khá cùi, công nghệ dạo gần đây khá hơn, tuy nhiên anh em vẫn review là tỉ lệ chuyển đổi hơi kém
+- Hotting Rocket: Là đứa con riêng của sunfrog, cho phép anh em bán trade mark và cũng có nhiều rủi ro bán trên đây
+- Các platform cổ như Viralstyle, Gearlaunch, Sunfrog..: Anh em có thể tự tìm hiểu, nhưng các plf này khá là khó chơi và yêu cầu sellers chặt chẽ, ko mở đường như 2 con plf trên
+- Merchize: Merchize là plf việt, Merchize là bản sao hoàn hảo công nghệ site của teechip và là platform cho phép ae không chỉ bán các sản phẩm POD mà có thể bán dropship các sản phẩm POD và các sản phẩm vật lý khác, tôi sẽ nói thêm về Merchize trong phần tiếp vì nó liên quan đến phần quan trọng đằng sau
+- Shopbase: Là một platform nói thằng toẹt là clone của anh bạn shopify, cái tinh hoa của mấy anh tây, shopbase bê hết về, plf này tôi cũng nói đến phần sau
+
+2. Domain riêng
+Đến vấn đề chính tôi muốn đề cập đến đó là cách chạy dropship các sản phẩm POD trên domain riêng của chính mình ko phụ thuộc vào platform thứ 3 nào (anh em liu í các plf teechip, moteefe, gearlaunch, viralstyle cũng có domain riêng, nhưng ko thuộc phạm trù tôi đề cập đến ở đây):
+Ưu điểm:
+- Anh em bán cái đéo gì cũng được trên cái của mình, Anh em bán giá nào cũng đc, mà không lo bị take down, xóa camp abc như các bên plf, cái này ae nào lâu trong nghề mới thấy nó quan trọng đến ntn
+- Anh em tạo domain riêng chạy domain riêng, tự fullfill, tự support khách hàng, tự tìm nhà cung cấp các sản phẩm anh em bán, nên về nguồn sản phẩm POD anh em có thể bán bất cứ thứ gì miễn là in lên được, cái này các plf trên bị hạn chế nhiều, ae bán các hàng trade mark nặng đến cực nặng như LV, gucci, harley davidson, life is good, và các sản phẩm đa dạng như tshirt, áo hawai, quần legging, áo 3d, chăn, quilt blanket, giầy dạng nike, das... nói chung là ae bán bất cứ thứ gì mà ae bán đc và full fill đc
+Nhược điểm:
+- Anh em bắt buộc phải lo phần cổng thanh toán để nhận tiền về: Stripe, paypal, 2checkout, square up ...
+CÁI NÀY LÀ CÁI KHÓ NHẤT, và là cái rào cản lớn nhất cho ae newbie mới vào nghề muốn chiến đấu trên cái nền tảng gọi là của mình.
+- Ae bắt buộc phải tự fullfill các sản phẩm mình bán ra, tức là ae phải trực tiếp tìm nhà sản xuất áo, cốc, mũ... gửi design cho nhà sản xuất in và gửi ship cho khách
+- Rủi ro lớn nữa là anh em có khả năng bị scam bởi chính nhà sản xuất (trung quốc) nếu anh em ko biết chính xác nó là thằng nào, uy tín hay ko
+- Rủi ro nữa là ship hàng bị mất, hải quan bắt giữ, đơn vị nhận trung gian người việt ko care đc các phần này ...
+- Anh em phải tự giải quyết các vấn đề liên quan đến khách hàng, như support, hủy đơn, sai địa chỉ, bị mở case paypal stripe, vân vân và vân vân
+Có khó khăn thì có cách gỡ khó khăn, bài này viết ra để hướng dẫn anh em gỡ khó khăn:
+To nhất là cổng thanh toán: Anh em nên dùng stripe, square up, paypal vì các cái này dễ kiếm, dễ mua và nuôi tuy tốn công nhưng nuôi được
+Stripe: anh em black nào thì cũng chơi thằng stripe này nhiều rồi, nó là thằng hiểu nó thì chơi cực ngon
+Paypal: Anh em hiểu paypal thì chơi paypal khá tiện, tiền chuyển tk sang tk chỉ 1 cái enter, nhận tiền nhanh, nhưng hold và limit thì vcl, giờ pp còn có quả refund về resever của paypal (tức là nó đéo trả tiền ae) sau khi hold 180days , nhưng ko có nó thì ae vớt sale cũng khó
+Các cổng khác như 2checkout, square up, cái gì cũng mua được, anh em chịu khó tìm, và cứ vã thằng bán mà hỏi
+Còn nuôi cổng này nó cũng như nuôi con mọn, phải từ từ, lên dần dần và thời gian lâu, ae phải kiên trì
+
+
+TỔNG HỢP TÀI LIỆU BUỔI 1
+Tài liệu sẽ update liên tục tại đây anh em nhé
+Link shop mua via US
+http:/ /www .accfb 247. com/
+Ngoài ra còn một số shop khác anh em lưu ý nạp
+tiền vào đây không lên nạp nhiều lần nào nạp lần đó thôi
+Nick trên đây là nick người dùng mỹ thật về anh em đỡ phải tương tác
+Anh em lập nick mà die thì dùng cái trên cho nhanh
+Link shop mua tài khoản VPN giá rẻ
+https://bit.ly/2VVvBqi
+https://bit.ly/3e3GQ6w
+Link tool SPY
+https:// dmmspy. com/
+Tài khoản cho anh em nào chưa có điều kiện có thể dùng chung:
+
+Tài khoản dmmspy: muctieu10trieudo@gmail.com
+pass mới : Underground
+1. Trên máy tính
+Extension Fake IP: https://bit.ly/3e2qE5v
+Extension check Pixel: https://bit.ly/3e8v6zz
+Extension dịch tiếng anh: https://bit.ly/2O49vgZ
+Extension Authenticator: https://bit.ly/3e6tJBs
+2. Trên điện thoại
+Fake ip thì dùng Zenmate hoặc HMA
+Lên dùng icloud mỹ, tắt định vị mà mic
+
+
+
+
+Tổng hợp các plugin cơ bản dành cho wordpress
+Gắn nhiều pixel free google Analytics vào website 1 cách dễ dàng có điều anh em lên mạng tìm key free điền vào nhé
+https://vi.wordpress.org/plugins/pixelyoursite/
+Gắn cổng thanh toán paypal và Stripe 
+https://vi.wordpress.org/.../woocommerce-gateway-paypal.../
+https://vi.wordpress.org/plugins/woocommerce-gateway-stripe/
+plugin tạo cache 
+https://vi.wordpress.org/plugins/wp-super-cache/
+cài thằng này xem báo cáo oder trên điện thoại
+https://wordpress.org/plugins/jetpack/
+Cấu hình gửi mail WP Mail SMTP
+https://vi.wordpress.org/plugins/wp-mail-smtp/
+Email cho khách hàng dùng thằng 
+https://vi.wordpress.org/plugins/klaviyo/
+Hoặc thằng WooCommerce Cart Abandonment Recovery cứu đơn
+https://wordpress.org/plugins/woo-cart-abandonment-recovery/
+Xuất order ra excel gửi cho supllier
+https://vi.wordpress.org/plugins/woo-order-export-lite/
+đồng bộ tracking number từ supllier với woo
+https://vi.wordpress.org/.../aftership-woocommerce-tracking/
+đồng bộ tracking number lên paypal, email tracking cho khách
+https://codecanyon.net/.../woocommerce-orders.../26062993
+Tạo danh mục sản phẩm Facebook đồng bộ với website chạy camp retarget 
+https://vi.wordpress.org/plugins/product-catalog-feed/
+4. Link shop mua via US
+http://www. accfb 247. com/
+Ngoài ra còn một số shop khác anh em lưu ý nạp
+tiền vào đây không lên nạp nhiều lần nào nạp lần đó thôi
+Nick trên đây là nick người dùng mỹ thật về anh em đỡ phải tương tác
+Anh em lập nick mà die thì dùng cái trên cho nhanh
+5. Link shop mua tài khoản VPN giá rẻ
+https://bit.ly/2VVvBqi
+https://bit.ly/3e3GQ6w
+6. Link tool SPY
+https :// dmmspy . com/
+7. Trên máy tính
+• Extension Fake IP: https://bit.ly/3e2qE5v
+• Extension check Pixel: https://bit.ly/3e8v6zz
+• Extension dịch tiếng anh: https://bit.ly/2O49vgZ
+• Extension Authenticator: https://bit.ly/3e6tJBs
+8. Trên điện thoại
+• Fake ip thì dùng Zenmate hoặc HMA
+• Lên dùng icloud mỹ, tắt định vị mà mic
+9. List các plugin wordpress
+https://www.facebook.com/.../permalink/1497509347106051/
+10. Tổng hợp các plugin cơ bản dành cho wordpress
+• Gắn nhiều pixel free google Analytics vào website 1 cách dễ dàng có điều anh em lên
+mạng tìm key free điền vào nhé
+https://vi.wordpress.org/plugins/pixelyoursite/
+• Gắn cổng thanh toán paypal và Stripe
+https://vi.wordpress.org/.../woocommerce-gateway-paypal.../
+https://vi.wordpress.org/plugins/woocommerce-gateway-stripe/
+• plugin tạo cache
+https://vi.wordpress.org/plugins/wp-super-cache/
+• cài thằng này xem báo cáo oder trên điện thoại
+https://wordpress.org/plugins/jetpack/
+• Cấu hình gửi mail WP Mail SMTP
+https://vi.wordpress.org/plugins/wp-mail-smtp/
+• Email cho khách hàng dùng thằng
+https://vi.wordpress.org/plugins/klaviyo/
+• Hoặc thằng WooCommerce Cart Abandonment Recovery cứu đơn
+https://wordpress.org/plugins/woo-cart-abandonment-recovery/
+• Xuất order ra excel gửi cho supllier
+https://vi.wordpress.org/plugins/woo-order-export-lite/
+• đồng bộ tracking number từ supllier với woo
+https://vi.wordpress.org/pl…/aftership-woocommerce-tracking/
+• đồng bộ tracking number lên paypal, email tracking cho khách
+https://codecanyon.net/.../woocommerce-orders.../26062993
+• Tạo danh mục sản phẩm Facebook đồng bộ với website chạy camp retarget
+https://vi.wordpress.org/plugins/product-catalog-feed/• Check ipv6: https://test-ipv6.com/
+• Link check ip: https://browserleaks.com/ip
+• Link check domain: https://developers.facebook.com/tools/debug/
+• Link check vị trí: https://www.facebook.com/primary_location/info
+II: Khái quát
+1) Khái niệm POD
+- Bán áo thun là cụm từ hay dùng nhất để nói ngắn gọn về bán pod nhưng POD lại rộng lớn hơn
+rất nhiều cái cụm từ “bán áo thun” Ngoài bán áo thun ra bạn còn có thể bán cốc, mũ, khăn, sịp,
+khẩu trang vân vân và vân vân.. nói chung là cái cái gì in được lên và có bên nó in lên và ship
+cho khách hàng của bạn (suppilers) thì đó là POD. vậy bản chất bạn “làm”POD là bạn bán cái
+gì? Simple is the best, hiểu đơn giản đó chính là bạn bán cái artwork bạn dùng để in lên cái áo
+thun, cái cốc, sịp, hay khẩu trang vv... và vv đó. Bạn có png artwork>>upload lên mockup áo,
+cốc, mũ...>>>chạy quảng cáo link sản phẩm, làm sao tiếp cận được đến nhiều khách hàng nhất,
+spam đến họ nhiều nhất có thể>> đếm sale
+- Artwork về chủ đề (niche) có rất nhiều niche từ sạch đến trade mark: chó, mèo, lợn, gà, y tá,
+cựu chiến binh, phim, ca nhạc, ca sĩ, thể thao, đội bóng, bệnh tật (tự kỉ, ung thư, packison...) nói
+chung là tất cả các sở thích của người mua, miễn sao là họ mua cái sản phẩm có in hình niche họ
+thích.
+2) Các bước bán POD ăn liền bao gồm:
+- Nghiên cứu sp: nói thì nguy hiểm nhưng lên tool mà tìm các sp các sellers khác làm được rồi,
+bán được rồi, tìm các post có lượng like share lớn, niche trade mark nặng mà bóc nền hoặc tự
+redesign hoặc ko làm đc thì thuê design
+- Upload design đó lên mockup đem chạy ads (Fb ads, GG ads, Twiter Ads, Pinterest Ads,
+Instagram Ads, Amazon ads và mọi nguồn ads khác) >> có tiền về tài khoản
+- Fullfillment và support: In artwork lên sản phẩm và ship đi cho khách, chăm sóc khách hàng
+bằng email hoặc phone
+3) Nghiên cứu sản phẩm: có hai hướng
+- Tự lên design về idea, tự built cho mình 1 brand theo chủ đề (niche): Cái này không phải là
+không có nhưng ít sellers đi theo hướng này từ đầu, thường là sau khi đã bán được hoặc có vốn,
+data khách hàng rồi thì mới bắt đầu, thường là các niche sạch như chó, mèo, lợn, gà, y tá, ...
+- Clone bóc nền hoặc redesign lại rồi chạy: Lên tool spypro.io kiếm các post nào nhiều like 1 tí,
+theo dõi xem nó tăng like ra làm sao, tương tác của khách hàng ntn rồi clone đem về upload lên
+của mình lấy link đăng post mà chạy ads, hoặc nói thằng toẹt là lấy thẳng cái mockup hay nội
+dung content của họ đem về mà bán. Anh em black UG mới vào cái ý tưởng và cái cách tìm ra
+sản phẩm này còn bỡ ngỡ, nhưng được cái ae black UG có lượng ngân sách lớn để test nên cách
+làm này nhanh và đang được anh em xài nhiệt tình hehe
+4) Bán POD gồm bán trên platform được cung cấp bởi một bên thứ 3 và bán trên trên nền
+tảng tự mình xây dựng
+A)Bán trên platform được cung cấp bởi 1 bên thứ 3 platform:
+Bán POD trên platform được khuyến khích cho newbie mới bắt đầu tham gia thị trường, vì các
+lợi ích và bất cập:
++ Nhanh: bạn chỉ việc có PNG artwork (tự design hoặc bóc nền-phần lớn anh em vào nghề hầu
+như là đi clone và bóc nền của những sp đang bán được
++ Không phải lo lắng về cổng thanh toán và việc fullfill sau khi bán, profit được các bên thứ 3 trả
+trực tiếp cho anh em qua tài khoản payoneer, paypal hoặc wire trực tiếp về bank cho anh em
++ Bất cập: Anh em ko lấy được tiền ngay, thường là sau 3 ngày bên platform họ mới trả anh em,
+và nếu anh em vi phạm rules của họ, là họ đéo trả, nhiều platform còn bẩn bựa, tính sai profit, trừ
+phí vô tội vạ và thậm chí đéo trả tiền anh em, khóa mẹ tài khoản lại với lý do bạn vi phạm chính
+sách của họ, mặc dù check khách hàng vẫn in và chuyển sản phẩm đến khách hàng, cái này điển
+hình là thằng merch amazon và thằng mặt lồn teechip
+Các platform thứ 3 điển hình anh em nên chơi bao gồm:
++ Teechip: thằng này là của thằng tàu, giả danh mỹ, sản phẩm in ra cực kì kém chất lượng, nó có
+thằng fullfill đằng sau là scaleale express, hiện tại các plf khác cũng lọ mọ đến ìn qua thằng
+scaleable express này, đến bây giờ tôi cũng đéo hiểu tại sao nó tồn tại được, nhưng về site của nó
+thì đúng là ngon số 1, anh em newbie black UG đều biết đến nó, trước nó bảo kê cho team chạy
+donate trong thành phố hồ chí minh, bị facebook ban đỏ domain teechip.com, đéo hiểu sao nó lại
+chạy lại được, rồi nó cũng ra thằng pro.teechip và domain riêng, nhưng nếu bạn đen, fb nó phát
+hiện vẫn chết tk hoặc page một cách mà bạn đéo thể hiểu nổi với 1 câu nói “em bán sạch mà vẫn
+chết”
+*bán donate là một dạng bán hàng kêu gọi người mua 1 cái áo 24 đô và hứa sẽ quyên góp vào
+quỹ abc nào đó số tiền 25$, đương nhiên là làm lồn gì có chuyện quyên góp, nghe đâu 1 ngày các
+bạn ấy bán được từ 10k đến 23k áo, vụ donate nổi tiếng trong lịch sử làng pod. đứng sau vụ
+donate này là thằng teechip với nhiều góc khuất rất là vl, kèm theo nhiều sellers Ko ra mặt và
+người đứng referal cho teechip rất là có tiếng trong làng áo thun.
+- Moteefe: plf này thì quá quen với anh em black mới vào nghề, moteefe là 1 con kì lân của anh,
+làm platform thì lỗ sấp mặt lồn ra nhưng được cái kêu gọi vốn thì rất ok, anh em black vào clone
+sản phẩm và vã moteefe với những tấm gương 100k solds, 200k solds mọc như nấm, anh em
+cười như phá cỗ, mua nhà mua mẹc ầm ầm, hehe nhưng tuyền anh em lên vẫn kêu chạy grab với
+bình vôi
+- Teehag: lom dom từ rất lâu rồi, plf khá cùi, công nghệ dạo gần đây khá hơn, tuy nhiên anh em
+vẫn review là tỉ lệ chuyển đổi hơi kém
+- Hotting Rocket: Là đứa con riêng của sunfrog, cho phép anh em bán trade mark và cũng có
+nhiều rủi ro bán trên đây
+- Các platform cổ như Viralstyle, Gearlaunch, Sunfrog..: Anh em có thể tự tìm hiểu, nhưng các
+plf này khá là khó chơi và yêu cầu sellers chặt chẽ, ko mở đường như 2 con plf trên
+- Merchize: Merchize là plf việt, Merchize là bản sao hoàn hảo công nghệ site của teechip và là
+platform cho phép ae không chỉ bán các sản phẩm POD mà có thể bán dropship các sản phẩm
+POD và các sản phẩm vật lý khác, tôi sẽ nói thêm về Merchize trong phần tiếp vì nó liên quan
+đến phần quan trọng đằng sau
+- Shopbase: Là một platform nói thằng toẹt là clone của anh bạn shopify, cái tinh hoa của mấy
+anh tây, shopbase bê hết về, plf này tôi cũng nói đến phần sau
+B) Domain riêng
+Đến vấn đề chính tôi muốn đề cập đến đó là cách chạy dropship các sản phẩm POD trên domain
+riêng của chính mình ko phụ thuộc vào platform thứ 3 nào (anh em liu í các plf teechip, moteefe,
+gearlaunch, viralstyle cũng có domain riêng, nhưng ko thuộc phạm trù tôi đề cập đến ở đây):
+Ưu điểm:
+- Anh em bán cái đéo gì cũng được trên cái của mình, Anh em bán giá nào cũng đc, mà không lo
+bị take down, xóa camp abc như các bên plf, cái này ae nào lâu trong nghề mới thấy nó quan
+trọng đến ntn- Anh em tạo domain riêng chạy domain riêng, tự fullfill, tự support khách hàng, tự
+tìm nhà cung cấp các sản phẩm anh em bán, nên về nguồn sản phẩm POD anh em có thể bán bất
+cứ thứ gì miễn là in lên được, cái này các plf trên bị hạn chế nhiều, ae bán các hàng trade mark
+nặng đến cực nặng như LV, gucci, harley davidson, life is good, và các sản phẩm đa dạng như
+tshirt, áo hawai, quần legging, áo 3d, chăn, quilt blanket, giầy dạng nike, das... nói chung là ae
+bán bất cứ thứ gì mà ae bán đc và full fill đc
+Nhược điểm:
+- Anh em bắt buộc phải lo phần cổng thanh toán để nhận tiền về: Stripe, paypal, 2checkout,
+square up ...
+CÁI NÀY LÀ CÁI KHÓ NHẤT, và là cái rào cản lớn nhất cho ae newbie mới vào nghề muốn
+chiến đấu trên cái nền tảng gọi là của mình.
+- Ae bắt buộc phải tự fullfill các sản phẩm mình bán ra, tức là ae phải trực tiếp tìm nhà sản xuất
+áo, cốc, mũ... gửi design cho nhà sản xuất in và gửi ship cho khách
+- Rủi ro lớn nữa là anh em có khả năng bị scam bởi chính nhà sản xuất (trung quốc) nếu anh em
+ko biết chính xác nó là thằng nào, uy tín hay ko
+- Rủi ro nữa là ship hàng bị mất, hải quan bắt giữ, đơn vị nhận trung gian người việt ko care đc
+các phần này ...
+- Anh em phải tự giải quyết các vấn đề liên quan đến khách hàng, như support, hủy đơn, sai địa
+chỉ, bị mở case paypal stripe, vân vân và vân vân
+Có khó khăn thì có cách gỡ khó khăn, bài này viết ra để hướng dẫn anh em gỡ khó khăn:
+To nhất là cổng thanh toán: Anh em nên dùng stripe, square up, paypal vì các cái này dễ kiếm, dễ
+mua và nuôi tuy tốn công nhưng nuôi được
+Stripe: anh em black nào thì cũng chơi thằng stripe này nhiều rồi, nó là thằng hiểu nó thì chơi
+cực ngon
+Paypal: Anh em hiểu paypal thì chơi paypal khá tiện, tiền chuyển tk sang tk chỉ 1 cái enter, nhận
+tiền nhanh, nhưng hold và limit thì vcl, giờ pp còn có quả refund về resever của paypal (tức là nó
+đéo trả tiền ae) sau khi hold 180days , nhưng ko có nó thì ae vớt sale cũng khó
+Các cổng khác như 2checkout, square up, cái gì cũng mua được, anh em chịu khó tìm, và cứ vã
+thằng bán mà hỏi
+Còn nuôi cổng này nó cũng như nuôi con mọn, phải từ từ, lên dần dần và thời gian lâu, ae phải
+kiên trì
+5) Các bước làm POD dropshipping
+1: Tìm niche (tìm đối tượng)
+2: Chọn sản phẩm để bán
+3: Tìm ý tưởng thiết kế sản phẩm
+4: Thiết kế mẫu sản phẩm
+5: Store
+6: Bán hàng (dynamic ads, fb ads, google ads, sms/email/call…)
+7: Suplier
+8: Khách hàng
+III) Cách nuôi nick ngoại:
+Bước 1: Sau khi mua nick về, bỏ like hết tất cả các fanpage
+Bước 2: Backup lại tài khoản bằng phần mềm hoặc liên hệ với người bán
+Bước 3: Nick fb mới mua về không được đổi email liền, đổi là chết ngay. Để ít nhất 2 ngày sau
+mới đổi, mật khẩu thì đổi luôn được.
+Bước 4: Cài VPN vào chrome sau đó mới được log nick. Dùng nick đấy tương tác trên máy tính,
+tương tác khi đang spy luôn, dùng nick tương tác như người bình thường. Nhớ tương tác trên
+nhiều nền tảng và chỉ dùng cố định 1 tool (Zenmate hoặc HMA).
+Bước 5: Nếu tự lập nick thì trong vòng 7 ngày đầu, không được kết bạn, tương tác ít thôi. Sau
+mỗi lần sử dụng thì khởi động lại rồi lập nick mới.
+Bước 6: Nick ngoại dùng để tìm niche thôi, chạy quảng cáo dùng nick Việt cũng được.
+Bước 7: Dùng VPS khi nuôi nick ngoại thường sai lầm vì
+IV) Cách chọn niche (chủ đề làm POD)
+1) Các bước chọn niche
+Bước 1: Dùng dmmspy để tìm kiếm chủ đề hot, trending
+Bước 2: Dùng nick Mỹ tương tác với các chủ đề
+Bước 3: List hết ra bảng excel
+Bước 4: Phân tích tất cả các chủ đề
+Bước 5: Ra quyết định
+2) Cách để biết niche tốt
+1: Khi spy sẽ biết post đó nhiều like, comment, share không. Nếu các chỉ số này mà cao thì
+thường bán được.
+2: Nhiều bài quảng cáo thì chứng tỏ họ bán được
+3: Thời gian lên camp, camp thời gian lên lâu thì thì càng ngon vì càng ngon thì mới giữ lại.
+Những bài mới thì thường là mới lên để test.
+4: Domain đó có bao nhiêu page thì phải list tất cả các page đó ra rồi đánh giá xem có ổn không.
+5: Target trên fb tầm 600.000 người là volume ngon.
+6: Việc dùng dmm để spy chỉ chiếm được khoảng 70% là max thôi, sau đó khi tìm được page
+ngon rồi thì phải dùng nick Mỹ để tương tác rồi thì sau đó sẽ hiện ra những ad rất chất lượng vì
+bạn sẽ là người mua tiềm năng.
+7: Khi mới bắt đầu làm thì nên tập trung làm càng nhỏ càng tốt.
+8: Niche bóng rổ, bóng chày thì hơi TM nhưng bán ngon. Niche quân đội vẫn có dính TM, vì
+trên áo có hình vũ khí, nhưng tỉ lệ chết không cao khoảng 50%. Niche các vị thần không bị TM.
+Niche cầu thủ thì TM nặng, nhưng câu lạc bộ thì vẫn có thể tuy không cao.
+9: Chạy TM bị chết thì có 2 kiểu: Chết ngay hoặc sau 7 ngày tùy vào độ hot của thương hiệu
+10: Càng chạy quảng cáo lâu thì pixel càng thông minh, chạy quảng cáo càng rẻ.
+11: Niche ngon hoặc siêu ngon thường không spy được đâu, vì sẽ chết rất nhanh hoặc seller ẩn
+quảng cáo. Vậy nên mới cần dùng nick Mỹ để tương tác
+12: Ngân sách chạy quảng cáo ít nhất 50$/ngày
+13: Facebook không dựa vào việc bạn có giàu hay không để chạy quảng cáo mà sẽ dựa vào 2
+thứ: Quảng cáo phải hiệu quả và đủ tiền. Mục tiêu fb hướng đến là doanh nghiệp vừa và nhỏ, đến
+toàn bộ khách hàng thực tế nếu tập trung vào các DN lớn nhiều thì sẽ thành spam.
+14: Pixel chỉ dựa thông tin trên nền tảng web thôi
+15: Facebook và google khác nhau ở chỗ: Google là người ta tự tìm đến mình còn fb thì mình
+chủ động tiếp cận khách hàng. Dùng fb kéo khách hàng về website, dùng google để marketing
+V) Làm website
+1: Nên có phần review sản phẩm
+2: Nên có policy, chính sách, contact… người nước ngoài rất quan tâm tới những thông tin này.
+3: Đặc biệt lưu ý làm giao diện cho mobile vì 80% tương tác bây giờ là từ di động
+4: Khi chạy quảng cáo/trên mobile thường hình ảnh chỉ còn ½ vì có nội dung khác. Nhớ là thiết
+kế làm sao để giá nó nằm nửa trên nửa dưới gây tò mò khiến KH phải kéo xuống dưới để đọc
+cho hết
+5: Sản phẩm, giá nên có những từ như: Limited edition, 30% off
+6: Ở phần thanh toán nên có câu thúc giục: Để đảm bảo an toàn, order sẽ bị dừng trong 10p…
+7: Tốc độ load nhanh, giao diện thân thiện, đầy đủ thông tin, tối ưu tỉ lệ chuyển đổi.
+8: Page speed: >60
+9: Luôn có phần những sản phẩm liên quan, tương tự để thúc đẩy upsale/cross sale.
+10: Thêm phần chatbot, talk với khách hàng (https://www.tawk.to/)
+VI) Chạy quảng cáo
+1. Trong POD và tất cả mọi ngành nghề, thành bại quyết định: 20% marketing, 80% sản phẩm
+2. Công cụ tìm ý tưởng ngon
+• Google: Google search, google trending, google image
+• Facebook
+• Tool spy
+• Pinterest
+• Picture site
+3. Chạy 1 page 100 ads chưa chắc đã mạnh nhưng chạy 100 page mỗi page 1-2 ads thì thường
+mạnh
+4. Trong fb ads: Content 60%, kĩ thuật chạy ads vit ads 40%
+5. Bản chất của fb ads: Mua traffic, tính tiền theo lượt hiển thị quảng cáo. Nhưng chạy ads có
+hiệu quả -> chúng ta sống -> fb sống thế nên fb sẽ luôn tối ưu tốt nhất có thể
+6. Fanpage có 4 điểm lưu ý: Tên, số lượng, cách cài đặt, cách quản lý để không die
+7. Chỉ dùng nick Mỹ để tạo và quản lý page, lên fake ip để tìm info Mỹ
+8. Giới hạn quốc gia mình muốn làm: Mỹ
+9. Kiểm duyệt trang: Chặn những từ không tốt, cướp khách…
+10. Cách quản lý fanpage (Nick cầm BM, page)
+1. BM1: Page 1
+2. BM2: Page 2
+3. BM3: Page 3
+4. BMn: Page n
+11. Mỗi nick cầm tối đa 5 BM
+12. BM cầm page không được chạy quảng cáo, không được có pixel, không được có tk ads, chỉ
+để cầm page
+13. Nick cầm BM phải là nick VN, nick cầm page post bài thì phải là nick Mỹ
+14. Ý nghĩa: Nếu bạn dùng BM để quản lý nhiều page thì nó sẽ chết lây tất cả luôn
+• Bm cầm page share cho bm cầm ads
+• Bm cầm ads share ads cho bm trung gian
+• Bm cầm pix share pix cho bm trung gian
+• Bm trung fian cầm pix thêm vào tk ads
+• Lúc set ads thì vào bm cầm ads set
+15. Tài khoản quảng cáo:
+1. Loại tk quảng cáo
+1.1. Tài khoản doanh nghiệp
+• Share được Pixel
+• Dùng phương thức thanh toán doanh nghiệp
+• Die tài khoản, không die thẻ: 1 thẻ ad được 50 tk quảng cáo
+• 1 doanh nghiệp có nhiều tài khoản quảng cáo: Tối đa 2500 tk quảng cáo trên 1 BM
+1.2. Tài khoản cá nhân
+• Dùng phương thức thanh toán cá nhân
+• Múi giờ: Chạy quốc gia nào để múi giờ ở quốc gia đấy
+• Tiền tệ: Chạy quốc gia nào để tiền tệ quốc gia đó (Không mất phí chuyển đổi)
+• Phương thức thanh toán chạy ads: Visa, master, Paypal, banking, cổng thanh toán, ví điện
+tử. Nếu dùng thẻ thì dùng payoneer, pingpong để không mất phí chuyển đổi. Chạy sạch
+hoặc ngân sách lớn thì nên dùng Paypal vì xảy ra rất nhiều vấn đề hoặc Payoneer,
+pingpong. Nếu chạy TM thì nên dùng thẻ
+• *Xin thẻ Payonner, pingpong xong thì ad vào BM (tối đa 10 BM thì ad hết luôn), nếu như
+ad vào 1 BM rồi ad vào tk thì không ad được nhiều. Pingpong cũng ngon, cấp thẻ dễ hơn
+nhưng ít người dùng
+• Content chạy POD khác hoàn toàn cách chạy quảng cáo ở VN và ads POD là dễ nhất
+trong tất cả thể loại vì nó chỉ là 1 đoạn text ngắn 1->2 dòng. Làm content POD càng đơn
+giản càng tốt vì tây lông rất đơn giản
+• Rút gọn link: Anh em rất hay chết ở đây mà không biết vì sao, nguyên nhân là do nếu
+user ở 1 trang rút gọn link nào đó chạy TM cực nặng 1 phát là nó ban sạch luôn. Dùng
+plugin pretty link để rút gọn
+• Muốn tránh fb ban vì clone thì nên khác 20%, phát triển ý tưởng, sáng tạo lên. Trong
+ngành này thì clone nhau là rất bt, đỉnh cao là phát triển ý tưởng sáng tạo dựa trên clone
+16. Target: Cách chọn ra đối tượng khách hàng tiềm năng
+• Chỉ chọn mục “sử dụng bài viết có sẵn” không dùng “tạo quảng cáo” chuyên nghiệp
+• Conversion event: Chọn đúng mục tiêu mà chúng ta muốn hướng tới
+• Nếu muốn ngày mai chạy camp thì nên set ads từ lúc 23:30 đêm hôm nay, để quảng cáo
+post lên rồi được phê duyệt rồi thì tối ưu và mượt hơn
+• Đối tượng tùy chỉnh: Từ 24 tuổi trở lên
+• Target rộng quá thì khó tiếp cận, nhỏ quá thì cạnh tranh cao nên cái gì quá cũng đều phải
+trả giá đắt : )). Nên phải phù hợp (600ng – 1tr)
+• Chi tiết: Nếu nhắm vào những người “câu cá” thì chọn những ngách sâu hơn như “câu cá
+chép”, “mồi câu cá” sau đó bỏ chọn “câu cá” đi như vậy mới hiệu quả. Ngân sách nhỏ thì
+nên đi theo hướng này
+• Có những phương pháp target: VD: Người thích câu cá và cắm trại thường có chung đặc
+điểm
+• + Có thể chọn 1 trong 2
+• + Có thể chọn giao điểm
+• + Có thể chọn loại trừ: Người thích câu cá nhưng không thích cắm trại và ngược lại
+• Nền tảng: Đối với POD thì facebook, instagram là có hiệu quả. Audience insight,
+messenger thì không hiệu quả lắm.
+• Vị trí hiển thị: Chỉ chọn trên bảng tinh chính, bảng tin fb. Tỉ lệ chuyển đổi ok nhất
+• Thiết bị: Để chọn tất cả, fb sẽ tự động điều chỉnh cho hiệu quả
+• Chiến thuật: Test (15 - 20%), Vít (70 – 75%), Retarget (5 – 15%). Test không tạo ra tiền
+nhưng là bước khởi đầu để chọn ra camp ngon, còn vit với retarget mới tạo ra tiền
+• Tại sao quảng cáo lại không hiệu quả dù y như nhau, thậm chí mình đẹp hơn
+• VD: Bạn có 10tr, bạn sẽ chia quảng cáo như thế nào:
+• Cách 1: Chia ra làm 5 ad, mỗi cái 2tr (Bad)
+• Cách 2: Chia ra 2tr5 để test 5 ad, cái nào hiệu quả nhất thì đổ hết 7tr5 còn lại vào đó
+(Best). Nhưng khi đổ 7tr5 thì dùng ad đó với 1 tài khoản mới để tạo
+• Huynh dùng 3-5$ để test mỗi camp
+• Cần sao chép quảng cáo nhưng sửa target/ảnh/content… lại đó test nhiều camp. Cách test
+này phù hợp với những camp còn đang phân vân target nhưng dù gì thì chúng ta không
+thể biết trước được ad nào hiệu quả thực sự nên luôn luôn cần test.
+• Tăng ngân sách hiệu quả: Tăng trực tiếp nhóm quảng cáo, nhân nhóm quảng cáo, nhân
+chiến dịch quảng cáo, nhân page
+• Với POD thì test quan trọng nhất là test thiết kế
+• Retargeting facebook: Chạy tệp đối tượng lookalike, chạy quảng cáo quay vòng
+• Ban đầu để luyện pixel thì nên target thật sau và chia thật nhỏ tiền ra để chạy
+• Tuyệt đối không được mua like vì sẽ lệch tệp mình cần chạy
+• Nên post 1 hình khi chạy quảng cáo nhưng kèm theo 1 link có nhiều sp
+• Nên dùng vit tự động vì vit tay không ổn định. Nếu ngân sách lớn thì chạy CPO (>100$),
+nhỏ thì target tay.
+• BM chạy quảng cáo là BM trung gian
+• Nick cầm pixel, page, quảng cáo là 3 nick hoàn toàn khác nhau
+• Trong 3 cái page, BM, pixel. Bất cứ cái nào chết thì bỏ hết những cái còn lại
+• Vietcombank, Techcombank, VIB, Sacom, SHB, Agri, TP: Thẻ add quảng cáo được
+• Viettin, Shinbank: Trademark
+• 1 nick tạo 5 BM, mỗi BM cầm 1 pape
+• Mỗi page chạy vi phạm thì nên chạy 3 camp thôi, muốn chạy nhiều camp thì làm nhiều
+page khác nhau
+17. Tư duy xây dựng page (VD outdoor)
+• Page thương hiệu: Chỉ chứa những camp win và camp retarget, để làm hình ảnh
+• Page fishing
+• Page hunting
+• Page …
+• Nuôi pixel thì hãy nuôi pixel tổng (outdoor) để nó học, còn những niche con (fishing,
+hunting…) không nên tập trung quá nhiều
+VII) Cách Huynh đang làm để tăng từ 1 –> 100 đơn:
+1. Chắc phần email + dynamic
+2. Cách tăng ngân sách: Tăng ngân sách vào nhóm, nhân nhóm (ít dùng vì ít hiệu quả và ảnh
+hưởng đến các nhóm khác), nhân chiến dịch (không ảnh hưởng đến các chiến dịch khác), nhân
+nhiều tk
+3. Cách Huynh đang làm:
+• Test A/B/C/D…
+• Nhân nhóm (dùng để test nhóm chứ không phải để tăng ngân sách) vì có những nhóm lần
+đầu rất ngon nhưng lần sau cũng cái đó lại không ngon
+• Sao chép nhóm ngon này ra nhiều tài khoản khác nhau với ngân sách gấp 10 – 20 lần
+nhóm cũ. Sau đó với những nhóm ngon này mình sẽ tiếp tục theo dõi và loại những nhóm
+không hiệu quả trong vòng khoảng 4-5 giờ
+• Nhưng để đánh giá, cut loss và tránh bị dính bẫy của facebook. Để tránh điều này phải
+đặt KPI, tiền ad không được quá 30% (Phải tính lợi nhuận theo giờ, buổi, ngày không
+tính lợi nhuận theo tuần, tháng). Muốn quảng cáo càng ngày càng rẻ phải kiểm soát được
+chi phí ad và nuôi con pixel thật tối ưu (Doanh thu không quan trọng, thứ để đầu là lợi
+nhuận)
+4. Đánh giá ad hiệu quả:
+• Chi phí trên mỗi kết quả
+• CPC (là tổng hợp của CPM và CTR)
+• CPM
+• CTR (Nên để ý nhất sau chi phí trên bán)
+VIII) Thiết kế
+1. Thiết kế 2D:
+• Volume lớn
+• Dễ thiết kế
+• Sản xuất nhanh
+• Cạnh tranh khốc liệt
+2. Thiết kế 3D
+• Ít cạnh tranh hơn 2D
+• Lợi nhuận hơn 2D
+• Khó thiết kế hơn
+• Volume bé hơn
+• Sản xuất lâu hơn
+3. Số file thiết kế cần dùng
+• File thiết kế up lên website
+• File chạy ads
+• File gửi suplier
+4. Yêu cầu của file thiết kế:
+• Hình ảnh thiết kế: Chất lượng cao, đẹp
+• Bố cục hài hòa bắt mắt
+• Màu
+• Nội dung: Font chữ đẹp, cảm xúc, chính tả
+• Chất lượng ảnh xuất ra
+• Kích thước ảnh
+5. Quy trình tìm ý tưởng thiết kế
+• Dùng tool khoanh vùng, dùng treding đánh giá và dùng công cụ tìm kiếm để search
+• Những năm trước đã có những người thành công bằng cách: Tìm kiếm hình ảnh trên
+facebook vì hình ảnh trên đây rất độc lạ và không dính bản quyền
+• Ảnh trên instagram tải xuống chất lượng rất kém, giờ không dùng được nữa
+IX) Cách chạy hàng TM, VPCS:
+*Hãy hành động như một người dùng fb thực sự nhất có thể
+1. Lí do die tài khoản:
+1. Nhận link BM hoặc tạo BM mới die luôn cả BM die luôn cả tài khoản: Log in BM thật
+lâu ở 1 máy
+2. Lên camp hoạt động bất thường ngay: Do đầu thẻ hoặc do nick fb chưa đủ khỏe, do log in
+trên máy chưa đủ lâu, do nội dung content + page đã vi phạm nhiều rồi.
+3. Lên camp không được phê duyệt bài viết
+4. Lên camp bị vô hiệu hóa phương thức thanh toán: Do thẻ
+5. Lên camp chạy 1 thời gian rồi bị không được phê duyệt bài viết: Do nội dung, do bị KH
+report, do spam quá nhiều
+6. Lên camp 1 thời gian chạy được 1 ít tiền thì bị bất thường: Tương tự 5, hoặc cứ đến
+ngưỡng là fb tự động quét
+7. Nhân chiến dịch, nhân nhóm, tăng ngân sách bị die tài khoản: Cứ mỗi khi có hành động
+gì đó là fb quét thì ngay lập tức phải giảm mọi thứ lại, giảm hành động lại.
+8. Lên camp checkpoint tài khoản: Chắc chắn là do tài khoản, cho check point trước khi lên
+camp
+* Những yếu tố 4,6,7,8,9,10: Là những yếu tố có thể điều khiển được hoàn toàn.
+* Yếu tố 1,2,3: Chỉ điều khiển được 1 phần, phải đợi fb review
+* Yếu tố 5: Lên camp 1 thời gian mới chết thì phải xem lại chỗ này, khả năng camp chết là do
+đây
+2. Cơ chế phê duyệt quảng cáo của facebook
+• Set quảng cáo
+• Phê duyệt bằng máy (bot, AI) -> Die thì thôi, sống thì tiếp. Chỉ có thể né, chạy TM được
+ở đoạn này
+• Phê duyệt bằng tay -> Die thì thôi, sống thì tiếp. Có thể chạy được 1 thgian rồi mới chết
+• Vì có giai đoạn phê duyệt bằng tay nên bạn có dùng cách gì đi nữa cũng sẽ không có cách
+chống die tài khoản cả, chỉ có kéo dài thời gian thôi. Cần có càng nhiều tk càng tốt. Nên
+chạy TM, VPCS nhẹ thôi còn hiểu thật kĩ mới nên chạy TM nặng.
+3. Các yếu tố facebook review khi lên camp
+A. Fanpage:
+• Tên trang (từ ngữ vi phạm, thương hiệu, lóng, nhạy cảm…),
+• Nội dung trên fanpage (những nội dung không chạy ad, fb vẫn quét bt, fb sẽ đánh
+giá 10-15 bài của bạn)
+• Avatar và cover, yếu tố này rất ít người biết (copy, đặc biệt ở nước ngoài)
+B. Content:
+• Text (nội dung là thứ facebook check đầu tiên vì dễ nhất, link rút gọn đừng chọn
+những website trung gian hãy chọn plugin pretty link)
+• Hình ảnh (Cần phải sửa lại, copy giống y thì chết)
+• Video (khó quét hơn dù VPCS)
+C. Website hoặc landing page
+• Domain
+• Nội dung trên website hoặc landing page. Chủ yếu là trên link bạn chạy quảng cáo
+D. Pixel: Liên đới các tài khoản dùng cùng 1 pixel
+E. Tài khoản:
+• Clone (nick facebook ảo)
+• Via (nick): Via cổ, via new (dễ chết hơn)
+• Quốc gia của tài khoản: Đôi lúc chọn quốc gia khác thì chạy được
+• Thời gian login trên máy (rất quan trọng): Nick ở lâu trên 1 máy, cách nuôi nick
+fb hiệu quả nhất là để tài khoản đó log in trên 1 máy thật lâu.
+• Lượng tương tác trên máy
+F. Tài khoản BM: Yếu tố mới do mọi người mua và share quá nhiều nên fb chặn
+• Loại tài khoản: BM cổ, BM new (không quan trọng). Quan trọng nhất là nick tạo
+BM như thế nào. Nếu muốn mua BM thì phải mua BM kèm via
+• Thời gian tài khoản fb nhận BM: Mua BM xong lên camp luôn thì rất dễ chết tài
+khoản, phải ngâm 1 thời gian (AI fb rất thông minh, nó biết chẳng ai mới biết tạo
+BM mà chạy liền cả)
+• Nguồn gốc: BM tự tạo hay BM share, ưu tiên BM tự tạo nếu BM share thì phải
+kèm via
+G. Tài khoản quảng cáo: Không ảnh hưởng nhiều
+• Cài đặt tài khoản: Tiền tệ (tiền $ mượt hơn nhưng tốn phí chuyển đổi), múi giờ
+• Loại tài khoản quảng cáo: Tài khoản cá nhân ngon hơn nhiều, tài khoản BM dễ
+die hơn vì mọi người chạy lừa đảo quá nhiều, tip này ít người biết. Chạy TM,
+VPCS nên chạy tài khoản cá nhân, nhưng lưu ý là pixel sẽ không tiến bộ được
+nhưng chạy TM thì pixel không quan trọng lắm.
+• Thời gian lập của tài khoản (tuổi của tài khoản)
+H. Phương thức thanh toán
+• 6 số đầu thẻ thanh toàn quốc tế (visa, master card): Những ngân hàng hay chạy
+bùng, càng dễ làm càng dễ bị khóa. Hãy đi ngược với số đông, thẻ nào người nào
+dùng nhiều thì đừng chọn. Chọn thẻ nào càng khó làm càng tốt. Nên chọn những
+ngân hàng có ưu đãi phí chuyển đổi thấp, hoàn phí…
+• Paypal: Rất ngon, phí rẻ, lợi đủ đường nhưng nhiều bạn không add được. Tip là
+chạy quảng cáo trên 100$ thì ad thoải mái
+• Bank
+• Ví điện tử ở 1 số quốc gia
+I. Thiết bị: Không ảnh hưởng nhiều, nhưng nhiều người mù mờ hiểu lầm nhất
+• Địa chỉ IP: Nhớ dùng IPV6 cho tất cả, vì IPV6 rất là sạch do lên đến 32 số. Gọi
+nhà mạng để được hướng. IP thì không khóa lâu, chỉ 1 thời gian rồi thả vì số
+lượng IP thì cũng có hạn.
+• Trình duyệt
+• Thiết bị: Máy tính, điện thoại
+• Hệ điều hành: Windown (dễ chết vì nhiều người dùng chạy bùng quá, MacOS
+(chắc chắn lên được, cài macos trên vmware)
+J. Hành vi set ads
+• Vừa phải thôi, đặt ngân sách quá cao không giống người thật
+• Số lượng chiến dịch quá cao, không giống người thật
+• Số lượng nhóm quảng cáo quá cao (<10 là ok), không giống người thật
+• Nhân nhóm nhân chiến dịch, không giống người thật
+X) Có nên chạy bùng facebook không
+1. Ưu điểm: Tăng được ngân sách quảng cáo, tiết kiệm chi phí ad
+2. Nhược điểm:
+• Khóa tài khoản liên tục: Và có thể tất cả các tài khoản trên BM, trên cùng 1 máy tính,
+trên cùng 1 IP sẽ die sạch hết
+• Tốn thẻ chạy quảng cáo
+• Không ổn định
+3. Về tương lai thì bùng facebook là không tốt, nếu bạn là 1 doanh nghiệp nhỏ thì có thể làm còn
+doanh nghiệp lớn thì không nên làm.
+4. Cơ chế lên ngưỡng thanh toán của facebook: 2$ -> 50$ -> 75$ -> 125$ -> 400$ -> 900$ (Đây
+là VD, thực tế sẽ có rất nhiều ngưỡng khác nữa. Tối đa là 900$, có 1 vài cách để nâng hơn nữa
+nhưng khoan bàn tới)
+5. Các kiểu chạy bùng
+A. Bùng ngưỡng đầu
+• Ưu điểm: Mất vốn cực ít, rủi ro thấp, chạy các hàng TM/VPCS cực nặng (teehag)
+• Nhược điểm: Khó làm, mất nhiều công sức, không ổn định hệ thống, tốn thẻ
+B. Bùng ngưỡng giữa
+• Ưu điểm: Mất vốn ít, so với số tiền bỏ ra thì được nợ nhiều hơn (khi bỏ ra khoảng
+18tr thì được nợ 9tr -> chạy quảng cáo được nhỏ hơn 18 + 9= 27). Lãi hơn bùng
+ngưỡng cuối
+• Nhược điểm: Hệ thống không ổn định, tốn thẻ
+C. Bùng ngưỡng cuối (nên bùng ngưỡng này)
+• Ưu điểm: Ổn định hệ thống
+• Nhược điểm: Tốn thẻ
+*VD: Muốn doanh số tháng này là 5 tỉ, bỏ ra 2.5 tỉ để chạy quảng cáo. Cần 100 tk quảng cáo,
+bùng ngưỡng 900$. Con nào ngon thì tiếp tục, con nào không ngon thì bùng luôn ở ngưỡng đầu
+luôn và cứ thế con nào ngon nuôi đến ngưỡng cuối không nên bùng ở ngưỡng giữa vì rất phí.
+6. Cách xây dựng team: Tạo ra 2 team và phải có team chạy sạch xong rồi mới build team chạy
+bùng. Nếu không rất dễ bị trầm cảm, tâm lý không ổn định
+A. Team chạy sạch
+• Tạo ra sự ổn định
+• Tạo tinh thần làm việc
+• Tạo ra sự ổn định hàng hóa
+• Mạnh tay vit cao, doanh số khủng
+B. Team chạy bùng
+• Tách riêng hệ thống 100% (vì tư duy 2 team khác nhau hoàn toàn. Sạch thì chú ý
+đến tổng thể, còn chạy bùng chỉ quan tâm đến tiền + lợi nhuận)
+• Ảnh hưởng tâm lý, sự ổn định rất là nhiều. Làm gì cũng sợ chết tài khoản
+• Team chạy sạch sẽ có thể test được những camp rất ngon rồi đẩy qua cho team
+chạy bùng.
+XI) Trả lời câu hỏi
+1) Dành cho người vốn nhỏ: Làm platform, làm hàng trademark nặng, làm banking và tài khoản
+25$.
+2) Nên làm 1 mình hay theo nhóm: Làm một mình có tiền trước đã vì làm MMO rất khó kiểm
+soát nhân sự. Hoặc 2 người là đẹp.
+3) Làm thị trường Mĩ trước rồi hãy tính những chỗ khác.
+4) Tài khoản platform thì dùng tk VN bình thường.
+5) Làm việc với sup: Phải xin skype và chọn những sup lâu năm.
+6) Nếu camp đang ngon mà không ra doanh số thì chạy trên những tk khác, nếu vẫn không ra thì
+bỏ camp.
+7) Người Mỹ rất quan tâm đến những thông tin ở cuối trang.
+8) Chi phí chạy ads ở tầm <30% là ngon.
+9) Để bắt đầu, nên có tối thiểu khoảng 15tr-20tr
+10) Quan trọng nhất khi làm POD: Fanpage, website, pixel (Nơi lưu trữ hành vi khách hàng)
+nhưng pixel là quan trọng nhất. Vì khi bán có thể dùng nhiều fanpage, website nhưng pixel thì
+rất ít. Trong lúc spy thì lấy pixel làm gốc
+11) Ngoài ra, điểm quyết định bạn thành công hay không là phải tìm được niche và ban đầu thì
+nên làm sạch để biết quy trình các bước rồi sau đó thì TM hoặc sạch tùy bạn.
+12) Niche: Độ đam mê, độ cạnh tranh, độ rộng của volume
+13) Chủ đề tự nghĩ: Thức ăn, cà phê, phim ảnh (Matrix, Lords of the ring…)
+14) Hoodie: Vốn 18$, bán 50$ + 8$ ship
+15) Your name + ý tưởng trên áo, ngách này ít người làm vì khó làm lớn chỉ làm nhỏ nên mất
+công thiết kế
+16) Niche theo mùa, theo ngày lễ. Chủ đề nam quyền, nữ quyền
+17) Trade mark bị ban sớm hay không phụ thuộc vào độ nổi tiếng của cái bạn làm.
+18) Chi phí test niche thường vào tầm 300-500$, tối đa là 25%.
+19) Mỗi store là 1 website
+20) Khách hàng thích không cần chuyên nghiệp quá nhưng thật với họ, họ tự thiết kế
+21) Hình trên facebook không thể mò ra
+22) Mỗi store thì chỉ bao gồm 1 website nhưng có thể gồm rất nhiều fanpage, mỗi fanpage sẽ
+tương ứng với 1 niche con.
+23) Store nên có tầm ít nhất 500 mẫu thì nhìn mới chuyên nghiệp, độ trust cao được
+24) Trong lúc chạy ads thì phải chia nhỏ ra, đập từng đợt. Phải có KPI, giới hạn, nếu vượt thì
+phải dừng ngay
+25) Khó khi làm POD: Tài khoản thanh toán, cổng thanh toán
+26) Yếu tố then chốt khi làm POD: Ý tưởng, sản phẩm, quy trình làm POD. Những thứ khác học
+được, riêng tư duy về SP thì phải tự nghĩ.
+27) Cách target: Ở VN thì hay có câu “Đỉnh cao của target là không target gì”, tuy nhiên ở nước
+ngoài thì phải target rất kĩ để pixel nó học. SP phổ thông thì target rộng, niche thì có thể target
+nhỏ hơn. Lí do vì tệp KH ở nước ngoài rất là rộng, không nhỏ như ở VN và hành vi của họ rất là
+chuẩn nên phải target để khoanh vùng lại
+28) Nếu dùng thẻ thanh toán: Paypal, master, visa phải dùng thông tin thật.
+29) Bản chất của POD: Ý tưởng thiết kế
+30) Với những trend theo ngày lễ: Chạy camp trước 35-40 ngày. Nhưng chuẩn bị thì cần trước 2-
+3 tháng (chuẩn bị ý tưởng, thiết kế, kế hoạch)
+31) Nick chạy ads dùng VN vẫn được, nick cầm page thì nên dùng của nước đó. Vì sẽ hiện ra
+info trên trang, nếu user thấy thì tỉ lệ chuyển đổi sẽ thấp hơn
+32) Dùng BM quản lý, để 2 nick làm fanpage nhưng nick Việt quản lý BM, nick Mỹ để làm nhân
+viên quản lý page
+33) Nếu làm sp 2D thì có thể chọn sup bên Mỹ, còn sp 3D thì nên chọn sup TQ. In 3D, 2D chênh
+lệch giá khá nhiều.
+34) Người Mỹ rất ít khi gọi, đa phần là dùng email
+35) Với phim ảnh, thương hiệu mình có thể vẽ lại -> Sẽ khoảng 5 ngày mới bị ban
+36) Lúc mới làm thì Paypal
+• Để riêng ở 1 máy tính khác luôn, nuôi paypal trên máy tính đó sẽ giảm vấn đề chết lây.
+Nên dùng IP Dcom, không VPS hoặc sever nước ngoại, khả năng bị hack cao
+• Không rút tiền bằng cách chia sẻ qua bạn bè
+• Không login ở máy tính lạ vì Paypal bắt cookies rất nhiều
+• Cách rút tiền: Lập 3 tài khoản (A, B, C). A là tk chính, B là tk phụ, C là tk bán hàng. Thứ
+tự là mỗi khi giao dịch thì chuyển từ A -> B -> C, rồi dùng B/C để giao dịch. Rút tiền từ
+ngân hàng thì lấy của tk A, nếu có chết cũng chết B/C chứ không chết A. A,B,C sẽ trên
+những máy tính khác nhau, đặc biệt là con A sẽ chỉ dùng trên máy tính với IP cố định.
+• Không nên đi mua tk mà phải dùng info của mình.
+• Thời gian đầu chưa có giao dịch thì rất dễ bị hold tiền
+• Mỗi tk Paypal chỉ 1 người đứng tên
+• Muốn làm TM thì phải có nhiều tk Paypal, chết con này có con khác thay vào
+• Nếu tk Paypal cũ ở domain chết thì add tk mới vào. Paypal biết nhưng không làm gì
+37) Các khoản chi phí:
+• Chi phí cố định
+• Chi phí lương: 10tr
+• Chi phí bán hàng (Website, sever, thiết kế, chi phí ads)
+38) Thiết kế: Phải trước ngày lên camp 3 ngày, sẽ có độ trễ deadline.
+39) VD thấy 1 page có tệp KH giống mình và đã nổi tiếng rồi, nếu mình target fb ads là audience
+insight của page đó luôn thì sẽ có 2 TH xảy ra. Nếu thiết kế giống thì họ sẽ luôn hiện thị trước
+mình còn nếu thiết kế khác thì ads sẽ nhảy random.
+40) Lời khuyên khi làm trên plf: Teehag + black facebook + black google
+41) Từ domain -> page -> ads -> chạy càng nhiều ads thì càng ngon
+42) TM nặng: Fake hẳn, TM nhẹ: Có chỉnh sửa
+43) Cần 10 tk Paypal và 100 tk facebook để chạy TM
+44) Vì chúng ta bán ý tưởng, sáng tạo nên POD là ngành ngày càng phát triển chứ không kém đi
+45) Với mỗi thiết kế nên bán nhiều sản phẩm (Vì bản chất POD là bán thiết kế): Hoodie (có
+khóa, không khóa), áo thun, quần sọt, áo ba lỗ
+46) Anh em spy hay chết ở chỗ: Khi đi spy lấy thiết kế rồi chỉnh sửa lại thì google, facebook xác
+định là ăn cắp nên luôn xếp quảng cáo bạn sau và bao nhiêu đơn hàng thì người trước lấy hết rồi
+47) Nên bắt đầu tung sản phẩm ra ở đầu trend
+48) Copy các mẫu bán chạy của đối thủ vào web, sau đấy thiết kế mẫu mồi chạy ads kéo khách
+vào web xem mấy mẫu kia.
+49) Facebook có quét ảnh trên các website nhưng không đánh giá trên đó, chủ yếu chỉ đánh vào
+ads.
+50) Tuy web của mình là riêng 1 niche, nhưng có thể áp dụng chiến thuật 5-3-2 (50% sp bán
+quanh năm, 30% sp bán theo mua, 20% sp do mình bất chợt sáng tạo ra)
+51) Công việc của sup: Họ có khuôn mẫu, sau đó họ cắt từng phần rồi lên khuôn in
+52) Lí do chết via khi lên tk quảng cáo: Fanpage, nội dung chạy, do thẻ, do via, do thiết bị (ip,
+máy tính)
+53) Lúc mới chạy thì bỏ chọn tối ưu hóa chiến dịch (CPO) đi
+54) 1 chiến dịch chỉ nên 1 hoặc 2 nhóm, CPO mới nên chạy nhiều. Vì chạy ít nhóm tăng tiền mới
+hiệu quả. VD chiến dịch A và B, nếu B không hiệu quả thì tắt B đi sẽ không ảnh hưởng đến A.
+Còn nếu chiến dịch A mà có nhiều nhóm trong đây thì nếu 1 nhóm trong đấy không hiệu quả thì
+sẽ nát camp luôn.
+55) Bài lên lâu rồi, nhiều tương tác rồi mà đẩy tiền thì mới tốt. Những bài mới dù hiệu quả mà
+đẩy tiền thì vẫn sẽ nát.
+56) 1 nick cầm 5 BM nhưng 1 nick chỉ tạo được 2 BM thôi, 3 BM còn lại thì do nick khác tạo rồi
+làm trung gian đẩy qua
+57) Tư duy nuôi pixel không chết: A,B,C,D,n… nếu A chết thì B lên chạy, nếu B chết thì C lên
+chạy rồi cứ thế. Tất cả pixel đều gắn lên web
+58) Mua 1 con BM350, phải có nick cầm BM. Sau đó dùng con này để set ads, share tất cả
+page/pixel qua đây. Con BM350 chỉ dùng để set ad thôi. Còn các con BM khác chỉ cầm 1 pixel,
+1 page và không chạy quảng cáo. Nhưng ban đầu thì cũng không phải là quá cần vì POD chạy
+quảng cáo không cần nhiều tiền, dễ bị copy/chết/gãy
+59) Những cách tốn cơm để tạo free traffic: Spam vào các group và tìm hiểu black facebook
+60) Phần tes niche thì dựa vào CPC, CTR, CPM, purchase
+61) Làm POD ở Việt Nam: Giống như bán hàng bình thường vậy, không có cổng thanh toán và
+cần có telesale + ship COD nên cũng sẽ có cái khó riêng vậy thôi.
+62) Các bạn đừng nghĩ rằng fb không biết chúng ta chạy bùng mà không fix được, họ làm cái
+một. Tuy nhiên fb luôn để mở cửa cho chúng ta để họ fix hệ thống tổng thể và họ cũng chẳng
+mất gì chỉ là mất traffic thôi, hơn nữa họ cũng đã đưa mớ tiền bạn chạy bùng vào cơ chế đấu giá
+thầu luôn rồi (họ đã tính toán hết rồi, giá thầu nó tăng lên kinh khủng)
+63) Nếu đã chạy bùng rồi nên kết hợp với TM, VPCS luôn. Vừa bùng tiền, vừa được chạy ngon.
+64) Tk voi: Những đối tác agency của fb, những công ty lớn không giới hạn ngưỡng thanh toán
+và muốn chạy bao nhiêu cũng được cuối tháng mới trả tiền. KHÔNG CÓ TK NÀY ĐÂU.
+65) Tk scan: Scan fb của người khác để lấy tk họ đang chạy, cái này là quá black rồi. Tuyệt đối
+không dính tới
+66) Cách kháng fb: Share ra thật nhiều tk, kháng cùng lúc chứ kháng bằng 1 tk không ăn thua
+67) Chạy bùng thì tất cả mọi thứ đều chết liên đới theo
+68) Cách làm thẻ số lượng lớn
+• Dùng cổng thanh toán paypal làm thẻ ACB (không add fb được), ad vào paypal được rồi
+từ paypal ép vào fb để thanh toán.
+• Shinbank, Viettin, VIB… phải có mối quan hệ mới làm số lượng lớn được hoặc thuê
+69) Cách xác mình BM: Phải có thông tin hồ sơ công ty, giấy tờ đầy đủ chính xác domain trên
+domain có mã số thuế … Hoặc tìm 1 cty nước ngoài đã chết domain
+
+
+
+
+
+
+
+
+
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

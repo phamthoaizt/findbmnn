@@ -1,0 +1,70 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+LẬP KẾ HOẠCH GIAO DỊCH
+- Có kiến thức nhưng không tuân thủ kế hoạch giao dịch thì KHÔNG BAO GIỜ thu được lợi nhuận.
+- Tại sao cần 1 bản kế hoạch?
+o Lý do 1: Sự kiên định rất quan trọng trong giao dịch, vì nó đánh giá trung thực mức độ thành công của một nhà giao dịch. Chính kế hoạch gd sẽ giúp ta kiên định với mục tiêu. Hãy đọc nó mỗi ngày và tuân thủ.
+o Lý do 2: Đây là kinh doanh và để kinh doanh thành công phải LUÔN LUÔN có kế hoạch.
+- Kế hoạch giao dịch cần có những gì?
+o 1.Một hệ thống giao dịch (trading system): trái tim của kế hoạch, phải được kiểm tra kỹ lưỡng với dữ liệu quá khứ (back test).
+§ Bao gồm những thông tin cần thiết: Khung thời gian sử dụng, điều kiện mở và đóng giao dịch, mức độ mạo hiểm mỗi giao dịch.
+o 2.Thủ tục giao dịch: Phần cốt lõi của bản kế hoạch
+· Khi nào phân tích thị trường, đánh giá giao dịch
+· Khi nào thực sự theo dõi thị trường để thực hiện các giao dịch
+· Khi nào bạn sẽ đánh giá các giao dịch trong ngày.
+o 3.Suy nghĩ của bạn: Phần khó nhất là bỏ cảm xúc của bạn ra khỏi giao dịch. Trong bản kế hoạch mô tả phạm vi suy nghĩ của bạn.
+· Chỉ nhìn vào đồ thị THỂ HIỆN CÁI GÌ, KHÔNG PHẢI NHỮNG GÌ TÔI MUỐN THẤY.
+· KHÔNG CỐ GẮNG GỠ GẠC, BỎ ĐI SỰ CAY CÚ SAU THUA LỖ.
+· KHÔNG TỰ ĐÁNH MÌNH KHI THẤT BẠI, HÃY RÚT BÀI HỌC TỪ THUA LỖ.
+o 4.Các khuyết điểm của bản thân: Con người vốn phủ nhận khuyết điểm, không thích nói về nó. Phần này sẽ theo dõi khách quan để theo dõi bản thân.Ví dụ:
+· Tôi là người hay cay cú. Bất cứ khi nào thất bại trong giao dịch, tôi sẽ bị rối loạn và có tâm lý gỡ gạc.
+· Chúng tôi có xu hướng đóng các giao dịch sớm.
+· Không tuân thủ các nguyên tắc hệ thống giao dịch.
+· Không tuân thủ nguyên tắc quản lý tiền.
+o 5.Mục tiêu cá nhân: Kiếm tiền, rèn luyện kỷ luật, rèn luyện tinh thần, rèn luyện sự tự tin. Mục tiêu là ảo giúp ta vượt qua những lúc cam go thử thách. 
+o 6.Lập nhật ký ghi chép giao dịch của bạn: Ghi chép lại giao dịch và tại sao bạn mở giao dịch.
+è KINH THÁNH TRONG GIAO DỊCH CHÍNH LÀ KẾ HOẠCH GIAO DỊCH.
+è CHÉN THÁNH CHÍNH LÀ SỰ KỶ LUẬT TUÂN THEO KẾ HOẠCH GIAO DỊCH.
+
+
+
+KẾ HOẠCH GIAO DỊCH
+
+1. Hệ thống giao dịch:
+- Phương pháp 3 khung thời gian:
+o Khung dài hạn (4H): Xu hướng chính hiện tại là gì?
+§  Bằng cách vẽ đỉnh – đỉnh, đáy – đáy.
+§ Vẽ các mức kháng cự hỗ trợ cứng
+§ Sử dụng 2 đường trung bình
+o Khung trung hạn (1H): Mức thoái lùi: Sử dụng chỉ số Sto (hoặc RSI, MACD) để xác định xung lượng thị trường, mức mua quá, bán quá.
+o Khung ngắn hạn (15M): Xác định điểm vào có lợi nhất.
+- Điều kiện mở: Thỏa mãn các điều kiện, xu hướng chính tồn tại rõ ràng.
+- Điều kiện đóng: Khi đường giá đã chứng minh rằng điểm vào ban đầu đã sai.
+- Mức độ mạo hiểm: 1% tài khoản
+
+2. Thủ tục giao dịch:
+- Phân tích thị trường qua thông tin vào buổi sáng. 
+- Theo dõi thị trường vào buổi tối: từ 19h tối (+7)
+- Đánh giá các giao dịch trong ngày: 7h sáng 
+
+3. Suy nghĩ bản thân: Bỏ đi cảm xúc:
+- Đường giá thể hiện cái gì? Giao dịch đặt lệnh theo đường giá.
+- Không có tâm lý gỡ gạc sau thua lỗ.
+-  Không vào thêm lệnh sau khi đã ra.
+- Rút ra bài học cho thất bại.
+
+4. Tìm kiếm khuyết điểm bản thân.
+- Rối loạn khi giá giảm khi đã vào lệnh.
+- Đóng giao dịch sớm vì thấy đã lời dù ít.
+
+5. Mục tiêu cá nhân:
+- Kiếm tiền
+- Kỷ luật tuân thủ kinh thánh
+- Rèn luyện tin thần
+- Tin tưởng bản thân khi ra quyết định.
+
+6. Nhật ký ghi chép mỗi ngày:
+- Ghi chép số giao dịch, lời lỗ
+- Sau từng giao dịch, ghi chép lại nhưng gì bản thân trải qua, nhưng điểm mới, điểm cần sửa của bản thân trong giao dịch đó.
+
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

@@ -1,0 +1,12 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+1. 
+Sử dụng hàm fold đối với list
+
+Có tác dụng tính tống của các phần tử cộng lại
+2. Đối với thao tác với các phần tử của model trong Custom Controller của Getx ta chỉ cần coi giá trị cần có là một thuộc tính của Custom Controller
+
+3. Khi có hai dấu $ cạnh nhau ta xử lý như sau: “dhjad \$ ${giá trị muốn hiển thị trong text}”
+
+4. Câu lệnh để export app khi test máy khác: flutter build apk --release
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

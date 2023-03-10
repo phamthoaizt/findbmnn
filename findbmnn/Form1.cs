@@ -9,9 +9,11 @@ using System.Windows.Forms;
 using Aspose.Words;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-using GhostscriptSharp;
+using BitMiracle.Docotic.Pdf;
+using Org.BouncyCastle.Ocsp;
+using System.Reflection;
+using System.Text;
 using Tesseract;
-using iText.Kernel.Pdf;
 
 namespace findbmnn
 {
@@ -38,7 +40,7 @@ namespace findbmnn
 
 
         #region code xử lý giao diện
-        
+
         // hàm hiển thị log
         public void AppendTextBox(string value, int stylevalue)
         {
@@ -70,42 +72,71 @@ namespace findbmnn
                 richTextBoxLog.ScrollToCaret();
             }
         }
-        // tìm kiếm file pdf 
-        private void buttonSearchpdf_Click(object sender, EventArgs e)
+        // xử lý nút tìm kiếm file pdf 
+        private async void buttonSearchpdf_Click(object sender, EventArgs e)
         {
-            
-        }
+            List<Task> tasks = new List<Task>();
 
-        private void FindContentPDF(string input_path, string output_path)
-        {
-            PdfReader pdf = new PdfReader(input_path);
-            PdfDocument pdfDoc = new PdfDocument(pdf);
-            int n = pdfDoc.GetNumberOfPages();
-            pdf.Close();
-            using (IResultRenderer renderer = Tesseract.PdfResultRenderer.CreatePdfRenderer(output_path, training_data, false))
+            buttonSearchpdf.Enabled = false;
+            // kiểm tra đã tồn tại file kết quả load chưa
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string fullpath = currentDirectory + @"\save_data\resultLoadFilePDF.txt";
+
+            if (!File.Exists(fullpath))
             {
-                using (renderer.BeginDocument("Serachablepdftest"))
+                MessageBox.Show("Chưa tồn tại file để load dữ liệu", "Cảnh báo", MessageBoxButtons.OK);
+
+            }
+            else
+            {
+                // lấy keyword để tìm kiếm
+                CheckKeyWords();
+                List<string> listpathfilepdf = File.ReadAllLines(fullpath).ToList();
+                // tạo đường dẫn chứa kết quả
+                string pathResultSearchString = currentDirectory + @"\save_data\resultSearchStringInPDF" + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".txt";
+                File.Create(pathResultSearchString);
+
+                foreach (string pathfilepdf in listpathfilepdf)
                 {
-                    for (int i = 1; i <= n; i++)
+                    // khởi tạo task đối với từng file word
+                    tasks.Add(Task.Run(() =>
                     {
-
-                        GhostscriptWrapper.GeneratePageThumbs(input_path, "example" + i + ".jpg", i, n, 200, 200);
-                        string configurationFilePath = training_data;
-                        string configfile = Path.Combine(training_data, "pdf.ttf");
-                        using (TesseractEngine engine = new TesseractEngine(configurationFilePath, "eng", EngineMode.TesseractAndLstm, configfile))
+                        try
                         {
-                            using (var img = Pix.LoadFromFile("example" + i + ".jpg"))
+                            string content = FindContentPDF(pathfilepdf);
+                            bool detectkey = false;
+                            foreach (string searchString in listKeys)
                             {
-                                using (var page = engine.Process(img, "Serachablepdftest"))
+                                Regex myRegex = new Regex(searchString);
+                                var results = myRegex.Matches(content);
+                                if (results.Count > 0)
                                 {
-                                    renderer.AddPage(page);
-
+                                    AppendTextBox("Tìm thấy chuỗi '" + searchString + "' trong file " + pathfilepdf, 1);
+                                    // thiết lập file chứa kết quả
+                                    detectkey = true;
+                                }
+                                else
+                                {
+                                    AppendTextBox("Không tìm thấy chuỗi '" + searchString + "' trong file " + pathfilepdf, 0);
                                 }
                             }
+                            if (detectkey)
+                            {
+                                File.AppendAllText(pathResultSearchString, pathfilepdf + Environment.NewLine);
+                            }
                         }
-                        Console.WriteLine("Page " + i + "done\n");
-                    }
+                        catch
+                        {
+                            AppendTextBox("Không đọc được file: " + pathfilepdf, 3);
+                        }
+                    }));
+
                 }
+
+                await Task.WhenAll(tasks);
+                AppendTextBox("Đã tìm kiếm xong!", 1);
+                buttonResult.Visible = true;
+                buttonSearchpdf.Enabled = true;
             }
         }
 
@@ -131,11 +162,11 @@ namespace findbmnn
                 CheckKeyWords();
                 List<string> listpathfileword = File.ReadAllLines(fullpath).ToList();
                 // tạo đường dẫn chứa kết quả
-                string pathResultSearchString = currentDirectory + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss ") + @"\save_data\resultSearchString.txt";
+                string pathResultSearchString = currentDirectory + @"\save_data\resultSearchStringInWord " + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".txt";
                 File.Create(pathResultSearchString);
 
                 // tạo folder chứa kết quả convert file txt
-                string pathsavefoldertxt = CreateFolder("txt_convert");
+                string pathsavefoldertxt = CreateFolder("txt_convert_word");
                 DeleleAllFile(pathsavefoldertxt);
 
                 foreach (string pathfileword in listpathfileword)
@@ -231,8 +262,8 @@ namespace findbmnn
         {
             // Lấy thư mục của User trên hệ thống
             string currentDirectory = Directory.GetCurrentDirectory();
-            string pathResultSearchString = currentDirectory + @"\save_data\resultSearchString.txt";
-            if (File.Exists(pathResultSearchString))
+            string pathResultSearchString = currentDirectory + @"\save_data";
+            if (!Directory.Exists(pathResultSearchString))
             {
                 Process.Start(pathResultSearchString);
             }
@@ -247,6 +278,64 @@ namespace findbmnn
 
 
         #region vùng backend
+        // đọc nội dung file pdf
+        private string FindContentPDF(string input_path)
+        {
+            var documentText = new StringBuilder();
+            using (var pdf = new PdfDocument(input_path))
+            {
+                var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
+                path = Path.Combine(path, "data");
+                path = path.Replace("file:\\", "");
+
+                System.Console.WriteLine(path);
+                using (var engine = new TesseractEngine(path, "vie", EngineMode.LstmOnly))
+                {
+                    for (int i = 0; i < pdf.PageCount; ++i)
+                    {
+                        if (documentText.Length > 0)
+                            documentText.Append("\r\n\r\n");
+
+                        PdfPage page = pdf.Pages[i];
+                        string searchableText = page.GetText();
+
+                        // Simple check if the page contains searchable text.
+                        // We do not need to perform OCR in that case.
+                        if (!string.IsNullOrEmpty(searchableText.Trim()))
+                        {
+                            documentText.Append(searchableText);
+                            continue;
+                        }
+
+                        // This page is not searchable.
+                        // Save PDF page as a high-resolution image.
+                        PdfDrawOptions options = PdfDrawOptions.Create();
+                        options.BackgroundColor = new PdfRgbColor(255, 255, 255);
+                        options.HorizontalResolution = 200;
+                        options.VerticalResolution = 200;
+
+                        string pageImage = $"page_{i}.png";
+                        page.Save(pageImage, options);
+
+                        // Perform OCR
+                        using (Pix img = Pix.LoadFromFile(pageImage))
+                        {
+                            using (Page recognizedPage = engine.Process(img))
+                            {
+                                Console.WriteLine($"Mean confidence for page #{i}: {recognizedPage.GetMeanConfidence()}");
+
+                                string recognizedText = recognizedPage.GetText();
+                                documentText.Append(recognizedText);
+                            }
+                        }
+
+                        File.Delete(pageImage);
+                    }
+                }
+            }
+            return documentText.ToString();
+
+        }
 
         // xóa toàn bộ file trong folder
         private void DeleleAllFile(string path_name)
@@ -344,8 +433,14 @@ namespace findbmnn
                     AppendTextBox(file, 0);
                 }
                 // thêm vào danh sách trả về
-                listFileDoc.AddRange(files);
-
+                if (typeFile == "*.pdf")
+                {
+                    listFilePDF.AddRange(files);
+                }
+                else if (typeFile == "*.doc" || typeFile == "*.docx")
+                {
+                    listFileDoc.AddRange(files);
+                }
                 // Duyệt qua tất cả các thư mục con và tìm kiếm các tệp tin .doc
                 string[] directories = Directory.GetDirectories(path);
                 foreach (string directory in directories)

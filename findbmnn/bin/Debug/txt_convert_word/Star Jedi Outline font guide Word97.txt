@@ -1,0 +1,202 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+  ¶ Boba Fonts presents…
+                                                                                   a Star Jedi collection add-on:
+{=S#T&a%^R} <|Jedi outline v. 2.18
+
+Install the Star Jedi Outline font in order to display correctly this document
+“normal” visualization recommended - created with Microsoft Word 97; best viewed in 800*600
+you can click on the blue shortcuts in the contents menu
+—————————————————————————————————
+
+                                                  Contents
+——————1.  Introduction
+
+——————2.  Star Jedi Outline 
+————————2.1  Charset table of Star Jedi Outline
+————————2.2. Samples of Star Jedi Outline
+
+
+1.  Introduction
+
+This Star Wars Logo font is based upon the official Star Wars logo typeface.
+Star Jedi Outline is a titling (capitals only) font, with a lot of variations and connections. Please, take a look at the charset tables and the samples below for details and refer to the original Star Jedi collection zip archive.
+The Star Jedi family was created with the little shareware font editor Softy 1.07b by D.W.Emmett.
+
+This add-on zip archive must contain: 
+starjout.ttf   
+Star Jedi Outline font guide Word 97.doc  
+Star Jedi Outline samples.jpg
+Feel free to distribute the zip but remember to keep it intact and complete.
+This font is freeware. To tell the truth it’s…“e-mailware”: if you like it send me an e-mail.
+
+Boba Fonts
+Davide Canavero
+V.Vigliani 15/4
+10135 TORINO
+ITALY
+canavero@pianeta.net 
+
+{=S#T&a%^R} <|Jedi outlinE=}
+
+2.  star Jedi outline
+
+Star Jedi Outline is a variant of Star Jedi Hollow. Refer to the basic guide (“Star Jedi font guide Word 97.doc”, contained in the original zip archive) for details. 
+
+
+2.1  The charset of  star Jedi outline
+
+Times New Roman
+{S#T&ar Jedi outline
+ASCII code
+Note
+!
+!
+Alt 33
+
+"
+"
+Alt 34
+
+#
+S#T
+Alt 35
+top link
+$
+R$S
+Alt 36
+bottom link
+%
+%H
+Alt 37
+top left patch
+&
+F&
+Alt 38
+top right patch
+'
+'
+Alt 39
+
+(
+(
+Alt 40
+
+)
+)
+Alt 41
+
+*
+L*
+Alt 42
+bottom right patch
++
+S+T
+Alt 43
+top link-line
+,
+,
+Alt 44
+
+-
+-
+Alt 45
+
+.
+.
+Alt 46
+
+/
+/
+Alt 47
+
+0
+0
+Alt 48
+
+1
+1
+Alt 49
+
+2
+2
+Alt 50
+
+3
+3
+Alt 51
+
+4
+4
+Alt 52
+
+5
+5
+Alt 53
+
+6
+6
+Alt 54
+
+7
+7
+Alt 55
+
+8
+8
+Alt 56
+
+9
+9
+Alt 57
+
+:
+:
+Alt 58
+
+;
+;
+Alt 59
+closed alternative C
+<
+<J
+Alt 60
+left link-underline (used 
+with the descending J)
+=
+R=K
+Alt 61
+bottom link-line
+>
+  O>
+Alt 62
+right link-underline 
+(used with the 
+descending R and K)
+?
+?
+Alt 63
+
+@
+   @
+Alt 64
+Lucasfilm logo
+A
+A
+Alt 65
+open A
+B
+B
+Alt 66
+open B
+C
+C
+Alt 67
+open standard C
+D
+D
+Alt 68
+open D
+E
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/

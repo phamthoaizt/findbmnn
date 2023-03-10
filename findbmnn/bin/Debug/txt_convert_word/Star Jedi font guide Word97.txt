@@ -1,0 +1,202 @@
+﻿
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2021 Aspose Pty Ltd.
+  ¶ Boba Fonts presents…
+STaR Jedi v. 2.16
+{S#T&a%^R} <|J&edi [^H&*ollo%W] v. 2.14
+
+Install the Star Jedi & Star Jedi Hollow fonts in order to display correctly this document
+“normal” visualization recommended - created with Microsoft Word 97; best viewed in 800*600
+you can click on the blue shortcuts in the contents menu
+—————————————————————————————————
+
+                                                  Contents
+——————1.  Introduction
+
+——————2.  Star Jedi 
+————————2.1  Charset table of Star Jedi
+————————2.2. Samples of Star Jedi
+
+——————3.  Star Jedi Hollow
+————————3.1  Charset table of Star Jedi Hollow
+————————3.2  Samples of Star Jedi Hollow
+   
+
+1.  Introduction
+
+These Star Wars Logo fonts are based upon the official Star Wars logo typeface.
+Star Jedi is a titling (capitals only) font, with a lot of variations and connections. Please, take a look at the charset tables and the samples below for details.
+The Star Jedi family was created with the little shareware font editor Softy 1.07a by D.W.Emmett.
+
+Installation: extract the contents of the zip file named “starjedi.zip” to a directory of your choice. You'll find:  starjedi.ttf     starjhol.ttf    Star Jedi font guide Word97.doc    starjedi sample.jpg    starjedi hollow sample.jpg    sample003.jpg    
+This is what the zip file should contain.
+Feel free to distribute the zip but remember to keep it intact and complete.
+These fonts are freeware. To tell the truth they’re…“e-mailware”: if you like them send me an e-mail.
+
+Boba Fonts
+Davide Canavero
+V.Vigliani 15/4
+10135 TORINO
+ITALY
+canavero@pianeta.net 
+
+2.  STaR Jedi
+
+Star Jedi is a bold font that reproduces exactly the original Star Wars logo’s typeface. The small letters are all capitals, while the capitals are serif variants. A few simple link-lines allow you to create complex letter groups, as it’s shown below in the samples chapter.
+Besides, you’ll find some dingbats reproducing the whole Star Wars logo letter group, the Imperial and the Rebellion logos, etc.
+
+
+2.1  The charset of  STaR Jedi
+
+Times New Roman
+STaR
+Jedi
+ASCII code
+Note
+!
+!
+Alt 33
+
+"
+"
+Alt 34
+
+#
+#
+Alt 35
+Imperial Logo
+$
+$
+Alt 36
+Rebel Alliance Logo
+%
+%
+Alt 37
+Black Sun Logo 1
+&
+&
+Alt 38
+Black Sun Logo 2
+'
+'
+Alt 39
+
+(
+(
+Alt 40
+
+)
+)
+Alt 41
+
+*
+*
+Alt 42
+Boba Fett Logo
++
+  f+t
+Alt 43
+top link-line
+,
+,
+Alt 44
+
+-
+-
+Alt 45
+
+.
+.
+Alt 46
+
+/
+/
+Alt 47
+
+0
+0
+Alt 48
+
+1
+1
+Alt 49
+
+2
+2
+Alt 50
+
+3
+3
+Alt 51
+
+4
+4
+Alt 52
+
+5
+5
+Alt 53
+
+6
+6
+Alt 54
+
+7
+7
+Alt 55
+
+8
+8
+Alt 56
+
+9
+9
+Alt 57
+
+:
+:
+Alt 58
+
+;
+;
+Alt 59
+E right serif
+<
+ab<Jks
+Alt 60
+left link-underline (used 
+with the descending J)
+=
+  r=
+Alt 61
+bottom link-line
+>
+  V>
+Alt 62
+right link-underline 
+(used with the 
+descending R and K)
+?
+?
+Alt 63
+
+@
+   @
+Alt 64
+Star Wars Logo 
+letter group
+A
+A
+Alt 65
+A left serif
+B
+B
+Alt 66
+B left serif
+C
+C
+Alt 67
+alternative C
+D
+D
+This document was truncated here because it was created in the Evaluation Mode.
+Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/
