@@ -1,0 +1,33 @@
+pinsetter file guide & helpful hints!
+
+thank you for your purchase of pinsetter!  you may be wondering which versions to install.
+
+if you’re using software that has quick and easy access to opentype features, like photoshop cc, illustrator, or indesign, you
+can install just one file: pinsetter-complete.otf. this file has the alternate alphabets coded into it. just type a letter, highlight
+it, and select the swash button for the middle size, and the stylistic alternates button for the tall size alternates.
+
+if that sounds like gibberish to you, or if you know that your software of choice doesn’t have easy opentype feature access,
+fear not!  you can also install all three alphabets as separate files! just install the littles, middles, and talls files. if you use
+both types of software, feel free to install all four files, to cover your bases! (i always recommend installing the otf versions, as
+they’re friendlier with most software; however, if your software will only allow ttf files, those are included for you too!)
+
+if you’re using the separate files, you may find that you need to do some manual adjusting to get the spacing right when mixing
+the alphabets together. both the littles and middles alphabets are built to stand on their own, but the talls alphabet is
+designed primarily to snuggle around the littles letters.
+
+all 3 separate alphabet files also contain over 200 accented characters for language support.
+
+littles
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 1 2 3 4 5 6 7 8 9 0 ! ? ( ) / . ,
+
+middles
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 1 2 3 4 5 6 7 8 9 ! ? ( ) / . ,
+
+talls
+a  b c  d e  f  g  h  i  j k  l  m  n o p q  r s   t  u v w x  y  z
+a  b c  d e  f  g  h  i  j k  l  m  n o p q  r s   t  u v w x  y  z
+0 1 2   3 4  5  6  7 8   9

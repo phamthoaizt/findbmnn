@@ -1,0 +1,3033 @@
+ 
+
+ 
+
+ 
+
+
+copyright © 2019 nguyễn thanh tuấn
+
+nttuan 8. com
+
+the legrand orange book template by mathias legrand is used
+
+the book cover is designed by nguyễn thanh tú
+
+last update, october 2019
+
+3
+
+lời mở đầu
+giới thiệu về deep learning
+những năm gần đây, ai - artificial intelligence (trí tuệ nhân tạo), và cụ thể hơn là machine
+learning (máy học) nổi lên như một minh chứng của cuộc cách mạng công nghiệp lần thứ tư (1 -
+động cơ hơi nước, 2 - năng lượng điện, 3 - công nghệ thông tin). ai hiện diện trong mọi lĩnh vực
+của đời sống con người, từ kinh tế, giáo dục, y khoa cho đến những công việc nhà, giải trí hay thậm
+chí là trong quân sự. những ứng dụng nổi bật trong việc phát triển ai đến từ nhiều lĩnh vực để giải
+quyết nhiều vấn đề khác nhau. nhưng những đột phá phần nhiều đến từ deep learning (học sâu) -
+một mảng nhỏ đang mở rộng dần đến từng loại công việc, từ đơn giản đến phức tạp. deep learning
+đã giúp máy tính thực thi những việc tưởng chừng như không thể vào 15 năm trước: phân loại cả
+ngàn vật thể khác nhau trong các bức ảnh, tự tạo chú thích cho ảnh, bắt chước giọng nói và chữ viết
+của con người, giao tiếp với con người, hay thậm chí cả sáng tác văn, phim, ảnh, âm nhạc.
+
+hình 1: mối quan hệ ai, ml và dl [3]
+
+chúng ta có thể thấy deep learning chỉ là một nhánh nhỏ của machine learning. tuy nhiên trong
+khoảng 5 năm trở lại đây thì deep learning được nhắc đến rất nhiều như một xu hướng mới của
+cuộc cách mạng ai. có một số lý do như sau:
+• bùng nổ dữ liệu: deep learning khai thác được big data (dữ liệu lớn) cùng với độ chính xác
+cao hơn hẳn so với các phương pháp machine learning khác trên tập dữ liệu đặc biệt là đối
+với ảnh. cụ thể là năm 2012, alex krizhevsky, ilya sutskever, và người hướng dẫn là hinton,
+submit một model làm bất ngờ những người làm việc trong ngành ai, và sau này là cả thế
+giới khi đạt top-5 error là 16% trong cuộc thi ilsvrc2012. đây là lần đầu tiên một model
+artificial neural network (ann) đạt kết quả state-of-the-art (sota).
+
+4
+
+• phần cứng phát triển: sự xuất hiện của gpu gtx 10 series của nvidia ra mắt năm 2014
+với hiệu năng tính toán cao cũng như giá thành rẻ có thể tiếp cận với hầu hết với mọi người
+dẫn đến việc nghiên cứu deep learning không còn là những bài toán chỉ được nghiên cứu
+trong các phòng lab đắt tiền của các trường đại học danh giá và các công ty lớn.
+theo thống kê trên trang paperswithcode hiện có 16 tasks lớn mà machine learning có thể thực
+hiện trong đó có tới trên 8 tasks deep learning đạt kết quả sota phải kể đến như:
+• computer vision
+• natural language processing
+• medical
+• methodology
+• speech
+• time series
+• audio
+• music
+
+ý tưởng và mục đích của cuốn sách
+hồi đầu năm 2019, khi nghiên cứu ứng dụng về deep learning trong ngành y, tôi nhận ra là mặc
+dù bản thân mình là kỹ sư có khả năng lập trình deep learning nhưng lại thiếu kiến thức chuyên
+môn ngành y để phát triển ứng dụng chuyên sâu. ngược lại, các bác sĩ hiểu được các vấn đề chuyên
+môn thì lại thiếu các kỹ năng lập trình cần thiết.
+
+thế nên tôi quyết định viết loạt bài viết này để giới thiệu các kiến thức cơ bản về deep learning
+cũng như các ứng dụng của nó để mọi người có kiến thức chuyên môn, có dữ liệu trong các ngành
+khác như y tế, ngân hàng, nông nghiệp,. . . có thể tự áp dụng được deep learning trong lĩnh vực
+của họ.
+
+thêm vào đó tôi muốn cung cấp một nền tảng về toán và deep learning cơ bản cho các bạn
+học sinh, sinh viên có thể làm được ứng dụng và đào sâu nghiên cứu về deep learning trong môi
+trường học thuật.
+
+vì hướng tới nhiều độc giả với các background khác nhau nên khi viết tôi giải thích toán chi
+tiết nhưng đơn giản và dễ hiểu. bên cạnh đó tôi cũng có các bài ứng dụng deep learning trong
+thực tế xen kẽ giữa các nội dung lý thuyết để bạn đọc dễ tiếp thu hơn.
+
+cuối cùng, hy vọng qua cuốn sách, bạn đọc có được những kiến thức cơ bản về deep learn-
+ing và thấy được các ứng dụng của nó. để rồi áp dụng các ý tưởng vào start-up, công ty để có các
+ứng dụng hay, thiết thực cho xã hội. bên cạnh đó mong rằng cuấn sách là bệ phóng cho các bạn
+sinh viên việt nam nghiên cứu thêm về deep learning để có các nghiên cứu, thuật toán mới.
+
+yêu cầu
+vì cuốn sách này tôi muốn viết cho tất cả mọi người nên tôi sẽ giải thích tất cả mọi thứ chi tiết nhất
+có thể. một số yêu cầu để có thể theo nội dung sách:
+• kiến thức về toán cơ bản cấp ba: hàm số, đạo hàm.
+• kiến thức cơ bản về lập trình python: biến, vòng lặp (tôi có giới thiệu ở phần dưới)
+• ý thức tự học hỏi kiến thức mới.
+
+nội dung
+chương i, tôi giới thiệu về cách cài đặt môi trường với anaconda để chạy code python cơ bản.
+ngoài ra tôi cũng hướng dẫn sử dụng google colab, với gpu tesla k80 được google cung cấp
+
+5
+
+miễn phí. nên bạn đọc có thể train model online thay vì sử dụng máy tính cá nhân.
+
+chương ii, tôi đề cập đến machine learning cơ bản với hai thuật toán linear regerssion và
+logistic regression. đồng thời tôi giới thiệu về thuật toán gradient descent, rất quan trọng trong
+deep learning. bên cạnh đó tôi giới thiệu các kiến thức toán cơ bản như: phép toán với ma trận,
+biểu diễn bài toán dạng ma trận,...
+
+chương iii, tôi giới thiệu về bài toán neural network cũng chính là xương sống của deep learning
+và thuật toán backpropagation để giải bài toán này. ngoài ra, để hiểu rõ bản chất của neural
+network nên tôi cũng hướng dẫn mọi người code từ đầu neural network và backpropagation bằng
+python trong chương này.
+
+chương iv, tôi đề cập tới convolutional neural network (cnn) cho bài toán có xử lý ảnh.
+sau đó giới thiệu về thư viện keras và ứng dụng cnn cho bài toán phân loại ảnh với bộ dữ liệu chữ
+số viết tay (mnist). cuối chương tôi giới thiệu về ứng dụng thực tế của cnn cho bài toán ô tô tự lái.
+
+chương v, tôi giới thiệu một số tips trong deep learning như transfer learning, data augmenta-
+tion, mini-batch gradient descent, dropout, non-linear activation, ... để tăng độ hiệu quả của mô hình.
+
+chương vi, tiếp nối ý tưởng từ chương iv , tôi đề cập đến hai bài toán lớn của deep learn-
+ing trong computer vision. đó là bài toán về object detection và image segmentation.
+
+chương cuối, tôi giới thiệu về thuật toán recurrent neural network (rnn) cho bài toán dữ
+liệu dạng chuỗi và mô hình cải tiến của nó là long short term memory (lstm). cuối cùng tôi
+hướng dẫn mọi người áp dụng mô hình lstm cho bài toán thêm mô tả cho ảnh.
+
+ngoài ra trong cuối mỗi chương tôi đều đưa ra bài tập về thực hành code với python và đặt
+ra những câu hỏi để mọi người hiểu rõ thêm về lý thuyết mà tôi đã giới thiệu.
+
+thông tin liên lạc
+website của tôi.
+
+facebook cá nhân của tôi.
+
+tất cả code trên sách ở trên github.
+
+vì đây là bản đầu tiên của cuốn sách nên mọi người có nhận xét, góp ý, phản ánh xin gửi về
+mail nttuan8.com@gmail.com
+
+xin cảm ơn mọi người rất nhiều!
+
+6
+
+lời cảm ơn
+trước hết tôi xin cảm ơn bạn bè trên facebook đã nhiệt tình ủng hộ và đóng góp cho các bài viết
+trong series deep learning cơ bản từ những ngày đầu tiên. các bạn là động lực lớn nhất cho tôi để
+hoàn thành series và xuất bản sách này.
+
+xin cảm ơn bạn lê vũ hoàng (nghiên cứu sinh ngành thống kê, đh trinity college dublin) đã
+giúp tôi đọc và chỉnh sửa các bài viết trên blog trước khi đến tay bạn đọc cũng như giúp tôi chỉnh
+sửa nội dung khi soạn sách.
+
+xin cảm ơn bạn nguyễn thế hùng (toán tin - k59 - đhbkhn), nguyễn thị xuân huyền
+(điện tử viễn thông - k60 - đhbkhn) đã giúp tôi đọc và chỉnh sửa nội dung sách.
+
+cuối cùng và quan trọng nhất, tôi xin cảm ơn gia đình, người thân những người luôn động
+viên và ủng hộ tôi trong dự án này.
+
+hình 2: ảnh chụp ở stonehenge
+
+"người vá trời lấp bể
+kẻ đắp luỹ xây thành
+ta chỉ là chiếc lá
+việc của mình là xanh"
+nguồn: trái tim người lính (thơ), nguyễn sĩ đại, nxb thanh niên.
+
+từ những ngày đầu tiên viết blog tôi luôn quan niệm "chia sẻ là để học hỏi" thế nên "kiến
+thức là để cho đi". cuốn sách này được chia sẻ miễn phí tới bạn đọc với thông điệp:
+
+"vì một cộng đồng ai việt nam phát triển bền vững"
+
+oreated with a trial version of docotic.pdf.
+
+
+mục lục
+
+i giới thiệu
+1 cài đặt môi trường . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+1.1 giới thiệu 17
+1.2 google colab 17
+1.2.1 tạo file trên google colab . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+1.2.2 chọn gpu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+1.2.3 các thành phần nhỏ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+1.2.4 link với google drive . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+1.2.5 cài thêm thư viện . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+1.3 hướng dẫn cài đặt anaconda 22
+1.3.1 giới thiệu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+1.3.2 yêu cầu phần cứng và phần mềm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+1.3.3 cài đặt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+1.3.4 hướng dẫn sử dụng jupyter notebook . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+2 python cơ bản . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+2.1 kiểu dữ liệu cơ bản 29
+2.1.1 số . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+2.1.2 phép tính logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+2.1.3 chuỗi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+2.2 containers 30
+2.2.1 list . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+2.2.2 dictionaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+2.3 function 31
+2.4 sử dụng numpy 32
+2.4.1 array indexing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+2.4.2 các phép tính trên array . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+2.5 broadcasting 35
+
+ii machine learning cơ bản
+3 linear regression . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+3.1 bài toán 39
+3.2 thiết lập công thức 41
+3.2.1 model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+3.2.2 loss function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+3.3 gradient descent 44
+3.3.1 đạo hàm là gì . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+3.3.2 gradient descent . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+3.3.3 áp dụng vào bài toán . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+3.4 ma trận 47
+3.4.1 ma trận là gì . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+3.4.2 phép nhân ma trận . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+3.4.3 element-wise multiplication matrix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+3.4.4 biểu diễn bài toán . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+3.5 python code 49
+3.6 bài tập 50
+
+4 logistic regression . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+4.1 bài toán 53
+4.2 xác suất 55
+4.3 hàm sigmoid 56
+4.4 thiết lập bài toán 56
+4.4.1 model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+4.4.2 loss function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+4.5 chain rule 59
+4.5.1 áp dụng gradient descent . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+4.5.2 biểu diễn bài toán dưới ma trận . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+4.6 quan hệ giữa phần trăm và đường thẳng 64
+4.7 ứng dụng 67
+4.8 python code 67
+4.9 bài tập 68
+
+iii neural network
+5 neural network . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+5.1 neural network là gì 71
+5.1.1 hoạt động của các nơ-ron . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+5.2 mô hình neural network 72
+5.2.1 logistic regression . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+5.2.2 mô hình tổng quát . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+5.2.3 kí hiệu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+5.3 feedforward 76
+5.3.1 biểu diễn dưới dạng ma trận . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+5.4 logistic regression với toán tử xor 78
+5.4.1 not . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+5.4.2 and . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+5.4.3 or . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+5.4.4 xor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+5.5 bài tập 83
+
+6 backpropagation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+6.1 bài toán xor với neural network 85
+6.1.1 model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+6.1.2 loss function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+6.1.3 gradient descent . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+6.2 mô hình tổng quát 92
+6.3 python code 93
+6.4 bài tập 95
+
+iv convolutional neural network
+7 giới thiệu về xử lý ảnh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+7.1 ảnh trong máy tính 99
+7.1.1 hệ màu rgb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+7.1.2 ảnh màu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+7.1.3 tensor là gì . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+7.1.4 ảnh xám . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+7.1.5 chuyển hệ màu của ảnh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+7.2 phép tính convolution 106
+7.2.1 convolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+7.2.2 padding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+7.2.3 stride . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+7.2.4 ý nghĩa của phép tính convolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+7.3 bài tập 111
+
+8 convolutional neural network . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
+8.1 thiết lập bài toán 113
+8.2 convolutional neural network 114
+8.2.1 convolutional layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+8.2.2 pooling layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+8.2.3 fully connected layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+8.2.4 visualise convolutional neural network . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+8.3 mạng vgg 16 122
+8.4 bài tập 123
+
+9 giới thiệu keras và bài toán phân loại ảnh . . . . . . . . . . . . . . . . . . . . 125
+9.1 giới thiệu về keras 125
+9.2 mnist dataset 126
+9.2.1 xây dựng bài toán . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+9.2.2 chuẩn bị dữ liệu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+9.2.3 xây dựng model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+9.2.4 loss function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 129
+9.3 python code 131
+9.4 ứng dụng của việc phân loại ảnh 133
+9.5 bài tập 133
+
+10 ứng dụng cnn cho ô tô tự lái . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+10.1 giới thiệu mô phỏng ô tô tự lái 135
+10.2 bài toán ô tô tự lái 138
+10.2.1 xây dựng bài toán . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+10.2.2 chuẩn bị dữ liệu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+10.2.3 tiền xử lý dữ liệu (preprocessing) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+10.2.4 xây dựng model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 140
+10.2.5 loss function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 140
+10.3 python code 140
+10.4 áp dụng model cho ô tô tự lái 142
+10.5 bài tập 143
+
+v deep learning tips
+11 transfer learning và data augmentation . . . . . . . . . . . . . . . . . . . . . . 147
+11.1 transfer learning 147
+11.1.1 feature extractor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 148
+11.1.2 fine tuning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 152
+11.1.3 khi nào nên dùng transfer learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158
+11.2 data augmentation 158
+11.3 bài tập 162
+
+12 các kỹ thuật cơ bản trong deep learning . . . . . . . . . . . . . . . . . . . . . 163
+12.1 vectorization 163
+12.2 mini-batch gradient descent 164
+12.2.1 mini-batch gradient descent là gì . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 164
+12.2.2 các thông số trong mini-batch gradient descent . . . . . . . . . . . . . . . . . . . . . 166
+12.3 bias và variance 167
+12.3.1 bias, variance là gì . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+12.3.2 bias, variance tradeoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+12.3.3 đánh giá bias and variance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+12.4 dropout 169
+12.4.1 dropout là gì . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 169
+12.4.2 dropout hạn chế việc overfitting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 169
+12.4.3 lời khuyên khi dùng dropout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 169
+12.5 activation function 170
+12.5.1 non-linear activation function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+12.5.2 vanishing và exploding gradient . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+12.5.3 một số activation thông dụng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 172
+12.6 bài tập 174
+
+vi computer vision task
+13 object detection với faster r-cnn . . . . . . . . . . . . . . . . . . . . . . . . . . . 177
+13.1 bài toán object detection 177
+13.2 faster r-cnn 178
+13.2.1 r-cnn (region with cnn feature) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178
+13.2.2 fast r-cnn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+13.2.3 faster r-cnn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+13.3 ứng dụng object detection 187
+13.4 bài tập 187
+
+14 image segmentation với u-net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 189
+14.1 bài toán image segmentation 189
+14.1.1 phân loại bài toán image segmentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190
+14.1.2 ứng dụng bài toán segmentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191
+14.2 mạng u-net với bài toán semantic segmentation 192
+14.2.1 kiến trúc mạng u-net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+14.2.2 code . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 193
+14.3 bài tập 196
+
+vii recurrent neural network
+15 recurrent neural network . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 199
+15.1 recurrent neural network là gì? 199
+15.1.1 dữ liệu dạng sequence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+15.1.2 phân loại bài toán rnn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+15.1.3 ứng dụng bài toán rnn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 201
+15.2 mô hình bài toán rnn 201
+15.2.1 mô hình rnn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 201
+15.2.2 loss function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 202
+15.2.3 backpropagation through time (bptt) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 203
+15.3 bài tập 204
+
+16 long short term memory (lstm) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205
+16.1 giới thiệu về lstm 205
+16.2 mô hình lstm 206
+16.3 lstm chống vanishing gradient 207
+16.4 bài tập 208
+
+17 ứng dụng thêm mô tả cho ảnh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 209
+17.1 ứng dụng 209
+17.2 dataset 210
+17.3 ứng dụng 211
+17.4 phân tích bài toán 211
+17.5 các bước chi tiết 212
+17.5.1 image embedding với inception . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
+17.5.2 text preprocessing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 213
+17.5.3 word embedding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214
+17.5.4 output . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214
+17.5.5 model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214
+17.6 python code 214
+
+bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 225
+articles 225
+online 225
+books 227
+
+i giới thiệu
+
+1 cài đặt môi trường . . . . . . . . . . . . . . . . . . 17
+1.1 giới thiệu
+1.2 google colab
+1.3 hướng dẫn cài đặt anaconda
+
+2 python cơ bản . . . . . . . . . . . . . . . . . . . . . . 29
+2.1 kiểu dữ liệu cơ bản
+2.2 containers
+2.3 function
+2.4 sử dụng numpy
+2.5 broadcasting
+
+oreated with a trial version of docotic.pdf.
+
+
+1. cài đặt môi trường
+
+1.1 giới thiệu
+python là ngôn ngữ được sử dụng phổ biến nhất trong deep learning. nên tất cả code trong sách sẽ
+được viết bằng python và thư viện deep learning được chọn để sử dụng là keras. trong phần này
+tôi sẽ hướng dẫn cài đặt môi trường. có 2 dạng là chạy trên server dùng google colab và cài trên
+local dùng anaconda và ide là spyder hoặc jupyter notebook. hiểu đơn giản thì nếu dùng google
+colab bạn sẽ viết code python và chạy online, không cần cài gì trên máy cả nên sẽ đơn giản hơn và
+máy cấu hình yếu vẫn chạy được.
+
+1.2 google colab
+huấn luyện (hay còn gọi là train) một mô hình deep learning cần xử lý lượng phép tính lớn hơn
+nhiều so với các mô hình machine learning khác. để cải thiện tốc độ tính toán, người ta dùng gpu
+(graphics processing unit) thay cho cpu (central processing unit) vì với 1 gpu cho phép xử lý
+phép tính song song với rất nhiều core sẽ nhanh hơn nhiều so với cpu. tuy nhiên giá của gpu thì
+khá đắt đỏ để mua hoặc thuê server có gpu. thế nên google đã cung cấp google colab miễn phí
+có gpu để chạy code python (deep learning) cho mục đích nghiên cứu.
+
+ở trên môi trường colab có cài sẵn các thư viện deep learning phổ biến như pytorch, ten-
+sorflow, keras,.. ngoài ra bạn cũng có thể cài thêm thư viện để chạy nếu cần. thêm vào đó thì bạn
+cũng có thể liên kết colab với google drive và đọc, lưu dữ liệu lên google drive nên rất tiện để sử
+dụng.
+
+mặc dù ở trên colab chỉ hỗ trợ 2 version python là 2.7 và 3.6 và chưa hỗ trợ ngôn ngữ r và
+scala, thì google colab vẫn là môi trường tuyệt vời để học và thực hành với deep learning.
+
+1.2.1 tạo file trên google colab
+đầu tiên bạn vào google drive, tạo folder mà bạn muốn lưu python code, rồi chọn nút new
+
+18 chương 1. cài đặt môi trường
+
+sau đó kéo xuống chọn google colaboratory hoặc bạn có thể truy cập trực tiếp vào đây.
+
+tiếp đó bạn click vào phần tên trên cùng của file để đổi tên file cho phù hợp
+
+1.2.2 chọn gpu
+
+bước này để chọn gpu chạy, bạn chọn runtime -> change runtime type
+
+1.2 google colab 19
+
+rồi click vào dấu mũi tên xuống phần hardware accelerator chọn gpu
+
+1.2.3 các thành phần nhỏ
+vì code python được chia thành từng khối (block) để chạy, bạn nhìn hình bên dưới có:
+• nút +code để thêm 1 block code python
+• nút +text để thêm 1 khối text (giống như comment nhưng có thể format được màu mè hơn)
+• biểu tượng hình thùng rác để xóa khối code/text đi
+• nút mũi tên xoay ngang để chạy khối code/text đấy
+
+20 chương 1. cài đặt môi trường
+
+1.2.4 link với google drive
+đoạn code để link tới các file trên google drive
+
+from google.colab import drive
+drive.mount('/content/gdrive')
+
+sau khi ấn chạy đoạn code đấy, bạn click vào link trên, chọn tài khoản google bạn đang dùng, rồi
+chọn accept bạn sẽ có mã code như ở dưới.
+
+rồi bạn copy mã code đấy vào ô trống ở trong phần chạy của block hiện tại rồi ấn enter
+
+sau khi link (mount) thành công bạn sẽ thấy dòng chữ mounted at /content/gdrive
+
+sau đó bạn click vào nút mũi tên
+
+1.2 google colab 21
+
+rồi chọn tab files để nhìn thấy các files, cách tổ chức file và thư mục dạng cây giống như trong
+window.
+
+các file và thư mục trong google drive được lưu ở gdrive/my drive
+
+để chuyển thư mục hiện tại đến thư mục khác bạn dùng lệnh
+
+\%cd '/content/gdrive/my drive/deep-learning'
+! ls
+
+22 chương 1. cài đặt môi trường
+
+1.2.5 cài thêm thư viện
+
+để cài thêm thư viện bạn dùng cú pháp, ví dụ lệnh dưới để cài thư viện scipy
+
+!pip install scipy
+
+1.3 hướng dẫn cài đặt anaconda
+
+1.3.1 giới thiệu
+
+anaconda là nền tảng mã nguồn mở về khoa học dữ liệu trên python thông dụng nhất hiện nay.
+với hơn 11 triệu người dùng, anaconda là cách nhanh nhất và dễ nhất để học khoa học dữ liệu với
+python hoặc r trên windows, linux và mac os x. lợi ích của anaconda:
+• dễ dàng tải 1500+ packages về python/r cho data science
+• quản lý thư viện, môi trường và dependency giữa các thư viện dễ dàng
+• dễ dàng phát triển mô hình machine learning và deep learning với scikit-learn, tensorflow,
+keras
+• xử lý dữ liệu tốc độ cao với numpy, pandas
+• hiển thị kết quả với matplotlib, bokeh
+trong khi đó spyder là 1 trong những ide (môi trường tích hợp dùng để phát triển phần mềm) tốt
+nhất cho data science và quang trọng hơn là nó được cài đặt khi bạn cài đặt anaconda.
+
+1.3.2 yêu cầu phần cứng và phần mềm
+• hệ điều hành: win 7, win 8/8.1, win 10, red hat enterprise linux/centos 6.7, 7.3, 7.4,
+and 7.5, and ubuntu 12.04+.
+• ram tối thiểu 4gb.
+• ổ cứng trống tối thiểu 3gb để tải và cài đặt.
+
+1.3.3 cài đặt
+
+bạn click vào đây. sau khi tải xong bạn mở file
+
+1.3 hướng dẫn cài đặt anaconda 23
+
+hình 1.1: click next
+
+hình 1.2: click i agree
+
+24 chương 1. cài đặt môi trường
+
+hình 1.3: click next
+
+hình 1.4: bạn có thể chọn như mục cài đặt khác bằng việc click browse... và chọn, xong thì click
+next
+
+1.3 hướng dẫn cài đặt anaconda 25
+
+hình 1.5: bạn nhớ click vào ô vuông gần dòng add anaconda to my path environment
+variable
+
+hình 1.6: click next
+
+26 chương 1. cài đặt môi trường
+
+hình 1.7: click skip
+
+hình 1.8: click finish.
+
+cài đặt một số library cơ bản
+
+mở anaconda command line và copy lệnh sau để cài library.
+
+1.3 hướng dẫn cài đặt anaconda 27
+
+một số thư viện cơ bản
+
+• numpy: conda install -c anaconda numpy
+• pandas: conda install -c anaconda pandas
+• matplotlib: conda install -c conda-forge matplotlib
+• keras: conda install -c conda-forge keras
+
+hoặc bạn cũng có thể cài bằng pip trên anaconda prompt
+
+• numpy: pip install numpy
+• pandas: pip install pandas
+• matplotlib: pip install matplotlib
+• keras: pip install keras
+
+28 chương 1. cài đặt môi trường
+
+1.3.4 hướng dẫn sử dụng jupyter notebook
+
+hình 1.9: bên trái: mở jupyter notebook trên win10, bên phải: mở trên win7
+
+giao diện mở ra, click vào new chọn python3 để tạo 1 notebook mới
+
+sau đấy thì dùng giống như google colab, nhưng điểm khác biệt là jupyter notebook sẽ chạy trên
+máy của bạn chứ không phải cloud như google colab.
+
+2. python cơ bản
+
+phần này sẽ giới thiệu python cơ bản cho những người mới chưa học lập trình, hoặc từ ngôn ngữ
+khác chuyển qua dùng python. nội dung được dịch và tham khảo từ đây
+
+2.1 kiểu dữ liệu cơ bản
+giống với các ngôn ngữ lập trình khác, python cũng có các kiểu dữ liệu cơ bản như integers (số
+nguyên), floats (số thực), booleans (kiểu dữ liệu true/false) và strings (chuỗi)
+
+2.1.1 số
+số nguyên và số thực dùng như các ngôn ngữ khác
+
+x = 3
+print(type(x)) # prints "<class 'int'>"
+print(x) # prints "3"
+print(x + 1) # cộng; prints "4"
+print(x - 1) # trừ; prints "2"
+print(x * 2) # nhân; prints "6"
+print(x ** 2) # lũy thừa; prints "9"
+x += 1
+print(x) # prints "4"
+x *= 2
+print(x) # prints "8"
+y = 2.5
+print(type(y)) # prints "<class 'float'>"
+print(y, y + 1, y * 2, y ** 2) # prints "2.5 3.5 5.0 6.25"
+
+2.1.2 phép tính logic
+python có các phép tính logic nhưng dùng các từ tiếng anh (and, or) thay cho kí hiệu (&&, ||):
+
+30 chương 2. python cơ bản
+
+t = true
+f = false
+print(type(t)) # prints "<class 'bool'>"
+print(t and f) # and; prints "false"
+print(t or f) # or; prints "true"
+print(not t) # not; prints "false"
+print(t != f) # xor; prints "true"
+
+2.1.3 chuỗi
+python có hỗ trợ dạng chuỗi
+
+hello = 'hello' # gán giá trị chuỗi cho biến, chuỗi đặt trong 2 dấu '
+world = "world" # chuỗi cũng có thể đặt trong dấu ".
+print(hello) # prints "hello"
+print(len(hello)) # độ dài chuỗi; prints "5"
+hw = hello + ' ' + world # nối chuỗi bằng dấu +
+print(hw) # prints "hello world"
+hw12 = '%s %s %d' % (hello, world, 12) # cách format chuỗi
+print(hw12) # prints "hello world 12"
+
+kiểu string có rất nhiều method để xử lý chuỗi
+
+s = "hello"
+print(s.capitalize()) # viết hoa chữ cái đầu; prints "hello"
+print(s.upper()) # viết hoa tất cả các chữ; prints "hello"
+print(s.replace('l', '(ell)')) # thay thế chuỗi; prints "he(ell)(ell)o"
+print(' world '.strip()) # bỏ đi khoảng trắng ở đầu và cuối chuỗi; prints "world"
+
+2.2 containers
+python có một số container như: lists, dictionaries,...
+
+2.2.1 list
+list trong python giống như mảng (array) nhưng không cố định kích thước và có thể chứa nhiều
+kiểu dữ liệu khác nhau trong 1 list.
+
+xs = [3, 1, 2] # tạo 1 list
+print(xs, xs[2]) # prints "[3, 1, 2] 2"
+print(xs[-1]) # chỉ số âm là đếm phần tử từ cuối list lên; prints "2"
+xs[2] = 'foo' # list có thể chứa nhiều kiểu phần tử khác nhau
+print(xs) # prints "[3, 1, 'foo']"
+xs.append('bar') # thêm phần tử vào cuối list
+print(xs) # prints "[3, 1, 'foo', 'bar']"
+x = xs.pop() # bỏ đi phần tử cuối cùng khỏi list và trả về phần tử đấy
+print(x, xs) # prints "bar [3, 1, 'foo']"
+
+slicing thay vì lấy từng phần tử một trong list thì python hỗ trợ truy xuất nhiều phần tử 1 lúc gọi là
+slicing.
+
+nums = list(range(5)) # range sinh ta 1 list các phần tử
+print(nums) # prints "[0, 1, 2, 3, 4]"
+
+2.3 function 31
+
+print(nums[2:4]) # lấy phần tử thứ 2->4, python chỉ số mảng từ 0;
+print(nums[2:]) # lấy từ phần tử thứ 2 đến hết; prints "[2, 3, 4]"
+print(nums[:2]) # lấy từ đầu đến phần tử thứ 2; prints "[0, 1]"
+print(nums[:]) # lấy tất cả phần tử trong list; prints "[0, 1, 2, 3, 4]"
+print(nums[:-1]) # lấy từ phần tử đầu đến phần tử gần cuối trong list; prints "[0, 1, 2, 3]"
+nums[2:4] = [8, 9] # gán giá trị mới cho phần tử trong mảng từ vị trí 2->4
+print(nums) # prints "[0, 1, 8, 9, 4]"
+
+loops để duyệt và in ra các phần tử trong list
+
+animals = ['cat', 'dog', 'monkey']
+for idx, animal in enumerate(animals):
+print('#%d: %s' % (idx + 1, animal))
+# prints "#1: cat", "#2: dog", "#3: monkey", in mỗi thành phần trong list 1 dòng
+
+2.2.2 dictionaries
+dictionaries lưu thông tin dưới dạng key, value.
+
+d = {'cat': 'cute', 'dog': 'furry'} # tạo dictionary, các phần tử dạng key:value
+print(d['cat']) # lấy ra value của key 'cat' trong dictionary; prints "cute"
+print('cat' in d) # kiểm tra key có trong dictionary không; prints "true"
+d['fish'] = 'wet' # gán key, value, d[key] = value
+print(d['fish']) # prints "wet"
+# print(d['monkey']) # lỗi vì key 'monkey' không trong dictionary;
+del d['fish'] # xóa phần tử key:value từ dictionary
+
+loop duyệt qua các phần tử trong dictionary
+
+d = {'person': 2, 'cat': 4, 'spider': 8}
+for animal, legs in d.items():
+print('a %s has %d legs' % (animal, legs))
+# prints "a person has 2 legs", "a cat has 4 legs", "a spider has 8 legs"
+
+2.3 function
+function là một khối code python được thực hiện một hoặc một số chức năng nhất định. function
+trong python được định nghĩa với keyword def.
+
+# hàm có input là 1 số và output xem số đấy âm, dương hay số 0
+def sign(x):
+if x > 0:
+return 'positive'
+elif x < 0:
+return 'negative'
+else:
+return 'zero'
+
+for x in [-1, 0, 1]:
+print(sign(x))
+# prints "negative", "zero", "positive"
+
+32 chương 2. python cơ bản
+
+2.4 sử dụng numpy
+vì python là scripting language nên không thích hợp cho ml, numpy giải quyết vấn đề trên bằng
+cách xây dựng 1 thư viện viết bằng c nhưng có interface python. như vậy numpy cộng hưởng 2 ưu
+điểm của 2 ngôn ngữ: nhanh như c và đơn giản như python. điều này giúp ích rất nhiều cho cộng
+đồng machine learning trên python.
+mảng trong numpy gồm các phần tử có dùng kiểu giá trị, chỉ số không âm được bắt đầu từ 0, số
+chiều được gọi là rank của mảng numpy, và shape là một tuple các số nguyên đưa ra kích thước của
+mảng theo mỗi chiều.
+
+import numpy as np
+
+a = np.array([1, 2, 3]) # tạo array 1 chiều
+print(type(a)) # prints "<class 'numpy.ndarray'>"
+print(a.shape) # prints "(3,)"
+print(a[0], a[1], a[2]) # prints "1 2 3"
+a[0] = 5 # thay đổi phần tử vị trí số 0
+print(a) # prints "[5, 2, 3]"
+
+b = np.array([[1,2,3],[4,5,6]]) # tạo array 2 chiều
+print(b.shape) # prints "(2, 3)"
+print(b[0, 0], b[0, 1], b[1, 0]) # prints "1 2 4"
+
+ngoài ra có những cách khác để tạo array với giá trị mặc định
+import numpy as np
+
+a = np.zeros((2,2)) # tạo array với tất cả các phần tử 0
+print(a) # prints "[[ 0. 0.]
+# [ 0. 0.]]"
+
+b = np.ones((1,2)) # tạo array với các phần từ 1
+print(b) # prints "[[ 1. 1.]]"
+
+c = np.full((2,2), 7) # tạo array với các phần tử 7
+print(c) # prints "[[ 7. 7.]
+# [ 7. 7.]]"
+
+d = np.eye(2) # tạo identity matrix kích thước 2*2
+print(d) # prints "[[ 1. 0.]
+# [ 0. 1.]]"
+
+e = np.random.random((2,2)) # tạo array với các phần tử được tạo ngẫu nhiên
+print(e) # might print "[[ 0.91940167 0.08143941]
+# [ 0.68744134 0.87236687]]"
+
+2.4.1 array indexing
+tương tự như list, numpy array cũng có thể slice. tuy nhiên vì numpy array có nhiều chiều, nên khi
+dùng slice phải chỉ định rõ chiều nào.
+
+import numpy as np
+
+2.4 sử dụng numpy 33
+
+# tạo array 2 chiều với kích thước (3, 4)
+# [[ 1 2 3 4]
+# [ 5 6 7 8]
+# [ 9 10 11 12]]
+a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+
+# dùng slide để lấy ra subarray gồm 2 hàng đầu tiên (1 & 2) và 2 cột (2 & 3)
+# output là array kích thước 2*2
+# [[2 3]
+# [6 7]]
+b = a[:2, 1:3]
+
+print(a[0, 1]) # prints "2"
+a[0, 1] = 77 # chỉnh sửa phần tử trong array
+print(a[0, 1]) # prints "77"
+
+bên cạnh đó cũng có thể dùng các chỉ số với slice index. tuy nhiên số chiều array sẽ giảm đi.
+
+import numpy as np
+
+# tạo array 2 chiều kích thước (3, 4)
+# [[ 1 2 3 4]
+# [ 5 6 7 8]
+# [ 9 10 11 12]]
+a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+
+row_r1 = a[1, :] # lấy ra hàng thứ 2 trong a, output array 1 chiều
+row_r2 = a[1:2, :] # lấy ra hàng thứ 1&2 trong a, output array 2 chiều
+print(row_r1, row_r1.shape) # prints "[5 6 7 8] (4,)"
+print(row_r2, row_r2.shape) # prints "[[5 6 7 8]] (1, 4)"
+
+2.4.2 các phép tính trên array
+các phép tính với ma trận được hỗ trợ trên numpy
+
+import numpy as np
+
+x = np.array([[1,2],[3,4]], dtype=np.float64)
+y = np.array([[5,6],[7,8]], dtype=np.float64)
+
+# tính tổng
+# [[ 6.0 8.0]
+# [10.0 12.0]]
+print(x + y)
+print(np.add(x, y))
+
+# phép trừ
+# [[-4.0 -4.0]
+# [-4.0 -4.0]]
+print(x - y)
+print(np.subtract(x, y))
+
+34 chương 2. python cơ bản
+
+# phép nhân element-wise
+# [[ 5.0 12.0]
+# [21.0 32.0]]
+print(x * y)
+print(np.multiply(x, y))
+
+# phép chia element-wise
+# [[ 0.2 0.33333333]
+# [ 0.42857143 0.5 ]]
+print(x / y)
+print(np.divide(x, y))
+
+# tính căn bậc hai
+# [[ 1. 1.41421356]
+# [ 1.73205081 2. ]]
+print(np.sqrt(x))
+
+* dùng để nhân element-wise chứ không phải nhân ma trận thông thường. thay vào đó dùng np.dot
+để nhân ma trận.
+
+import numpy as np
+
+x = np.array([[1,2],[3,4]])
+y = np.array([[5,6],[7,8]])
+
+v = np.array([9,10])
+w = np.array([11, 12])
+
+# nhân ma trận, output số 219
+print(v.dot(w))
+print(np.dot(v, w))
+
+# nhân ma trận; output ma trận 2*2
+# [[19 22]
+# [43 50]]
+print(x.dot(y))
+print(np.dot(x, y))
+
+numpy cũng hỗ trợ tính tổng array theo các chiều khác nhau
+
+import numpy as np
+
+x = np.array([[1,2],[3,4]])
+
+print(np.sum(x)) # tính tổng tất cả phần tử trong array; prints "10"
+print(np.sum(x, axis=0)) # tính tổng phần tử mỗi hàng; prints "[4 6]"
+print(np.sum(x, axis=1)) # tính tổng phần tử mỗi cột; prints "[3 7]"
+
+2.5 broadcasting 35
+
+2.5 broadcasting
+broadcasting là một kĩ thuật cho phép numpy làm việc với các array có shape khác nhau khi thực
+hiện các phép toán.
+
+import numpy as np
+
+# cộng vector v với mỗi hàng của ma trận x, kết quả lưu ở ma trận y.
+x = np.array([[1,2,3], [4,5,6], [7,8,9], [10, 11, 12]])
+v = np.array([1, 0, 1])
+y = np.empty_like(x) # tạo 1 array có chiều giống x
+
+# dùng loop để vector v với mỗi hàng của ma trận
+for i in range(4):
+y[i, :] = x[i, :] + v
+
+# kết quả của y
+# [[ 2 2 4]
+# [ 5 5 7]
+# [ 8 8 10]
+# [11 11 13]]
+print(y)
+
+oreated with a trial version of docotic.pdf.
+
+
+ii machine learning cơ bản
+
+3 linear regression . . . . . . . . . . . . . . . . . . . . 39
+3.1 bài toán
+3.2 thiết lập công thức
+3.3 gradient descent
+3.4 ma trận
+3.5 python code
+3.6 bài tập
+
+4 logistic regression . . . . . . . . . . . . . . . . . . . 53
+4.1 bài toán
+4.2 xác suất
+4.3 hàm sigmoid
+4.4 thiết lập bài toán
+4.5 chain rule
+4.6 quan hệ giữa phần trăm và đường thẳng
+4.7 ứng dụng
+4.8 python code
+4.9 bài tập
+
+oreated with a trial version of docotic.pdf.
+
+
+3. linear regression
+
+thuật toán linear regression giải quyết các bài toán có đầu ra là giá trị thực, ví dụ: dự đoán giá nhà,
+dự đoán giá cổ phiếu, dự đoán tuổi,...
+
+3.1 bài toán
+
+bạn làm ở công ty bất động sản, bạn có dữ liệu về diện tích và giá nhà, giờ có một ngôi nhà mới
+bạn muốn ước tính xem giá ngôi nhà đó khoảng bao nhiêu. trên thực tế thì giá nhà phụ thuộc rất
+nhiều yếu tố: diện tích, số phòng, gần trung tâm thương mại,.. nhưng để cho bài toán đơn giản giả
+sử giá nhà chỉ phụ thuộc vào diện tích căn nhà. bạn có dữ liệu về diện tích và giá bán của 30 căn
+nhà như sau:
+
+diện tích(m2) giá bán (triệu vnđ)
+30 448.524
+32.4138 509.248
+34.8276 535.104
+37.2414 551.432
+39.6552 623.418
+
+40 chương 3. linear regression
+
+hình 3.1: đồ thị quan hệ giữa diện tích và giá nhà
+
+nếu giờ yêu cầu bạn ước lượng nhà 50 mét vuông khoảng bao nhiêu tiền thì bạn sẽ làm thế nào? vẽ
+một đường thẳng gần với các điểm trên nhất và tính giá nhà ở điểm 50.
+
+3.2 thiết lập công thức 41
+
+hình 3.2: ước tính giá căn nhà 50 m 2
+
+về mặt lập trình cũng cần làm 2 việc như vậy:
+
+1. training: tìm đường thẳng (model) gần các điểm trên nhất. mọi người có thể vẽ ngay được
+đường thẳng mô tả dữ liệu từ hình 1, nhưng máy tính thì không, nó phải đi tìm bằng thuật
+toán gradient descent ở phía dưới. (từ model và đường thẳng được dùng thay thế lẫn nhau
+trong phần còn lại của bài này).
+2. inference: dự đoán xem giá của ngôi nhà 50 m 2 có giá bao nhiêu dựa trên đường tìm được ở
+phần trên.
+
+3.2 thiết lập công thức
+
+3.2.1 model
+
+phương trình đường thẳng có dạng y = ax + b.
+
+42 chương 3. linear regression
+
+hình 3.3: ví dụ đường thẳng y = x + 1 (a = 1 và b = 1)
+
+thay vì dùng kí hiệu a, b cho phương trình đường thẳng; để tiện cho biểu diễn ma trận phần sau ta
+sẽ thay w 1 = a,w 0 = b
+
+nên phương trình được viết lại thành: y = w 1 ∗x+w 0 => việc tìm đường thẳng giờ thành tìm w 0 ,w 1 .
+
+để tiện cho việc thiết lập công thức, ta sẽ đặt ký hiệu cho dữ liệu ở bảng dữ liệu: (x 1 ,y 1 ) =
+(30, 448.524), (x 2 ,y 2 ) = (32.4138, 509.248),..
+
+tức là nhà diện tích x i thực sự có giá y i . còn giá trị mà model hiện tại đang dự đoán kí hiệu là
+yˆ i = w 1 ∗ x i + w 0
+
+3.2.2 loss function
+
+việc tìm w 0 ,w 1 có thể đơn giản nếu làm bằng mắt nhưng máy tính không biết điều đấy, nên ban
+đầu giá trị được chọn ngẫu nhiên ví dụ w 0 = 0,w 1 = 1 sau đấy được chỉnh dần.
+
+3.2 thiết lập công thức 43
+
+hình 3.4: sự khác nhau tại điểm x = 42 của model đường thẳng y = x và giá trị thực tế ở bảng 1
+
+rõ ràng có thể thấy đường y = x không hề gần các điểm hay không phải là đường mà ta cần tìm. ví
+dụ tại điểm x = 42 (nhà 42 m 2 ) giá thật là 625 triệu nhưng giá mà model dự đoán chỉ là 42 triệu.
+
+nên giờ cần 1 hàm để đánh giá là đường thẳng với bộ tham số (w 0 ,w 1 ) = (0,1) có tốt hay
+không. với mỗi điểm dữ liệu (x ,y ) độ chênh lệch giữa giá thật và giá dự đoán được tính bằng:
+i i
+1 ∗ (yˆ − y ) 2 . và độ chênh lệch trên toàn bộ dữ liệu tính bằng tổng chênh lệch của từng điểm:
+2 i i
+1 1 n
+∑ (yˆ − y ) 2 ) (n là số điểm dữ liệu). nhận xét:
+j = 2 ∗ n ∗ ( i i
+i=1
+
+• j không âm
+• j càng nhỏ thì đường thẳng càng gần điểm dữ liệu. nếu j = 0 thì đường thẳng đi qua tất các
+điểm dữ liệu.
+
+j được gọi là loss function
+
+=> bài toán tìm đường thẳng gần các điểm dữ liệu nhất trở thành tìm w 0 ,w 1 sao cho hàm j
+nhỏ nhất. tóm tắt: đầu tiên từ việc tìm đường thẳng (model) -> tìm w 0 ,w 1 để hàm j nhỏ nhất.
+
+giờ cần một thuật toán để tìm giá trị nhỏ nhất của hàm j. đó chính là gradient descent.
+
+44 chương 3. linear regression
+
+3.3 gradient descent
+3.3.1 đạo hàm là gì
+có nhiều người có thể tính được đạo hàm của hàm f (x) = x 2 hay f (x) = sin(cos(x)) nhưng vẫn
+không biết thực sự đạo hàm là gì. theo tiếng hán đạo là con đường, hàm là hàm số nên đạo hàm chỉ
+sự biến đổi của hàm số hay có tên thân thương hơn là độ dốc của đồ thị.
+
+hình 3.5: đồ thị y = x 2
+
+như mọi người đã học đạo hàm f (x) = x 2 là f 0 (x) = d f (x) = 2 ∗ x (hoàn toàn có thể chứng minh
+dx
+từ định nghĩa nhưng cấp 3 mọi người đã học quá nhiều về công thức nên tôi không đề cập lại).
+nhận xét:
+• f’(1) = 2 * 1 < f’(2) = 2 * 2 nên mọi người có thể thấy trên hình là đồ thị gần điểm x = 2 dốc
+hơn đồ thị gần điểm x = 1 => trị tuyệt đối của đạo hàm tại một điểm càng lớn thì gần điểm
+đấy càng dốc.
+• f’(-1) = 2 * (-1) = -2 < 0 => đồ thị đang giảm hay khi tăng x thì y sẽ giảm; ngược lại đạo hàm
+tại điểm nào đó mà dương thì đồ thị quanh điểm đấy đang tăng.
+
+3.3.2 gradient descent
+gradient descent là thuật toán tìm giá trị nhỏ nhất của hàm số f(x) dựa trên đạo hàm. thuật toán:
+1. khởi tạo giá trị x = x 0 tùy ý
+2. gán x = x - learning_rate * f’(x) ( learning_rate là hằng số không âm ví dụ learning_rate =
+0.001)
+3. tính lại f(x): nếu f(x) đủ nhỏ thì dừng lại, ngược lại tiếp tục bước 2
+thuật toán sẽ lặp lại bước 2 một số lần đủ lớn (100 hoặc 1000 lần tùy vào bài toán và hệ số
+learning_rate) cho đến khi f(x) đạt giá trị đủ nhỏ. ví dụ cần tìm giá trị nhỏ nhất hàm y = x 2 , hàm
+này ai cũng biết là giá giá trị nhỏ nhất là 0 tại x = 0 nhưng để cho mọi người dễ hình dung hơn về
+thuật toán gradient descent nên tôi lấy ví dụ đơn giản.
+
+3.3 gradient descent 45
+
+hình 3.6: ví dụ về thuật toán gradient descent
+
+1. bước 1: khởi tạo giá trị ngẫu nhiên x = -2 (điểm a).
+2. bước 2: do ở a đồ thị giảm nên f’(x=-2) = 2*(-2) = -4 < 0 => khi gán x = x - learning_rate
+* f’(x) nên x tăng nên đồ thị bước tiếp theo ở điểm c. tiếp tục thực hiện bước 2, gán x = x -
+learning_rate * f’(x) thì đồ thị ở điểm d,... => hàm số giảm dần dần tiến tới giá trị nhỏ nhất.
+
+moị người có để ý là trị tuyệt đối tại a lớn hơn tại c và tại c lớn hơn tại d không. đến khi đến gần
+điểm đạt giá trị nhỏ nhất x = 0, thì đạo hàm xấp xỉ 0 đến khi hàm đạt giá trị nhỏ nhất tại x = 0, thì
+đạo hàm bằng 0, nên tại điểm gần giá trị nhỏ nhất thì bước 2 gán x = x - learning_rate * f’(x) là
+không đáng kể và gần như là giữ nguyên giá trị của x.
+
+tương tự nếu giá trị khởi tạo tại x = 2 (tại b) thì đạo hàm tại b dương nên do x = x - learn-
+ing_rate * f’(x) giảm -> đồ thị ở điểm e -> rồi tiếp tục gán x=x -learning_rate * f’(x) thì hàm f(x)
+cũng sẽ giảm dần dần đến giá trị nhỏ nhất.
+
+nhận xét:
+
+• thuật toán hoạt động rất tốt trong trường hợp không thể tìm giá trị nhỏ nhất bằng đại số
+tuyến tính.
+• việc quan trọng nhất của thuật toán là tính đạo hàm của hàm số theo từng biến sau đó lặp lại
+bước 2.
+
+việc chọn hệ số learning_rate cực kì quan trọng, có 3 trường hợp:
+
+• nếu learning_rate nhỏ: mỗi lần hàm số giảm rất ít nên cần rất nhiều lần thực hiện bước 2 để
+hàm số đạt giá trị nhỏ nhất.
+• nếu learning_rate hợp lý: sau một số lần lặp bước 2 vừa phải thì hàm sẽ đạt giá trị đủ nhỏ.
+• nếu learning_rate quá lớn: sẽ gây hiện tượng overshoot (như trong hình dưới bên phải) và
+không bao giờ đạt được giá trị nhỏ nhất của hàm.
+
+46 chương 3. linear regression
+
+hình 3.7: 3 giá trị learning_rate khác nhau [13]
+
+cách tốt nhất để kiểm tra learning_rate hợp lý hay không là kiểm tra giá trị hàm f(x) sau mỗi lần
+thực hiện bước 2 bằng cách vẽ đồ thị
+
+hình 3.8: loss là giá trị hàm cần tìm giá trị nhỏ nhất, epoch ở đây là số cần thực hiện bước 2 [13]
+
+3.3.3 áp dụng vào bài toán
+ta cần tìm giá trị nhỏ nhất của hàm
+1 1 n 1 1 n
+j(w 0 ,w 1 ) = ∗ ∗ ( ∑ (yˆ − y ) 2 ) = ∗ ∗ ( ∑ (w 0 + w 1 ∗ x i − y i ) 2 )
+2 n i i 2 n
+i=1 i=1
+tuy nhiên do giá trị nhỏ nhất hàm f(x) giống với hàm f (x) (vin > 0) nên ta sẽ đi tìm giá trị nhỏ
+n
+
+3.4 ma trận 47
+
+nhất của hàm:
+1 n
+j(w 0 , w 1 ) = ∗ ( ∑ (w 0 + w 1 ∗ x i − y i ) 2 )
+2 i=1
+việc tìm giá trị lớn nhất hàm này hoàn toàn có thể giải được bằng đại số nhưng để giới thiệu thuật
+toán gradient descent cho bài neural network nên tôi sẽ áp dụng gradient descent luôn.
+
+việc quan trọng nhất của thuật toán gradient descent là tính đạo hàm của hàm số nên giờ ta
+sẽ đi tính đạo hàm theo từng biến.
+
+nhắc lại kiến thức h’(x) = f(g(x))’ = f’(g)*g’(x). ví dụ:
+
+2 2 0 (g) ∗ g (x) = (3x + 1) ∗ g (x) =
+h(x) = (3x + 1) thì f (x) = x ,g(x) = 3x + 1 => h ( x) = f 0 0 f 0 0
+2 ∗ (3x + 1) ∗ 3 = 6 ∗ (3x + 1).
+tại 1 điểm (x ,y ) gọi f (w 0 ,w 1 ) = 1 ∗ (w 0 + w 1 ∗ x i − y ) 2
+i i 2 i
+
+ta có:
+d f = w 0 + w 1 ∗ x i − y i
+dw 0
+
+d f = x i ∗ (w 0 + w 1 ∗ x i − y )
+dw 1 i
+
+do đó
+
+dj n
+= ∑ (w 0 + w 1 ∗ x i − y )
+dw 0 i
+i=1
+
+dj n
+= ∑ x i ∗ (w 0 + w 1 ∗ x i − y )
+dw 1 i
+i=1
+
+3.4 ma trận
+
+3.4.1 ma trận là gì
+
+ma trận là một mảng chữ nhật có m hàng và n cột, ta gọi là ma trận m * n (số hàng nhân số cột).
+
+48 chương 3. linear regression
+
+hình 3.9: ma trận kích thước m*n
+
+ví dụ về ma trận 3 * 4
+
+hình 3.10: ma trận kích thước 3*4
+
+chỉ số ma trận thì hàng trước cột sau ví dụ a[1, 2] = -5 (hàng 1, cột 2); a[3, 1] = 4 (hàng 3, cột 1)
+
+3.4.2 phép nhân ma trận
+phép tính nhân ma trận a * b chỉ thực hiện được khi số cột của a bằng số hàng của b, hay a có
+kích thước m*n và b có kích thước n*k.
+
+n
+ma trận c = a * b thì c có kích thước m * k và c[i, j] = ∑ k=1 a[i,k] ∗ b k[ , j]
+
+hình 3.11: ma trận kích thước 3*4
+
+c[1][1] = a[1][1] ∗ b[1][1] + a[1][2] ∗ b[2][1] = ax + cy
+
+c[2][1] = a[2][1] ∗ b[1][1] + a[2][2] ∗ b[2][1] = bx + dy
+
+3.4.3 element-wise multiplication matrix
+ma trận a và b cùng kích thước m*n thì phép tính này cho ra ma trận c cùng kích thước m*n và
+c[i,j] = a[i,j] * b[i,j]. hay là mỗi phần tử ở ma trận c bằng tích 2 phần tử tương ứng ở a và b.
+kí hiệu c = a ⊗ b, ví dụ:
+
+3.5 python code 49
+
+hình 3.12: ví dụ element-wise
+
+3.4.4 biểu diễn bài toán
+do với mỗi điểm x ,y i ta cần phải tính (w 0 + w 1 ∗ x i − y ) nên thay vì tính cho từng điểm dữ liệu
+i i
+một ta sẽ biểu diễn dưới dạng ma trận, x kích thước n * 2, y kích thước n * 1 (n là số điểm dữ liệu
+trong tập dữ liệu mà ta có).
+
+hình 3.13: biểu diễn bài toán dạng ma trận
+
+x[:, i] hiểu là ma trận kích thước n*1 lấy dữ liệu từ cột thứ i của ma trận x, nhưng do trong python
+chỉ số bắt đầu từ 0, nên cột đầu tiên là cột 0, cột thứ hai là cột 1, .... phép tính sum(x) là tính tổng
+tất cả các phần tử trong ma trận x.
+
+hình 3.14: biểu diễn đạo hàm dạng ma trận
+
+3.5 python code
+
+# -*- coding: utf-8 -*-
+
+import numpy as np
+import pandas as pd
+
+50 chương 3. linear regression
+
+import matplotlib.pyplot as plt
+#numofpoint = 30
+#noise = np.random.normal(0,1,numofpoint).reshape(-1,1)
+#x = np.linspace(30, 100, numofpoint).reshape(-1,1)
+#n = x.shape[0]
+#y = 15*x + 8 + 20*noise
+#plt.scatter(x, y)
+
+data = pd.read_csv('data_linear.csv').values
+n = data.shape[0]
+x = data[:, 0].reshape(-1, 1)
+y = data[:, 1].reshape(-1, 1)
+plt.scatter(x, y)
+plt.xlabel('mét vuông')
+plt.ylabel('giá')
+
+x = np.hstack((np.ones((n, 1)), x))
+
+w = np.array([0.,1.]).reshape(-1,1)
+
+numofiteration = 100
+cost = np.zeros((numofiteration,1))
+learning_rate = 0.000001
+for i in range(1, numofiteration):
+r = np.dot(x, w) - y
+cost[i] = 0.5*np.sum(r*r)
+w[0] -= learning_rate*np.sum(r)
+# correct the shape dimension
+w[1] -= learning_rate*np.sum(np.multiply(r, x[:,1].reshape(-1,1)))
+print(cost[i])
+predict = np.dot(x, w)
+plt.plot((x[0][1], x[n-1][1]),(predict[0], predict[n-1]), 'r')
+plt.show()
+
+x1 = 50
+y1 = w[0] + w[1] * x1
+print('giá nhà cho 50m^2 là : ', y1)
+
+3.6 bài tập
+1. thực hiện các phép nhân ma trận sau:
+(a)
+a
+ b  ∗  d e f 
+c
+(b)
+d
+ a b c ∗  e 
+f
+
+3.6 bài tập 51
+
+(c)
+a b g h i
+ c d  ∗ k m n
+e f
+(d)
+ 1 x 1 
+ 1 x 2  ∗ w 1 
+... ... w 2
+ 
+1 x n
+2. tính đạo hàm các hàm số sau:
+(a) f (x) = (2x + 1) 2
+(b) f (x) = 1
+1 + e −x
+(c) f (x) = e x − e −x
+e x + e −x
+(d) f (x) = x x
+3. (a) tự giải thích lại thuật toán gradient descent
+(b) code python dùng thuật toán gradient descent để tìm giá trị nhỏ nhất của hàm f (x) =
+x 2 + 2x + 5
+4. tự tính đạo hàm của weight với loss function trong bài toán linear regression và biểu diễn lại
+dưới dạng ma trận.
+5. dựa vào code được cung cấp chỉnh 1 số tham số như learning_rate (tăng, giảm), số iteration
+xem loss function sẽ thay đổi thế nào.
+6. giả sử giá nhà phụ thuộc vào diện tích và số phòng ngủ. thiết kế 1 linear regerssion model
+và định nghĩa loss function cho bài toán trên.
+7. giả sử bài toán vẫn như trên nhưng khi bạn vẽ đồ thị dữ liệu sẽ như thế này
+
+model cho bài toán bạn chọn như thế nào? code python cho bài toán đấy tương tự như bài
+toán linear regression. dữ liệu ở file data_square.csv trên github.
+
+oreated with a trial version of docotic.pdf.
+
+
+4. logistic regression
+
+bài trước học về linear regression với đầu ra là giá trị thực, thì ở bài này sẽ giới thiệu thuật toán
+logistic regression với đầu ra là giá trị nhị phân (0 hoặc 1), ví dụ: email gửi đến hòm thư của bạn có
+phải spam hay không; u là u lành tính hay ác tính,...
+
+4.1 bài toán
+
+ngân hàng bạn đang làm có chương trình cho vay ưu đãi cho các đối tượng mua chung cư. tuy nhiên
+gần đây có một vài chung cư rất hấp dẫn (giá tốt, vị trí đẹp,...) nên lượng hồ sơ người nộp cho chương
+trình ưu đãi tăng đáng kể. bình thường bạn có thể duyệt 10-20 hồ sơ một ngày để quyết định hồ sơ có
+được cho vay hay không, tuy nhiên gần đây bạn nhận được 1000-2000 hồ sơ mỗi ngày. bạn không thể
+xử lý hết hồ sơ và bạn cần có một giải pháp để có thể dự đoán hồ sơ mới là có nên cho vay hay không.
+
+sau khi phân tích thì bạn nhận thấy là hai yếu tố chính quyết định đến việc được vay tiền đó
+là mức lương và thời gian công tác. đây là dữ liệu bạn có từ trước đến nay:
+
+lương thời gian làm việc cho vay
+10 1 1
+5 2 1
+... ... ...
+8 0.1 0
+7 0.15 0
+... ... ...
+
+54 chương 4. logistic regression
+
+hình 4.1: đồ thị giữa mức lương, số năm kinh nghiệm và kết quả cho vay
+
+về mặt logic, giờ ta cần tìm đường thẳng phân chia giữa các điểm cho vay và từ chối. rồi quyết
+định điểm mới từ đường đấy
+
+4.2 xác suất 55
+
+hình 4.2: đường phân chia và dự đoán điểm dữ liệu mớiy
+
+ví dụ đường xanh là đường phân chia. dự đoán cho hồ sơ của người có mức lương 6 triệu và 1 năm
+kinh nghiệm là không cho vay.
+
+tuy nhiên, do ngân hàng đang trong thời kỳ khó khăn nên việc cho vay bị thắt lại, chỉ những
+hồ sơ nào chắc chắn trên 80% mới được vay.
+
+vậy nên bây giờ bạn không những tìm là hồ sơ ấy cho vay hay không cho vay mà cần tìm
+xác suất nên cho hồ sơ ấy vay là bao nhiêu.
+
+4.2 xác suất
+xác suất là gì??? "các nhà toán học coi xác suất là các số trong khoảng [0,1], được gán tương ứng
+với một biến cố mà khả năng xảy ra hoặc không xảy ra là ngẫu nhiên" [28]. ví dụ bạn tung đồng xu
+có 2 mặt, thì xác suất bạn tung được mặt ngửa là 50% ( = 50/100 = 0.5).
+nhận xét:
+• xác suất của 1 sự kiện trong khoảng [0,1]
+• sự kiện bạn càng chắc chắc xẩy ra thì xác suất càng cao. ví dụ bạn lương cao và còn đi làm
+lâu lăm thì xác suất bạn được vay mua chung cư là cao.
+• tổng xác suất của sự kiện a và sự kiện phủ định của a là 100% (hay 1). ví dụ sự kiện a:
+tung đồng xu mặt ngửa, xác suất 50%; phủ định của sự kiện a: tung đồng xu mặt sấp, xác
+suất 50% => tổng 100%
+bạn sẽ thấy xác suất quan trọng hơn là chỉ 0 hay 1, ví dụ trước mỗi ca mổ khó, bác sĩ không thể chắc
+chắn là sẽ thất bại hay thành công mà chỉ có thể nói xác suất thành công là bao nhiêu (ví dụ 80%).
+
+56 chương 4. logistic regression
+
+4.3 hàm sigmoid
+giờ ta cần tìm xác suất của hồ sơ mới nên cho vay. hay giá trị của hàm cần trong khoảng [0,1]. rõ
+ràng là giá trị của phương trình đường thẳng như bài trước có thể ra ngoài khoảng [0,1] nên cần
+một hàm mới luôn có giá trị trong khoảng [0,1]. đó là hàm sigmoid.
+
+hình 4.3: đồ thị hàm sigmoid
+
+nhận xét:
+• hàm số liên tục, nhận giá trị thực trong khoảng (0,1).
+• hàm có đạo hàm tại mọi điểm (để áp dụng gradient descent).
+
+4.4 thiết lập bài toán
+mọi người có để ý các bước trong bài 1 không nhỉ, các bước bao gồm:
+1. thiết lập model
+2. thiết lập loss function
+3. tìm tham số bằng việc tối ưu loss function
+4. dự đoán dữ liệu mới bằng model vừa tìm được
+đây là mô hình chung cho bài toán trong deep learning.
+
+4.4.1 model
+với dòng thứ i trong bảng dữ liệu, gọi x (i) là lương và x (i) là thời gian làm việc của hồ sơ thứ i .
+1 2
+
+p(x (i) = 1) = yˆ i là xác suất mà model dự đoán hồ sơ thứ i được cho vay.
+
+p(x (i) = 0) = 1 − yˆ i là xác suất mà model dự đoán hồ sơ thứ i không được cho vay.
+
+4.4 thiết lập bài toán 57
+
+=> p(x (i) = 1) + p(x (i) = 0) = 1
+hàm sigmoid: σ(x) = 1 .
+1 + e −x
+như bài trước công thức của linear regression là: yˆ i = w 0 + w 1 ∗ x i thì giờ công thức của logistic
+regression là:
+
+(i) (i) 1
+yˆ i = σ(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) = (i) (i)
+1 + e −(w 0 +w 1 ∗x 1 +w 2 ∗x 2 )
+ở phần cuối mọi người sẽ thấy được quan hệ giữa xác suất và đường thẳng.
+
+4.4.2 loss function
+
+giờ cũng cần một hàm để đánh giá độ tốt của model. như bài trước là yˆ càng gần y càng tốt, giờ
+cũng vậy:
+
+• nếu hồ sơ thứ i là cho vay, tức y i = 1 thì ta cũng mong muốn yˆ i càng gần 1 càng tốt hay model
+dự đoán xác suất người thứ i được vay vốn càng cao càng tốt.
+• nếu hồ sơ thứ i không được vay, tức y i = 0 thì ta cũng mong muốn yˆ i càng gần 0 càng tốt hay
+model dự đoán xác suất người thứ i được vay vốn càng thấp càng tốt.
+
+với mỗi điểm (x (i) ,y ), gọi hàm loss function l = −(y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ ))
+i i i i
+
+mặc định trong ml/dl thì viết log hiểu là ln
+
+thử đánh giá hàm l nhé. nếu y i = 1 => l = −log(yˆ )
+i
+
+58 chương 4. logistic regression
+
+hình 4.4: đồ thị hàm loss function trong trường hợp y i = 1
+
+nhận xét:
+
+• hàm l giảm dần từ 0 đến 1.
+• khi model dự đoán yˆ i gần 1, tức giá trị dự đoán gần với giá trị thật y i thì l nhỏ, xấp xỉ 0
+• khi model dự đoán yˆ i gần 0, tức giá trị dự đoán ngược lại giá trị thật y i thì l rất lớn
+
+ngược lại, nếu y i = 0 => l = −log(1 − yˆ )
+i
+
+4.5 chain rule 59
+
+hình 4.5: đồ thị hàm loss function trong trường hợp y i = 0
+
+nhận xét:
+• hàm l tăng dần từ 0 đến 1
+• khi model dự đoán yˆ i gần 0, tức giá trị dự đoán gần với giá trị thật y i thì l nhỏ, xấp xỉ 0
+• khi model dự đoán yˆ i gần 1, tức giá trị dự đoán ngược lại giá trị thật y i thì l rất lớn
+=> hàm l nhỏ khi giá trị model dự đoán gần với giá trị thật và rất lớn khi model dự đoán sai, hay
+nói cách khác l càng nhỏ thì model dự đoán càng gần với giá trị thật. => bài toán tìm model trở
+thành tìm giá trị nhỏ nhất của l
+
+n
+hàm loss function trên toàn bộ dữ liệu j = − ∑ (y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ ))
+i i i
+i=1
+
+4.5 chain rule
+chain rule là gì? nếu z = f (y) và y = g(x) hay z = f (g(x)) thì dz = dz ∗ dy
+dx dy dx
+ví dụ cần tính đạo hàm z(x) = (2x+1) 2 , có thể thấy z = f (g(x)) trong đó f (x) = x 2 ,g(x) = 2x+1.
+do đó áp dụng chain rule ta có:
+dz = dz ∗ dy = d(2x + 1) 2 ∗ d(2x + 1) = 2 ∗ (2x + 1) ∗ 2 = 4 ∗ (2x + 1)
+dx dy dx d(2x + 1) dx
+
+mọi người biết dt 2 = 2t => d(2x + 1) 2 = 2(2x + 1) bằng cách đặt t = 2x+1.
+dt d(2x + 1)
+
+60 chương 4. logistic regression
+
+có một cách dễ nhìn hơn để tính chain rule là dùng biểu đồ
+
+hình 4.6: graph cho chain rule
+
+số và biến (2, x, 1) viết ở bên trái và không có hình tròn bao quanh, các hình tròn là các phép tính
+(*, +, 2)ˆ
+
+giá trị của biểu thức sau khi thực hiện phép tính được viết màu đen ở phía trên đường sau
+phép tính. ví dụ, phép cộng của 2x và 1 có giá trị 2x+1, phép bình phương 2x+1 có giá trị là
+(2x+1)2.ˆ
+
+giá trị của đạo hàm qua thực hiện phép tính được viết ở bên dưới với mực đỏ, ví dụ qua phép bình
+phương, d(2x + 1) 2 = 2(2x + 1), hay qua phép cộng d(2x + 1) = 1 và qua phép nhân d(2x) = 2.
+d(2x + 1) d(2x) d(x)
+ở bước cuối cùng đạo hàm được viết là 1 (có hay không cũng được vì nhân với 1 vẫn thế nhưng để
+bạn biết đấy là điểm kết thúc). giờ cần tính d(2x + 1) 2 thì bạn nhân tất cả các giá trị màu đỏ trên
+dx
+đường đi từ x đến (2x + 1) 2
+
+4.5 chain rule 61
+
+do đó d(2x + 1) 2 = 2 ∗ (2x + 1) ∗ 2 ∗ 1 = 4 ∗ (2x + 1)
+dx
+thực ra nếu bạn để ý biểu đồ chính là chain rule: d(2x + 1) 2 = d(2x + 1) 2 ∗ d(2x + 1) ∗ d(2x) =
+dx d(2x + 1) d(2x) dx
+2 ∗ (2x + 1) ∗ 2 = 4 ∗ (2x + 1)
+
+chỉ là biểu đồ dễ nhìn hơn.
+thử áp dụng tính đạo hàm của hàm sigmoid σ(x) = 1 .
+1 + e −x
+d( 1 ) − 1 d (e x ) x
+nhắc lại kiến thức đạo hàm cơ bản x = , = e
+dx x 2 dx
+
+d (σ(x)) d( 1 + 1 e −x ) −1 −x e −x
+do đó dx = dx = (1 + e ) ∗ 1 ∗ e ∗ (−1) = (1 + e − )
+−x 2 x 2
+= 1 ∗ e −x = 1 ∗ (1 − 1 ) = σ(x) ∗ (1 − σ(x))
+1 + e −x 1 + e −x 1 + e −x 1 + e −x
+
+62 chương 4. logistic regression
+
+thực ra mọi người không cần vẽ đồ thị quá chi tiết như trên chỉ dùng để tách phép tính khi
+mà nó phức tạp
+
+4.5.1 áp dụng gradient descent
+
+với mỗi điểm (x (i) ,y ), gọi hàm loss function
+i
+
+(i) (i)
+l = −(y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ )) trong đó yˆ i = σ(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) là giá trị
+i i i
+mà model dự đoán, còn y i là giá trị thật của dữ liệu.
+nhắc lại đạo hàm cơ bản, d(log(x)) = 1
+dx x
+áp dụng chain rule ta có: dl = dl ∗ dyˆ i
+dw 0 dyˆ i dw 0
+dl d(y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ )) y i 1 − y i
+= − i i i = −( − )
+dyˆ i dyˆ i yˆ i (1 − yˆ)
+
+4.5 chain rule 63
+
+(i) (i)
+từ đồ thị ta thấy: dyˆ i = σ(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) = yˆ ∗ (1 − yˆ )
+dw 0 dw 0 i i
+
+(i) (i)
+dyˆ i σ(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) (i)
+= = x 1 ∗ yˆ ∗ ( 1 − yˆ i )
+dw 1 dw 1 i
+
+(i) (i)
+dyˆ i σ (w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) i
+= = x ( ) ∗ yˆ ∗ (1 − yˆ )
+dw 2 dw 2 2 i i
+
+do đó
+dl = dl ∗ dyˆ i = −( y i − 1 − y i ) ∗ yˆ ∗ (1 − yˆ ) = −(y i ∗ (1 − yˆ ) − (1 − y ) ∗ yˆ )) = yˆ − y i
+dw 0 dyˆ i dw 0 yˆ i (1 − yˆ ) i i i i i i
+i
+tương tự
+dl = x (i) ∗ (yˆ − y )
+dw 1 1 i i
+dl = x (i) ∗ (yˆ − y )
+dw 2 2 i i
+đấy là trên một điểm dữ liệu, trên toàn bộ dữ liệu
+
+dl n
+= ∑ (yˆ − y )
+dw 0 i i
+i=1
+
+64 chương 4. logistic regression
+dl n (i)
+= ∑ x 1 ∗ (yˆ − y )
+dw 1 i i
+i=1
+dl n (i)
+= ∑ x 2 ∗ (yˆ − y )
+dw 2 i i
+i=1
+
+4.5.2 biểu diễn bài toán dưới ma trận
+
+nếu mọi người thấy các công thức biểu diễn dưới ma trận vẫn lạ lạ thì nên xem lại bài 1 và lấy giấy
+bút tự tính và biểu diễn lại.
+
+sau khi thực hiện thuật toán gradient descent ta sẽ tìm được w 0 ,w 1 ,w 2 . với mỗi hồ sơ mới
+( )t (t) (t)
+x ta sẽ tính được phần trăm nên cho vay yˆ t = σ(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) rồi so sánh với ngưỡng
+cho vay của công ty t (bình thường là t = 0.5, thời kì thiết chặt thì là t = 0.8) nếu yˆ t >= t thì cho
+vay, không thì không cho vay.
+
+4.6 quan hệ giữa phần trăm và đường thẳng
+
+xét đường thẳng y = ax+b, gọi f = y - (ax+b) thì đường thẳng chia mặt phẳng thành 2 miền, 1 miền
+hàm f có giá trị dương, 1 miền hàm f có giá trị âm và giá trị f các điểm trên đường thẳng bằng 0.
+
+4.6 quan hệ giữa phần trăm và đường thẳng 65
+
+hình 4.7: đường thẳng y = 3-x
+
+ví dụ, xét đường thẳng y = 3-x, hàm f = y - 3 + x.
+• tại điểm a(1,3) => f = 3 - 3 + 1 = 1 > 0
+• tại điểm b(2,1) nằm trên đường thẳng => f = 2 - 3 + 1 = 0
+• tại điểm c(1,1) => f = 1 - 3 + 1 = -1 < 0
+giả sử bạn lấy mốc ở chính giữa là 50% tức là nếu hồ sơ mới dự đoán yˆ i >= 0.5 thì cho vay, còn nhỏ
+hơn 0.5 thì không cho vay.
+yˆ i >= 0.5 <=> 1 ( )i (i) >= 0.5
+1 + e −(w 0 +w 1 ∗x 1 +w 2 ∗x 2 )
+( )i (i)
+<=> 2 >= 1 + e −(w 0 +w 1 ∗x 1 +w 2 ∗x 2 )
+( )i (i)
+<=> e −(w 0 +w 1 ∗x 1 +w 2 ∗x 2 ) <= 1 = e 0
+(i) (i)
+<=> −(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ) <= 0
+(i) (i)
+<=> w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 >= 0
+
+66 chương 4. logistic regression
+
+(i) (i)
+tương tự yˆ i < 0.5 <=> w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 < 0
+
+=> đường thẳng w 0 + w 1 ∗ x + w 2 ∗ y = 0 chính là đường phân cách giữa các điểm cho vay và từ
+chối.
+
+hình 4.8: đường phân cách
+
+trong trường hợp tổng quát bạn lấy xác suất lớn hơn t (0<t<1) thì mới cho vay tiền yˆ i > t <=>
+(i) (i) 1
+w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 > −ln( t − 1)
+
+4.7 ứng dụng 67
+
+hình 4.9: đường phân chia của t = 0.8
+
+ví dụ t = 0.8, bạn thấy đường phân chia gần với điểm màu đỏ hơn so với t = 0.5 thậm chí một số hồ
+sơ cũ trước được cho vay nhưng nếu giờ nộp lại cũng từ chối. đồng nghĩa với việc công ty thắt chắt
+việc cho vay lại. nghe hoàn toàn hợp lý đúng ko?
+
+4.7 ứng dụng
+• spam detection: dự đoán mail gửi đến hòm thư của bạn có phải spam hay không.
+• credit card fraud: dự đoán giao dịch ngân hàng có phải gian lận không.
+• health: dự đoán 1 u là u lành hay u ác tính.
+• banking: dự đoán khoản vay có trả được hay không.
+• investment: dự đoán khoản đầu tư vào start-up có sinh lợi hay không
+
+4.8 python code
+
+# thêm thư viện
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# hàm sigmoid
+def sigmoid(x):
+return 1 / (1 + np.exp(-x))
+
+68 chương 4. logistic regression
+
+# load data từ file csv
+data = pd.read_csv('dataset.csv').values
+n, d = data.shape
+x = data[:, 0:d-1].reshape(-1, d-1)
+y = data[:, 2].reshape(-1, 1)
+
+# vẽ data bằng scatter
+plt.scatter(x[:10, 0], x[:10, 1], c='red', edgecolors='none', s=30, label='cho vay')
+plt.scatter(x[10:, 0], x[10:, 1], c='blue', edgecolors='none', s=30, label='từ chối')
+plt.legend(loc=1)
+plt.xlabel('mức lương (triệu)')
+plt.ylabel('kinh nghiệm (năm)')
+
+# thêm cột 1 vào dữ liệu x
+x = np.hstack((np.ones((n, 1)), x))
+
+w = np.array([0.,0.1,0.1]).reshape(-1,1)
+
+# số lần lặp bước 2
+numofiteration = 1000
+cost = np.zeros((numofiteration,1))
+learning_rate = 0.01
+
+for i in range(1, numofiteration):
+
+# tính giá trị dự đoán
+y_predict = sigmoid(np.dot(x, w))
+cost[i] = -np.sum(np.multiply(y, np.log(y_predict)) + \
+np.multiply(1-y, np.log(1-y_predict)))
+# gradient descent
+w = w - learning_rate * np.dot(x.t, y_predict-y)
+print(cost[i])
+
+# vẽ đường phân cách.
+t = 0.5
+plt.plot((4, 10),(-(w[0]+4*w[1]+ np.log(1/t-1))/w[2], -(w[0] + 10*w[1]+ \
+np.log(1/t-1))/w[2]), 'g')
+plt.show()
+
+4.9 bài tập
+1. tại sao hàm sigmoid được chọn trong bài toán logistic regression? dùng chain rule tính đạo
+hàm hàm sigmoid
+2. dùng chain rule tính đạo hàm loss function của logistic regression với từng biến.
+3. biểu diễn dưới dạng ma trận cho bài toán logistic regression.
+4. chỉnh 1 số tham số như learning_rate (tăng, giảm), số iteration xem loss function sẽ thay đổi
+thế nào.
+
+iii neural network
+
+5 neural network . . . . . . . . . . . . . . . . . . . . . . 71
+5.1 neural network là gì
+5.2 mô hình neural network
+5.3 feedforward
+5.4 logistic regression với toán tử xor
+5.5 bài tập
+
+6 backpropagation . . . . . . . . . . . . . . . . . . . . 85
+6.1 bài toán xor với neural network
+6.2 mô hình tổng quát
+6.3 python code
+6.4 bài tập
+
+oreated with a trial version of docotic.pdf.
+
+
+5. neural network
+
+bài trước học về thuật toán logistic regression với giá trị đầu ra là nhị phân. tuy nhiên, logistic
+regression là một mô hình neural network đơn giản, bài này sẽ học mô hình neural network đầy đủ.
+
+bạn nên hoàn thành 2 bài trước linear regression và logistic regression trước khi vào bài này.
+trong bài này có khá nhiều kí hiệu và công thức, nên bạn nên chuẩn bị giấy bút để bắt đầu.
+
+5.1 neural network là gì
+
+con chó có thể phân biệt được người thân trong gia đình và người lạ hay đứa trẻ có thể phân biệt
+được các con vật. những việc tưởng chừng như rất đơn giản nhưng lại cực kì khó để thực hiện bằng
+máy tính. vậy sự khác biệt nằm ở đâu? câu trả lời nằm ở bộ não với lượng lớn các nơ-ron thần kinh
+liên kết với nhau. thế thì máy tính có nên mô phỏng lại mô hình ấy để giải các bài toán trên ???
+
+neural là tính từ của neuron (nơ-ron), network chỉ cấu trúc đồ thị nên neural network (nn)
+là một hệ thống tính toán lấy cảm hứng từ sự hoạt động của các nơ-ron trong hệ thần kinh.
+
+72 chương 5. neural network
+
+5.1.1 hoạt động của các nơ-ron
+
+hình 5.1: tế bào thần kinh [14]
+
+nơ-ron là đơn vị cơ bản cấu tạo hệ thống thần kinh và là một phần quan trọng nhất của não. não
+chúng ta gồm khoảng 10 triệu nơ-ron và mỗi nơ-ron liên kết với 10.000 nơ-ron khác.
+
+ở mỗi nơ-ron có phần thân (soma) chứa nhân, các tín hiệu đầu vào qua sợi nhánh (dendrites)
+và các tín hiệu đầu ra qua sợi trục (axon) kết nối với các nơ-ron khác. hiểu đơn giản mỗi nơ-ron
+nhận dữ liệu đầu vào qua sợi nhánh và truyền dữ liệu đầu ra qua sợi trục, đến các sợi nhánh của các
+nơ-ron khác.
+
+mỗi nơ-ron nhận xung điện từ các nơ-ron khác qua sợi nhánh. nếu các xung điện này đủ lớn
+để kích hoạt nơ-ron, thì tín hiệu này đi qua sợi trục đến các sợi nhánh của các nơ-ron khác. => ở
+mỗi nơ-ron cần quyết định có kích hoạt nơ-ron đấy hay không. giống giống hàm sigmoid bài trước
+nhỉ ?
+
+tuy nhiên nn chỉ là lấy cảm hứng từ não bộ và cách nó hoạt động, chứ không phải bắt chước toàn
+bộ các chức năng của nó. việc chính của chúng ta là dùng mô hình đấy đi giải quyết các bài toán
+chúng ta cần.
+
+5.2 mô hình neural network
+5.2.1 logistic regression
+logistic regression là mô hình neural network đơn giản nhất chỉ với input layer và output layer.
+mô hình của logistic regression từ bài trước là: yˆ = σ(w 0 + w 1 ∗ x 1 + w 2 ∗ x 2 ). có 2 bước:
+• tính tổng linear: z = 1 ∗ w 0 + x 1 ∗ w 1 + x 2 ∗ w 2
+• áp dụng sigmoid function: yˆ = σ(z)
+
+5.2 mô hình neural network 73
+
+để biểu diễn gọn lại ta sẽ gộp hai bước trên thành một trên biểu đồ
+
+hình 5.2: mô hình logistic regresion
+
+hệ số w 0 được gọi là bias. để ý từ những bài trước đến giờ dữ liệu khi tính toán luôn được thêm 1
+để tính hệ số bias w 0 . tại sao lại cần hệ số bias? quay lại với bài 1, phương trình đường thẳng sẽ
+thế nào nếu bỏ w 0 , phương trình giờ có dạng: y = w 1 ∗ x , sẽ luôn đi qua gốc tọa độ và nó không
+tổng quát hóa phương trình đường thẳng nên có thể không tìm được phương trình mong muốn. =>
+việc thêm bias (hệ số tự do) là rất quan trọng.
+
+hàm sigmoid ở đây được gọi là activation function.
+
+74 chương 5. neural network
+
+5.2.2 mô hình tổng quát
+
+hình 5.3: mô hình neural network
+
+layer đầu tiên là input layer, các layer ở giữa được gọi là hidden layer, layer cuối cùng được gọi là
+output layer. các hình tròn được gọi là node.
+
+mỗi mô hình luôn có 1 input layer, 1 output layer, có thể có hoặc không các hidden layer. tổng số
+layer trong mô hình được quy ước là số layer - 1 (không tính input layer).
+
+ví dụ như ở hình trên có 1 input layer, 2 hidden layer và 1 output layer. số lượng layer của
+mô hình là 3 layer.
+
+mỗi node trong hidden layer và output layer :
+• liên kết với tất cả các node ở layer trước đó với các hệ số w riêng.
+• mỗi node có 1 hệ số bias b riêng.
+• diễn ra 2 bước: tính tổng linear và áp dụng activation function.
+
+5.2.3 kí hiệu
+số node trong hidden layer thứ i là l (i) .
+
+ma trận w (k) kích thước l (k−1) ∗ l (k) là ma trận hệ số giữa layer (k-1) và layer k, trong đó w (k)
+i j
+là hệ số kết nối từ node thứ i của layer k-1 đến node thứ j của layer k.
+
+5.2 mô hình neural network 75
+
+vector b (k) kích thước l k ∗ 1 là hệ số bias của các node trong layer k, trong đó b (k) là bias của node
+i
+thứ i trong layer k.
+
+với node thứ i trong layer l có bias b (l) thực hiện 2 bước:
+i
+(l) l (l−1) (l−1) (l) (l)
+• tính tổng linear: z i = ∑ j=1 a j ∗w ji +b i , là tổng tất cả các node trong layer trước nhân
+với hệ số w tương ứng, rồi cộng với bias b.
+• áp dụng activation function: a (l) = σ(z (l) )
+i i
+vector z (k) kích thước l (k) ∗ 1 là giá trị các node trong layer k sau bước tính tổng linear.
+
+vector a (k) kích thước l (k) ∗ 1 là giá trị của các node trong layer k sau khi áp dụng hàm acti-
+vation function.
+
+mô hình neural network trên gồm 3 layer. input layer có 2 node (l (0) = 2), hidden layer 1 có 3 node,
+hidden layer 2 có 3 node và output layer có 1 node.
+
+do mỗi node trong hidden layer và output layer đều có bias nên trong input layer và hidden
+layer cần thêm node 1 để tính bias (nhưng không tính vào tổng số node layer có).
+
+tại node thứ 2 ở layer 1, ta có:
+(1) (1) (1) (1)
+• z 2 = x 1 ∗ w 12 + x 2 ∗ w 22 + b 2
+• a (1) = σ(z (1) )
+2 2
+hay ở node thứ 3 layer 2, ta có:
+• z (2) = a (1) ∗ w (2) + a (1) ∗ w (2) + a (1) ∗ w (2) + b (2)
+3 1 13 2 23 3 33 3
+• a (2) = σ(z (2) )
+3 3
+
+76 chương 5. neural network
+
+5.3 feedforward
+để nhất quán về mặt ký hiệu, gọi input layer là a (0) (= x) kích thước 2*1.
+
+tương tự ta có:
+
+z (2) = (w (2) ) t ∗ a (1) + b (2)
+a (2) = σ(z ( 2) )
+z (3 ) = (w ( 3) ) t ∗ a (2) + b (3)
+yˆ = a (3 ) = σ(z (3) )
+
+hình 5.4: feedforward
+
+5.3.1 biểu diễn dưới dạng ma trận
+tuy nhiên khi làm việc với dữ liệu ta cần tính dự đoán cho nhiều dữ liệu một lúc, nên gọi x là ma
+trận n*d, trong đó n là số dữ liệu và d là số trường trong mỗi dữ liệu, trong đó x [i] là giá trị trường
+j
+dữ liệu thứ j của dữ liệu thứ i. ví dụ dataset bài trước
+lương thời gian làm việc
+10 1
+5 2
+7 0.15
+6 1.8
+thì n = 4,d = 2,x [1] = 10,x [1] = 1,x [3] = 6,x [2] = 2.
+1 2 1 2
+
+hình 5.5: biểu diễn dạng ma trận của nhiều dữ liệu trong dataset
+
+do x [1] là vector kích thước d*1 tuy nhiên ở x mỗi dữ liệu được viết theo hàng nên cần transpose
+x [1] thành kích thước 1*d, kí hiệu: −(x [1] ) t −
+
+5.3 feedforward 77
+
+gọi ma trận z (i) kích thước n ∗ l (i) trong đó z (i)[k] là giá trị thứ j trong layer i sau bước tính
+j
+tổng linear của dữ liệu thứ k trong dataset.
+
+*** kí hiệu (i) là layer thứ i và kí hiệu [k] là dữ liệu thứ k trong dataset.
+tương tự, gọi ma trận a (i) kích thước n ∗ l (i) trong đó a (i)[k] là giá trị thứ j trong layer i sau
+j
+khi áp dụng activation function của dữ liệu thứ k trong dataset.
+
+do đó
+
+hình 5.6: phép tính cuối cùng không đúng nhưng để viết công thức cho gọn lại.
+
+vậy là có thể tính được giá trị dự đoán của nhiều dữ liệu một lúc dưới dạng ma trận.
+
+giờ từ input x ta có thể tính được giá trị dự đoán yˆ , tuy nhiên việc chính cần làm là đi tìm
+hệ số w và b. có thể nghĩ ngay tới thuật toán gradient descent và việc quan trọng nhất trong thuật
+toán gradient descent là đi tìm đạo hàm của các hệ số đối với loss function. và việc tính đạo hàm
+của các hệ số trong neural network được thực hiện bởi thuật toán backpropagation, sẽ được giới
+thiệu ở bài sau. và vì bài này có quá nhiều công thức sợ mọi người rối nên code sẽ được để ở bài
+sau.
+
+78 chương 5. neural network
+
+5.4 logistic regression với toán tử xor
+
+phần này không bắt buộc, nó giúp giải thích việc có nhiều layer hơn thì mô hình sẽ giải quyết được
+các bài toán phức tạp hơn. cụ thể là mô hình logistic regresion bài trước không biểu diễn được toán
+tử xor nhưng nếu thêm 1 hidden layer với 2 node ở giữa input layer và output layer thì có thể biểu
+diễn được toán tử xor.
+
+and, or, xor là các phép toán thực hiện phép tính trên bit. thế bit là gì? bạn không cần
+quan tâm, chỉ cần biết mỗi bit nhận 1 trong 2 giá trị là 0 hoặc 1.
+
+5.4.1 not
+
+phép tính not của 1 bit cho ra giá trị ngược lại.
+
+a not(a)
+0 1
+1 0
+
+5.4.2 and
+
+phép tính and của 2 bit cho giá trị 1 nếu cả 2 bit bằng 1 và cho giá trị bằng 0 trong các trường hợp
+còn lại. bảng chân lý
+
+a b a and b
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+
+giờ muốn máy tính học toán tử and, ta thấy là kết quả là 0 và 1, nên nghĩ ngay đến logistic
+regression với dữ liệu
+
+x 1 x 2 y
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+
+5.4 logistic regression với toán tử xor 79
+
+hình 5.7: chấm xanh là giá trị 0, chấm đỏ là giá trị 1
+
+theo bài trước, thì logistic regression chính là đường thẳng phân chia giữa các điểm nên áp dụng
+thuật toán trong bài logistic regression ta tìm được w 0 = −1.5,w 1 = 1,w 2 = 1
+
+hình 5.8: x 1 and x 2
+
+80 chương 5. neural network
+
+hình 5.9: đường thẳng y = 1.5-x phân chia 2 miền dữ liệu
+
+nhận xét, do phép tính not là đổi giá trị của bit, nên phép tính not(a and b) có thể biểu
+diễn như hình trên với việc đổi màu các điểm từ đỏ thành xanh và xanh thành đỏ. do đó đường
+phân chia không thay đổi và 2 miền giá trị đổi dấu cho nhau => giá trị các tham số đổi dấu
+w 0 = 1.5,w 1 = −1,w 2 = −1
+
+hình 5.10: not (x 1 and x 2 )
+
+5.4.3 or
+phép tính or của 2 bit cho giá trị 1 nếu 1 trong 2 bit bằng 1 và cho giá trị bằng 0 trong các trường
+hợp còn lại. bảng chân lý
+
+a b a or b
+0 0 0
+0 1 1
+1 0 1
+1 1 1
+
+tương tự ta cũng tìm được w 0 = −0.5,w 1 = 1,w 2 = 1
+
+5.4 logistic regression với toán tử xor 81
+
+hình 5.11: x 1 or x 2
+
+5.4.4 xor
+
+phép tính xor của 2 bit cho giá trị 1 nếu đúng 1 trong 2 bit bằng 1 và cho giá trị bằng 0 trong các
+trường hợp còn lại. bảng chân lý
+
+a b a xor b
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+
+khi thiết lập bài toán logistic regression, ta có đồ thị
+
+82 chương 5. neural network
+
+rõ ràng là không thể dùng một đường thẳng để phân chia dữ liệu thành 2 miền. nên khi bạn dùng
+gradient descent vào bài toán xor thì bất kể bạn chạy bước 2 bao nhiêu lần hay chỉnh learning_rate
+thế nào thì vẫn không ra được kết quả như mong muốn. logistic regression như bài trước không thể
+giải quyết được vấn đề này, giờ cần một giải pháp mới !!!
+
+áp dụng các kiến thức về bit ở trên lại, ta có:
+
+a b a xor b a and b not (a and b) a or b (not(a and b) and (a or b))
+0 0 0 0 1 0 0
+0 1 1 0 1 1 1
+1 0 1 0 1 1 1
+1 1 0 1 0 1 0
+
+do đó: a xor b = (not(a and b) and (a or b)), vậy để tính được xor ta kết hợp not(and)
+và or sau đó tính phép tính and.
+
+5.5 bài tập 83
+
+hình 5.12: mô hình xor
+
+nhìn có vẻ rối nhỉ, cùng phân tích nhé:
+• node not(x 1 and x 2 ) chính là từ hình 5.10, với 3 mũi tên chỉ đến từ 1,x 1 ,x 2 với hệ số
+w 0 ,w 1 ,w 2 tương ứng là 1.5, -1, -1.
+• node tính x 1 or x 2 là từ hình 5.11
+• node trong output layer là phép tính and từ 2 node của layer trước, giá trị hệ số từ hình 1
+mang xuống.
+nhận xét: mô hình logistic regression không giải quyết được bài toán xor nhưng mô hình mới thì
+giải quyết được bài toán xor. đâu là sự khác nhau:
+• logistic regression chỉ có input layer và output layer
+• mô hình mới có 1 hidden layer có 2 node ở giữa input layer và output layer.
+=> càng nhiều layer và node thì càng giải quyết được các bài toán phức tạp hơn.
+
+5.5 bài tập
+1. (a) tại sao hàm activation phải non-linear? điều gì xẩy ra nếu hàm linear activation được
+sử dụng?
+(b) tính output 1 neural network đơn giản (2 nodes input layer, 2 nodes hidden layer, 1
+node output layer) với hàm activation f(x) = x + 1 cho tất cả các node, tất cả các hệ số
+w = 1 và b =0.
+2. tại sao cần nhiều layer và nhiều node trong 1 hidden layer?
+3. code python cho mạng neural network với 1 hidden layer, sigmoid activation.
+
+oreated with a trial version of docotic.pdf.
+
+
+6. backpropagation
+
+bài trước đã học về mô hình neural network và feedforward, giờ ta cần đi tìm hệ số w và b. có thể
+nghĩ ngay tới thuật toán gradient descent và việc quan trọng nhất trong thuật toán gradient descent
+là đi tìm đạo hàm của các hệ số đối với loss function. bài này sẽ tính đạo hàm của các hệ số trong
+neural network với thuật toán backpropagation.
+
+bạn nên hoàn thành bài neural network trước khi bắt đầu bài này và bài này là không bắt buộc để
+theo các bài tiếp theo trong sách.
+
+6.1 bài toán xor với neural network
+
+bảng chân lý cho toán xử xor
+
+a b a xor b
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+
+bài trước đã chứng minh là mô hình logistic regression trong bài 2 không thể biểu diễn được toán
+tử xor. để biểu diễn toán tử xor ta cần thêm 1 hidden layer với 2 node.
+
+86 chương 6. backpropagation
+
+6.1.1 model
+
+nhắc lại kiến thức bài trước:
+• mô hình trên có 2 layer (số lượng layer của mô hình không tính input layer)
+• mô hình: 2-2-1, nghĩa là 2 node trong input layer, 1 hidden layer có 2 node và output layer có
+1 node.
+• input layer và hidden layer luôn thêm node 1 để tính bias cho layer sau, nhưng không tính
+vào số lượng node trong layer
+• ở mỗi node trong hidden layer và output layer đều thực hiện 2 bước: tính tổng linear và áp
+dụng activation function.
+• các hệ số và bias tương ứng được ký hiệu như trong hình
+feedforward
+(1) (1) (1) (1)
+• z 1 = b 1 + x 1 ∗ w 11 + x 2 ∗ w 21
+• a (1) = σ(z (1) )
+1 1
+(1) (1) (1) (1)
+• z 2 = b 2 + x 1 ∗ w 12 + x 2 ∗ w 22
+• a (1) = σ (z (1) )
+2 2
+• z (2) = b (2) + a (1) ∗ w (2) + a (1) ∗ w (2)
+1 1 1 11 2 21
+• yˆ = a (2) = σ(z (2) )
+1 1
+viết dưới dạng ma trận
+
+6.1 bài toán xor với neural network 87
+
+z (1) = x ∗w (1) + b (1)
+a (1) = σ(z (1) )
+z (2) = a (1) ∗w (2) + b (2)
+ˆ (2) (2) )
+y = a = σ(z
+
+6.1.2 loss function
+
+hàm loss fucntion vẫn dùng giống như trong bài 2
+
+với mỗi điểm (x [i] ,y ), gọi hàm loss function
+i
+
+l = −(y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ ))
+i i i
+
+hàm loss function trên toàn bộ dữ liệu
+
+n
+j = − ∑ (y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ ))
+i i i
+i=1
+
+6.1.3 gradient descent
+
+để áp dụng gradient descent ta cần tính được đạo hàm của các hệ số w và bias b với hàm loss
+function.
+
+*** kí hiệu chuẩn về đạo hàm
+
+• khi hàm f(x) là hàm 1 biến x, ví dụ: f (x) = 2 ∗ x + 1. đạo hàm của f đối với biến x kí hiệu là
+d f
+dx
+• khi hàm f(x, y) là hàm nhiều biến, ví dụ f (x,y) = x 2 + y 2 . đạo hàm f với biến x kí hiệu là
+∂ f
+∂x
+với mỗi điểm (x ([i] ,y ), hàm loss function
+i
+
+(2) (1) (2) (1) (2) (2)
+l = −(y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ )) trong đó yˆ i = a 1 = σ(a 1 ∗ w 11 + a 2 ∗ w 21 + b 1 ) là
+i i i
+giá trị mà model dự đoán, còn y i là giá trị thật của dữ liệu.
+∂l ∂(y i ∗ log(yˆ ) + (1 − y ) ∗ log(1 − yˆ )) y i 1 − y i
+∂yˆ i = − i ∂yˆ i i i = −( yˆ i − (1 − yˆ) )
+
+tính đạo hàm l với w (2) ,b (2)
+
+áp dụng chain rule ta có: ∂l = dl ∗ ∂yˆ i
+∂b (2) dyˆ i ∂b (2)
+1 1
+
+88 chương 6. backpropagation
+
+từ đồ thị ta thấy:
+∂yˆ i = yˆ ∗ (1 − yˆ )
+∂b (2) i i
+1
+∂yˆ i = a (1) ∗ yˆ ∗ (1 − yˆ )
+∂w (2) 1 i i
+11
+∂yˆ i (1)
+(2) = a 2 ∗ yˆ ∗ ( 1 − yˆ i )
+∂w i
+21
+∂yˆ i = w (2) ∗ yˆ ∗ (1 − yˆ )
+∂a (1) 11 i i
+1
+∂yˆ i = w (2) ∗ yˆ ∗ (1 − yˆ )
+∂a (1) 21 i i
+2
+
+do đó
+∂l = ∂l ∗ ∂yˆ i = −( y i − 1 − y i )∗yˆ ∗(1−yˆ ) = −(y i ∗(1−yˆ )−(1−y )∗yˆ )) = yˆ −y i
+∂b i ∂b i i i i i i i i
+(2) ∂yˆ (2) yˆ (1 − yˆ )
+1 1
+tương tự
+∂l = a (1) ∗ (yˆ − y )
+∂w (2) 1 i i
+11
+
+∂l = a (1) ∗ (yˆ − y )
+∂w (2) 2 i i
+21
+
+∂l = w (2) ∗ (yˆ − y )
+∂a (1) 11 i i
+1
+
+6.1 bài toán xor với neural network 89
+∂l = w (2) ∗ (yˆ − y )
+∂a (1) 21 i i
+2
+
+biểu diễn dưới dạng ma trận
+
+*** lưu ý: đạo hàm của l đối với ma trận w kích thước m*n cũng là một ma trận cùng kích thước
+m*n.
+
+do đó, ∂j = (a ( 1 ) ) t ∗ (y −y), ∂j = (sum yˆ −y)) t , ∂j = (yˆ −y) ∗ (w (2) ) t , phép tính
+∂w (2) ˆ ∂b (2) ( ∂a (1)
+sum tính tổng các cột của ma trận.
+
+vậy là đã tính xong đạo hàm của l với hệ số w (2) ,b (2) . giờ sẽ đi tính đạo hàm của l với hệ số
+w (1) , b (1) . khoan, tưởng chỉ cần tính đạo hàm của l với các hệ số w và bias b, tại sao cần tính đạo
+hàm của l với a (1) ??? khi tính đạo hàm của hệ số và bias trong layer trước đấy sẽ cần dùng đến.
+tính đạo hàm l với w (1) , b (1)
+(1) (1) (1) (1)
+do a 1 = σ(b 1 + x 1 ∗ w 11 + x 2 ∗ w 21 )
+∂l ∂l ∂a (1)
+áp dụng chain rule ta có: = ∗ 1
+∂b (1) ∂a (1) ∂b (1)
+1 1 1
+ta có:
+∂ a (1) ∂a (1) z (1) (1) (1)
+1 = 1 ∗ 1 = a ∗ (1 − a )
+∂b (1) z (1) ∂b (1) 1 1
+1 1 1
+do đó ∂l (1) (1) (2)
+(1) = a 1 ∗ (1 − a 1 ) ∗ w 11 ∗ (yˆ − y i )
+∂b i
+1
+tương tự
+∂l (1) (1) (2)
+(1) = x 1 ∗ a 1 ∗ (1 − a 1 ) ∗ w 11 ∗ (yˆ − y )
+∂w i i
+11
+∂l (1) (1) (2)
+(1) = x 1 ∗ a 2 ∗ (1 − a 2 ) ∗ w 11 ∗ ( yˆ i − y )
+∂w i
+∂l 12 (1) (1) (2)
+(1) = x 2 ∗ a 1 ∗ (1 − a 1 ) ∗ w 21 ∗ ( yˆ i − y )
+∂w i
+21
+∂l (1) (1) (2)
+(1) = x 2 ∗ a 2 ∗ (1 − a 2 ) ∗ w 21 ∗ (yˆ − y )
+∂w i i
+22
+
+90 chương 6. backpropagation
+
+viết dưới dạng ma trận
+có thể tạm viết dưới dạng chain rule là ∂j = ∂j ∗ ∂a (1) ∗ ∂z (1) (1).
+∂w (1) ∂a (1) ∂z (1) ∂w (1)
+∂j ˆ ( 2) ) t
+từ trên đã tính được ∂a (1) = (y −y) ∗ (w
+đạo hàm của hàm sigmoid dσ(x) = σ(x)∗(1−σ(x)) và a = σ(z ), nên trong (1) có thể hiểu
+(1) (1)
+dx
+là ∂a (1) = a (1) ∗ (1 − a (1) )
+∂z (1)
+cuối cùng, z = x ∗w +b nên có thể tạm hiểu ∂z (1) = x, nó giống như f (x) = a∗x+b =>
+(1) (1) (1)
+∂w (1)
+d f = a vậy.
+dx
+∂j t ˆ ( 2 ) ) t ) ⊗ a (1) ⊗ (1 − a (1) ))
+kết hợp tất cả lại ∂w (1) = x ∗ (((y −y) ∗ (w
+thế khi nào thì dùng element-wise (⊗), khi nào dùng nhân ma trận (∗) ???
+
+• khi tính đạo hàm ngược lại qua bước activation thì dùng (⊗)
+• khi có phép tính nhân ma trận thì dùng (∗), nhưng đặc biệt chú ý đến kích thước ma trận và
+dùng transpose nếu cần thiết. ví dụ: ma trận x kích thước n*3, w kích thước 3*4, z = x *
+w sẽ có kích thước n*4 thì ∂j = x t ∗ ( ∂j ) và ∂j = ( ∂j ) ∗w t
+∂w ∂z ∂x ∂z
+
+∂l ˆ (2) ) t ) ⊗ a (1) ) t
+tương tự, ∂b (1) = sum(((y −y) ∗ (w
+vậy là đã tính xong hết đạo hàm của loss function với các hệ số w và bias b, giờ có thể áp
+dụng gradient descent để giải bài toán.
+giờ thử tính ∂l , ở bài này thì không cần vì chỉ có 1 hidden layer, nhưng nếu nhiều hơn 1
+∂x 1
+hidden layer thì bạn cần tính bước này để tính đạo hàm với các hệ số trước đó.
+
+6.1 bài toán xor với neural network 91
+
+(1)
+hình 6.1: đường màu đỏ cho w 11 , đường màu xanh cho x 1
+
+(1) (1) (1) (1) (1) (1)
+ta thấy w 11 chỉ tác động đến a 1 , cụ thể là a 1 = σ(b 1 + x 1 ∗ w 11 + x 2 ∗ w 21 )
+
+(1) (1)
+tuy nhiên x 1 không những tác động đến a 1 mà còn tác động đến a 2 , nên khi áp dụng chain rule
+(1) (1)
+tính đạo hàm của l với x 1 cần tính tổng đạo hàm qua cả a 1 và a 2 .
+
+do đó:
+(1) (1)
+∂l ∂l ∂ a 1 ∂l ∂a 2 (1 ) (1 ) (1) (2) (1) (1)
+= (1) ∗ + (1) ∗ = w 11 ∗ a 1 ∗ (1 − a 1 ) ∗ w 11 ∗ (y i − yˆ ) + w 12 ∗ a 2 ∗
+∂x 1 ∂a ∂x 1 ∂a ∂x 1 i
+1 2
+(1) (2)
+(1 − a 2 ) ∗ w 21 ∗ (y i − yˆ )
+i
+
+92 chương 6. backpropagation
+
+6.2 mô hình tổng quát
+
+hình 6.2: mô hình neural network
+
+bạn có thể xem lại biểu diễn dạng ma trận với neural network ở bài trước.
+∂j ˆ (3)
+1. bước 1: tính ∂yˆ , trong đó y = a
+2. bước 2: tính ∂j = (a (2) ) t ∗( ∂j ⊗ ∂a (3) ), ∂j = (sum( ∂j ⊗ ∂a (3) )) t và tính ∂j =
+ˆ (3) ∂yˆ ∂z (3) ( ˆ 3) ∂yˆ ∂z (3) ( 2)
+∂w ∂b ∂a ˆ
+( ∂j ⊗ ∂a (3) ) ∗ (w (3) ) t
+∂yˆ ∂z (3)
+3. bước 3: tính ∂j = (a ( 1) ) t ∗ ( ∂j ⊗ ∂a (2) ), ∂j = (sum( ∂j ⊗ ∂a (2) )) t và tính
+∂w ˆ (2) ∂a (2) ∂z (2) ∂b ( ˆ 2) ∂a (2) ∂z (2)
+∂j = ( ∂j ⊗ ∂a (2) ) ∗ (w (2) ) t
+ˆ 1) ∂a (2) ∂z (2)
+∂a (
+4. bước 4: tính ∂j = (a ( 0 ) ) t ∗ ( ∂j ⊗ ∂a (1) ), ∂j = (sum( ∂j ⊗ ∂a (1) )) t , trong
+∂w ˆ (1) ∂a (1) ∂z (1) ∂b ( ˆ 1) ∂a (1) ∂z (1)
+đó a (0 ) = x
+nếu network có nhiều layer hơn thì cứ tiếp tục cho đến khi tính được đạo hàm của loss function j
+với tất cả các hệ số w và bias b.
+
+nếu hàm activation là sigmoid thì ∂a (i) = a (i) ⊗ (1 − a (i) )
+∂z (i)
+ở bài trước quá trình feedforward
+
+6.3 python code 93
+
+hình 6.3: quá trình feedforward
+
+thì ở bài này quá trình tính đạo hàm ngược lại
+
+hình 6.4: quá trình backpropagation
+
+đấy là vì sao thuật toán được gọi là backpropagation (lan truyền ngược)
+
+6.3 python code
+
+# thêm thư viện
+import numpy as np
+import pandas as pd
+
+# hàm sigmoid
+def sigmoid(x):
+return 1/(1+np.exp(-x))
+
+# đạo hàm hàm sigmoid
+def sigmoid_derivative(x):
+return x*(1-x)
+
+# lớp neural network
+class neuralnetwork:
+def __init__(self, layers, alpha=0.1):
+# mô hình layer ví dụ [2,2,1]
+self.layers = layers
+
+# hệ số learning rate
+self.alpha = alpha
+
+# tham số w, b
+self.w = []
+self.b = []
+
+# khởi tạo các tham số ở mỗi layer
+for i in range(0, len(layers)-1):
+w_ = np.random.randn(layers[i],
+layers[i+1])
+
+94 chương 6. backpropagation
+
+b_ = np.zeros((layers[i+1], 1))
+self.w.append(w_/layers[i])
+self.b.append(b_)
+
+# tóm tắt mô hình neural network
+def __repr__(self):
+return "neural network [{}]".format("-".join(str(l) for l in self.layers))
+
+# train mô hình với dữ liệu
+def fit_partial(self, x, y):
+a = [x]
+
+# quá trình feedforward
+out = a[-1]
+for i in range(0, len(self.layers) - 1):
+out = sigmoid(np.dot(out, self.w[i]) + (self.b[i].t))
+a.append(out)
+
+# quá trình backpropagation
+y = y.reshape(-1, 1)
+da = [-(y/a[-1] - (1-y)/(1-a[-1]))]
+dw = []
+db = []
+for i in reversed(range(0, len(self.layers)-1)):
+dw_ = np.dot((a[i]).t, da[-1] * sigmoid_derivative(a[i+1]))
+db_ = (np.sum(da[-1] * sigmoid_derivative(a[i+1]), 0)).reshape(-1,1)
+da_ = np.dot(da[-1] * sigmoid_derivative(a[i+1]), self.w[i].t)
+dw.append(dw_)
+db.append(db_)
+da.append(da_)
+
+# đảo ngược dw, db
+dw = dw[::-1]
+db = db[::-1]
+
+# gradient descent
+for i in range(0, len(self.layers)-1):
+self.w[i] = self.w[i] - self.alpha * dw[i]
+self.b[i] = self.b[i] - self.alpha * db[i]
+
+def fit(self, x, y, epochs=20, verbose=10):
+for epoch in range(0, epochs):
+self.fit_partial(x, y)
+if epoch % verbose == 0:
+loss = self.calculate_loss(x, y)
+print("epoch {}, loss {}".format(epoch, loss))
+
+6.4 bài tập 95
+
+# dự đoán
+def predict(self, x):
+for i in range(0, len(self.layers) - 1):
+x = sigmoid(np.dot(x, self.w[i]) + (self.b[i].t))
+return x
+
+# tính loss function
+def calculate_loss(self, x, y):
+y_predict = self.predict(x)
+#return np.sum((y_predict-y)**2)/2
+return -(np.sum(y*np.log(y_predict) + (1-y)*np.log(1-y_predict)))
+
+6.4 bài tập
+1. tính backpropagation với neural netwrok có 1 hidden layer đã implement từ bài trước.
+
+oreated with a trial version of docotic.pdf.
+
+
+iv convolutional neural
+network
+
+7 giới thiệu về xử lý ảnh . . . . . . . . . . . . . . . 99
+7.1 ảnh trong máy tính
+7.2 phép tính convolution
+7.3 bài tập
+
+8 convolutional neural network . . . . . . . 113
+8.1 thiết lập bài toán
+8.2 convolutional neural network
+8.3 mạng vgg 16
+8.4 bài tập
+
+9 giới thiệu keras và bài toán phân loại ảnh
+125
+9.1 giới thiệu về keras
+9.2 mnist dataset
+9.3 python code
+9.4 ứng dụng của việc phân loại ảnh
+9.5 bài tập
+
+10 ứng dụng cnn cho ô tô tự lái . . . . . . . 135
+10.1 giới thiệu mô phỏng ô tô tự lái
+10.2 bài toán ô tô tự lái
+10.3 python code
+10.4 áp dụng model cho ô tô tự lái
+10.5 bài tập
+
+oreated with a trial version of docotic.pdf.
+
+
+7. giới thiệu về xử lý ảnh
+
+7.1 ảnh trong máy tính
+7.1.1 hệ màu rgb
+rgb viết tắt của red (đỏ), green (xanh lục), blue (xanh lam), là ba màu chính của ánh sáng khi tách
+ra từ lăng kính. khi trộn ba màu trên theo tỉ lệ nhất định có thể tạo thành các màu khác nhau.
+
+hình 7.1: thêm đỏ vào xanh lá cây tạo ra vàng; thêm vàng vào xanh lam tạo ra trắng [19]
+
+100 chương 7. giới thiệu về xử lý ảnh
+
+ví dụ khi bạn chọn màu ở đây. khi bạn chọn một màu thì sẽ ra một bộ ba số tương ứng (r,g,b)
+
+hình 7.2: màu được chọn là rgb(102, 255, 153), nghĩa là r=102, g=255, b=153.
+
+với mỗi bộ 3 số r, g, b nguyên trong khoảng [0, 255] sẽ cho ra một màu khác nhau. do có 256 cách
+chọn r, 256 cách chọn màu g, 256 cách chọn b => tổng số màu có thể tạo ra bằng hệ màu rgb là:
+256 * 256 * 256 = 16777216 màu !!!
+
+7.1.2 ảnh màu
+
+ví dụ về ảnh màu
+
+7.1 ảnh trong máy tính 101
+
+hình 7.3: mathematical bridge, cambridge
+
+khi bạn kích chuột phải vào ảnh trong máy tính, bạn chọn properties (mục cuối cùng), rồi chọn tab
+detail
+
+bạn sẽ thấy chiều dài ảnh là 800 pixels (viết tắt px), chiều rộng 600 pixels, kích thước là 800 * 600.
+trước giờ chỉ học đơn vị đo là mét hay centimet, pixel là gì nhỉ ?
+
+theo wiki, pixel (hay điểm ảnh) là một khối màu rất nhỏ và là đơn vị cơ bản nhất để tạo nên một
+bức ảnh kỹ thuật số.
+
+vậy bức ảnh trên kích thước 800 pixel * 600 pixel, có thể biểu diễn dưới dạng một ma trận
+
+102 chương 7. giới thiệu về xử lý ảnh
+
+kích thước 600 * 800 (vì định nghĩa ma trận là số hàng nhân số cột).
+
+trong đó mỗi phần tử w i j là một pixel.
+
+như vậy có thể hiểu là mỗi pixel thì biểu diễn một màu và bức ảnh trên là sự kết hợp rất nhiều pixel.
+hiểu đơn giản thì in bức ảnh ra, kẻ ô vuông như chơi cờ ca rô với 800 đường thẳng ở chiều dài, 600
+đường ở chiều rộng, thì mỗi ô vuông là một pixel, biểu diễn một chấm màu.
+
+tuy nhiên để biểu diễn 1 màu ta cần 3 thông số (r,g,b) nên gọi w i j = (r i j ,g i j ,b i j ) để biểu diễn dưới
+dạng ma trận thì sẽ như sau:
+
+hình 7.4: ảnh màu kích thước 3*3 biểu diễn dạng ma trận, mỗi pixel biểu diễn giá trị (r,g,b)
+
+để tiện lưu trữ và xử lý không thể lưu trong 1 ma trận như thế kia mà sẽ tách mỗi giá trị trong mỗi
+pixel ra một ma trận riêng.
+
+hình 7.5: tách ma trận trên thành 3 ma trận cùng kích thước: mỗi ma trận lưu giá trị từng màu khác
+nhau red, green, blue
+
+tổng quát
+
+7.1 ảnh trong máy tính 103
+
+hình 7.6: tách ma trận biểu diễn màu ra 3 ma trận, mỗi ma trận lưu giá trị 1 màu.
+
+mỗi ma trận được tách ra được gọi là 1 channel nên ảnh màu được gọi là 3 channel: channel red,
+channel green, channel blue.
+
+tóm tắt: ảnh màu là một ma trận các pixel mà mỗi pixel biểu diễn một điểm màu. mỗi điểm màu
+được biểu diễn bằng bộ 3 số (r,g,b). để tiện cho việc xử lý ảnh thì sẽ tách ma trận pixel ra 3 channel
+red, green, blue.
+
+7.1.3 tensor là gì
+
+khi dữ liệu biểu diễn dạng 1 chiều, người ta gọi là vector, mặc định khi viết vector sẽ viết dưới
+dạng cột.
+
+khi dữ liệu dạng 2 chiều, người ta gọi là ma trận, kích thước là số hàng * số cột.
+
+hình 7.7: vector v kích thước n, ma trận w kích thước m*n
+
+khi dữ liệu nhiều hơn 2 nhiều thì sẽ được gọi là tensor, ví dụ như dữ liệu có 3 chiều.
+
+để ý thì thấy là ma trận là sự kết hợp của các vector cùng kích thước. xếp n vector kích thước m
+cạnh nhau thì sẽ được ma trận m*n. thì tensor 3 chiều cũng là sự kết hợp của các ma trận cùng kích
+thước, xếp k ma trận kích thước m*n lên nhau sẽ được tensor kích thước m*n*k.
+
+104 chương 7. giới thiệu về xử lý ảnh
+
+hình 7.8: hình hộp chữ nhật kích thước a*b*h
+
+tưởng tượng mặt đáy là một ma trận kích thước a * b, được tạo bởi b vector kích thước a. cả hình
+hộp là tensor 3 chiều kích thước a*b*h, được tạo bởi xếp h ma trận kích thước a*b lên nhau.
+
+do đó biểu diễn ảnh màu trên máy tính ở phần trên sẽ được biểu diễn dưới dạng tensor 3 chiều kích
+thước 600*800*3 do có 3 ma trận (channel) màu red, green, blue kích thước 600*800 chồng lên
+nhau.
+
+ví dụ biểu diễn ảnh màu kích thước 28*28, biểu diễn dưới dạng tensor 28*28*3
+
+hình 7.9: ảnh màu biểu diễn dưới dạng tensor [1]
+
+7.1 ảnh trong máy tính 105
+
+7.1.4 ảnh xám
+
+hình 7.10: ảnh xám của mathematical bridge
+
+tương tự ảnh màu, ảnh xám cũng có kích thước 800 pixel * 600 pixel, có thể biểu diễn dưới dạng
+một ma trận kích thước 600 * 800 (vì định nghĩa ma trận là số hàng nhân số cột).
+
+tuy nhiên mỗi pixel trong ảnh xám chỉ cần biểu diễn bằng một giá trị nguyên trong khoảng từ
+[0,255] thay vì (r,g,b) như trong ảnh màu. do đó khi biểu diễn ảnh xám trong máy tính chỉ cần một
+ma trận là đủ.
+
+hình 7.11: biểu diễn ảnh xám
+
+106 chương 7. giới thiệu về xử lý ảnh
+
+giá trị 0 là màu đen, 255 là màu trắng và giá trị pixel càng gần 0 thì càng tối và càng gần 255 thì
+càng sáng.
+
+7.1.5 chuyển hệ màu của ảnh
+mỗi pixel trong ảnh màu được biểu diễn bằng 3 giá trị (r,g,b) còn trong ảnh xám chỉ cần 1 giá trị x
+để biểu diễn.
+
+khi chuyển từ ảnh màu sang ảnh xám ta có thể dùng công thức: x = r * 0.299 + g * 0.587 +
+b * 0.114.
+
+tuy nhiên khi chuyển ngược lại, bạn chỉ biết giá trị x và cần đi tìm r,g,b nên sẽ không chính
+xác.
+
+7.2 phép tính convolution
+7.2.1 convolution
+để cho dễ hình dung tôi sẽ lấy ví dụ trên ảnh xám, tức là ảnh được biểu diễn dưới dạng ma trận a
+kích thước m*n.
+
+ta định nghĩa kernel là một ma trận vuông kích thước k*k trong đó k là số lẻ. k có thể bằng
+1, 3, 5, 7, 9,... ví dụ kernel kích thước 3*3
+
+kí hiệu phép tính convolution (⊗), kí hiệu y = x ⊗w
+
+với mỗi phần tử x i j trong ma trận x lấy ra một ma trận có kích thước bằng kích thước của
+kernel w có phần tử x i j làm trung tâm (đây là vì sao kích thước của kernel thường lẻ) gọi là ma trận
+a. sau đó tính tổng các phần tử của phép tính element-wise của ma trận a và ma trận w, rồi viết
+vào ma trận kết quả y.
+
+ví dụ khi tính tại x 22 (ô khoanh đỏ trong hình), ma trận a cùng kích thước với w, có x 22 làm trung
+tâm có màu nền da cam như trong hình. sau đó tính y 11 = sum(a ⊗w) = x 11 ∗ w 11 + x 12 ∗ w 12 +
+
+7.2 phép tính convolution 107
+
+x 13 ∗ w 13 + x 21 ∗ w 21 + x 22 ∗ w 22 + x 23 ∗ w 23 + x 31 ∗ w 31 + x 32 ∗ w 32 + x 33 ∗ w 33 = 4 . và làm tương tự
+với các phần tử còn lại trong ma trận.
+
+thế thì sẽ xử lý thế nào với phần tử ở viền ngoài như x 11 ? bình thường khi tính thì sẽ bỏ qua các
+phần tử ở viền ngoài, vì không tìm được ma trận a ở trong x.
+
+nên bạn để ý thấy ma trận y có kích thước nhỏ hơn ma trận x. kích thước của ma trận y là (m-k+1)
+* (n-k+1).
+
+hình 7.12: các bước thực hiện phép tính convolution cho ma trận x với kernel k ở trên
+
+7.2.2 padding
+như ở trên thì mỗi lần thực hiện phép tính convolution xong thì kích thước ma trận y đều nhỏ hơn
+x. tuy nhiên giờ ta muốn ma trận y thu được có kích thước bằng ma trận x => tìm cách giải quyết
+
+108 chương 7. giới thiệu về xử lý ảnh
+
+cho các phần tử ở viền => thêm giá trị 0 ở viền ngoài ma trận x.
+
+hình 7.13: ma trận x khi thêm viền 0 bên ngoài
+
+rõ ràng là giờ đã giải quyết được vấn đề tìm a cho phần tử x 11 , và ma trận y thu được sẽ bằng
+kích thước ma trận x ban đầu.
+
+phép tính này gọi là convolution với padding=1. padding=k nghĩa là thêm k vector 0 vào mỗi phía
+của ma trận.
+
+7.2.3 stride
+
+như ở trên ta thực hiện tuần tự các phần tử trong ma trận x, thu được ma trận y cùng kích thước
+ma trận x, ta gọi là stride=1.
+
+7.2 phép tính convolution 109
+
+hình 7.14: stride=1, padding=1
+
+tuy nhiên nếu stride=k (k > 1) thì ta chỉ thực hiện phép tính convolution trên các phần tử x 1+i∗k,1+ j∗k .
+ví dụ k = 2.
+
+110 chương 7. giới thiệu về xử lý ảnh
+
+hình 7.15: padding=1, stride=2
+
+hiểu đơn giản là bắt đầu từ vị trí x 11 sau đó nhảy k bước theo chiều dọc và ngang cho đến hết ma
+trận x.
+
+kích thước của ma trận y là 3*3 đã giảm đi đáng kể so với ma trận x.
+
+công thức tổng quát cho phép tính convolution của ma trận x kích thước m*n với kernel kích thước
+k*k, stride = s, padding = p ra ma trận y kích thước ( m − k + 2p + 1) ∗ ( n − k + 2p + 1).
+s s
+stride thường dùng để giảm kích thước của ma trận sau phép tính convolution.
+
+mọi người có thể xem thêm trực quan hơn ở đây.
+
+7.2.4 ý nghĩa của phép tính convolution
+
+mục đích của phép tính convolution trên ảnh là làm mờ, làm nét ảnh; xác định các đường;... mỗi
+kernel khác nhau thì sẽ phép tính convolution sẽ có ý nghĩa khác nhau. ví dụ:
+
+7.3 bài tập 111
+
+hình 7.16: một số kernel phổ biến [12]
+
+7.3 bài tập
+1. cài thư viện opencv trên python và thực hiện công việc sau:
+(a) load và hiện thị ảnh màu/xám
+(b) chuyển từ ảnh màu sang ảnh xám
+(c) resize ảnh
+(d) rotate ảnh
+(e) threshold trên ảnh
+
+112 chương 7. giới thiệu về xử lý ảnh
+
+(f) tìm các đường thẳng, đường tròn trên ảnh.
+2. thử các kernel khác nhau trên ảnh (identity, edge detection, sharpen, blue).
+3. đọc thuật toán và tự implement lại houghline, houghcircle, canny bằng code python thuần.
+
+8. convolutional neural network
+
+bài này sẽ giới thiệu về convolutional neural network, sẽ được dùng khi input của neural network là
+ảnh. mọi người nên đọc trước bài neural network và xử lý ảnh trước khi bắt đầu bài này.
+
+8.1 thiết lập bài toán
+gần đây việc kiểm tra mã captcha để xác minh không phải robot của google bị chính robot vượt qua
+
+hình 8.1: robot vượt qua kiểm tra captcha
+
+thế nên google quyết định cho ra thuật toán mới, dùng camera chụp ảnh người dùng và dùng deep
+learning để xác minh xem ảnh có chứa mặt người không thay cho hệ thống captcha cũ.
+
+114 chương 8. convolutional neural network
+
+bài toán: input một ảnh màu kích thước 64*64, output ảnh có chứa mặt người hay không.
+
+8.2 convolutional neural network
+
+8.2.1 convolutional layer
+
+mô hình neural network từ những bài trước
+
+hình 8.2: mô hình neural network.
+
+mỗi hidden layer được gọi là fully connected layer, tên gọi theo đúng ý nghĩa, mỗi node trong hidden
+layer được kết nối với tất cả các node trong layer trước. cả mô hình được gọi là fully connected
+neural network (fcn).
+
+vấn đề của fully connected neural network với xử lý ảnh
+
+như bài trước về xử lý ảnh, thì ảnh màu 64*64 được biểu diễn dưới dạng 1 tensor 64*64*3. nên để
+biểu thị hết nội dung của bức ảnh thì cần truyền vào input layer tất cả các pixel (64*64*3 = 12288).
+nghĩa là input layer giờ có 12288 nodes.
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.

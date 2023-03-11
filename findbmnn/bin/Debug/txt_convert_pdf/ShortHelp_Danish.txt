@@ -1,0 +1,409 @@
+abbyy® finereader 14
+
+startvejledning
+
+denne startvejledning giver nogle grundlæggende oplysninger om brugen af abbyy finereader. for hele
+brugervejledningen, kan du besøge http://help.abbyy.com/. hvis du allerede har startet abbyy
+finereader, kan du få adgang til hele brugervejledningen ved at trykke på f1 eller vælge hjælp fra
+menuen.
+
+startvejledning ..................................................................................................................................................................................... 1
+
+præsentation af abbyy finereader .............................................................................................................................................. 3
+
+systemkrav ............................................................................................................................................................................................. 4
+
+understøttede filformater ................................................................................................................................................................ 4
+
+installering af abbyy finereader .................................................................................................................................................. 5
+
+start af abbyy finereader ............................................................................................................................................................... 5
+
+arbejde med abbyy finereader ................................................................................................................................................... 5
+
+den nye opgaveskærm ................................................................................................................................................................. 5
+
+arbejde med pdf-dokumenter .................................................................................................................................................. 7
+
+konvertering af dokumenter ....................................................................................................................................................... 9
+
+hurtig konvertering .................................................................................................................................................................... 9
+
+avanceret konvertering .......................................................................................................................................................... 11
+
+justering af genkendelsesområder .................................................................................................................................... 13
+
+sammenligning af dokumenter ............................................................................................................................................... 13
+
+automatiseret konvertering af dokument ........................................................................................................................... 15
+
+aktivering og registrering af abbyy finereader ................................................................................................................... 17
+
+databeskyttelse .................................................................................................................................................................................. 17
+
+© 2017 abbyy production llc. alle rettigheder forbeholdes.
+
+abbyy® finereader 14
+startvejledning
+
+2
+
+
+abbyy® finereader 14
+startvejledning
+
+præsentation af abbyy finereader
+
+abbyy finereader 14 er din løsning for alt, når det drejer sig om at arbejde med trykte dokumenter og
+pdf-filer af enhver art, og det tilbyder en kraftfuld optisk tegngenkendelse (ocr) og kapaciteter til at
+forfatte og gennemgå pdf-dokumenter.
+
+hovedfunktioner
+
+ scan og konverter papir- og pdf-dokumenter til redigerbare formater (herunder microsoft® word,
+microsoft excel®, søgbar pdf og mange flere) for yderligere redigering og genbrug.
+
+ arbejd med enhver form for pdf, herunder scannede dokumenter.
+med abbyy finereader kan du:
+
+o redigere tekst og billeder
+
+o udføre fuldtekstsøgninger i brødteksten i dine dokumenter og indsætte kommentarer, bogmærker
+og metadata
+
+o tilføje, slette og omarrangere sider i pdf-dokumenter
+
+o gøre det nemt at citere fragmenter fra scannede dokumentet eller fotos
+
+o underskrive dokumenter med en digital signatur
+
+o beskytte pdf-dokumenter med adgangskoder
+
+o fjerne følsomme oplysninger
+
+o tilføje kommentarer og noter
+
+o oprette pdf-dokumenter, der er egnede til langtidsopbevaring
+
+o færdiggøre pdf-formularer
+
+ sammenligne to versioner af samme dokument.*
+de to versioner behøver ikke være i samme filformat. for eksempel kan du sammenligne et
+tekstdokument og dets billede, eller du kan sammenligne en scanning og dens version i microsoft
+word. abbyy finereader vil automatisk finde alle forskelle mellem de to tekster, som derefter nemt
+kan gennemgås punkt for punkt eller gemmes til en fil.
+
+ konverter dokumenter automatisk ved hjælp af abbyy hot folder.*
+abbyy hot folder er et planlægningsprogram, der automatisk behandler dokumenter, som er gemt i
+brugerdefinerede mapper.
+
+* ikke tilgængelig i nogle udgaver af abbyy finereader. for mere information besøg hjemmeside:
+www.abbyy.com/finereader
+
+3
+
+
+abbyy® finereader 14
+startvejledning
+
+systemkrav
+
+minimumskrav:
+
+ operativsystem:
+
+o  microsoft® windows® 10 / 8.1 / 8 / 7
+
+o  microsoft windows server® 2016 / 2012 / 2012 r2 / 2008 r2
+
+ 1 ghz eller hurtigere x86 eller x64 processor med sse2 instruktionssæt
+
+ 1 gb ram (anbefalet: 4 gb ram)
+
+i multi-core-systemer kræves der yderligere 512 ram for hver cpu-kerne.
+
+ 1,2 gb harddisk for at installere abbyy finereader lokalt og 850 mb til at køre programmet
+
+ skærmkort og skærm der understøtter mindst 1024x768 opløsning
+
+ en internetforbindelse for at aktivere dit serienummer
+
+understøttede filformater
+
+input:
+
+ pdf-dokumenter, herunder pdf/a
+
+ billedfiler: tiff, jpeg, jpeg 2000, jbig2, png, bmp, pcx, gif, djvu, xps*
+
+ redigerbare tekstdokumenter:** doc(x), xls(x), ppt(x), vsd(x), html, rtf, txt, odt, ods, odp
+
+output:
+
+ pdf-dokumenter, herunder pdf/a
+
+ billedfiler: tiff, jpeg, jpeg 2000, jbig2, png, bmp, pcx, djvu
+
+ redigerbare tekstdokumenter: doc(x), xls(x), pptx, html, rtf, txt, csv, odt
+
+ e-book-formater: epub, fb2
+
+* kræver microsoft.net framework 4.0.
+
+** for at oprette pdf-dokumenter fra redigerbare tekstdokumenter, skal du have den korrekte version af microsoft
+office eller apache openoffice installeret på din computer.
+
+4
+
+
+abbyy® finereader 14
+startvejledning
+
+installering af abbyy finereader
+
+for at installere abbyy finereader 14, skal du køre setup.exe-filen fra den mappe, der indeholder
+installationsfilerne og følge vejledningen i installationsprogrammet.
+
+du kan installere abbyy finereader 14 på flere arbejdsstationer*. for detaljerede instruktioner, se
+vejledning til systemadministrator.
+
+* ikke tilgængelig i nogle udgaver af abbyy finereader. for mere information besøg hjemmeside:
+www.abbyy.com/finereader
+
+start af abbyy finereader
+
+for at starte abbyy finereader 14 skal du gøre et af følgende:
+
+ klik på start et programs > abbyy finereader 14 (i windows 10, skal du klikke på  > alle
+apps > abbyy finereader 14)
+
+ i windows stifinder, skal du højreklikke på en fil i et af de understøttede formater og derefter klikke
+på enten åbn med abbyy finereader 14 på genvejsmenuen eller klikke på det ønskede
+destinationsformat.
+
+arbejde med abbyy finereader
+
+dette afsnit beskriver de mest almindelige opgaver, der kan løses ved hjælp af abbyy finereader.
+
+den nye opgaveskærm
+
+når du starter abbyy finereader, ny opgave åbnes en liste over de mest almindelige opgaver, du kan
+støde på, når du arbejder med dokumenter. hvis du ikke ser ny opgave vinduet (fx hvis du lukkede det,
+eller hvis du startede en bestemt abbyy finereader opgave ved at højreklikke på en fil i windows
+stifinder), kan du altid åbne det ved at klikke på ny opgave ikonet på hovedværktøjslinjen.
+
+5
+
+
+abbyy® finereader 14
+startvejledning
+
+for at begynde at behandle et dokument, skal du vælge en opgave:
+
+1. i ruden til venstre:
+
+ klik på åbn hvis du allerede har dokumenter, som du har brug for at behandle.
+
+ klik på scan hvis du har brug for at scanne papirdokumenter først.
+
+ klik på sammenlign hvis du ønsker at sammenligne to versioner af det samme dokument.
+
+ klik på seneste for at genoptage arbejdet på et tidligere gemt pdf-dokument eller ocr-projekt.
+
+2. i højre rude skal du klikke på den opgave, du vil udføre på dit dokument.
+
+for nemheds skyld vises et pop op-vindue med en liste over de mest almindelige scenarier, som den
+opgave dækker, når du holder musemarkøren hen over en opgave.
+
+6
+
+
+abbyy® finereader 14
+startvejledning
+
+indstillingerne for alle abbyy finereader opgaver er specificeret i indstillinger dialogboksen. for at
+åbne denne dialogboks, skal du klikke på indstillinger nederst i ruden til venstre.
+
+arbejde med pdf-dokumenter
+
+abbyy finereader tilbyder en bred vifte af kraftfulde funktioner til at arbejde med alle former for pdf-
+dokumenter, herunder pdf-scanninger, så du kan se, søge og redigere deres indhold.
+
+gennemse og kommenter pdf-dokumenter
+
+i vinduet ny opgave klik på åbn og klik derefter på åbn pdf-dokument. dokumentet vil blive åbnet i en
+pdf editor, hvor du kan gennemgå det og tilføje dine kommentarer.
+
+følgende navigationsruder og værktøjer er tilgængelige:
+
+7
+
+
+abbyy® finereader 14
+startvejledning
+
+for at tilføje dine kommentarer, kan du bruge disse værktøjer til gennemgang:
+
+ tilføj bemærkning
+
+ fremhæv, understreg, gennemstreg, indsæt tekst
+
+ tegningsværktøjer, som giver dig mulighed for at tegne linjer, pile, og former
+
+redigering af pdf-dokumenter
+
+brug disse redigeringsværktøjer til at redigere et pdf-dokument:
+
+8
+
+
+abbyy® finereader 14
+startvejledning
+
+beskyttelse af pdf-dokumenter
+
+med abbyy finereader kan du:
+
+færdiggøre pdf-formularer
+
+abbyy finereader giver dig mulighed for at færdiggøre, gemme og udskrive pdf-formularer.
+
+for at færdiggøre en pdf-formular, skal du vælge en værdi eller indtaste tekst i tomme felter (disse felter
+vil normalt blive fremhævet).
+
+hvis ingen felter er fremhævet, skal du bruge tekstboks værktøjer til at indtaste tekst i formularen.
+
+konvertering af dokumenter
+
+abbyy finereader tilbyder to typer konvertering:
+
+ hurtig konvertering, til konvertering af dokumenter til et ønsket format. du kan enten bruge
+standardindstillingerne for konvertering eller angive dine egne. dokumentet vil automatisk blive
+gemt i en mappe efter eget valg.
+
+ avanceret konvertering, til konvertering af dokumenter i ocr editor og til at foretage de
+nødvendige justeringer før konverteringsoutputtet gemmes.
+
+tip.  brug avanceret konvertering til store dokumenter med komplicerede layouts og til opgaver der ikke
+er trivielle.
+
+hurtig konvertering
+
+. åbn fanen på startskærmen indeholder opgaver, der tillader dig at konvertere pdf-dokumenter eller
+billedfiler til en række andre formater, eller oprette pdf-dokumenter fra dokumenter i andre formater.
+
+9
+
+
+abbyy® finereader 14
+startvejledning
+
+1. klik på åbn fanen og derefter på den opgave, du vil udføre:
+
+ konverter til pdf opretter et pdf-dokument fra filer i andre formater (*.pdf, *.docx, *.html, *.jpeg
+og mange flere), eller kombinerer flere filer i ét pdf-dokument.
+
+ konvertér til microsoft® word opretter et word-dokument fra en pdf- eller billedfil eller
+kombinerer flere filer i ét word-dokument.
+
+ konverter til microsoft excel® opretter et excel-regneark fra en pdf- eller billedfil eller
+kombinerer flere filer i ét excel-regneark.
+
+ konverter til andre formater konverterer pdf- og billedfiler til nogle af de mest almindelige
+dokumentformater, herunder *.odt, *.pptx, *.epub, *.html og mange flere.
+
+2. i dialogboksen, vælg de filer der skal konverteres.
+
+10
+
+
+abbyy® finereader 14
+startvejledning
+
+3. angiv konverteringsindstillinger.
+
+disse indstillinger bestemmer udseendet og egenskaberne af det endelige dokument.
+
+4. tilføj eller fjern nogle filer, hvis det er nødvendigt.
+
+5. vælg kombiner alle filer til ét dokument og arranger filerne i den ønskede rækkefølge, hvis du
+har brug for at flette alle dine udvalgte filer til ét dokument.
+
+6. klik på konverter til <format> knappen.
+
+7. angiv en destinationsmappe for outputfilen.
+
+når opgaven er afsluttet, vil den resulterende fil blive placeret i den mappe, du har angivet.
+
+avanceret konvertering
+
+avanceret konvertering gør det muligt at tegne ocr-områder manuelt, tjekke genkendt tekst, træne
+programmet til at genkende ikke-standard tegn og skrifttyper og bruge nogle andre avancerede
+funktioner for at opnå maksimal ocr- og konverteringskvalitet.
+
+1. for at starte avanceret konvertering skal du gøre en af følgende:
+
+ klik på ny opgave > åbn > åbn i ocr editor
+
+ klik på ny opgave > redskaber > ocr editor
+
+ i pdf editor, skal du klikke på redskaber > ocr editor
+
+11
+
+
+abbyy® finereader 14
+startvejledning
+
+tip.  du kan få ocr editor til at åbne automatisk, hver gang du starter abbyy finereader. for at opnå
+dette, skal du klikke på ny opgave > redskaber > indstillinger, i dialogboksen der åbnes, klik på
+generel fanen, og under når ocr-redigering starter, skal du vælge enten åbn et nyt ocr-projekt eller
+åbn det senest brugte ocr-projekt.
+
+2. i dialogboksen, som åbnes, skal du vælge de filer, som du vil behandle.
+
+som standard vil programmet automatisk begynde at analysere og genkende dokumentet. du kan
+ændre denne adfærd på billedbehandling fanen for indstillinger dialogboksen (klik på redskaber >
+indstillinger... for at åbne denne dialogboks).
+
+3. i billede ruden, gennemgå genkendelsesområderne og rediger dem, hvis det er nødvendigt.
+
+4. hvis du justere positionen eller typen af eventuelle områder, skal du klikke på anerkend knappen
+på hovedværktøjslinjen.
+
+5. i tekst ruden, gennemgå den genkendte tekst og rediger den, hvis det er nødvendigt.
+
+12
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.

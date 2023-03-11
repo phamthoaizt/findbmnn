@@ -1,0 +1,37 @@
+fonts, lettering & illustration
+
+help with
+chin up buercup!
+q: which font should i install , otf or ttf?
+a : if you have opentype capable software such as photoshop cc, any version of illustrator,  indesign, word ( new
+versions) or any other software that is capable of accessing the extra characters in opentype fonts, you should
+install the otf version in order to be able to easily access the ligatures and extra characters ( from the glyphs panel
+or from the character panel/opentype features panels).
+if you don’t have any opentype capable software, you can insall either version you prefer - there is not much
+difference visually with this particular font.
+q: how do i install the fonts onto my machine?
+a : a handy guide on how to install fonts properly can be found here:
+https://www.fontspring.com/support/installing
+q: can i use this pack commercially? ie for use on physical items i make for sale?
+a: yes, you absolutely may. you may use this pack to create physical items for sale - for unlimited sales, unlimited
+projects - no extended license is required.
+q: can i use this pack to make my business logo and collateral ( business cards, stationery, packaging, branding
+etc)?
+a: yes you absolutely may.
+q: can i use this pack on my website?
+a: yes you may. the only two cases in which webfont use is prohibited without additional licensing is
+1.) when the font is to be used live on the webserver,  where other people who visit the website can edit the
+words written with the font ( such as a customazeable greeting card website for example) - for this you will require
+a “ custom creation license”
+2.) when the font is to be used in web templates for sale or distribution.
+q: can i use this pack in my mobile app?
+a: you may use  this pack in your app only if the text is flat and part of a design. you may not use the font
+live in a mobile app ( where users can create custom words with the font) - for this you require and “app license”
+and a “custom creation license”. you may not use the illustrations as a feature in your mobile app.
+q: can i use this pack in my ebook or book publication?
+a: yes you may - no extra licensing is required. in ebook publications the font is to remain ﬂat and not embedded.
+q: can i use this pack in customisable pdf templates for sale?
+a: no - you will require a “ custom creation license” for this purpose.
+
+if you have a question not listed above - feel free to message
+me directly and i’ll help you along :)

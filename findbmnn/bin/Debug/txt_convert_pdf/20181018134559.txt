@@ -1,0 +1,734 @@
+ký bởi: cổng thông tin điện tử chính phủ
+email: thongtinchinhphu@chinhphu.vn
+cơ quan: văn phòng chính phủ
+thời gian ký: 20.03.2017 16:03:43 +07:00
+
+ 
+
+2
+
+2. ban chỉ đạo quốc gia có trách nhiệm chỉ đạo bộ thông tín và truyền
+thông, bộ công an, bộ quốc phòng và các bộ, ngành, địa phương liên quan
+trong công tác ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng quốc gia.
+
+điều 4. cơ quan thường trực về ứng cứu khẩn cấp bảo đảm an toàn
+thông tin mạng quốc gia
+
+1. bộ thông tìn và truyền thông là cơ quan thường trực, giúp việc cho
+ban chỉ đạo quốc gia (sau đây gọi là cơ quan thường trực) có nhiệm vụ,
+quyền hạn cụ thể sau:
+
+a) quyết định lựa chọn phương án ứng cứu và chủ trì, chỉ đạo công tác
+ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng quốc gia;
+
+b) chỉ đạo cơ quan điều phối quốc gia tiếp nhận, thu thập, xử lý thông
+tin, báo cáo về sự cố mắt an toàn thông tin mạng quốc gia và đề xuất phương
+án ứng cứu;
+
+c) triệu tập, chỉ đạo bộ phận tác nghiệp ứng cứu sự cố an toàn thông tin
+mạng quốc gia theo đề xuất của cơ quan điều phối quốc gia; chỉ đạo, phân
+công nhiệm vụ cho các đơn vị chuyên trách về ứng cứu sự cố; các thành viên
+mạng lưới ứng cứu để triển khai phương án ứng cứu;
+
+creaiedi witisairial @rsien, øñ,ì@@œolie, edlfuéc ca
+
+phối hợp với các đơn vị chức năng của các quốc gia khác hoặc các tổ chức
+quốc tế trong hoạt động ứng cứu, xử lý các sự cô liên quốc gia;
+
+đ) kiểm tra, giám sát, đôn đốc việc chấp hành của các đơn vị liên quan,
+báo cáo ban chỉ đạo quốc gia về công tác ứng cứu khẩn cấp sự cố an toàn
+thông tin mạng quốc gia.
+
+2. trường hợp cần thiết, bộ thông tín và truyền thông chủ trì thành lập
+ban điều phối ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng quốc gia
+(gọi tắt là bạn điều phối ứng cứu quốc gia), với thành phân gồm: 01 lãnh đạo
+bộ thông tin và truyền thông làm trưởng ban, cơ quan điều phối quốc gia
+làm thường trực và thành viên là các lãnh đạo cấp cục, vụ của một số bộ
+ngành, tổ chức có liên quan.
+
+điều 5. ban chỉ đạo ứng cứu khẩn cấp sự cổ an toàn thông tin mạng
+của các bộ, cơ quan ngang bộ, cơ quan thuộc chính phú và ủy ban nhân
+dân các tỉnh, thành phố trực thuộc trung ương
+
+1. ban chỉ đạo ứng dụng công nghệ thông tin của các bộ, cơ quan ngang
+bộ, cơ quan thuộc chính phủ và ủy ban nhân dân các tỉnh, thành phố trực
+thuộc trung ương đảm nhiệm chức năng ban chỉ đạo ứng cứu khẩn cấp sự cố
+an toàn thông tin mạng trong phạm vi địa bàn, lĩnh vực mình phụ trách (sau
+đây gọi là ban chỉ đạo cấp bộ, tỉnh).
+
+ 
+
+
+3
+
+trong trường hợp chưa có ban chỉ đạo ứng dụng công nghệ thông tin
+hoặc điều kiện đặc thù cân thiết, bộ, cơ quan ngang bộ, cơ quan thuộc chính
+phủ, ủy ban nhân dân cấp tỉnh xem xét thành lập ban chỉ đạo ứng cứu khẩn
+cấp sự cô an toàn thông tin mạng trong phạm vi bộ, ngành, địa phương mình
+do 1 lãnh đạo bộ hoặc lãnh đạo ủy ban nhân dân cấp tỉnh trực tiếp chỉ đạo,
+
+2. trách nhiệm, quyền hạn của ban chỉ đạo cấp bộ, tỉnh:
+
+3) chỉ đạo công tác điều phối, ứng cứu sự cố trong phạm vi ngành, lĩnh
+vực, địa phương mình; chỉ đạo các cơ quan, đơn vị trực thuộc phối hợp, tuân
+thú yêu cầu của cơ quan điều phối quốc gia trong điều phối, ứng cứu sự cố;
+
+b) triệu tập, chỉ đạo đội ứng cứu sự cố hoặc bộ phận tác nghiệp ứng
+cứu sự cô an toàn thông tín mạng cùng cấp theo đề xuất của đơn vị chuyên
+trách ứng cứu sự cô;
+
+c) báo cáo tình hình và xin ý kiến của ban chỉ đạo quốc gia qua cơ
+quan thường trực về các vấn đề phát sinh vượt thẳm quyền trong quá trình
+thực hiện nhiệm vụ; chịu sự chỉ đạo, điều hành của ban chỉ đạo quốc gia qua
+cơ quan thường trực và cơ quan điều phối quốc gia.
+
+điều 6. đơn vị chuyên trách về ứng cứu sự cố an toàn thông tin mạng
+roat3el'withen"trinf fersiorm óf‡ocøtie.faofus là
+ơ quan chuyên trách về an toàn thông tín hoặc cơ quan chuyên trách về công
+nghệ thông tin của các bộ, ngành, 1y ban nhân dân cấp tỉnh (sau đây gọi tắt là
+đơn vị chuyên trách ứng cửu sự cô). .
+
+các doanh nghiệp viễn thông, internet, các cơ quan, tổ chức, doanh
+nghiệp chủ quản hệ thông thông tin lớn thành lập hoặc chỉ định đơn vị chuyên
+trách ứng cứu sự cô an toàn thông tìn mạng tại cơ quan, tô chức mình.
+
+2. đơn vị chuyên trách ứng cứu sự cố có trách nhiệm trình thành lập đội
+ứng cứu sự cố và tổ chức hoạt động ứng cửu sự cố trong lĩnh vực, địa bản,
+phạm vi mình quân lý; tham gia hoạt động ứng cứu khân cấp bảo đảm an toàn
+thông tin mạng quốc gia khi có yêu cầu từ cơ quan thường trực hoặc cơ quan
+điều phối.
+
+điều 7. mạng lưới ứng cứu sự cố an toàn thông tin mạng quốc gia
+
+1. thành viên có nghĩa vụ phải tham gia mạng lưới ứng cứu sự cố an toàn
+thông tin mạng quốc gia (sau đây gọi tắt là mạng lưới ứng cứu sự cố) gồm:
+
+a) đơn vị chuyên trách về ứng cứu sự cố, an toàn thông tin hoặc công
+nghệ thông tin của các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ, cơ
+quan trung ương; sở thông tin và truyền thông các tỉnh, thành phô trực thuộc
+trung ương;
+
+
+b) cơ quan, đơn vị có chức năng liên quan thuộc bộ thông tin và truyện
+thông: cục an toàn thông tin, trung tâm ứng cửu khân cấp máy tính việt
+nam (vncert), trung tâm internet việt nam (vnnic) cục bưu điện
+trung ương;
+
+ce) cơ quan, đơn vị có chức năng liên quan thuộc bộ công an: cục an
+ninh mạng: cục cảnh sát phòng, chông tội phạm sử dụng công nghệ cao;
+
+d) cơ quan, đơn vị có chức năng liên quan thuộc bộ quốc phòng: cục
+công nghệ thông tin; ban cơ yếu chính phủ;
+
+đ) các doanh nghiệp cung cấp dịch vụ hạ tầng viễn thông, internet (1sp);
+các tổ chức, doanh nghiệp cung cấp dịch vụ trung tâm dữ liệu, cho thuê không.
+gian lưu trữ thông tin số; đơn vị quản lý, vận hành cơ sở dữ liệu quốc gia; đơn
+
+vị chuyên trách về an toàn thông tin, công nghệ thông tin của các tô chức
+ngân hàng, tài chính, kho bạc, thuê, hải quan;
+
+e) các tổ chức, doanh nghiệp quản lý, vận hành các hệ thống thông tin
+quan trọng, các bệ thống điều khiển công nghiệp (scada) thuộc các lĩnh
+vực: năng lượng, công nghiệp, y tế, tài nguyên và môi trường, giáo dục và
+đào tạo, dân cư và đô thị.
+
+creaiodkwithi œ iriztl versiomef-oðoeoftde2pdt de
+nghiệp không thuộc danh sách quy định tại khoản 1] điều này, có năng lực về
+an toàn thông tin hoặc công nghệ thông tin, có đăng ký và được cơ quan điều
+phối quốc gia chấp thuận tham gia mạng lưới. khuyến khích các tổ chức,
+doanh nghiệp hoạt động trong lĩnh vực an toàn thông tin, công nghệ thông tĩn;
+các tổ chức, doanh nghiệp quản lý, vận hành hệ thống thông tìn quy mô lớn,
+hệ thống thông tin chuyên ngành ngân hàng, tài chính, hệ thống điều khiển
+công nghiệp (scada); và các đơn vị khác có năng lực về an toàn thông tin
+đăng ký tham gia mạng lưới.
+
+3. trung tâm ứng cứu. khẩn cấp máy tính việt nam (trung tâm
+vncert) là cơ quan điều phối quốc gia về ứng cứu sự cô (gọi tắt là cơ quan .
+điều phối quốc gia hay cơ quan điều phôi), có trách nhiệm:
+
+_ a) thực hiện chức năng điều phối các hoạt động ứng cứu sự cố trên toàn
+quốc; có quyên huy động, điều phối các thành viên mạng lưới ứng cứu sự cố
+và các tô chức, đơn vị liên quan phối hợp ngăn chặn, xử lý, khắc phục sự cố
+tại việt nam, có quyên quyết định hình thức điều phối các hoạt động ứng cứu ˆ
+sự cô và chịu trách nhiệm về các lệnh/yêu cầu điều phối;
+
+b) chủ trì xây dựng quy chế hoạt động của mạng lưới; tổ chức và điều
+hành hoạt động của mạng lưới; tổng hợp và chia sẻ thông tin, cảnh báo sự cố
+trong mạng lưới; đề xuất và tiệp nhận, quản lý các khoản đóng góp, tài trợ của
+các thành viên và các tổ chức, cá nhân và nguồn thu hợp pháp khác để chỉ cho
+
+ 
+
+
+các hoạt động của mạng lưới; là đầu mối quốc gia hợp tác với các tổ chức,
+doanh nghiệp nước ngoài trong công tác ứng cứu sự cô bảo đảm an toàn thông
+tin mạng.
+
+c) bộ thông tin và truyền thông thành lập ban điều hành mạng lưới do
+lãnh đạo cơ quan điều phối làm trưởng ban, thành viên là đại điện lãnh đạo
+một số thành viên mạng lưới để điều hành, phối hợp và tổ chức các hoạt động
+cho mạng lưới.
+
+4. các thành viên mạng lưới có trách nhiệm tuân thú quy chế hoạt động
+của mạng lưới, tuân thủ các yêu cầu điều phối của cơ quan điều phối, tham
+gia, đóng góp tích cực cho hoạt động của mạng lưới. doanh nghiệp viễn
+thông, nhà cung cấp dịch vụ internet isp có trách nhiệm lưu trữ và cung cấp
+thông tin liên quan đến các địa chỉ ip thuê bao, máy chủ, thiết bị iot, các log
+ñle, nhật ký dịch vụ phân giải tên miễn dns trong phạm vi quản lý của đoanh
+nghiệp; thiết lập môi trường để lắp đặt thiết bị quan trắc, lấy mẫu và cung cấp
+luồng dữ liệu "mạng để phục vụ giám sát, phát hiện sự cổ theo yêu cầu của cơ
+quan ‹ điều phối quốc gia; thiết lập đều mối thường trực 24/7, bố trí nhân, vật
+lực sẵn sàng phối hợp, triển khai các giải pháp nhằm ứng cứu, khắc phục hậu
+quả sự cố trong trường hợp nguồn tấn công được xác định xuất phát từ thuê
+bao thuộc doanh nghiệp mình hoặc khi được yêu cầu từ cơ quan điều phối
+
+@#e8ted with a trial version of docotic.pdf.
+
+điều 8. bộ phận tác nghiệp ứng cứu khẩn cấp báo đảm an toàn
+thông tin mạng quốc gia
+1. bộ phận tác nghiệp ú ứng cứu khẩn cấp bảo đảm an toàn thông tín mạng
+
+quốc gia (sau đây gọi tắt là bộ phận tác nghiệp ứng cứu khẩn cấp) do cơ quan
+thường trực triệu tập và chịu sự điều hành của cơ quan thường trực với sự
+
+tham gia của các đơn vị sau:
+
+a) cơ quan điều phối quốc gia (trung tâm ứng cứu khẩn cấp máy tính
+việt nam vncert - thường trực);
+
+b) cục an toàn thông tin, bộ thông tin và truyền thông:
+
+c) cục an ninh mạng, cục cảnh sát phòng, chống tội phạm sử dụng
+công nghệ cao - bộ công an;
+
+d) cục công nghệ thông tin, bộ tổng tham mưu, bộ quốc phòng: '
+
+đồ một số đơn vị chuyên trách về ứng cứu sự cố an toàn thông tin mạng
+của các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ, ủy ban nhân dân cập
+
+tỉnh, doanh nghiệp viễn thông, internet, chủ quản hệ thống thông tin quan
+trọng quốc gia.
+
+
+ 
+
+6
+
+2. quyền bạn của bộ phận tác nghiệp ứng cứu khẳn cấp
+
+a) sử dụng các biện pháp nghiệp vụ, trang thiết bị, phương tiện kỹ thuật
+và các biện pháp khác theo chức năng nhiệm vụ được giao và tuân thủ quy
+định của pháp luật;
+
+b) yêu cầu cơ quan, tô chức, cá nhân cung cấp thông tín, tài liệu, thiết bị
+
+khi có căn cứ xác định liên quan đến sự cố nhằm phục vụ hoạt động ứng cứu;
+
+ce) kiểm tra hệ thống thông tin của cơ quan, tổ chức, cá nhân khi có căn
+cứ xác định liên quan đên sự cô nhăm phục vụ hoạt động ứng cứu;
+
+d) yêu cầu cơ quan, tổ chức, doanh nghiệp viễn thông, internet có liên
+quan phối hợp thực hiện các công việc cần thiết cho hoạt động ứng cứu, khăc
+phục sự cô.
+
+3. cơ chế phối hợp và chia sẻ thông tin giữa các đơn vị tham gia bộ phận
+
+tác nghiệp ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng quốc gia theo
+quy định của pháp luật và quyết định của thủ tướng chính phủ.
+
+chương 1ii
+phương án ứng cứu
+
+crealed willva,irialyeralapal,lagotic.pdf.
+
+sự cố an toàn thông tin mạng nghiêm trọng là sự cổ đáp ứng đồng thời
+các tiêu chí sau:
+
+1. hệ thống thông tin bị sự cố là hệ thống thông tin cấp độ 4, cấp độ 5
+hoặc thuộc danh mục hệ thống thông tin quan trọng quốc gia và bị một trong
+số các sự cô sau:
+
+a) hệ thống bị gián đoạn địch vụ;
+
+b) dữ liệu tuyệt mật hoặc bí mật nhà nước có khả năng bị tiết lộ;
+
+c) dữ liệu quan trọng của hệ thống không bảo đảm tính toàn vẹn và
+không có khả năng khôi phục được;
+
+đ) hệ thống bị mất quyền điều khiến;
+
+đ) sự cố có khả năng xây ra trên điện rộng hoặc gây ra các ảnh hưởng
+đây chuyền, làm tồn hại cho các hệ thông thông tin cập độ 4 hoặc cấp độ 5
+khác.
+
+2. chủ quản hệ thống thông tin không đủ khả năng tự kiểm soát, xử lý
+được sự cô.
+
+ 
+
+
+7
+
+.ầ ˆ 4 á
+điêu 10. hệ thống phương án ứng cứu khẩn cấp bảo đầm an toàn
+thông tin mạng quốc gia
+
+1. phương án ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng quốc
+gia là phương án ứng cứu cho sự cô an toàn thông tin mạng nghiêm trọng đáp
+ứng các tiêu chí tại điều 9 và hệ thống thông tin bị sự cổ là hệ thống thông tin
+
+cấp độ 5 hoặc thuộc danh mục hệ thống thông tin quan trọng quốc gia.
+
+2. phương án ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng của cơ
+quan nhà nước, tô chức chính trị, tổ chức chính trị - xã hội là phương án ứng
+cứu cho sự cô an toàn thông tin mạng nghiêm trọng đáp ứng các tiêu chí tại
+điêu 9; hệ thông thông tin bị sự cố là hệ thống thông tin cấp độ 4 và chủ quản
+hệ thông thông tin thuộc các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ
+và các cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội ở trung
+ương (gọi chung là cơ quan trung ương).
+
+3. phương án ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng của địa
+phương là phương án ứng cứu cho sự cố an toàn thông tin mạng nghiêm trọng
+đáp ứng các tiêu chí tại điều 9, hệ thống thông tin bị sự có là hệ thống thông
+tin cấp độ 4 và chủ quản hệ thống thông tin thuộc ủy ban nhân dân hoặc tỉnh
+
+ủy, thành ủy các.(nh, thà ô trực thuộc trung.ư uản, lý ¡ là
+aated.wii a trải verbiôn ở dbiðtipđp"
+
+4, phương án ứng cứu khẩn cấp bảo đảm an toàn thông tin mạng của
+doanh nghiệp là phương án ứng cứu cho sự cố an toàn thông tin mạng nghiêm
+trọng đáp ứng các tiêu chí tại điều 9, hệ thống thông tin bị sự cố là hệ thống
+thông tin cấp độ 4 và chủ quản hệ thống thông tin là doanh nghiệp viễn thông,
+doanh nghiệp nhà nước có quản lý các hệ thống thông tin từ cấp độ 4 trở lên,
+hoặc tổ chức, doanh nghiệp có quân lý hệ thống thông tin thuộc danh mục hệ
+thống thông tin quan trọng quốc gia (sau đây gọi chung là doanh nghiệp quản
+lý hạ tầng thông tin quan trọng). :
+
+điều 11. báo cáo sự cố an toàn thông tin mạng
+1. báo cáo sự cổ an toàn thông tin mạng:
+
+a) đơn vị vận hành hệ thống thông tin có trách nhiệm báo cáo sự cố tới
+cơ quan chủ quản, đơn vị chuyên trách ứng cứu sự cố cùng cấp, cơ quan điều
+phối quốc gia chậm nhất 5 ngày kể từ khi phát hiện sự cố; trường hợp xác
+định sự cố có thể vượt khả năng xử lý của mình, đơn vị vận hành hệ thống
+thông tin phải thực hiện quy trình báo cáo khẩn cấp theo quy định tại khoản 2
+đến khoản 5 điều này ngay khi phát hiện sự cố hoặc xác định sự cố có thể
+vượt khả năng xử lý của mình.
+
+
+$
+
+b) các tổ chức, cá nhân khi phát hiện dấu hiệu tắn công hoặc sự cô an
+toàn thông tin mạng cần nhanh chóng thông báo cho đơn vị vận hành bệ thông
+thông tin, cơ quan chủ quản hệ thống thông tin liên quan, cơ quan điều phôi
+quốc gia và đơn vị chuyên trách ứng cứu sự cô hoặc thành viên mạng lưới
+ứng cứu sự cố có trách nhiệm liên quan.
+
+2. báo cáo sự có phải được thực hiện ngay lập tức và được duy trì trong
+suốt quá trình ứng cứu sự cố gồm: báo cáo ban đâu; báo cáo diễn biên tình
+hình; báo cáo phương án ứng cứu cụ thê; báo cáo xin ý kiên chỉ đạo, chỉ huy;
+báo cáo đề nghị hỗ trợ, phối hợp; báo cáo kêt thúc ứng phó.
+
+3. hình thức báo cáo bằng công văn, fax, thư điện tử, nhắn tin đa phương
+tiện hoặc thông qua hệ thống báo cáo, cảnh báo sự cố an toàn mạng quốc gia;
+mẫu báo cáo theo quy định về điều phối ứng cứu, hoặc theo hướng dẫn của cơ
+quan điều phối quốc gia.
+
+4. nội dung báo cáo ban đầu gồm:
+
+„ a) tên, địa chỉ đơn vị vận hành hệ thống thông tin; cơ quan chủ quản hệ
+thống thông tin; hệ thống thông tin bị sự cô; thời điệm phát hiện sự cô;
+
+b) đầu mối liên lạc về sự cổ của đơn vị vận hành hệ thống bị sự cố: tên,
+
+create®with tt ff#apxwersion of docotic.pdf.
+
+e) mô tả về sự cố: loại sự cổ, hiện tượng, đánh giá sơ bộ mức độ
+nguy hại, mức độ lây lan, tác động của sự cô đên hoạt động bình thường của
+tô chức;
+
+d) đơn vị cung cấp dịch vụ hạ tầng công nghệ thông tin, viễn thông:
+
+„ œ) liệt kê các biện pháp đã triển khai hoặc dự kiến triển khai để xử lý
+khắc phục sự cố;
+
+®) các tô chức, doanh nghiệp đang hỗ trợ ứng cứu, xử lý và kết quả xử lý
+sự oô tính đến thời điểm báo cáo;
+
+g) kết quả ứng cứu sự cố ban đầu;
+
+h) kiến nghị đề xuất hướng ứng cứu xử lý sự cổ (nếu có).
+
+5. nguyên tắc báo cáo, trao đổi thông tin trong ứng cứu sự cố:
+
+a) đơn vị vận hành hệ thống thông tin báo cáo chủ quản hệ thống thông
+tin, đơn vị chuyên trách ứng cứu sự cố cùng cấp, đồng gửi cơ quan điều phối
+quốc gia;
+
+b) đơn vị chuyên trách ứng cứu sự cổ báo cáo chủ quản hệ thống thông
+tin, ban chỉ đạo cấp trên trực tiêp và cơ quan điều phôi quốc gia;
+
+ 
+
+ 
+
+
+ 
+
+9
+
+e) ban chỉ đạo cấp bộ, tỉnh và cơ quan điều phối quốc sịa báo cá
+ñ ; li h phôi quốc gia báo
+quan thường trực và bạn chỉ đạo quốc gia. ng cáo cơ
+
+sà .ả ˆ m ủổi ˆ dhnn ầ
+ì điêu 12. tiếp nhận, phát hiện, phân loại và xử lý ban đầu sự cố an
+toàn thông tin mạng ì
+
+i 1. đơn vi chuyên trách về ứng cứu sự cố hoặc thành viên mạng lưới ứng
+cứu sự cô, khi phát hiện sự cổ hoặc nhận được thông báo, báo cáo sự cố an
+toàn thông tin mạng trong phạm vi mình chịu trách nhiệm phải thực hiện:
+
+a) ghi nhận, tiếp nhận thông báo, báo cáo sự cố an toàn thông tín mạng
+theo đúng quy trình;
+
+b) thông báo ngay thông tin sự cổ đến cơ quan điều phối quốc gia, đơn
+vị vận hành hệ thông thông tin, cơ quan chủ quản hệ thông thông tin và các cơ
+quan chức năng liên quan;
+
+c) phản hồi cho tổ chức, cá nhân gửi thông báo, báo cáo ban đầu ngay
+sau khi nhận được đề xác nhận về việc đã nhận được thông báo, báo cáo sự
+cô;
+
+d) thẩm tra, xác minh và phân loại sự cố an toàn thông tín mạng để lựa
+chọn phương án ứng cứu phù hợp hoặc đê xuất với ban chỉ đạo cấp t p trực
+geateduvihia abuietgiongebiooahegl,
+
+đ) chủ động hỗ trợ đơn vị vận hành hệ thống thông tin ứng cứu, xử lý sự
+cô trong khả năng và trách nhiệm của mình;
+
+e) giám sát diễn biến tình hình ứng cứu sự cố và báo cáo ban chỉ đạo
+cấp trên trực tiếp và cơ quan điều phôi quốc gia; đề xuât, xin ý kiến chỉ đạo
+trong trường hợp không thuộc thẩm quyên, phạm vi trách nhiệm của mình
+hoặc vượt khả năng xử lý của mình;
+
+ø) tổng hợp báo cáo cơ quan điều phối quốc gia theo định kỳ 6 tháng
+một lần và báo cáo đột xuất khi được yêu câu.
+
+2. cơ quan điều phối quốc gia có trách nhiệm:
+
+a) công khai trên trang tin điện tử của mình số điện thoại, số fax và
+email đường dây nóng và bảo đảm nguôn lực đề duy trì trực đường đây nóng
+liên tục đề kịp thời tiếp nhận và xử lý sự cố;
+
+b) ghi nhận, tiếp nhận thông báo, báo cáo sự cố an toàn thông tin mạng
+theo đúng quy trình;
+
+c) phản hồi cho tổ chức, cá nhân gửi thông báo, báo cáo bạn đầu ngay sau
+khi nhận được để xác nhận về việc đã nhận được thông báo, báo cáo sự cổ;
+
+
+10
+
+d) cung cấp đầu mối liên lạc riêng đối với sự cô nghiêm trọng;
+
+đ) thắm tra, xác mình và phân loại sự cố để thực hiện các cảnh báo, điều
+phối, lựa chọn phương án, tổ chức ứng cứu và báo cáo; đề xuất với cơ quan
+thường trực quyết định sự cố nghiêm trọng và phương án ứng cứu khẩn cấp
+phù hợp; báo cáo, đề xuất với cơ quan thường trực và ban chí đạo quốc gia
+các vấn đề vượt thẩm quyền;
+
+.9 tô chức hoạt động phối hợp với các tổ chức ứng cứu sự cố mạng quốc
+tế để tiếp nhận các cảnh báo sớm, thông tin về sự cô, nguy cơ về mất an toàn
+thông tin mạng và phối hợp ứng cứu sự cố, tấn công xuyên biên giới;
+
+g) thực hiện các trách nhiệm khác của cơ quan điều phối quốc gia.
+
+3. đơn vị vận hành hệ thống thông tin khi phát hiện hoặc nhận được
+thông báo sự cố đối với hệ thống thông tìn do mình quần lý, phải thực hiện:
+
+a) ghi nhận, tiếp nhận thông báo, báo cáo sự cố và tập hợp các thông tin
+liên quan theo đúng quy trình;
+
+b) phản hồi cho tổ chức, cá nhân gửi thông báo, báo cáo ban đầu ngay
+sau khi nhận được để xác nhận về việc đã nhận được thông báo, báo cáo sự
+
+created with a trial version of docotic.pdf.
+
+c) chủ trì, phối hợp cùng đơn vị cung cấp dịch vụ an toàn thông tin
+mạng (nếu có) và các đơn vị chức năng liên quan tiền hành phân tích, xác
+minh, đánh giá tình hình, sơ bộ phân loại sự cô và triển khai ngay các hoạt
+động ứng cứu sự cỗ và báo cáo theo quy định;
+
+đ) báo cáo về sự cố, điển biến tình hình ứng cứu sự cố, đề xuất hỗ trợ
+ứng cứu sự cổ hoặc nâng cấp nghiêm trọng của sự cố (khi cần) cho chủ quản
+hệ thống: thông tin, cơ quan điều phối quốc gia và đơn vị chuyên trách ứng
+cửu sự cô cùng cấp.
+
+điều 13. quy trình ứng cứu sự cố an toàn thông tin mạng thông
+thường
+
+quy trình ứng cứu sự cổ an toàn thông tin mạng thông thường theo các
+văn bản hướng dẫn, quy định của bộ thông tin và truyền thông và cơ quan
+điều phối quốc gia.
+
+điều 14. quy trình ứng cứu sự cố an toàn thông tin mạng nghiêm
+trọng
+
+quy trình ứng cứu khẩn cấp sự cố an toàn thông tin mạng nghiêm trọng
+sau đây được sử dụng chung cho cả bồn phương án ứng cứu khẩn cấp nêu.
+trong điều 10 quyết định này, cụ thể bao gồm các bước sau:
+
+ 
+
+
+11
+
+1. phát hiện hoặc tiếp nhận sự cố
+
+đơn vị chủ trì: đơn vị vận hành hệ thống thông tin; cơ quan điều phối
+quốc gia.
+
+đơn vị phối hợp: đơn vị chuyên trách về ứng cứu sự cố; chủ quản hệ
+thống thông tin.
+
+nội dung thực hiện: đơn vị vận hành hệ thống thông tin chịu trách
+nhiệm liên tục theo dõi, phát hiện các tấn công, sự cô đối với hệ thống mình
+được giao quản lý, vận hành. cơ quan điều phối quốc gia là đơn vị đầu mối tổ
+chức các hoạt động theo đõi, giám sát, phát hiện các sự cổ và tiếp nhận thông
+báo về sự cố an toàn thông tin mạng từ các nguồn khác nhau.
+
+2. xác minh, phân tích, đánh giá và phân loại sự cổ
+đơn vị chú trì: cơ quan điều phối quốc gia.
+
+đơn vị phối hợp: chủ quản hệ thống thông tin; đơn vị chuyên trách về
+ứng cứu sự cô; đơn vị vận hành hệ thống thông tin.
+
+nội dung thực hiện:
+a) cơ quan điều phối quốc gia phối, ch ốa quản hệ tị thông
+@reateel witie ay tritdi mgfbigt-io: bo cổ
+
+hoặc đơn vị vận hành hệ thống thông tin) xác mình sự cổ bao gồm các thông
+tin sau: tình trạng sự cố; mức độ sự cô; phạm vi ảnh hướng của sự cố; đối
+tượng, địa điểm xây ra sự cố. :
+
+b) sau khi xác mình được sự có, cơ quan điều phối quốc gia có trách
+nhiệm phân loại sự cổ và triển khai tiếp như sau:
+
+- trường hợp sự cố được phân loại thông thường (không đạt các tiêu chí
+quy định tại điều 9 quyết định này) thì cơ quan điều phối quốc gia thông báo
+cho các bên liên quan để tiếp tục triển khai theo phương án ứng cứu sự cổ an
+toàn thông tin mạng thông thường:
+
+- trường hợp sự cố được phân loại nghiêm trọng (đạt các tiêu chí quy
+định tại điều 9 quyết định này) thì cơ quan điều phối quốc gia báo cáo cơ
+quan thường trục về sự cổ nghiêm trọng cùng với các đề xuất: phương án ứng
+cứu; các đơn vị tham gia lực lượng ứng cứu; nguồn lực cần thiết để ứng cứu
+sự cố; dự kiến triệu tập bộ phận tác nghiệp ứng cứu khẩn cấp và thực hiện tiếp
+theo khoản 3 điều này.
+
+3. cơ quan thường trực quyết định lựa chọn phương án và triệu tập các
+thành viên của bộ phận tác nghiệp ứng cứu khân cấp.
+
+đơn vị chủ trì: cơ quan thường trực.
+
+
+12
+
+nội dung thực hiện:
+
+a) cơ quan thường trực căn cứ theo báo cáo của cơ quan điều phối quốc
+gia xem xét quyết định lựa chọn phương án. ứng cứu khân cấp quốc gia và
+triệu tập bộ phận tác nghiệp ứng cứu khẩn cấp đề ứng cứu, xử lý sự cô. tùy
+theo tình hình thực tế, bộ phận tác nghiệp ứng cứu khân cấp được huy động từ
+số các đơn vị theo quy định tại điều 8 quyêt định này phù hợp với phương án
+ứng cứu được lựa chọn và đặc thù của sự cô.
+
+b) nguyên tắc phân công nhiệm vụ triển khai các biện pháp ứng cứu
+khẩn cấp báo đảm an toàn thông tin mạng quốc gia như sau:
+
+- chỉ đạo điều hành hoạt động ứng cứu và giám sát cơ chế phối hợp, chia
+sẽ thông tin: bộ thông tín và truyền thông, ban điều phối ứng cứu quốc gia;
+
+- thu thập, tổng hợp thông tin và chia sẻ, báo cáo: cơ quan điều phối
+quốc gia, chủ quản hệ thông thông tin (qua đơn vị vận hành hệ thông thông tín
+và đơn vị chuyên trách ứng cứu sự cô);
+
+_ - phân tích thông tin: cơ quan điều phối quốc gia, đơn vị vận hành hệ
+thông thông tìn, đơn vị chuyên trách ứng cứu sự cổ và các đơn vị tham gia tác
+nghiệp ứng cứu khân cấp;
+
+creatad.with.@jiriabversjon iofuleqgefiedpgí.aon vị
+
+chuyên trách ứng cứu sự có, cơ quan điều phối quốc gia và các đơn vị tham
+gia tác nghiệp ứng cứu khân cập;
+
+¬ khắc phục, gỡ bỏ, khôi phục dữ liệu và hoạt động bình thường: chủ
+quản hệ thống thông tín, các đơn vị được chủ quản hệ thống thông tin lựa
+chọn;
+
+- xử lý hậu quả: chủ quản hệ thống thông tin, các đơn vị tham gia tác -
+
+nghiệp ứng cứu khẩn cấp;
+
+- công bố và xử lý khủng hoảng thông tin: cơ quan thường trực, cơ
+
+quan điều phối quốc gia.
+
+4. triển khai phương án ứng cứu ban đầu
+
+đơn vị chủ trì: cơ quan điều phối quốc gia, chủ quản hệ thống thông tin.
+
+nội dung thực hiện: cơ quan điều phối quốc gia nhanh chóng phối hợp
+với chủ quản hệ thông thông tin tiền hành ngay các biện pháp ứng cứu ban
+đầu, bao gồm:
+
+a) xác định phạm vi, đối tượng, mục tiêu cần ứng cứu:
+
+- các sự cô liên quan đã xảy ra;
+
+ 
+
+
+13
+
+- đối tượng đang bị ảnh hưởng;
+- phạm vì bị ảnh hưởng;
+
+- các mục tiêu ưu tiên trong khắc phục sự cố (khôi phục hoạt động, bảo
+đám bí mật dữ liệu; bảo đảm tính toàn vẹn dữ liệu);
+
+- diễn biến tình hình và phương thức thủ đoạn tắn công;
+- dự đoán các diễn biến tiếp theo có thể xảy ra.
+
+b) điều phối các hoạt động ứng cứu ban đầu: cơ quan thường trực chỉ
+đạo cơ quan điều phối quốc gia thực hiện điều phối và chia sẻ thông tin, tài
+liệu liên quan đến tình huồng ứng cứu cho các thành viên tham gia theo chức
+năng, nhiệm vụ được giao.
+
+c) cảnh báo sự cổ trên mạng lưới ứng cứu quốc gia: cơ quan điều phối
+quốc gia thực hiện cảnh báo cho các thành viên mạng lưới và các đối tượng
+có liên quan hoặc có khả năng xảy ra các sự cổ tương tự.
+
+d) tiến hành các biện pháp khôi phục tạm thời:
+
+căn s.ự nh nh hen tiêu được ưu tiên trong khắc phục sự cố, chủ quản hệ
+
+gfesdtt vụ và các wih quản: tráeerdomg pódb: dữ ng
+
+dữ liệu hoặc kết nối cần thiết nhất để giảm thiểu thiệt hại đối với hệ thống
+thông tin, ảnh hưởng uy tín của cơ quan chủ quản, quản lý hệ thống hoặc gây
+ảnh hưởng xâu tới xã hội.
+
+chủ quản hệ thống thông tin phải phối hợp chặt chẽ, cung cấp đầy đủ
+thông tin để cơ quan điều phối quốc gia thực hiện giám sát, theo dõi quá trình
+phục hồi và các tấn công, ảnh hưởng trong thời gian chưa khắc phục triệt để
+sự cô.
+
+đ) xử lý hậu quả ban đầu: chủ quản hệ thống thông tỉn cần nhanh chóng
+tiền hành các biện pháp khắc phục khẩn cấp các hậu quả, thiệt hại do tắn công
+mạng gây ra làm ảnh hưởng đến người dân, xã hội, cơ quan, tổ chức khác
+theo yêu cầu của cơ quan thường trực.
+
+e) ngăn chặn, xử lý các hành vi đã được phát hiện: cơ quan thường trực
+điều phối hoặc chỉ đạo cơ quan điều phối quốc gia thực hiện điều phối các cơ
+quan chức năng triển khai hỗ trợ phát hiện và xử lý các nguồn phát tán tấn
+công, ngăn chặn các tấn công từ bên ngoài vào hệ thống thông tin bị sự cố. cơ
+quan thường trực cung cập hoặc chỉ đạo cung cấp các thông tin, chứng cứ liên
+quan đến các hành vi vi phạm pháp luật có yêu tổ cấu thành tội phạm (nếu có)
+đề các cơ quan chức năng thuộc bộ công an tiến hành điều tra, xác mình và
+ngăn chặn tội phạm.
+
+
+14
+
+5. triển khai phương án ứng cứu khẩn cấp
+a) chỉ đạo xử lý sự cố
+đơn vị chủ trì: cơ quan thường trực, ban chỉ đạo ứng cứu sự cố cấp bộ, tỉnh.
+
+nội dung thực hiện: căn cứ theo phương án ứng cứu được lựa chọn,
+cơ quan thường trực chỉ đạo chủ quản hệ thông thông tin, cơ quan điều phôi
+quốc gia, bộ phận tác nghiệp ứng cứu sự cô triển khai công tác ứng cứu, xử lý
+sự cố. trong quá trình ứng cứu, tùy thuộc vào diễn biên tình hình thực tê, cơ
+quan thường trực có thể quyết định bố sung thành phần tham gia tác nghiệp
+ứng cửu khân cấp..
+
+b) điều phối công tác ứng cứu
+
+đơn vị chủ trì: ban điều phối ứng cứu quốc gia, cơ quan điều phối quốc gia.
+
+nội dung thực hiện: căn cứ theo phương. án ứng cứu được lựa chọn, ban
+điều phối ứng cứu quốc gia hoặc cơ quan điều phối quốc gia thực hiện côn
+tác điều phối ứng cứu theo chức năng nhiệm vụ của mình và giám sát cơ chê
+phối hợp, chia sẻ thông tin.
+
+credtöt w\f ##ìáÿ&ÿbion of docotic.pdlf.
+
+cơ quan thường trực chịu trách nhiệm chỉ định người phát ngôn, cung
+cấp thông tin; quyết định địa điểm, nội dung, thời điểm phát ngôn, cung cấp
+thông tin cho các cơ quan thông tin đại chúng, các cá nhân và tổ chức có liên
+quan đến sự cổ.
+
+d) thu thập thông tin
+
+đơn vị chủ trì: cơ quan điều phối quốc gia, chủ quản hệ thống thông tin.
+
+nội dung thực hiện: căn cứ theo yêu cầu cung cấp thông tin cho các đơn
+vị thuộc thành phân tác nghiệp ứng cứu khân cấp, cơ quan điều phối quốc gia
+cùng chủ quản hệ thống thông tin phối hợp tiền hành thu thập, tông hợp và
+chia sẻ, cung cấp thông tin.
+
+đ) phân tích, giám sát tình hình liên quan sự cố
+
+cơ quan điều phối quốc gia chủ trì, phối hợp với chủ quản hệ thống
+thông tin thực hiện giám sát liên tục diễn biên sự cô và thông báo, cập nhật
+đến các đơn vị trong bộ phận tác nghiệp ứng cứu khân cấp.
+
+các đơn vị thuộc bộ phận tác nghiệp ứng cứu khẩn cấp dựa trên
+
+các thông tin thu thập được, sử dụng các nguôn lực, phương tiện và các
+quy trình nghiệp vụ của mình để tiền hành phân tích sự cô. kết quả phân tích
+
+ 
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

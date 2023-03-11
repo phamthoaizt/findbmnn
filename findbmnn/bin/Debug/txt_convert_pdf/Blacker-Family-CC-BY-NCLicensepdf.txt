@@ -1,0 +1,43 @@
+end-user license agreement for the included zetafonts fonts - c
+this end-user license agreement ("eula") is a legal agreement between you (as an individual)
+and zetafonts fonts foundry for the digital typeface software - hereafter "fonts" included in this
+package:
+
+blacker family
+created by zetafonts
+
+the fonts in this package are released under a creative commons - attribution - non commercial (cc by-nc)
+license. this license lets you freely use and alter them for your design work as long as the new work is
+non-commercial and zetafonts is credited.
+
+01] you may install and use an unlimited number of copies of the fonts.
+02] you can make archival copies of the fonts for your own purposes.
+03] you may modify the fonts for your own purposes, but the copyright remains with zetafonts, and you are not
+allowed to distribuite renamed, edited or derivative works, either for profit or not.
+04] you must include the credit line below:
+
+(font: blacker family by zetafonts -http://www.zetafonts.com/collection/2250)
+
+to acquire a full license for commercial use (allowing file release to a prepress bureau and embedding in other
+software files, such as portable document format (pdf) or flash files), visit the url:
+http://www.zetafonts.com/collection/2250
+
+zetafonts expressly disclaims any warranty for the fonts. the fonts and any related documentation is provided
+&quot;as is&quot; without warranty of any kind, either express or implied, including, without limitation, the implied
+warranties or merchantability, fitness for a particular purpose, or noninfringement. the entire risk arising out of use
+or performance of the fonts remains with you. copies of the fonts may not be distributed or shared in any way
+(for profit or free of charge) either on a standalone basis or included as part of your own product.
+
+in no event shall zetafonts or its suppliers be liable for any damages whatsoever (including, without limitation,
+damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss)
+arising out of the use of or inability to use this product, even if zetafonts has been advised of the possibility of
+such damages. because some states/jurisdictions do not allow the exclusion or limitation of liability for
+consequential or incidental damages, the above limitation may not apply to you.
+
+the fonts included are protected by copyright laws and international copyright treaties, as well as other
+intellectual property laws and treaties.
+
+for more info and commercial licence notice visit: http://www.zetafonts.com/collection/2250
+or write to: info@zetafonts.com
+
+should you have any questions concerning this eula, please contact zetafonts via its website at http:/www.zetafonts.com, or write directly to zetafonts, info@studiokmzero.com

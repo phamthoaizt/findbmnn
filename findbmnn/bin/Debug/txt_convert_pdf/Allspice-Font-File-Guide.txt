@@ -1,0 +1,28 @@
+allspice file guide & helpful hints!
+
+thank you for your purchase of allspice!
+
+your purchase comes with two font files: allspice and allspice-alternates. both are complete font files with over 340
+characters, including full sets of accented characters for language support.
+
+the letters of the regular allspice font can stand alone as their own font. most of the letters of allspice-alternates can do that
+as well, although some of them (like the letters l, k, and r, for example) are designed to sit under or around the regular
+allspice letters. i recommend typing your words out in regular allspice, then selecting letters and changing the font to allspice-
+alternates to see what combinations you like.
+
+and remember, if you’re mixing letters from the two files, you may find that you need to do some manual adjusting to get the
+spacing right.
+
+allspice
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 1 2 3 4 5 6 7 8 9 0 ! ? @ # $ % ^ & * ( ) [ ]
+{ } / \ . , € ¢ £ ¥ § ¡ ¿ ¶ - + " “ ” ™ † ~ ; :
+
+allspice alternates (taller, swoopier versions of allspice)
+
+a b c d e f g  h i j k  l m n o p q  r s t u v w x y z
+a b c d e f g h i j k  l m n o p q r s t u v w x y z
+0 1 2 3 4 5 6 7 8 9 0 ! ? @ # $ % ^ & * ( ) [ ]
+{ } / \ . , € ¢ £ ¥ § ¡ ¿ ¶ - + " “ ” ™ † ~ ; :

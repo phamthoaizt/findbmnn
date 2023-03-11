@@ -1,0 +1,19 @@
+the legend script
+instruction for using stylistic alternates and swashes
+_____________________________________________________________________________
+
+for using alternates of uppercase, lowercase or numbers in legend script you just
+need to push special combinations.
+for example: a.2,  b.2,  b.3,  c.2,  b.2  d.2  &.2  2.2  2.3  etc.
+
+alternates for lowercase characters with protruding elements like b, d, f, g, h etc
+(helps to arrange words in two lines more compactly).
+
+or in adobe illustrator go to type menu and click glyphs. after you will see window with
+characters.
+
+in top of this window you need choose «alternates for current selection» in drop-down menu
+(v – current selection on my example).
+
+
+coreated with a trial version of docotic.pdf.

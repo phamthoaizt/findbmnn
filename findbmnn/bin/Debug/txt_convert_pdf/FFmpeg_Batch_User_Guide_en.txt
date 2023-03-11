@@ -1,0 +1,477 @@
+ffmpeg batch av converter user guide
+ffmpeg batch av converter for windows is an ffmpeg graphical user interface (gui) that allows
+to use all the potential and speed of ffmpeg command line to batch encode any number of files in a
+few clicks, adding many useful features like progress information, remaining time, output size
+estimation. it also makes it easy to manipulate files streams and multiplex them, as well as adding
+subtitle tracks and batch process m3u8 and youtube urls. some additional wizards allow more
+complex features like two-pass encoding, image extraction, silence detection, file splitting.
+
+
+general index
+1. main screen
+2. ffmpeg settings
+3. encoding choices
+a. sequential encoding
+b. multi-file encoding
+c. multiple presets encoding
+d. record screen
+e. join files
+f. trim files
+4. quick settings
+5. runtime settings
+6. file list management
+a. filtering
+b. custom columns
+7. two pass video wizard
+8. application settings
+a. presets editor
+9. stream multiplex tab
+10. batch subtitles tab
+11. batch url download tab
+12. application wizard
+a. silence detector
+b. image to video
+c. image extraction
+d. file split
+
+
+main screen
+
+• clear list: clears all files and tracks lists.
+• add files: selects files in a specific folder.
+• subfolders: adds all files in the selected folder and all its subfolders if the check is on.
+o thousands of files or folders can be added. every file will be checked and if duration
+can’t be obtained by the os it will be parsed using ffprobe.
+o files for which duration can’t be obtained can be processed but no progress information
+is displayed.
+• wizard: opens the ffmpeg preset wizard.
+• settings: opens the settings panel.
+• help: opens this quick guide.
+• exit: gracefully closes application and checks for unsaved settings.
+
+ffmpeg version is displayed, and clicking on it allows to
+backup and replace current ffmpeg.exe with a different
+version.
+
+check for updates.
+
+file list right-click menu
+- you can right-click on file list to show this menu
+- you can also double-click on any file to obtain the multimedia
+file information.
+- file list can be sorted by any column (name, duration, size).
+
+• remove invalid (no a/v items) from list.
+• reset items status to “queued”.
+• refresh file list.
+• move up/down items with status ‘queued’.
+
+
+ffmpeg settings
+
+• presets: it consists of a preset description, a set of ffmpeg parameters and format extension.
+o parameters: write here the ffmpeg command line parameters of your choice.
+ dynamic parameters: the following variables can be used on parameters field:
+• %1: source file including full path.
+• %2: source file including full path without extension.
+• %fp: file full path.
+• %ff: file with extension
+• %fn: file name without extension.
+• %fd: directory name.
+• %fdur: source file duration in seconds.
+• %fdur+1: source file duration in seconds + 1.
+• format: the output format extension. if you leave this filed blank, the source file extension will
+be used as output format.
+• save button: saves your own parameters/format combination. any preset will be overwritten
+with the new parameters unless preset name is modified.
+• remove button: removes any existing preset. default saved parameters cannot be removed.
+• edit presets: opens the ffmpeg presets editor.
+• pre-input: write here any required ffmpeg parameters used before input file.
+o pre-input parameters are not saved in the preset.
+• pre-input seeking: a convenient way to set the -ss pre-input parameter for fast seeking to start
+processing on the selected time.
+• configuration version: it allows to specify a version number for current settings.
+
+easy hardware video decoding selector (pre-input -hwaccel).
+
+
+• reload settings: loads the previously saved settings.
+• save settings: saves to configuration file (ff_batch.ini) the following settings:
+o all current presets, and whether open or not output path after tasks completion.
+o recreate or not files source path on output folder (to avoid overwriting when adding
+multiple folders).
+o rename or not output files automatically.
+o add subfolders.
+o show/hide grid.
+o settings file version.
+• try preset: runs a test with the selected input file and the current parameters and output
+format. it will show the result in a new window with any ffmpeg error information included.
+• try on ffmpeg console: opens ffmpeg in command line. you can choose in settings panel to pass
+current parameters and filename to the ffmpeg console, or just show ffmpeg console version.
+• view last log: every sequential or multi file processing will save the console output in a text file
+that can be reviewed/saved here. only the last log is kept. you can disable logging at settings
+panel.
+• save queue: saves current queue state, including items status, runtime settings and output path.
+
+manual add path dialog
+right-click to display this menu, so you can
+paste or manually write source files path.
+path auto-completion is enabled.
+
+
+audio
+• audio waveform: generate a graphical wave form in a new window
+of the selected file.
+• volume: increase audio volume the selected dbs.
+o remember that audio stream copy can’t be used in this
+case.
+• shift: move audio track to synchronize with video.
+
+encoding choices
+
+• sequential encoding: start processing all queued files one at a time using the selected
+parameters and output format. this is the choice for video encoding.
+o ffmpeg parameters are tried using the first file before real encoding starts and any error
+(wrong parameters, format, etc.) will pop up and queue processing will be aborted. this
+trying can be disabled at settings panel to start encoding immediatly.
+o every task will show progress (%), average bitrate and estimated output size.
+o queued files can be added or removed on the fly once encoding starts.
+• multi-file encoding: start processing multiple files simultaneously, limiting maximum number of
+files value below. the maximum number is the number of cpu threads. it is recommended for
+audio since it can simulate multi-threading feature that is usually missing in audio libraries. for
+video encoding its not always recommended, since video libraries are already multi-thread
+compatible, but for some scenarios it can speed overall encoding by using all system resources.
+• multiple presets: allows to sequentially encode files using up to three different presets in just one
+step. progress information will vary depending on every preset parameters.
+• skip current: when in sequential processing, abort current file encoding and continue.
+• multimedia info: show either a summary or a full report of multimedia file info.
+• stop item encoding: you can right-click on any item during queue processing to stop it.
+
+
+other encoding features
+
+• record screen: it uses gdigrab function to capture screen. once clicked a popup will show
+available audio capture devices. you can record video only by selecting “no audio”.
+
+note: audio is only recorded from capture devices. if you want to capture audio playing on the
+computer, search for “stereo-mix”, and in case it is not available, you can download a virtual
+audio playback capturer here:
+https://github.com/rdp/screen-capture-recorder-to-video-windows-free/releases/tag/v0.12.11
+
+
+• join files: use the concatenate function to join all files in queue using the selected preset.
+useful for stream copy or re-encoding concatenation. you can select two ways for joining files.
+
+o concatenate demuxer: it allows
+to stream copy and concatenate any
+type of files, but if file formats are
+not exactly the same it can lead to
+compatibility issues or errors playing
+encoded files. not all containers
+support stream copy joining,
+sometimes re-encoding is required.
+o concatenate video filter: only
+for video files, it fixes compatibility
+video playback issues but it requires
+to re-encode source files. it
+automatically selects the best
+encoding configuration depending
+on source format, so parameters
+field can be left blank on this mode.
+
+enable batch concatenation: instead of joining all files on main file list, enabling this setting
+allows to batch join an initial and/or end file to every file on the list, applying the concatenation
+settings and limitations above. containers like mkv, mp4, mp3, support stream copy
+concatenation. if the results are not successful, maybe re-encoding files is required.
+• trim files: trim file using the initial and final time on the right boxes.
+• start/end checkbox is enabled: the initial and end time fields are
+the amount of time trimmed at the beginning or end of file.
+
+• start/end checkbox is disabled: the initial and end time fields are
+used as the markers to start and finish file trimming.
+• for example: if checked, file is trimmed form the beginning and the end using the duration
+specified. for example, you can trim 10 seconds from the beginning and 5 from the end by
+checking this mark and selecting 00:00:10:000 / 00:00:05:000. if it is unchecked, start and end
+time are used as time marks for trimming.
+• keyframes button shows a report of the video keyframe intervals.
+
+output path: this is the destination folder for encoded files. the default path is the input file path
+subfolder ‘ffbatch’.
+
+• the browse button allows to select a different absolute path, which can be saved as default, or
+be reset to ..\\ffbatch with the reset button.
+
+• the edit path button allows to set a different relative path based on input file path. just write a
+folder name, with no dots or ‘\’ characters at the beginning. you can chain the relative path
+using a structure like ‘relative1\relative2’.
+• you don’t have to write .\ or any character, just the folder name, which automatically used as a
+relative path from input source files.
+• you can select “user source files path” so output folder always matches source path.
+
+quick settings
+
+• multi-file: select the number of simultaneously processed files
+during multi-file encoding.
+• do not try preset: before start encoding, ffmpeg parameters are
+tried once and if any error occurs encoding is aborted. in case you
+experience random errors encoding with specific parameters, check this mark so encoding starts
+without parsing parameters. in this case, if parameters are wrong they will be applied to all
+queued files, unless processing is aborted.
+• delete source: send input files to recycle bin once encoding is successfully completed. files are
+not sent if any encoding error occurs.
+• overwrite source files: if source filename and destination are the same, source will be
+overwritten. output path needs to be set as “.\” (source path) for it to work.
+if encoding is successful and source is overwritten, the item status will be “replaced”.
+if not, a warning will be displayed.
+• open on completion: once all files are processed the destination folder will be opened.
+• recreate source path: the input path structure will be kept on the destination folder.
+• rename output: add a text suffix to the output file name.
+
+
+• fade in/out video/audio: this feature allows to add a fade in/out effect for both audio and video,
+adding the corresponding filters. while fade in effects can be chained with other -vf or -af filters,
+fade out is not compatible with multiple filters since it is based on audio/video file duration.
+
+runtime settings
+
+• automatic shutdown: once completed any processing operation the application will either
+power off, hibernate or suspend the computer in 60 seconds, unless cancelled.
+• run command on completion / on each file: it is possible to run any application or document
+after queue is successfully completed, or to each successfully encoded file.
+o executable: browse for the executable, script or document of your choice.
+o arguments: add any arguments if required by your executable.
+
+
+• autorun encoding: if selected, application will start encoding automatically after adding files or
+folders to the application, using the current preset. this setting applies on startup too, using the
+default saved preset. you can select on settings either to automatically start sequential or multi-
+file encoding.
+• process priority: the priority of ffmpeg threads can be adjusted, and save a default value.
+• pause encoding: queue processing is halted, and it can be resumed or aborted.
+• abort encoding: abort current task(s) and stop queue encoding.
+
+this is the progress information and time elapsed/remaining to finish the current file queue. for
+sequential processing, average bitrate and the estimated output size is also displayed.
+once queue is complete, a check icon will be displayed stating that no errors occurred, or a warning
+icon in case any file encoding reported an error.
+
+
+file list management
+file list filtering
+
+you can filter file list using the following criteria, and then select to keep or remove the files
+matching selected filter:
+• status: queue status (success, failed, queued)
+• file extension.
+• file size (greater or equal than value in mb).
+• file bitrate (overall bitrate).
+• video codec:
+o selector allows to choose first (usually the video stream), second or any stream to
+search for value.
+o you can select a value from the list or write your own.
+• video bitrate (greater or equal than value in kbps).
+• audio codec:
+o selector allows to choose first (usually the stream for audio files), second (usually
+audio the stream for video files) or any stream to search for value.
+o for multitrack files, the any stream will be the choice.
+o you can select a value from the list or write your own.
+• frame rate: video frame rate (exact match). you can write a custom value.
+• frame size: video frame size (exact match). you can write a custom value.
+• custom string (ff): search for a string in all the streams output information.
+• custom string (mi): search for a string in all media info output information.
+• metadata: search for media info selected metadata fields.
+
+- when searching for video information, files that do not have a first video string are discarded.
+- files with 0 or n/a duration are discarded.
+- filter result can be reverted with the undo/redo button.
+
+add custom column and custom item parameters
+
+add up to 7 custom columns to file list. they have to be added/removed sequentially.
+encoding parameters column: ffmpeg parameters can be set on an individual item basis.
+note: custom columns somewhat slow down file adding and refreshing list procedures.
+
+file streams and video navigation
+
+this dialog displays the available file streams. for video files, it reads all keyframes, and allows to
+navigate frames, set trim markers to use on main screen, copy and save frames as image.
+
+two pass video wizard
+two pass video encoding wizard batch processes queue files using the two pass feature
+implemented in several encoders, like libx264, libx265, libvpx-vp9. file list cannot be empty.
+first you need a base preset, which will be used to generate pass 1 and pass 2 parameters.
+a compatible video encoder and video bitrate parameter (-b:v or -vb) is required.
+o progress information is only partial during vp9 first pass.
+o nvidia encoders (h264_nvenc, hevc_nvenc) should not be used in this wizard, since two
+pass encoded is already implemented using “-preset slow”.
+
+target size: allows to set a
+target output file size. when
+enabled, it is possible to select
+either one or two pass encoding.
+
+on the second screen you can
+review and tweak the first/second
+pass parameters. both are tested
+before actual encoding starts, and
+if validation fails, error
+information is displayed and
+preset status changes accordingly.
+
+note: always review parameters.
+they could be considered valid,
+but actually not fulfill its purpose,
+since -pass 1 or -pass 2
+parameters can be ignored by
+some codecs if improperly used.
+
+
+application settings
+
+• add folder and subfolders: if selected, files in subfolders will also be added to the file list.
+• do not save logs: disable log saving.
+• verbose logs: save more verbose ffmpeg log information during encoding.
+• use concat video filter for joining files: if switches to concatenation video filter for better
+compatibility, at expense of re-encoding source material. if unchecked, then files are joined
+using demuxer filter.
+• sort multi-file list by duration: if multi-file is started, items are sorted by descending duration,
+so longer files are started first.
+• do not send filename and parameters to console: when using the try on console button, by
+default selected item and parameters are used to try the command to a temporary folder. if
+checked, only a standard terminal will be displayed.
+• check for update on startup: disable automatic search for updates on startup.
+• remember last tab: tab selected before closing application will be opened again.
+• remember window size/location: window size/location is stored used the next time application
+is opened.
+
+• quick queue file adding: it switches to a mode adds files to queue much faster (100x) since it
+does not parse each file in order to obtain its duration. in this mode only individual encoding
+progress is displayed, there’s no queue time remaining info, and progress is just a percentage of
+already encoded files.
+• disable ctrl-alt-p: it disables capturing this keystroke, which aborts current queue.
+• minimize to system tray: sends application to system tray instead of minimizing window.
+
+runtime settings
+• do not warn of already encoded items: if the file lists contains items with status “success” or
+“replaced”, the user is by default warned that those items were already successfully processes.
+if this setting is checked, all items are automatically reset to “queued” and processed.
+• skip encoded files: if queue is aborted or crashed and started again, successfully encoded items
+are skipped.
+• do not display warning for zero duration files: added files are parsed to obtain its duration. if
+parsing results in zero or not available durations, a warning is displayed, unless this option is
+enabled.
+• open output folder on queue completion: once queue processing is complete, the destination
+path is open. if there are multiple source file paths, the first file destination path is displayed.
+• recreate source path on destination folder: if multiple files from different folders are added to
+the file list and then an absolute output folder is selected, files may be overwritten if they have
+the same name but come from different folders. this settings preserves the source path
+structure on destination folder to avoid this risk.
+• rename output file: if checked, output files are renaming adding the text suffix on the right.
+• disable try preset before start encoding: before queue processing starts, the first file on the list
+is tested using the selected preset, so in case the parameters or format are wrong, encoding is
+aborted so a bad preset is used. in some rare parameters combinations, the trying process can
+fail, preventing real encoding from starting. check this if you encounter problems starting
+encoding with certain parameters.
+• prevent computer from going to sleep: if computer enters sleep mode during encoding, the
+process will fail. this setting prevents that scenario so user doesn’t have to disable sleep timer
+on his computer.
+• show full multimedia report: instead of an information summary.
+• default preset: these are the ffmpeg parameters and file extension loaded on startup.
+• enable encoding autorun: if enabled, sequential encoding starts as soon as new files/folders are
+added to file list. if the application finds on startup a crashed encoding session, it will reload it
+and start it immediately.
+
+
+• multi-file autorun: automatically starts multi-file encoding instead of sequential.
+• run on startup: automatically start application, with optional startup delay.
+
+delete source files
+
+when delete source files is enabled on main screen, this settings apply:
+• do not send to recycle bin: files will be completely deleted, instead of being moved to the
+recycle bin.
+• delete one by one: files are either recycled/deleted at the end of the queue encoding. enabling
+this will attempt to delete them just after encoding finishes successfully.
+
+networking caching settings
+• do not prompt to cache network files: you will not be prompted to cache network files.
+• use os file copy dialog: the system file copy dialog will be used for file caching. while it is a
+faster option, if pops up a copy dialog every time a new file is cached.
+ffmpeg info
+• current ffmpeg binaries version is displayed here.
+• latest ffmpeg release available is also displayed, and whether you are using the latest version.
+• browse for ffmpeg binaries browses for new windows releases on gyan.dev website.
+settings buttons
+• reset all settings: it resets application to factory default settings. it is useful if application
+becomes unstable, however custom presets are lost. we can preserve them using edit saved
+presets, copying the file contents.
+• use defaults: it selects the default choice for all settings.
+• security and performance: ffmpeg integrity validation and security exclusion.
+• edit saved presets: this feature allows import, edit and save the application presets saved in the
+text configuration file ff_presets.ini, so presets can be quickly added and reordered. it is
+recommended to backup this configuration before proceeding, though an automatic backup is
+created after saving the file or during upgrades.
+• night mode: it changes the application theme to dark colors.
+• discard changes: all changes are discarded.
+• save changes: all modified settings are saved and panel is closed.
+
+
+security and performance
+
+this dialog displays the system information, and the ffmpeg integrity status.
+if ffmpeg.exe has been modified, a security alert will pop up.
+add exception: it allows to add an exclusion to windows security for ffmpeg.exe, since continuous
+antivirus analysis can slow down some application operations.
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

@@ -1,0 +1,1300 @@
+the
+crypto
+report
+-2018-
+k i e n t r a n h a n d b o o k
+
+kientranhandbook.com
+
+chào bạn!!!
+
+cuốn report này ra đời sau 10 đêm viết liên tục. như các bạn đã biết, mình vô cùng bận rộn.
+vì vậy mình chỉ có thể viết được vào ban đêm. thậm chí phải nấu mì liên tục 10 đêm thay vì
+ăn tối một cách đàng hoàng vì mình về nhà tương đối muộn. haha.
+
+lý do mình ra report này như sau:
+
+1. mình nhận được một lượng inbox và comment khá nhiều trên facebook. mặc dù rất
+muốn trả lời và mình đã cố gắng hết sức để trả lời, mình vẫn không thể trả lời hết
+được. nên voila! report ra đời.
+
+2. mục đích của mình là giúp bạn hiểu. bởi nếu không hiểu. thì sẽ không thể ra tiền
+được. mình đang làm những việc mình làm mỗi ngày. bởi mình hiểu. bạn hiểu, thành
+công sẽ đến với bạn. rất đơn giản. mình muốn bạn kiếm được tiền. và mình không
+muốn bạn mất tiền vì những lỗi lầm có thể tránh dễ dàng.
+
+3. ở việt nam, mình không hiểu sao, nhưng dân tình rất dễ bị lừa. đừng nghĩ mình nhầm.
+đi đâu cũng thấy bitconnect, hextra coin, davorcoin hoặc onecoin. mình chỉ biết gãi
+đầu hỏi tại sao?
+
+có lẽ tất cả những gì họ nhìn thấy chỉ là “lãi suất cao” thay vì công nghệ đằng sau, con
+người đứng đằng sau, vấn đề được giải quyết. vân vân.
+
+đây không phải là một cuốn sách. mặc dù mình ước nó là sách. nó mang tính thời cuộc nhiều
+hơn bởi các bạn cần thông tin nhanh. mình sẽ chia sẻ những gì mình biết. có thể một số cái
+mình sẽ sai, nhưng quan trọng là mình nói những gì mình hiểu, biết và không giấu giếm.
+
+bạn hãy coi nó giống như một cái report. hoặc một cái “đề cương ôn tập” ngắn. dù mục đích
+cuối cùng của bạn có phải là đầu tư crypto hay không, mình mong rằng bạn sẽ tìm thấy giá trị
+trong cuốn đề cương này!
+
+
+kientranhandbook.com
+
+..................................................................................... 3
+chương 1.  cơ chế sợ hãi và nghi ngờ.  bạn từ đâu đến? ..... 3
+chương ii tiền tệ và bạn ......................................................................... 7
+chương iii định nghĩa lại “tiền ảo” ................................................ 14
+chương iv tương lai của chính phủ ............................................. 15
+chương v chứng khoán, ngân hàng đầu tư và crypto ................. 17
+chương vi ngân hàng thương mại và crypto .................................. 20
+phụ lục: truyền thông và bitcoin ............................................... 22
+chương vii gia nhập thị trường crypto .................................... 24
+chương viii nguyên tắc đầu tư crypto cơ bản nhất ........... 27
+chương ix các nhóm coin ................................................................. 31
+chương x ví điện tử - wallet ........................................................... 34
+chương xi tổng quan về các loại coin top ......................................... 36
+chương xii những tư duy và lỗi cần tránh ............................... 41
+chương xiii coinmarketcap.com ........................................................... 46
+chương xiv phân tích ico cơ bản .................................................. 50
+chương xv dùng excel để track portfolio ............................. 60
+chương xvi quản trị rủi ro ........................................................... 61
+chương xvii tóm tắt khoản đầu tư của mình .......................... 64
+
+
+kientranhandbook.com
+
+chương 1.
+cơ chế sợ hãi và nghi ngờ.
+bạn từ đâu đến?
+
+mỗi khi tiếp cận với một thứ hoàn toàn mới và khác biệt, phần đông dân số (trong đó có thể
+có cả bạn và mình), chọn cách sợ hãi và nghi ngờ.
+
+đây là bản năng sinh tồn đã được lập trình trong bộ não của con nguời trong suốt hàng triệu
+năm qua. nó là cơ chế phòng vệ tự nhiên giúp cho con nguời tồn tại và tránh đuợc nhiều rủi
+ro xung quanh mà có thể sẽ gây hại đến cho bạn.
+
+người tiền sử trước đây ngày ngày phải đối chọi lại với nhiều nguy hiểm có trong tự nhiên.
+thú dữ ăn thịt. mưa bão. núi lửa. bệnh tật. có thể càn quét cả một bộ tộc trong vài nốt nhạc.
+không một ngày nào là một ngày yên bình nếu bạn không ở trong hang. đôi khi phải chuyển
+hang liên tục.
+
+ngày nay chúng ta có đa cấp chào hàng mỗi ngày, rồi liên tục các lời chào mời “đầu tư” có từ
+khắp mọi nơi, các thể loại lừa đảo tinh vi khiến bạn đổ lòng tham và đôi khi mất hết và tiếc
+nuối.
+
+mình tin ai trong chúng ta cũng đã từng “vấp ngã” bởi bất kỳ một trò lừa nào dù ít hay nhiều.
+
+bạn hãy thú nhận đi.
+
+chúng ta đều đã từng khờ dại và ngây ngô. haha. bạn đã mất tiền. hoặc chẳng có gì để mà
+mất.
+
+đó là lý do bạn quyết tâm không để cho bố con thằng nào được phép lừa bạn. cơ chế phòng
+thủ của bạn đặt ở mức cao. cái gì khác biệt, không khớp với những hiểu biết trước đó của bạn,
+cơ chế sợ hãi và nghi ngờ được kích hoạt và đào thải nó ra khỏi bộ não. xong. bạn lại trở lại
+với “thế giới thực” của bạn và tiếp tục sống như “bình thường”.
+
+nếu truớc đó bạn bị lừa càng nhiều và đã mất càng nhiều, cơ chế phòng thủ của bạn lại càng ở
+mức cao và ý tuởng mới sẽ rất khó lọt được bộ lọc “sợ hãi và nghi ngờ” (fear and doubt).
+hoặc đôi khi chỉ đơn giản trong nhiều trường hợp, mặc dù bạn chưa bị lừa và chưa mất bao
+giờ nhưng. bạn đã “già”. phần tò mò của bộ não đã không còn và cuộc đời của bạn chỉ gắn bó
+với tivi, thời sự và niềm tin sâu sắc với bộ máy chính quyền thật thà và liêm khiết.
+
+nhưng sợ hãi và nghi ngờ lại là một con dao hai lưỡi. nó có thể làm cho bạn an toàn và tránh
+được đa cấp, nhưng sẽ khiến cho bạn mãi ở trong hang.
+
+
+kientranhandbook.com
+
+chắc chắn bạn đã từng gặp những người ở thế hệ trước, như cha mẹ, thậm chí những người
+có học thức như thầy cô giáo ở trường dị ứng hai từ “trên mạng”. họ chỉ tin những gì nói trên
+ti vi hay thời sự và nghi ngờ tất cả những gì “có trên mạng”.
+
+“đừng tin mấy thứ trên mạng. hôm qua thời sự đăng tin rồi…”
+
+“mua sắm trên mạng nguy hiểm lắm”
+
+họ bị tắc với quá khứ nhưng luôn nghĩ họ biết hết và đang sống ở hiện tại. thay vì đặt câu hỏi
+và nghi ngờ chính cái “thế giới thực” và hiểu biết mà họ đã được dạy, họ chấp nhận. họ cho
+rằng mọi thứ đang diễn ra rất bình thường chẳng có gì cần phải thay đổi cả. những ai đưa ra ý
+tưởng khác được cho là quá viển vông và họ dập tắt mà không cần tìm hiểu về nó (vì họ đã
+biết tất cả rồi thì cần gì phải tìm hiểu nữa)
+
+xin chào bạn,
+
+nếu bạn đã bỏ tiền ra mua report này, có lẽ bạn đã phần nào vượt qua cơ chế sợ hãi và nghi
+ngờ. hoặc ít nhất bạn mong muốn report này sẽ làm điều đó giúp bạn. đây là mục tiêu của
+mình. mình biết bạn mong muốn biết đuợc điều mới và có lợi cho bạn. đó là lý do mình chưa
+nói về bitcoin hay cryptocurrency vội (bạn biết là lúc sau mình sẽ nói về nó)
+
+mình muốn bạn trước hết nắm rõ được việc chúng ta đến từ đâu. và tại sao bạn lại ở đây.
+
+report này sẽ giúp bạn đánh giá lại những hiểu biết thông thường đã diễn ra suốt nhiều năm
+mà chúng ta luôn mặc định cho là đúng. những gì bạn được dạy. những tư duy thường ngày
+mà hệ điều hành tư duy của bạn đã được lập trình để vận hành. bởi:
+
+giáo dục đỉnh cao không phải dạy kiến thức và áp dụng nó. mà là đánh giá, phản biện lại
+kiến thức được dạy.
+
+thế giới đã thay đổi rất nhiều sau 20 năm.
+
+nếu hôm nay, máy tính của bạn đang chạy hệ điều hành windows 95. bạn sẽ bị chê cười. phải
+không? nhưng điều khiến mình bất ngờ, là việc mặc dù máy tính của bạn chạy hệ điều hành
+mới nhất – windows 10 hay mac os high sierra hay ios 11. nhưng bộ não vẫn được chạy bởi
+hệ điều hành “win 95” hoặc cùng lắm là “win xp”. áp dụng những hiểu biết cũ và những gì
+được cô giáo hay sách vở của năm 2000 vào tư duy 2018 trở đi.
+
+bạn nghĩ mà xem. những cuốn giáo trình kinh tế hay tài chính của bạn đã có được bao nhiêu
+năm rồi? vài chục năm nếu không muốn nói là vài trăm năm. tất nhiên nó có chỉnh sửa và bổ
+sung vài năm nhưng rất không nhằm nhò gì so với sự phát triển hiện nay. nói cách khác. có
+nhiều thứ trong đó đã lỗi thời.
+
+bạn được dạy về sự tuyệt vời của ngân hàng nhà nước trong điều chỉnh chính sách tiền tệ hay
+sự vĩ đại của chính phủ trong việc điều chỉnh chính sách tài khoá. bạn được dạy về sự khác
+nhau giữa trái phiếu và cổ phiếu. quỹ tương hỗ (mutual funds). index funds. cách phân tích
+doanh nghiệp. bạn cũng được dạy về chức năng của tiền hay vàng. cách tính lãi kép. thậm
+chí là cả turbo pascal nếu bạn nhớ.
+
+những kiến thức trên sẽ cho bạn một chút gọi là công cụ tư duy. nhưng bạn hãy nhớ, chỉ
+nhiêu đây thôi không đủ.
+
+kientranhandbook.com
+
+trường đại học và internet là cỗ máy thời gian. nếu internet là thứ giúp bạn đi tới hiện tại
+và tuơng lai, thì đại học là thứ giúp bạn trở về quá khứ. trong thời đại này, sẽ rất nghịch lý nếu
+bạn bỏ tiền túi để đuợc dạy bởi một ông thầy sống ở thế hệ trước với tư duy windows 95 và
+kiến thức, hiểu biết hạn hẹp trong khi bạn có thể tiếp cận với trí tuệ của toàn nhân loại trên
+internet và với mức chi phí gần như bằng 0. thế nhưng người ta vẫn đến trường. và theo đuổi
+các khoá học. có lẽ, quá khứ an toàn và dễ chịu hơn tương lai. lại một lần nữa, cơ chế sợ hãi
+và nghi ngờ.
+
+rất may, kien tran không như vậy. chắc bạn hiểu mình. trong khi người khác dị ứng với sự
+khác biệt và rủi ro. mình dị ứng với sự an toàn và lối tư duy windows 95. bộ não mình liên tục
+muốn tìm đến những cái hoàn toàn mới có khả năng thay đổi hoàn toàn và thậm chí phá sản
+một số ngành công nghiệp đang có.
+
+giống như việc facebook đã làm với yahoo hay với quảng cáo truyền hình.
+
+thời đại này mà ai còn mua quảng cáo trên truyền hình thì thật sự là bó tay.
+
+hay giống như amazon.com đã làm với ngành công nghiệp bán lẻ. cách đây hơn chục năm.
+bạn phải sử dụng kính hiển vi để thấy amazon ở hình bên duới.
+
+và bây giờ kích cỡ của nó lớn hơn 8 công ty bán lẻ lớn nhất nước mỹ cộng lại. và amazon
+không có cửa hàng. sự bùng nổ của amazon, facebook hay google với mô hình truyền thống
+có ai nói rằng đây là bong bóng?
+
+bây giờ bạn và nhiều người khác sẽ không nói như vậy, nhưng tin mình đi cách đây chưa đầy
+10 năm. những thứ như mạng xã hội hay thương mại điện tử đều cũng đã bị các học giả chỉ
+trích. một lần nữa, tư duy windows 95 áp dụng cho 2018. amazon, facebook, google hay
+internet nói chung không cần phải nói nhiều, mà dần dần dẫm nát giá trị cổ phiếu của các
+doanh nghiệp truyền thống khác. đến lúc bạn hiểu ra và nhận ra giá trị thật sự của amazon hay
+facebook, bạn đã tiếc vì ngày xưa đã không mua nó (nếu không bạn đã thành triệu phú).
+
+mình có thể liệt kê ra hàng trăm hàng ngàn ví dụ nhưng sẽ mất trọn 1 năm.
+
+tóm lại tương lai sẽ đến dù muốn hay không, bất chấp thế giới quan của bạn. nếu bạn để
+sự sợ hãi và nghi ngờ làm tê liệt khả năng tiếp thu, bạn không đón nhận nó. bạn sẽ tiếc vĩnh
+viễn.
+
+kientranhandbook.com
+
+thứ bạn cần, là một sự thay đổi tư duy hoàn toàn. một hệ điều hành tư duy được “update”.
+
+chứ không phải tư duy windows 95.
+
+
+kientranhandbook.com
+
+chương ii
+tiền tệ và bạn
+
+bản chất của tiền (ngắn gọn)
+
+trong “lịch sử” sinh ra và lớn lên của bạn, thứ đầu tiên mà bạn gọi, định nghĩa hoặc được dạy
+định nghĩa về “tiền” là một mảnh giấy hình chữ nhật có in mệnh giá và hình một ông nào đó trên
+mảnh giấy này (tuỳ quốc gia)
+
+nó vào sinh ra tử với bạn và gia đình bạn. mọi người xung quanh bạn thức dậy đi làm sớm về
+muộn vì nó và sử dụng nó để mua các nhu yếu phẩm cho đến hàng hoá. tết đến, bạn được
+nguời lớn mừng tuổi và sử dụng “tiền” mừng tuổi đó để mua thứ bạn thích. lúc này đối với
+bạn, định nghĩa về tiền chỉ gói gọn ở tiền nhà nuớc bạn ban hành. nếu bạn sinh ra ở việt
+nam, định nghĩa về tiền của bạn là việt nam đồng.
+
+lớn lên một chút bạn nhận ra các nước khác cũng ban hành tiền của nước họ. định nghĩa về
+tiền của bạn mở rộng hơn một chút. bạn hiểu rằng dollars cũng là tiền và euro cũng là tiền.
+
+bố mẹ bạn kiếm tiền và cất tiền trong ví hay trong tủ. bạn cất trong ví. hoặc nếu có nhiều?
+mang đến ngân hàng nhờ nguời ta giữ hộ (có trả lãi). khi nào cần đến, bạn đến ngân hàng rút
+tiền mặt.
+
+nhưng lúc này tiền vẫn ở dạng giấy hoặc kim loại (tiền xu). khi nhắc đến tiền, chúng ta nhắc
+đến tiền giấy. chúng ta tiêu tiền giấy, được nhận thành quả lao động dạng giấy và lưu trữ giá
+trị lao động bằng giấy.
+
+tờ “giấy” này về bản chất là một hợp đồng chính phủ (bên đứng giữa) áp dụng cho toàn xã hội
+và khẳng định rằng nó có xyz giá trị. và có thể quy đổi abc. đôi bên chấp nhận nó và nó đã là
+như vậy từ trước đến nay.
+
+
+kientranhandbook.com
+
+cho đến lúc bạn đã “chán ngấy” việc phải mang cả bao tải tiền giấy chỉ để mua nhà hay tài
+sản khác. bạn cũng “chán ngấy” việc ví của bạn dày cộp toàn giấy. bạn chán ngấy việc để
+chuyển tiền từ hà nội vào sài gòn bạn phải cho vào túi và ôm lên máy bay. và tất nhiên bạn
+cũng chán ngấy việc phải cảnh giác giữ không để đống giấy lộn mà bạn gọi là tiền bị đánh rơi
+hoặc bị cướp.
+
+thì đây là lúc tiền của bạn dần dần chuyển từ dạng giấy sang dạng số điện tử.
+
+giàu hay nghèo không còn quyết định bởi ví dày hay mỏng. hoặc két sắt nhà ai to hơn mà
+quyết định bởi số dư tài khoản có trong nhà băng. bạn giật mình và ồ một cái bất ngờ và sung
+sướng vì hoá ra tiền không cứ gì phải là dạng giấy mà có thể ở dạng số do ngân hàng công
+nhận là bạn có, giữ hộ bạn và thanh toán tiền giúp bạn.
+
+định nghĩa về tiền của bạn được mở rộng hơn.
+
+nếu bạn đang ở việt nam, bạn sẽ vẫn thấy tiền mặt lưu hành. nhưng nếu bạn sang bên mình
+(canada), bạn sẽ thấy lượng tiền mặt trao tay không còn nhiều. người ta sử dụng “tiền điện
+tử” vì tính tiện lợi, nhanh gọn và không lo bị cướp hay đánh rơi.
+
+mình trả tiền nhà hàng tháng bằng cách e-transfer tới tài khoản chủ nhà.
+mình nhận lương bằng direct deposit trực tiếp tới tài khoản checking account.
+mình đi siêu thị mua đồ ăn bằng cách quẹt thẻ.
+mình mua sắm online trên amazon bằng cách ấn nút mua.
+
+tất cả chỉ là những con số. cộng vào. trừ đi. cộng vào. trừ đi.
+
+sau đó nữa bạn có thẻ tín dụng (credit card), thứ giúp cho bạn tiêu dùng trước và trả nợ sau.
+bạn nhận ra tín dụng cũng là một dạng tiền. bạn sử dụng tín dụng của bạn để mua nhà, mua
+xe (tất nhiên mình thì không)
+
+định nghĩa về tiền của bạn lại mở rộng.
+và lúc này, thật tuyệt vời. anh chính phủ thì đã tuyên bố rằng tiền của bạn có giá trị và được
+lưu hành. anh ngân hàng giữ các “con số” cho bạn và đảm bảo nó không bị mất. việc của bạn
+gần như chỉ đơn giản là làm sao cho các con số đó tăng lên theo thời gian.
+
+
+kientranhandbook.com
+
+nói cách khác, bạn muốn “cất” giá trị lao động của bạn ở dạng số.
+
+sau đó (mình biết nãy giờ nhiều “sau đó” rồi nhưng mà), sau đó bạn lại nhận ra.
+
+tiền mất giá!!!
+
+tất nhiên nó không bốc hơi ngay lập tức để bạn phải cuống cuồng chạy đi tìm nơi cất giữ giá trị
+lao động ngày hôm qua của bạn. nó bốc hơi từ từ. ngày qua ngày. giống như thuốc lá. không
+giết bạn ngay lập tức mà cho bạn cái chết từ từ.
+
+ngày bé, bạn không hiểu tiền mất giá như thế nào vì bạn còn bé, bạn mới sống chưa đầy chục
+năm trên cõi đời làm sao bạn hiểu được dù cho người lớn có giải thích. nhưng sau khi bạn đi
+làm và có thu nhập, hoặc bạn sống “đủ lâu”, bạn bắt đầu ngoảnh lại và nhìn về ôn lại những
+năm tháng ngày trước.
+
+ngày xưa nếu bạn có 100,000 vnd. bạn là đại gia. ít nhất là trong lớp của bạn.
+
+nhưng giờ bạn đi tán gái mà cầm theo 100,000 vnd, bạn sẽ bị gái “sỉ nhục” và bạn sẽ được
+lên báo.
+
+bạn tìm mọi cách lưu trữ giá trị lao động của bạn. càng ngày bạn càng nhận ra sự mất giá của
+tiền là có thật. cũng giống như con nghiện thuốc lá nhận ra thuốc lá có hại là sự thật sau khi ho
+ra máu (lol).
+
+bạn tìm đến chứng khoán, quỹ tương hỗ, gửi tiết kiệm dài hạn, mua trái phiếu, hoặc thậm chí
+mua nhà hay mua vàng. nói chung, bất cứ nơi nào để bạn có thể gửi niềm tin. mình muốn
+nhấn mạnh cụm từ “gửi niềm tin” vì đây là từ khoá của tất cả mọi thứ sắp diễn ra trong cuộc
+đời bạn.
+
+bạn thử nghĩ mà xem, bạn đầu tư nghĩa là bạn phải trao niềm tin (trust) vào nó bạn mới đầu
+tư. tại sao bạn cho tiền vào chứng khoán? vì bạn tin rằng công ty sẽ làm điều mà nó hứa hẹn,
+nó sẽ vận hành tốt và tăng giá trị cho cổ đông. người khác, lại nhất nhất tin vào chính phủ. họ
+tin rằng chính phủ thật thà, lương thiện, hoàn hảo và là god. họ mua trái phiếu. bạn mua đất vì
+bạn tin tài sản thật mới là thứ không mất giá. bạn gửi tiền vào ngân hàng thay vì chị hàng xóm
+vì bạn tin ngân hàng không “ăn cắp tiền” của bạn và ngân hàng sẽ không bao giờ sập.
+
+thế nhưng, đã bao giờ bạn tự hỏi. liệu niềm tin mà bạn đang đặt vào có trường tồn mãi theo
+thời gian? liệu thứ mà bạn tin có thật sự hoạt động dựa trên lợi ích của bạn hay một số ít. liệu
+họ có thật thà?  ;)
+
+bạn của tôi j. hãy dành 2 phút và suy nghĩ. ngân hàng hay chính phủ thì cũng vẫn được vận
+hành bởi người. chúng ta thường nghĩ rằng ngân hàng và chính phủ là một toà nhà hay một
+con robot. vận hành và tồn tại một cách khách quan. nhưng hãy nhớ, nó được vận hành bởi
+con người. và những người vận hành nó có quyền lực nhất định. theo lý thuyết, để được ngồi
+vào vị trí có quyền lực, họ phải được bầu chọn và giám sát cẩn thận, minh bạch bởi số đông
+dân chúng trong từng hành động. nghĩa là quyền lực được cân bằng giữa số đông và số ít
+người nắm quyền lực. số ít người nắm quyền được bầu chọn để làm việc theo lợi ích của số
+đông. đúng không?
+
+nhưng trên thực tế, điều này không hoặc rất hiếm khi xảy ra. vì bản chất con người là tham
+lam. nếu nhà bạn có máy in tiền, in giống hệt như tiền đang lưu thông hiện nay. hoặc bạn có
+
+kientranhandbook.com
+
+thể “hack” con số dư trong tài khoản ngân hàng của bạn để nó tăng lên mà không ai biết. liệu
+bạn có ngồi yên được? kể cả khi bạn là người đạo đức nhất hành tinh, bạn cũng sẽ phải thêm
+vài số 0 đằng sau số dư. hoặc in ra “chỉ” khoảng vài chục ngàn “thôi mà” để bạn dùng.
+
+đó là những gì đang xảy ra ở bên số ít có quyền lực. tuy có thể không đến mức quá lộ liễu.
+nhưng mình muốn bạn hiểu một điều. đó là bất cứ ai có quyền lực, nếu có cơ hội làm lợi cho
+cá nhân, họ sẽ làm. bạn cũng vậy. ai cũng vậy. đó là con người.
+
+có hai cách chính mà bên số ít có quyền thu được tiền của bạn.
+
+cách 1: thuế -- họ sẽ hứa với bạn rằng họ dùng tiền thuế để xây đường xá, cơ sở hạ tầng, trợ
+cấp xã hội vân vân. lời hứa này cũng có trong sách giáo trình của bạn luôn. nhắc đi nhắc lại
+nhiều lần qua các khẩu ngữ. bạn tin họ bao nhiêu %?
+
+cách 2: in tiền – thay vì phải sử dụng luật pháp, khống chế làm công cụ bắt bạn phải nôn tiền
+ra như cách 1, cách này “khôn ngoan” , nhẹ nhàng và gián tiếp hơn. in tiền nghĩa là họ lấy tiền
+trong tài khoản của bạn mà không cần móc túi bạn. tiền bạn vẫn nằm trong đó. nhưng những
+con số đều trở nên vô nghĩa theo thời gian. hay còn gọi là lạm phát. bây giờ có thể ai cho bạn
+1 triệu bạn sẽ sướng tỉnh người. nhưng không lâu sau, 1 triệu của bạn sẽ đủ mua được một ổ
+bánh mì.
+
+cách một áp dụng bởi chính phủ. cách hai áp dụng bởi ngân hàng trung ương.
+
+bạn có thể cho rằng. mình anti chính phủ hoặc anti ngân hàng. nhưng không. mình chỉ không
+tin con người có thể chiến thắng được chính lòng tham của họ. đó là lý do mình phải đặt niềm
+tin nơi khác.
+
+nơi mà không còn cảm xúc hay lòng tham tự nhiên của con người làm vấy bẩn lên tính chính
+trực (integrity) và khách quan của tiền tệ. nơi mà giá trị lao động của bạn sẽ được bảo vệ bởi
+lạm phát gây ra bởi con người hay thông tin cá nhân của bạn bị soi và đánh cắp.
+
+đó là toán học.
+
+toán học là tuyệt đối. một cộng một phải bằng hai. không ai có thể bắt nó bằng 3.
+
+và bây giờ là lúc bạn cần mở rộng định nghĩa của bạn về tiền. mình xin tóm tắt quá trình nhận
+thức.
+
+1. tiền = tiền giấy nhà nước vn
+2. tiền = tiền giấy (của bất kỳ nhà nước nào)
+3. tiền = tiền điện tử (số dư nhà băng)
+4. tiền = tiền điện tử + tín dụng (bởi ngân hàng + chính phủ)
+
+và cuối cùng đó là
+
+5. tiền = cryptocurrency (quyết định bởi công thức toán học và thị trường)
+
+khác biệt giữa tiền crypto và 4 loại tiền kia ở chỗ như sau. chờ chút để mình kẻ bảng.
+
+
+kientranhandbook.com
+
+4 loại tiền ở trên tiền crypto
+số lượng vô hạn có hạn
+lạm phát vô hạn có hạn và rất thấp
+giá trị giảm dần theo thời gian tăng dần theo thời gian
+mức ảnh hưỏng địa phương toàn cầu
+tốc độ chuyển tiền chậm (vài ngày) rất nhanh (vài s)
+toàn cầu
+chi phí đắt rất rẻ (vài cents)
+bảo mật rất kém cao (và riêng tư)
+khả năng bị hack tồn tại không thể hack được
+khả năng bị dòm ngó rất cao, toàn bộ thông tin rất thấp thậm chí gần bằng
+bởi chính phủ đều rõ ràng 0
+mô hình tập trung phi tập trung, phân phối
+(centralized) (distributed)
+niềm tin niềm tin sụp đổ không cần thiết
+cả hệ thống sụp đổ (trustless system)
+
+ở trên là những điểm chính để bạn dễ mường tượng chúng khác nhau thế nào.
+
+(nếu bạn muốn tìm hiểu sâu hơn về cách hoạt động của blockchain mình khuyến khích các
+bạn tìm hiểu thêm trên internet. report này mục đích đưa ra thông tin dễ nhai nhất đến với bạn)
+
+về bản chất, bitcoin hay tiền crypto nói chung không được vận hành bởi chính phủ hay ngân
+hàng đứng ở giữa mà bởi công thức toán học đã được định trước. số lượng có hạn.
+
+khi số lượng có hạn và không được in ra bởi bất kỳ ý muốn của một tổ chức tập trung nào như
+ngân hàng hay chính phủ. nó giữ được tính khách quan và nhất quán. ngoài ra, thay vì giá trị
+giảm dần theo thời gian như tiền giấy. giá trị của nó ổn định (nếu không muốn nói là tăng dần).
+lạm phát gần như không tồn tại hoặc rất thấp. đây là điểm mà tiền tệ bình thường không có.
+
+chưa kể đến việc tiền crypto đã và đang được chấp nhận không chỉ bởi một quốc gia mà bởi
+cả thế giới. nếu bạn ở mỹ, bạn sẽ không thể tiêu tiền việt nam, hay tiền nhân dân tệ, thậm chí
+yên nhật, bạn phải quy đổi sang usd. mình cũng không thể tiêu được usd một cách tràn lan
+ở canada mà phải quy đổi sang cad. bởi chính phủ nói tiền nào hợp lệ là tiền đó sẽ hợp lệ.
+tiền này bởi chính phủ và in bởi ngân hàng.
+
+trong khi đó với cryptocurrency, giá trị lao động mà bạn mang theo không phụ thuộc vào chính
+phủ hay ngân hàng trung ương (centralized) mà dựa vào công thức toán học và sự chấp nhận
+của thị trường.
+
+ron paul, một chính trị gia của mỹ cũng đã phải thừa nhận, bản chất thật sự của tiền từ xưa
+đến nay là nó chấp nhận bởi thị trường (market) chứ không phải bởi một tổ chức thứ 3 (chính
+phủ, ngân hàng)
+
+vì vậy, bạn hãy nhớ.
+
+tiền thật sự và dài hạn là tiền chấp nhận bởi market. market mới là thứ quyết định giá trị
+của một loại tiền.
+
+
+kientranhandbook.com
+
+giá trị của bitcoin và ether trong thời điểm hiện tại được quyết định bởi market. bạn, mình và
+nhiều người khác.
+
+tiền chính phủ sẽ chết dần theo thời gian như một quy luật tất yếu trong tự nhiên vì nó được
+áp đặt giá trị và thâu tóm giá trị thay vì được chấp nhận một cách tự nguyện bởi thị trường.
+
+ví dụ: nếu được chọn giữa usd và vnd, bạn sẽ chọn usd hơn đúng không? như vậy tiền
+vnd giá trị giảm dần so với tiền usd. vì bạn (thị trường) giá trị nó hơn dù chính phủ việt nam
+có thể không thích điều này.
+
+tương tự, nếu được chọn giữa bitcoin và usd trong thời điểm hiện tại, bạn sẽ chọn cái gì?
+
+một thứ in liên tục bởi một tổ chức đứng giữa, có lòng tham tự nhiên của con người và mọi
+hoạt động bên trong kín đáo không cho bạn biết, mọi giao dịch của bạn đều bị dòm ngó và
+thông tin cá nhân của bạn được họ lưu trữ và sử dụng bất kỳ lúc nào họ cần. bạn cũng không
+thể chuyển quá 10000 usd ra khỏi biên giới vì đó là quy định của họ.
+
+thứ kia, bảo mật, không thể bị hack, thông tin của bạn không trưng ra như thẻ tín dụng, bạn
+cũng có thể chuyển bao nhiêu tiền xuyên quốc gia tuỳ thích với chi phí rẻ, lạm phát gần như
+bằng 0. và nhiêu ưu điểm tuyệt vời khác.
+
+một người bình thường sẽ chọn usd hay bitcoin/ether?
+
+như vậy market lại quyết định giá trị của tiền thay vì chính phủ dù chính phủ có muốn.
+
+để cho usd và vnd có giá trị, lòng tin là điều tất yếu. bạn cần phải tin thằng đứng ở giữa.
+nhưng nếu thằng đứng ở giữa tham nhũng và thay đổi hệ thống theo ý muốn, lòng tin sẽ sụp
+đổ và giá trị của tiền sẽ rơi tự do. (ví dụ dollar zimbabwe)
+
+usd và vnd tuy minh bạch hơn zimbabwe nhưng về dài hạn không thể tránh khỏi số phận
+giống như dollar zimbabwe vì nó được xây dựng dựa trên niềm tin. niềm tin là thứ rất dễ vỡ.
+
+chưa nói đến việc tin người khác vội, bạn thậm chí còn không thể tin nổi chính bản thân bạn.
+nếu cho bạn quyền lực in tiền tại nhà bạn, hoặc quyền được tàng hình và làm bất kỳ điều gì
+bạn muốn, bạn sẽ làm gì?
+
+công nghệ blockchain không dựa trên vào lòng tin vào bên đứng giữa (in god we trust) mà
+dựa vào niềm tin vào sự tuyệt đối của toán học (in open-source we trust)
+
+1 công một luôn luôn bằng hai chứ không bao giờ bằng 3. không bên đứng giữa nào có thể
+thay đổi được. nó tuyệt đối.
+
+blockchain là một quyển sổ giúp ghi lại mọi giao dịch và không ai có thể thay đổi hay hack
+đưọc nó bởi nó đã đưọc mã hoá. nếu a chuyển b 1 bitcoin. ví của a sẽ -1 và ví của b sẽ +1.
+cuốn sổ này áp dụng toàn cầu.
+
+tại sao gọi nó là decentralized (phi tập trung)? vì nó được vận hành bởi máy tính trên toàn thế
+giới (miner) và không tập trung ở bất kỳ địa điểm cụ thể nào.
+
+
+kientranhandbook.com
+
+giống như utorrent - hình thức download và upload peer-to-peer thay vì download từ một
+máy chủ. bitcoin hay một số cryptocurrency được vận hành không qua một máy chủ mà qua
+nhiều điểm (node) có mặt ở khắp nơi trên thế giới.
+
+tóm tắt:
+1. nên thừa nhận định nghĩa hẹp về “tiền” mà chúng ta biết từ trước đến nay
+2. tiền thật sự là tiền được chấp nhận bởi market chứ không phải một bên thứ 3
+3. tiền crypto vượt trội hơn tiền chính phủ về mọi mặt và do đó sẽ dần dần thay thế
+
+
+kientranhandbook.com
+
+chương iii
+định nghĩa lại “tiền ảo”
+
+nếu bạn sử dụng hoặc nghe ai đó sử dụng từ “tiền ảo” để mô tả về bitcoin hay crypto nói
+chung, bạn sẽ nghĩ đến điều gì?
+
+không thật. vô giá trị. bong bóng. lừa đảo. đám đông.
+
+cơ chế sợ hãi và nghi ngờ sẽ làm điều tiếp theo. đó là gạt bỏ hết những ý tưởng và thông tin
+liên quan đến thứ ”tiền ảo” kia ra khỏi tư duy của bạn và bạn sẽ ngừng lắng nghe cũng như
+suy nghĩ vì nó là “tiền ảo”
+
+nếu thuật ngữ đã không chính xác thì cái brand của nó sẽ bị vấy bẩn ngay từ đầu.
+
+bạn hãy nhớ crypto không phải là “tiền ảo” mà chỉ đơn thuần là tiền.
+
+thứ hai, những thứ không nhìn thấy và cầm thấy được chưa chăc đã vô giá trị. hãy nhìn vào
+những giá trị mà facebook, amazon, microsoft, hay google mang lại và hàng loạt các phần
+mềm hay ứng dụng khác trên app store. nó có vô giá trị?
+
+iphone có bộ nhớ 16gb hay 256gb giá trị hơn? liệu con số này có thật sự ảo?
+
+nếu định nghĩa về tiền của bạn mở rộng từ tiền chính phủ cho đến tiền crypto thì định nghĩa
+về “tiền ảo” cũng đưọc mở rộng tới tiền chính phủ. vì về bản chất, tiền giấy (fiat) cũng không
+có giá trị. nó chỉ là giấy lộn. đây là tiền ảo. số dư nhà băng của bạn cũng như vậy. đây là tiền
+ảo.
+
+thậm chí cổ phiếu cũng là ảo. bạn mua cổ phiếu của công ty fpt. theo định nghĩa thì bạn là
+một cổ đông (hay chủ sở hữu) của fpt nhưng thật sự bạn chẳng có 1 chút quyền hành gì. bạn
+chỉ có một mảnh giấy hoặc một con số. và các mảnh giấy hay con số này trao tay nhau mỗi
+ngày. không tin, bạn thử mua 10 cổ phiếu fpt sau đó đến trụ sở đuổi việc thử một vài người
+xem ;)
+
+tóm lại: mình không biết bạn sẽ gọi tiền crypto là gì. nhưng bạn hãy cân nhắc vì cách mà bạn
+gọi sẽ ảnh hưởng đến hướng mà bạn hiểu. tiền crypto chỉ đơn giản là tiền.
+
+
+kientranhandbook.com
+
+chương iv
+tương lai của chính phủ
+
+đây là điều mà chính phủ và ngân hàng nhà nước muốn làm vì nó sẽ ảnh hưởng đến lợi ích cá
+nhân và quyền lực của họ. họ sẽ muốn cấm. tuy nhiên bạn hãy cân nhắc những điều sau:
+
+thứ nhất, nếu bạn coi chính phủ và ngân hàng như một bộ máy quyền lực tập trung. họ sẽ
+muốn cấm crypto. nhưng bản thân chính phủ và ngân hàng lại được chạy bởi con người - như
+mình và bạn. họ cũng có gia đình và cuộc sống của họ. họ cũng là những người làm công ăn
+lương và muốn tối đa hoá lợi ích của chính họ trước.
+
+họ cũng muốn có phần trong bitcoin hay crypto. và họ cũng muốn mua vào. mình quen một
+người bạn làm trong phòng thuế ở canada. mặc dù crypto đe doạ đến hệ thống quyền lực nơi
+anh ta đang làm, nhưng lại có lợi cho chính bản thân của anh. anh ta hiểu và cũng muốn giữ
+giá trị lao động ở dạng tiền này. nhiều nhân viên ngân hàng, thậm chí giám đốc cấp cao ngân
+hàng khác cũng vậy. crypto sẽ đe doạ đến bộ máy nói chung, nhưng sẽ có lợi cho cá nhân
+người làm cho bộ máy đấy.
+
+nói cách khác, cha chung không ai khóc.
+
+đó là quy luật tất yếu, vì chính bản thân họ tuy làm cho chính phủ nhưng họ cũng là một phần
+của thị trường. thị trường sẽ chấp nhận loại tiền ưu việt hơn. giống như mặc dù bạn là nhân
+viên nokia và mặc dù cả công ty nokia ghét iphone nhưng bạn vẫn thích dùng iphone hơn
+hoặc samsung.
+
+got it?
+
+thứ hai, kể cả khi chính phủ và các cá nhân trong bộ máy chính phủ (và ngân hàng) muốn cấm
+thật. điều này gần như không thể.
+
+bởi chính phủ có một lượng ngân sách nhất định và giới hạn. họ không có nhiều tiền như bạn
+nghĩ. vì ngân sách giới hạn nên họ không thể tuyển đủ nhân viên để thi hành chính sách cấm
+mà họ muốn.
+
+họ có thể nhìn vào từng giao dịch ngân hàng của bạn và dễ dàng xác định bạn có trốn thuế hay
+không. nhưng với crypto, điều này trở nên rất khó. bởi họ có thể nắm đưọc thông tin cá nhân
+của bạn nếu bạn tiêu tiền của họ nhưng rất khó đối với tiền crypto.
+
+ví dụ địa chỉ ethereum của bạn sẽ như thế này thay vì tên, tuổi, địa chỉ, số điện thoại, ngân
+hàng.
+
+0xc7e82de4b0d2e8b376631cd9fd84dba1fa635dfa
+
+bạn toàn quyền nắm giữ private key và public key của bạn. và bạn không cần đến nhà băng.
+việc theo dõi từng giao dịch để xác định bạn trốn thuế gần như không thể về mặt ngân sách và
+số nhân lực mà họ có.
+
+trong khi đó, sự xuất hiện của tiền crypto làm cho chính phủ sẽ mất đi một khoản thuế không
+nhỏ. nghĩa là ngân sách của họ sẽ ngày càng thu hẹp dần. điều này có nghĩa nhân lực truy
+
+kientranhandbook.com
+
+thu thuế sẽ ngày càng ít đi. và điều này lại có nghĩa họ sẽ lại càng thu được ít thuế hơn. và
+xoáy vòng tuần hoàn lại tiếp tục.
+
+loại tiền này sẽ dần dần thu hẹp và phân phối lại quyền lực. quyền lực tập trung sẽ dần dần
+phân phối và biến mất dần. chính phủ hay ngân hàng sẽ giảm doanh thu và biến mất là chuyện
+không thể tránh khỏi trong dài hạn.
+
+giống như việc ipod đã làm với máy nghe nhạc walkman hay băng cassette hoặc facebook và
+google đã làm với yahoo. dù muốn hay không, nó cũng sẽ xảy ra. vì chính phủ dù sao cũng
+chỉ là người.
+
+con người sẽ vẫn còn đó. chỉ có bộ máy là dần dần biến mất.
+
+
+kientranhandbook.com
+
+chương v
+chứng khoán, ngân hàng đầu tư
+và crypto
+
+thị trường chứng khoán là một thị trường hấp dẫn. nó hấp dẫn bởi loại tài sản nó mang lại là
+công ty. công ty là thứ chạy nền kinh tế và mang lsi nhuận và giá trị cho xã hội, khách hàng,
+cũng như cổ đông.
+
+khác với vàng, công ty tạo ra dòng tiền. vàng thì không. sở dĩ vàng tăng giá vì tiền mất giá.
+rất đơn giản. giá trị của vàng không hề thay đổi theo thời gian vì nó chỉ ngồi 1 chỗ. trong khi
+vàng là biểu tượng của việc lưu trữ giá trị lao động. thì chứng khoán là biểu tượng của đầu
+tư.
+
+khi nguồn vốn đến tay công ty, giá trị sẽ được tạo ra và nhân lên.
+
+tuy nhiên, cái cách mà công ty niêm yết trên sàn chứng khoán để bạn đầu tư lại phức tạp hơn
+bạn nghĩ.
+
+phức tạp ở chỗ bạn không đầu tư trực tiếp vào công ty mà lại phải gián tiếp thông qua
+ngân hàng đầu tư (investment banks) đứng ở giữa.
+
+ngân hàng đầu tư (investment banks) và các nhà đầu tư tay trong sẽ nhận một khoản không
+nhỏ từ việc đưa một công ty tư nhân hoặc một công ty mới lên sàn chứng khoán (ipo). họ
+đang tham gia vào primary market và được mua giá trị cổ phiếu ở mức rẻ nhất hay giá
+discount.
+
+sau khi đã niêm yết lên sàn chứng khoán, về bản chất, bạn đang tham gia vào secondary
+market và giá của cố phiếu lúc này cao hơn so với giá ở primary market. tất cả các giao dịch
+trên sàn chứng khoán hiện nay là trên secondary market.
+
+kientranhandbook.com
+
+figure 1 mô hình huy động vốn truyền thống ipo
+như vậy khi investment bank và các quỹ đầu tư ban đầu được discount và trở nên siêu giàu
+nhờ ipos, bạn sẽ vẫn có cơ hội kiếm tiền từ đầu tư chứng khoán nhưng sẽ không còn nhiều.
+mức lợi nhuận của bạn chỉ mong được 10-20% một năm từ đầu tư chứng khoán là may. vì giá
+bạn mua đã quá cao rồi.
+
+vì vậy một trong những lý do khiến bạn suy nghĩ đó là tại sao không bỏ thằng ngân hàng đầu
+tư ở giữa đi. thay vào đó bạn và mình, có thể đầu tư trực tiếp vào công ty hay một dự án ngay
+từ lúc nó mới sinh ra chứ không cần phải chờ đến lúc nó niêm yết trên sàn (vì lúc đấy giá đã
+cao rồi)
+
+đó là lúc bạn cần đến cryptocurrency như bitcoin hay ethereum.
+
+một trong những tính năng tuyệt vời của ethereum đó là smart contract (hợp đồng thông
+minh).
+
+nói ra sẽ hơi dài nhưng mình xin được ngắn gọn liên quan đến chương này như sau:
+
+hợp đồng thông minh (smart contract) dựa trên mạng lưới ethereum giúp cho các dự án hay
+công ty huy động vốn bằng cách tạo ra tokens (coins)
+
+các coins này sẽ được phát hành trực tiếp tới cho “nhà đầu tư” nhỏ lẻ — là bạn và mình. khi
+bạn chuyển ethereum tới địa chỉ người nhận là công ty đó. bạn sẽ tự động nhận được một
+lượng coins của công ty đó dựa trên smart contract.
+
+công ty này sẽ sử dụng ethereum làm nguồn vốn phát triển công ty, thuê nhân lực, marketing
+vân vân. còn bạn có coins của công ty đó. bạn — nhà đầu tư, mong muốn coins đó sẽ tăng
+giá theo thời gian (giống như bạn mong cổ phiếu tăng giá theo thời gian).
+
+như vậy không còn ngân hàng đầu tư.
+
+bạn đầu tư vào chính thị trường sơ cấp luôn!!!
+
+kientranhandbook.com
+
+figure 2 ứng dụng blockchain trong huy động vốn qua ico
+
+khi bạn đầu tư vào thị trường sơ cấp và ngay từ lúc công ty mới ở mức baby. mức lợi nhuận
+của bạn có khả năng nhân 2 nhân 3 nhân 10 thậm chí đối với ripple là nhân 380 lần!
+
+vậy điều này có nghĩa investment bank (ngân hàng đầu tư) sẽ dần dần biến mất?
+
+mình tin rằng investment bank và smart contract sẽ vẫn tồn tại song song. bởi một điều đó là
+mặc dù icos có thể mạng lại mức lợi nhuận khổng lồ (cao hơn chứng khoán). nó sẽ cũng
+mang lại rủi ro.
+
+mặc dù có nhiều icos và coin tiềm năng. mình tin khoảng 90% thậm chí 95% các icos trên thị
+trường hiện nay có thể là scam (lừa đảo) hoặc cũng sẽ thất bại.
+
+lý do bởi gần như ai cũng có thể huy động vốn nhờ icos. nhưng sẽ rất khó để huy động qua
+ipos. cho nên các công ty thông qua ipos sẽ có chất lượng cao hơn và đưọc kiểm chứng
+nghiêm ngặt hơn trước khi cổ phiếu đến với tay nhà đầu tư.
+
+còn icos, nếu bạn không nghiên cứu kỹ về nó, bạn sẽ dễ rơi vào scam icos và mất trắng
+tiền.
+
+cá nhân mình vẫn muốn đầu tư vào crypto hơn thay vì chứng khoán. một phần là bạn sẽ có
+nhiều return (%) hơn nếu bỏ thời gian nghiên cứu vì cuộc cách mạng blockchain mới chỉ mới
+bắt đầu. phần nữa vì đầu tư chứng khoán khá phức tạp và lăng nhằng về khoản giấy tờ và
+phải dính líu nhiều tới thông tin cá nhân, ngân hàng và chính phủ. những lý do trên khiến cho
+chứng khoán (thị trường thứ cấp), không còn hấp dẫn với mình và nhiều người khác.
+
+
+kientranhandbook.com
+
+chương vi
+ngân hàng thương mại
+và crypto
+
+crypto wallet
+
+online banking
+
+máy atm
+
+nhân viên nhà băng (teller)
+
+nếu như ngân hàng đầu tư (investment bank) là nơi chuyên để huy động vốn và giúp công ty
+niêm yết cổ phiếu lên sàn chứng khoán thì ngân hàng thương mại (commecial bank) khá là
+quen thuộc hơn với bạn vì bạn tiếp xúc với nó liên tục trong các giao dịch hằng ngày (chuyển
+tiền, vay tiền, nạp tiền)
+
+và nếu như icos ứng dụng smart contract có thể thay đổi cục diện của thị trường huy động
+vốn thì wallet (ví điện tử) lại thay đổi cục diện của thị trường giao dịch tiền tệ.
+
+lý do hết sức đơn giản:
+
+tất cả những gì ngân hàng (thương mại) có thể làm, ví của bạn cũng có thể làm được. không
+những làm được mà còn làm đưọc tốt hơn nhiều, bảo mật hơn nhiều, riêng tư hơn nhiều và chi
+phí rẻ hơn nhiều.
+
+wallet sẽ làm cho bên đứng giữa (ngân hàng thương mại) mất việc. giống như online banking
+đã làm cho atm mất việc. và cũng giống như atm làm cho nhân viên ngân hàng (teller) mất
+việc.
+
+đã lâu lắm rồi mình không đến nhà băng, gặp chị nhân viên và rút tiền, cũng lâu rồi mình không
+qua atm vì mình có thể làm bằng mobile banking hoặc online banking.
+
+điều mình không hài lòng ở online banking (mặc dù tiện thì tiện thật) đó là một loại giới hạn và
+một loạt phí, quy tắc, thủ tục, thông tin bị dòm ngó.
+
+ví dụ:
+
+1. mình không thể gửi quá 3000 đô một ngày
+2. mình phải giữ số dư 4000 đô vào tất cả mọi ngày trong tháng nếu không cuối tháng sẽ bị mất
+16 đô tiền phí ngân hàng
+3. chính phủ và ngân hàng biết mình tiêu gì và làm gì và họ có thể can thiệp nếu họ muốn
+4. mình phải cung cấp và nhập một loạt thông tin thẻ mỗi lần muốn mua sắm online
+
+kientranhandbook.com
+
+5. thẻ hết hạn, lại phải đến ngân hàng gia hạn
+6. mình phải mất phí khi chuyển tiền
+7. chuyển tiền về việt nam hoặc nhận tiền từ việt nam mất vài ngày cho đến 1 tuần và một
+đống phí. cũng không được phép chuyển quá 10000 đô.
+8. ngân hàng của mình chỉ sử dụng được ở canada, về việt nam mình không rút ra được
+9. và rất nhiều thứ khác.
+
+trong khi đó nếu là crypto wallet, tất cả những thứ trên là vô nghĩa.
+
+bạn copy paste cho mình địa chỉ ví của bạn mình bắn cho bạn vài phút thậm chí vài giây bạn
+sẽ nhận được. mức phí rẻ. địa chỉ ví cũng không hiện tên tuổi, nơi sống vân vân. nó giống như
+online banking nhưng nó không có bên thứ 3. nó thuộc toàn quyền quyết định của bạn. bạn
+thậm chí có thể gửi 2 tỷ đô về vn nếu bạn muốn. giống như gửi một cái email vậy.
+
+một lần nữa, bạn không cần phải “gửi niềm tin” người đứng giữa. đó là lý do đây gọi là
+trustless system.
+
+trong tương lai, ngay cả chính những cán bộ ngân hàng cũng sẽ sử dụng ví điện tử cho chính
+bản thân họ. họ cũng là market. market sẽ chọn cái gì ưu việt hơn.
+
+con người vẫn còn đó, chỉ có bộ máy là dần dần biến mất.
+
+
+kientranhandbook.com
+
+phụ lục:
+truyền thông và bitcoin
+
+bitcoin – bộ mặt của cryptocurrency đã được giới truyền thông, học thuật, tài chính trong suốt
+năm qua vùi dập nhưng nó vẫn kiên cường leo lên đỉnh, bất chấp mọi sóng gió. mình chỉ muốn
+bạn hãy cẩn thận trước lời khuyên của các chuyên gia, ti vi hay các bài báo bạn đọc hằng
+ngày,
+
+- năm 2010, giá của 1 bitcoin là $0.23, the underground economist khẳng định bitcoin
+không thể trở thành một loại tiền tệ.
+
+- năm 2011, giá của 1 bitcoin là $2.37. wired viết bài với tiêu đề sự phát triển và sụp đổ
+của bitcoin
+
+- năm 2013, giá của 1 bitcoin là $141.32. chron viết bài với tiêu đề tại sao bitcoin chắc
+chắn sẽ thất bại
+
+- năm 2013 tháng 11, giá của 1 bitcoin lên $433.57. business insider ra bài viết với tiêu
+đề “bitcoin chỉ là một trò hề”.
+
+- năm 2013 tháng 12, giá của 1 bitcoin lên $955. business insider lại ra bài viết khẳng
+định bitcoin sẽ giảm còn $10 vào giữa năm 2014
+
+- năm 2014, tháng 4, giá của bitcoin rơi vào mức $479.99. yahoo ra bài viết cho rằng
+đây là thời kỳ chấm dứt của bitcoin.
+
+- năm 2017 tháng 1, giá bitcoin lúc này là $1034.34. financial times ra bài viết nói rằng
+bitcoin giá trị thật không đáng một xu.
+
+- năm 2017, tháng 4, giá 1 bitcoin là $1234.36 forbes ra bài viết về sự phát triển và sụp
+đổ của bitcoin.
+
+- năm 2017, tháng 5, giá một bitcoin là $2358.96. macro business ra bài viết chê bai
+bitcoin và cho rằng đây là mô hình ponzi.
+
+- năm 2017, tháng 7, business insider dẫn lời tỷ phú howard marks nói rằng bitcoin
+không có giá trị thật. lúc này giá 1 bitcoin là $2775
+
+- tháng 8, năm 2017. seeking alpha có bài viết tựa đề “tại sao bitcoin vô giá trị”. lúc
+này giá 1 bitcoin là $3348
+
+- tháng 9, năm 2017, cnbc nói rằng bitcoin là một quả bong bóng và sẽ nổ. giá 1
+bitcoin là $4223
+
+- tháng 10, 2017. cnbc, peter schiff, jamie dimon (ceo jp morgan chase), ucla,
+thậm chí cả shiller (người đoạt giải nobel kinh tế) khẳng định bitcoin sẽ chết. lúc này
+giá một bitcoin là $5900
+
+
+kientranhandbook.com
+
+từ giai đoạn đó đến nay, bitcoin liên tục bị dìm. không chỉ bởi người bình thường như chúng
+ta, mà bởi các chuyên gia lẫn trên các mặt báo tài chính uy tín. nhưng hôm nay bạn xem, giá
+của bitcoin là bao nhiêu?
+
+bản thân bạn sẽ thấy trò đùa duy nhất là truyền thông.
+
+nếu bạn nhìn ở góc độ dài hạn (vài năm đến chục năm) bạn sẽ thấy truyền thông và lời nói của
+người này người kia chỉ tập trung vào ngắn hạn và rất mang tính thời điểm, đối phó, định
+hướng dự luận, bảo vệ lợi ích cá nhân và phục vụ một số ít khán giả dễ dụ dễ tin và chỉ thích
+đọc tiêu đề báo thay vì tìm hiểu sâu và có tư duy phản biện vững vàng.
+
+
+kientranhandbook.com
+
+chương vii
+gia nhập thị trường crypto
+
+sàn giao dịch
+(exchanges)
+gặp mặt trực tiếp
+
+1. sàn nhận tiền mặt
+(on-ramp fiat)
+2. sàn chỉ nhận crypto
+
+coinbase.com
+gdax.com
+cex.io
+quadridgacx.com
+bitﬁnex.com
+coss.io
+kraken
+…
+bittrex.com
+huobi.pro
+binance.com
+kucoin.com
+etherdelta
+poloniex
+gatehub
+
+mình nhận ra có một số bạn đã biết mua bán thành thạo crypto nhưng có nhiều người chưa
+từng đụng đến nó và chưa có ai hướng dẫn bao giờ. vì vậy phần này sẽ dành cho những bạn
+mới bắt đầu.
+
+có hai cách chính để bạn gia nhập.
+
+một là qua các sàn giao dịch (exchanges) hoặc hai là mua bán trực tiếp với người khác.
+
+có hai loại sàn chính:
+
+một là sàn chấp nhận mua bán bằng fiat (tiền giấy) ví dụ usd/btc hoặc cad/eth và sàn chỉ
+cho mua bán trao đổi giữa các crypto với nhau.
+
+ví dụ xrp/btc hay nas/eth.
+
+thông thường để gia nhập thị trường crypto, bạn bắt buộc phải mua bitcoin (btc) hoặc
+ethereum (eth) truớc bằng tiền mặt. sau đó sử dụng btc hoặc eth để mua các coin khác
+(altcoins) ở các sàn chỉ nhận crypto.
+
+đây sẽ là cách mà bạn gia nhập.
+
+note: bạn sẽ để ý thấy số sàn cho phép nạp tiền mặt như coinbase hiếm hơn nhiều so với số
+sàn chỉ nhận crypto. bởi mỗi lần dính lứu đến tiền mặt là sẽ dính líu đến nhiều vấn đề thủ tục,
+
+kientranhandbook.com
+
+luật pháp, vân vân. rất rắc rối. còn sàn chỉ nhận crypto dễ hơn nên bạn sẽ thấy nhiều hơn.
+ngoài ra thông thường các sàn cho nạp fiat (tiền giấy) sẽ bắt phải duyệt id. còn các sàn
+crypto thì không.
+
+riêng ở vn mình thấy nhiều bạn mua qua remitano. mình tin rằng bạn sẽ bị charge phí đắt
+hơn giá thị trường bởi có vẻ không nhiều sàn ở vn cho lắm. cho nên mình khuyên bạn nên
+nhờ bạn bè nào đó ở nước ngoài mua hộ. rồi chuyển eth hoặc btc vào ví cho bạn.
+
+bạn nên lập tài khoản ở nhiều sàn.
+
+lý do là bởi khác với chứng khoán, không phải sàn nào cũng có coin bạn muốn mua. ví dụ để
+mua được ubiq (ubq) bạn chỉ còn cách mua trên sàn bittrex. hoặc để mua utrust (utk) bạn
+chỉ có thể mua được trên kucoin. để mua được nas bạn cần có tài khoản huobi. cho nên việc
+bạn lập tài khoản ngay từ bây giờ ở các sàn (dù bạn muốn mua hay không) là một điều cần
+thiết.
+
+có thể trong tương lai các sàn sẽ add thêm nhiều coin mới nhưng trong hiện tại việc mua coin
+không dễ như chúng ta tưởng (kiểu như 1 sàn có tất cả các loại coin)
+
+một số sàn mình đang dùng để bạn cân nhắc:
+
+www.kucoin.com
+www.binance.com
+www.huobi.pro
+www.bittrex.com
+www.etherdelta.com
+www.coss.io
+www.cobinhood.com
+www.cex.io
+www.poloniex.com
+www.quadridga.com
+
+
+kientranhandbook.com
+
+
+kientranhandbook.com
+
+chương viii
+nguyên tắc đầu tư crypto cơ bản nhất
+
+trước khi đi sâu vào crypto cụ thể, mình muốn chúng ta thống nhất một số nguyên tắc đầu tư
+nhất định. mặc dù mình có nói chương trình học tài chính ở trường đh và sách vở hiện nay
+khá lỗi thời. tuy nhiên vẫn có một số kiến thức trường tồn theo thời gian (bởi chúng dựa trên
+toán học và common sense).
+
+ngoài ra thứ không thể thay đổi dù ở bất kỳ thị trường nào. đó là tâm lý con người. cụ thể,
+lòng tham (greed) và sợ hãi (fear).
+
+nguyên tắc 1: mua ethereum
+
+dù bạn sợ rủi ro hoặc tham lam, có một nguyên tắc mình tin là sẽ không bao giờ thay đổi. đó là
+ethereum sẽ không bao giờ xuống giá. thứ duy nhất xuống giá là tiền mặt ban đang giữ. vì vậy
+bạn cần có ethereum càng sớm càng tốt.
+
+ethereum là nền tảng để chạy hàng loạt ứng dụng smart contract và huy động vốn qua icos.
+nó đang dần dần trở nên phổ biến bởi icos và smart contract blockchain sẽ bùng nổ. nó giống
+như internet và email. cho nên, mặc dù đầu tư là sẽ có rủi ro. nhưng nếu bạn bỏ tiền vào
+ethereum, bạn sẽ không bao giờ mất tiền. đây là sự thật.
+
+và dù cho bạn muốn mua các coin khác để đầu tư hoặc đầu cơ, bạn cũng sẽ vẫn phải cần
+ethereum. vì vậy ethereum không bao giờ trong tình trạng cầu giảm. nó chỉ tăng trở lên. tất
+nhiên bạn vẫn có thể mua bitcoin để dùng nó mua các coin khác. tuy nhiên với tốc độ chậm và
+mức phí cao. nhiều người đang chuyển sang ethereum.
+
+nguyên tắc 2: sử dụng ethereum để đầu tư các coin khác = lội ngược
+dòng
+
+chúng ta thường sử dụng eth để mua các coin khác. tuy nhiên nhiều người không nhận ra
+đó là họ đang lội ngược dòng. vì bản thân eth có mức tăng trưởng 13043% trong năm vừa rồi
+(tính theo thời điểm hiện tại).
+
+
+kientranhandbook.com
+
+nếu bạn sử dụng eth để trade các coin khác, thì các coin khác phải có mức tăng trưởng
+nhiều hơn so với eth thì bạn mới thật sự có lãi. nghĩa là ít nhất phải 14000% một năm. nếu
+không bạn thà giữ eth còn hơn. phải không?
+
+sự thật đó là không phải coin nào cũng có mức tăng trưởng 1 năm cao như eth. theo mình,
+chỉ có khoảng nhiều nhất là 10% các coin trên coinmarketcap.com hiện nay làm được điều
+này. vì vậy, nếu bạn “thèm” altcoins. đây là điều bạn cần nhớ. chỉ 10% các coin hiện nay là
+xứng đáng. 90% các coin khác sẽ vẫn tăng nếu xét về usd. nhưng chưa chắc đã tăng nếu xét
+về eth.
+
+bạn có thể thắng về usd. nhưng bạn sẽ vẫn thua người chỉ giữ eth mà không cần làm gì
+khác.
+
+trade eth với các coin khác nghĩa là lội sông ngược dòng.
+
+vì vậy, mục tiêu của bạn như sau. nếu bạn lười research, không có thời gian, và muốn kiếm
+tiền, bạn không cần làm gì khác ngoài việc tích trữ ethereum. chỉ vậy thôi.
+
+nếu bạn tham vọng hơn, thích research, chấp nhận chịu rủi ro hơn, và chấp nhận lội ngược
+dòng, mục tiêu của bạn là tìm ra 10% số coin siêu sao có mức tăng nhiều hơn eth trong một
+năm (nhớ là một năm chứ không phải một tuần hay một tháng – vì có thể hôm nay nó tăng
+400% nhưng ngày mai nó giảm 500%).
+
+nguyên tắc 3: chỉ đầu tư khoản tiền mà bạn chấp nhận mất trắng
+
+nếu bạn bỏ tiền mua ethereum. bạn sẽ không mất trắng. bạn sẽ kiếm.
+
+nhưng nếu bạn dùng eth để trade các coin khác hoặc icos, thì bạn chỉ nên cho eth vào
+icos hoặc vào coins nếu bạn chấp nhận mất trắng chỗ eth đó.
+
+mình giữ khoảng 90% tài sản crypto ở dạng eth và 10% ở dạng altcoin chuyên dùng để
+“đánh bạc” và lội ngược dòng. mình chấp nhận mất trắng 10% này.
+
+ngoài ra mình đã đi làm và có thu nhập, nếu giả sử mình có mất tiền, cuộc sống của mình vẫn
+không bị đảo lộn, nếu bạn không có nhiều thu nhập đều đặn mà chỉ có một khoản nhỏ tiết kiệm
+được mà bạn không muốn mất. hãy để ở dạng eth và đừng làm gì cả.
+
+luôn tự đặt câu hỏi, nếu khoản đầu tư này thua lỗ, liệu cuộc sống của tôi có bị đảo lộn?
+
+nguyên tắc 4: hãy mua sớm
+
+thời gian không chờ đợi bạn. tiền giấy ngày càng xuống giá không phanh. những người mua
+sớm là những người “ăn” của người mua muộn. giống như những ai mua bitcoin hay
+ethereum từ khi giá chỉ có vài usd. thì giờ là lúc họ ăn của những người như chúng ta.
+
+nhiều bạn hỏi tiền ở đâu ra mà lắm thế? câu trả lời:
+1. từ những người vào muộn (dù họ ghét crypto thế nào, cuối cùng họ cũng sẽ vẫn phải
+vào – giống như không ai có thể sống thiếu được google)
+2. từ chính phủ và ngân hàng. khi doanh thu của họ giảm đi, doanh thu của chúng ta tăng
+lên. càng ít bên đứng giữa, giá trị càng nhiều.
+
+
+kientranhandbook.com
+
+nguyên tắc 5: đừng tham khi thị trường xanh
+
+có thể bạn thừa biết đến nguyên tắc này. nhưng bạn không làm được. và bạn biết bạn không
+làm được.
+
+trong giao thông. màu xanh là là màu được phép đi. màu đỏ là dừng lại. màu xanh tượng
+trưng cho sự tăng trưởng và màu đỏ tượng trưng cho vũng máu (lol).
+
+ai mà không sung sướng hạnh phúc và thèm thuồng khi nhìn thấy màu xanh?
+200%, nhân đôi số tiền kìa!
+
+mình muốn bạn lập trình lại tư duy của bạn. đó là màu xanh là màu của vũng
+máu. và màu đỏ là màu của sự phát triển. mình đã chứng kiến nhiều trường hợp
+các bạn mua tron (trx) sau khi thấy giá tăng hơn 100% (xanh lè). hoặc
+siacoin (sc) khi giá tăng 800%. bạn cũng muốn được một phần cái bánh nhưng
+bạn không hiểu ra đó là miếng bánh đã bị ăn hết rồi và nhiều khi, nó là một cái bẫy
+chuột.
+
+bạn chạy vào, bạn sẽ bị họ giết. kể cả bạn không bị giết và nó cũng sẽ tăng nữa,
+thì bạn thử nghĩ xem. liệu bạn còn kiếm được thêm 800% nữa không sau khi nó
+đã tăng 800%?
+
+mình để ý thông thường các bạn chỉ hỏi mình có nên mua coin x y z hay
+không ngay sau khi nó đã tăng một khoản không nhỏ.
+
+hãy sợ hãi khi người khác tham lam. đừng đu đỉnh.
+
+nguyên tắc 6: bạn không thông minh như bạn nghĩ
+
+mình cũng vậy. không ai trong chúng ta đủ thông minh để dự đoán thị trường
+ngày hôm sau và năm sau.
+
+thế nhưng bạn sẽ bất ngờ khi thấy bạn, mình và nhiều người khác tỏ ra họ là
+warren buffett sau khi kiếm được một khoản không nhỏ (khi cả thị trường đi lên).
+họ nghĩ họ là thần đồng đầu tư và sự tự tin, tham lam sẽ làm mờ đi logic và sự
+tỉnh táo vốn có.
+
+ngày hôm sau, thị trường đỏ rực và một số coin họ giữ giảm 40%. họ hoảng loạn
+và nhận ra người tính không bằng trời tính. và hào quang trong bản thân họ ngày
+hôm qua sụp đổ.
+
+thật sự, lời khuyên của mình đó là hãy dũng cảm và mạnh dạn khi nói câu “tôi
+không biết” thay vì tỏ ra biết hết. bản thân mình chỉ đầu tư dựa trên các phân tích
+và nghiên cứu cơ bản (fundamentals) thay vì theo “màu xanh” hay “màu đỏ” của
+thị trường. mặc dù mình cũng không biết và không thông minh như mình nghĩ,
+nhưng việc chúng ta chủ động nghiên cứu sẽ giảm rủi ro và tăng lợi nhuận so với việc thả các
+coin random theo cảm xúc hay theo nghe nói.
+
+
+kientranhandbook.com
+
+nguyên tắc 7: đừng hoảng loạn khi thị trường đỏ
+
+chỉ nên sợ và hoảng loạn màu đỏ nếu coin của bạn là coin rác (shitcoin). bởi shitcoin sớm
+hay muộn cũng sẽ chết dù có tăng vài trăm đến vài ngàn %, cũng sẽ đến ngày
+bị thịt (giống như ngành công nghiệp chăn nuôi vậy). shitcoin sẽ được pump,
+nuôi cho béo tốt sau đó sẽ bị đưa vào lò mổ. màu đỏ thật sự là màu của máu
+và nước mắt.
+
+nhưng nếu bạn đầu tư vào các coin solid (coin cứng). nó đã được test qua
+test lại qua nhiều giai đoạn của thị trường và sống sót. nó được công nhận
+rộng rãi và có tương lai. hoặc nếu không được công nhận rộng rãi, dự án của
+nó mạnh và team là các siêu sao. thì màu đỏ trong ngắn hạn vô nghĩa.
+
+ethereum và bitcoin cũng phải trải qua những ngày xanh, ngày đỏ nhưng sau
+một năm nó vẫn lên. hãy kiên nhẫn và phải nhìn vào dài hạn (ít nhất là 6 tháng,
+còn không là 20 năm).
+
+có một số bạn gửi tin nhắn cho mình khi thấy giá của một số coin giảm trong
+một hôm. hoảng loạn và thắc mắc tại sao. mình thấy rất vô lý. vì sự tăng hay
+giảm trong ngắn hạn không nói lên điều gì.
+
+thậm chí màu đỏ còn là màu sale off cho những coin siêu sao. bạn thích mua
+hàng giá rẻ không? ;)
+
+
+kientranhandbook.com
+
+chương ix
+các nhóm coin
+
+có hơn 1000 coins khác nhau. và mình biết bạn thắc mắc tại sao lại nhiều thế. lý do là bởi
+mỗi coin có chức năng hơi khác nhau và ứng dụng hơi khác nhau. ngoài ra cũng cả một đại
+dương coin lừa đảo (scam) – shitcoins,
+
+để dễ dàng hình dung được vũ trụ crypto (the crypto universe) mình chia ra thành một số
+nhóm chính (tất nhiên bạn có thể chia theo cách riêng của bạn)
+
+nhóm 1:  tiền tệ -- currency coin
+
+bản chất như tiền trong số dư ngân hàng của bạn, dùng để lưu trữ giá trị lao động hoặc giao
+dịch trao đổi hàng hoá. nhưng vượt trội hơn như đã đề cập ở phần trước.
+
+bitcoin, litecoin, dash, zcash, monero, raiblocks, ripple
+
+trong nhóm này, không thể không nhắc đến zcash và nhất là monero bởi tính riêng tư (privacy)
+và bảo mật thông tin tuyệt đối của chúng.
+
+trước đây khi monero chưa xuất hiện và bitcoin lúc này là lựa chọn duy nhất
+trong thế giới crypto. tội phạm và khủng bố ưa thích sử dụng bitcoin để mua
+bán ma tuý, chất cấm hay vũ khí. mỗi khi nhắc đến bitcoin, chúng ta nghĩ
+ngay đến dark web và tội phạm. nhưng ngày nay, hình ảnh xấu về bitcoin
+dần dần biến mất. bởi tội phạm đã không còn ưu tiên bitcoin mà chuyển
+sang monero (hay zcash) bởi tính riêng tư tuyệt đối.
+
+về bản chất, bitcoin không hoàn toàn riêng tư. nó chỉ mã hoá địa chỉ gửi đi và địa chỉ nhận
+(pseudonymous) nhưng vẫn có thể tra được dấu vết và số lượng trên public ledger (sổ cái
+blockchain). nghĩa là tên tuổi, địa chỉ nhà, số điện thoại không hiện ra, nhưng tiền được di
+chuyển từ địa chỉ này qua địa chỉ khác vẫn có thể tra được.
+
+điều monero là được đó là nó giấu hoàn toàn số tiền chuyển, địa chỉ của người gửi và người
+nhận. đó là lý do tội phạm ưa thích loại tiền này (privacy coin). mặc dù mình không phải tội
+phạm và cũng không ủng hộ tội phạm. nhưng mình nghĩ chúng ta ai cũng có quyền muốn riêng
+tư.
+
+nhóm 2:  nền tảng ứng dụng – platform
+
+cryptocurrency chỉ là một nhánh của công nghệ blockchain, một trong
+những ứng dụng của blockchain đó là chạy ứng dụng trên nền tảng
+smart contract – như huy động vốn qua icos
+bạn cứ tưởng tượng coin nền tảng giống như một dạng hệ điều hành trên máy tính hoặc trên
+điện thoại.
+
+ví dụ:
+
+omisego (omg) chạy trên nền tảng ethereum
+deepbrain chain (dbc) chạy trên nền tảng neo
+
+kientranhandbook.com
+
+geo chạy trên nền tảng ubiq
+
+một số coin nền tảng như
+
+ethereum, eos, cardano, neo, ubiq, lisk
+
+nhóm 3: coin ứng dụng – token (decentralized application)
+
+các coin ứng dụng sẽ phát hành ra token (coin) để cho bạn sử dụng
+ứng dụng hay dịch vụ của coin đó.
+
+ví dụ:
+- steem (token) ứng dụng blockchain giúp các thành viên trên trang steem chia sẻ kiến
+thức và xây dựng cộng đồng.
+- vechain (ven) là token ứng dụng blockchain giúp track và chống hàng giả.
+- siacoin (sia) là token ứng dụng blockchain giúp các chia sẻ bộ nhớ ổ cứng.
+- golem (gnt) là token ứng dụng blockchain giúp chia sẻ và trao đổi sức mạnh máy tính.
+
+nôm na, chúng ta sử dụng token để trao đổi với nhau. bạn kiếm token bằng cách cung cấp
+dịch vụ và bạn trả token cho người cung cấp dịch vụ cho bạn. một cách đơn giản nhất, giả sử
+bạn có ổ cứng 4tb bạn không dùng đến? bạn cho người khác “mượn” tạm dung lượng thừa
+này và bạn nhận được sia token.
+
+token giống như vé xe buýt hay vé xem phim. nhưng nó phi tập trung (decentralized) thay vì
+centralized.
+
+nhóm 4: coin sàn – exchange
+
+coin sàn xuất hiện trên mô hình profit-sharing (chia lợi nhuận cho cổ đông)
+
+nếu bạn sở hữu coin sàn, bạn sẽ được hưởng một phần doanh thu của sàn (từ phí giao dịch)
+hoặc bạn sẽ được một số lợi ích nhất định. mình khá thích coin sàn bởi nó cho bạn dòng tiền
+thật. giống như một dạng lãi suất (hay cổ tức – dividends).
+
+đây là hình thức huy động vốn cho sàn và làm cho sàn mở rộng. sàn càng mở rộng, tiền cổ
+tức càng tăng. đôi bên cùng có lợi. và dòng tiền từ phí giao dịch trên sàn khá ổn định.
+
+một số coin sàn như:
+
+kucoin (kcs), binance (bnb), coss (coss), cobinhood (cob)
+
+mặc dù coin sàn khá hấp dẫn, nhưng bạn hãy cẩn thận vì giá trị của nó thường bị thổi phồng,
+giả sử như kucoins giá đã lên tới 20 đô. nghĩa là tổng vốn hoá thị trường rơi vào khoảng 2 tỷ
+usd.
+
+nghe hơi vô lý! đúng là nó có giá trị và cho bạn cash flows thật nhưng. come on,$20/coin???
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

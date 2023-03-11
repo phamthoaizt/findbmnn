@@ -1,0 +1,143 @@
+standard license agreement for icons8
+
+version 1.3.1
+
+introductory
+
+dear customer,
+this is a legal agreement between icons8 and purchasers/users of our services,
+including but not limited to icons and illustrations.  your use, download, or copying of
+an icon, symbol, or any part thereof from our website, constitutes your acceptance of
+the terms of this agreement.
+
+deﬁnitions
+
+for purposes of this license agreement (i.e. “agreement”), “company”, “designer”,
+“licensor”, “we, us, or our” shall be synonymous with icons8; and “you, your” or
+“licensee” shall be synonymous with the customer or users of our services. “icons”,
+“illustrations”, or “graphics” to which this agreement pertains in relation to services
+provided by icons8 shall be synonymous with “licensed materials”, or “licensed
+content”.
+
+license
+
+for valuable consideration, licensor grants to the licensee, a non-transferable, non-
+sublicenseable, and non-exclusive, worldwide license to use the licensed materials for
+permitted uses, as provided herein. all other rights in and to the licensed materials,
+including without restriction, copyright and other intellectual property rights relating to
+the icons, are retained by the licensor, as the case may be.
+
+permitted uses
+
+licensee may, subject to the restrictions on use stated herein,  use, alter, crop, modify,
+or adapt the licensed materials in connection with the following permitted uses:
+• internet and intranet
+• desktop and mobile applications
+• web templates for sale
+• print media (provided that the licensee is not sublicensing, or allowing
+redistribution or re-use of the icons), including but not limited to: advertising and
+promotional materials, editorial publications, and consumer merchandise
+• broadcasts and theatrical exhibitions
+• artworks intended for resale, provided these products are not intended to allow
+the re-distribution or re-use of the licensed materials
+
+prohibited uses
+
+except as provided herein, licensee may not:
+• sublicense, sell, distribute, assign, convey, or otherwise transfer this license, nor any
+of licensee’s rights, duties, or obligations under this agreement;
+• modify, alter, or change any of the terms of this agreement without our company’s
+prior written consent;
+• sell, license, or distribute its ﬁnal product in such a manner that allows others to
+extract or access the licensed content as stand-alone ﬁles;
+• distribute, post, or upload the icons online in a downloadable format or enable the
+licensed material to be accessed, downloaded, or distributed in any manner
+whatsoever;
+• use of the licensed material in any way that infringes upon any copyright, trade
+name, trademark, or service mark;
+• use of the licensed material within a work product for the purpose of creating a
+ﬁnal product in which the licensed materials are going to be used (such as graphic
+editors, rapid prototyping tools and programming ides).
+• ship, transport or export the licensed material into any country, or use the material
+in any manner prohibited by export administration legislation or any other export
+laws, restrictions or regulations.
+
+license usage
+
+a license is issued based upon the number of individual users who will have access to
+the licensed materials.  for purposes of this agreement, licensed materials may be
+downloaded unlimited times by the licensee, on up to three electronic devices, and
+licensee may save only one backup copy of each icon.
+the licensee is required under the terms of this agreement to insert the icons into their
+own personal artwork, or software application.  if the licensee requires distribution of
+the icons to coworkers or team-members in a raw form (such as png, svg, eps, or pdf
+formats), then a separate license may be purchased per user.  please contact customer
+service at: https://icons8.com/contact for additional information on how to purchase
+multiple licenses.
+your use of any licensed content in a manner not permitted under terms of this
+agreement, constitutes copyright infringement, and we shall be entitled to exercise any
+and all rights and remedies in order to enforce these terms.  you understand and agree
+to be liable and responsible for any and all damages resulting from said infringement,
+including but not limited to legal and attorney fees.
+you are responsible for any and all appropriate sales or use tax imposed by any
+government authority or jurisdiction as a result of the license granted to you by icons8.
+
+license expiration
+
+this standard license begins immediately upon the licensee’s acceptance and
+purchase of any licensed material, and is valid for the term speciﬁed within your
+particular licensing package that you agreed to upon purchase  (i.e. “licensing period”).
+this license covers the following aspects of the licensed material:
+• new features, ﬁxes, and improvements to the software and api
+• new icons
+• email support
+
+after expiration and termination of this standard license, the following features shall
+remain and be applicable to:
+• licensed materials created before expiration;
+• using our web and desktop software with the licensed materials created prior to
+expiration;
+
+once terminated or expired, this license agreement shall not apply to:
+• new icons, or newly purchased licensed materials;
+• customer support
+the licensee must obtain another license for any and all newly purchased licensed
+materials.
+
+licensee warranty
+
+the licensee warrants and agrees to be responsible for the licensed materials. under
+the terms of this standard license, licensee shall not permit the unauthorized display,
+distribution, use, or sharing of any licensed materials. the licensee also agrees:
+• to indemnify and hold our company harmless from any and all: actions,
+proceedings, claims, unforeseen third party claims, demands, costs (including
+without restriction any legal costs, fees, or expenses), awards, and damages arising
+directly or indirectly from this agreement, or as a result of any breach or non-
+performance of this agreement by the licensee.
+• not to assign, transfer, or sublicense this agreement, or permit the unauthorized
+use of licensed materials, or any portion thereof for any purpose;
+• not to assign or transfer it’s duties or obligations under this agreement, nor to
+loan, rent, assign, or transfer any licensing rights to any other person or entity;
+• that the licensed materials shall not infringe upon any third party rights
+whatsoever, and any liability for the infringement of third party rights shall rest with
+the licensee.
+
+licensor warranty
+
+pursuant to the terms of this agreement and your purchased license, we warrant that
+the licensed content will not infringe on any copyright, or intellectual property rights
+of any third party.
+you understand and agree that any and all licensed content is
+provided “as is” without representation, warranty or condition of any
+kind, either express or implied, including, but not limited to the implied
+warranties, representations, or conditions of merchantability, or
+fitness for a particular purpose. we do not warrant nor guarantee
+that the content will meet your requirements or that its use will be
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.

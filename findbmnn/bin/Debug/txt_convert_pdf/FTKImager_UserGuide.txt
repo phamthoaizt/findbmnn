@@ -1,0 +1,1003 @@
+accessdata
+ftk imager
+
+user guide
+
+|   1
+
+accessdata legal and contact
+information
+
+document date: march 21, 2012
+
+legal information
+©2012 accessdata group, llc all rights reserved. no part of this publication may be reproduced, photocopied,
+stored on a retrieval system, or transmitted without the express written consent of the publisher.
+accessdata group, llc makes no representations or warranties with respect to the contents or use of this
+documentation, and specifically disclaims any express or implied warranties of merchantability or fitness for any
+particular purpose. further, accessdata group, llc reserves the right to revise this publication and to make
+changes to its content, at any time, without obligation to notify any person or entity of such revisions or changes.
+further, accessdata group, llc makes no representations or warranties with respect to any software, and
+specifically disclaims any express or implied warranties of merchantability or fitness for any particular purpose.
+further, accessdata group, llc reserves the right to make changes to any and all parts of accessdata
+software, at any time, without any obligation to notify any person or entity of such changes.
+you may not export or re-export this product in violation of any applicable laws or regulations including, without
+limitation, u.s. export regulations or the laws of the country in which you reside.
+
+accessdata group, llc.
+384 south 400 west
+suite 200
+lindon, utah 84042
+u.s.a.
+www.accessdata.com
+
+accessdata trademarks and copyright information
+accessdata® is a registered trademark of accessdata group, llc.
+distributed network attack® is a registered trademark of accessdata group, llc.
+dna® is a registered trademark of accessdata group, llc.
+forensic toolkit® is a registered trademark of accessdata group, llc.
+ftk® is a registered trademark of accessdata group, llc.
+password recovery toolkit® is a registered trademark of accessdata group, llc.
+prtk® is a registered trademark of accessdata group, llc.
+registry viewer® is a registered trademark of accessdata group, llc.
+
+accessdata legal and contact information    legal information |   2
+
+a trademark symbol (®, ™, etc.) denotes an accessdata group, llc. trademark. with few exceptions, and
+unless otherwise notated, all third-party product names are spelled and capitalized the same way the owner
+spells and capitalizes its product name. third-party trademarks and copyrights are the property of the trademark
+and copyright holders. accessdata claims no responsibility for the function or performance of third-party
+products.
+third party acknowledgements:
+freebsd ® copyright 1992-2011. the freebsd project .
+aff® and afflib®   copyright® 2005, 2006, 2007, 2008 simson l. garfinkel and basis technology
+corp. all rights reserved.
+copyright © 2005 - 2009 ayende rahien
+
+documentation conventions
+in accessdata documentation, a number of text variations are used to indicate meanings or actions. for
+example, a greater-than symbol (>) is used to separate actions within a step. where an entry must be typed in
+using the keyboard, the variable data is set apart using [variable_data] format. steps that required the user to
+click on a button or icon are indicated by bolded text. this italic font indicates a label or non-interactive item in
+the user interface.
+a trademark symbol (®, ™, etc.) denotes an accessdata group, llc. trademark. unless otherwise notated, all
+third-party product names are spelled and capitalized the same way the owner spells and capitalizes its product
+name. third-party trademarks and copyrights are the property of the trademark and copyright holders.
+accessdata claims no responsibility for the function or performance of third-party products.
+
+registration
+the accessdata product registration is done at accessdata after a purchase is made, and before the product is
+shipped. the licenses are bound to either a usb security device, or a virtual cmstick, according to your
+purchase.
+
+subscriptions
+accessdata provides a one-year licensing subscription with all new product purchases. the subscription allows
+you to access technical support, and to download and install the latest releases for your licensed products during
+the active license period.
+following the initial licensing period, a subscription renewal is required annually for continued support and for
+updating your products. you can renew your subscriptions through your accessdata sales representative.
+use licensemanager to view your current registration information, to check for product updates and to download
+the latest product versions, where they are available for download. you can also visit our web site,
+www.accessdata.com anytime to find the latest releases of our products.
+for more information, see managing licenses in your product manual or on the accessdata web site.
+
+accessdata contact information
+your accessdata sales representative is your main contact with accessdata group, llc. also, listed below are
+the general accessdata telephone number and mailing address, and telephone numbers for contacting
+individual departments.
+
+accessdata legal and contact information    documentation conventions |   3
+
+mailing address and general phone numbers
+you can contact accessdata in the following ways:
+
+table 1-1  ad mailing address, hours, and department phone numbers
+corporate headquarters: accessdata group, llc.
+384 south 400 west
+suite 200
+lindon, ut 84042 usa
+voice: 801.377.5410
+fax: 801.377.5426
+general corporate hours: monday through friday, 8:00 am – 5:00 pm (mst)
+accessdata is closed on us federal holidays
+state and local voice: 800.574.5199, option 1
+law enforcement sales: fax: 801.765.4370
+email: sales@accessdata.com
+federal sales: voice: 800.574.5199, option 2
+fax: 801.765.4370
+email: sales@accessdata.com
+corporate sales: voice: 801.377.5410, option 3
+fax: 801.765.4370
+email: sales@accessdata.com
+training: voice: 801.377.5410, option 6
+fax: 801.765.4370
+email: training@accessdata.com
+accounting: voice: 801.377.5410, option 4
+
+technical support
+free technical support is available on all currently licensed accessdata products.
+you can contact accessdata customer and technical support in the following ways:
+
+table 1-2  ad customer & technical support contact information
+domestic support americas/asia-pacific
+standard support: monday through friday, 5:00 am – 6:00 pm (mst),
+except corporate holidays.
+voice: 801.377.5410, option 5
+voice: 800.658.5199 (toll-free north america)
+email: support@accessdata.com
+after hours phone support: monday through friday 6:00 pm to 1:00 am (mst),
+except corporate holidays.
+voice: 801.377.5410, option 5
+after hours email-only support: monday through friday 1:00 am to 5:00 am (mst),
+except corporate holidays.
+email: afterhours@accessdata.com
+international support europe/middle east/africa
+standard support: monday through friday, 8:00 am – 5:00 pm (uk-
+london), except corporate holidays.
+voice: +44 207 160 2017 (united kingdom)
+email: emeasupport@accessdata.com
+
+accessdata legal and contact information    accessdata contact information |   4
+
+table 1-2  ad customer & technical support contact information (continued)
+after hours support: monday through friday, 5:00 pm to 1:00 am (uk/
+london), except corporate holidays.
+voice: 801.377.5410  option 5*.
+after hours email-only support: monday through friday, 1:00 am to 5:00 am (uk/
+london), except corporate holidays.
+email: afterhours@accessdata.com
+other
+web site: http://www.accessdata.com/support
+the support web site allows access to discussion
+forums, downloads, previous releases, our
+knowledgebase, a way to submit and track your
+“trouble tickets”, and in-depth contact information.
+ad summation americas/asia-pacific:
+800.786.2778 (north america).
+415.659.0105.
+email: support@summation.com
+standard support: monday through friday, 6:00 am– 6:00 pm (pst),
+except corporate holidays.
+after hours support: monday through friday by calling 415.659.0105.
+after hours email-only support: between 12am and 4am (pst) product support is
+available only by email at
+afterhours@accessdata.com.
+ad summation casevault 866.278.2858
+email: support@casevault.com
+monday through friday, 8:00 am – 6:00 pm (est),
+except corporate holidays.
+ad summation discovery cracker 866.833.5377
+email: dcsupport@accessdata.com
+support hours: monday through friday, 7:00 am – 7:00 pm (est,
+except corporate holidays.
+
+note:   all support inquiries are typically responded to within one business day. if there is an urgent need for
+support, contact accessdata by phone during normal business hours.
+
+documentation
+please email accessdata regarding any typos, inaccuracies, or other problems you find with the documentation:
+documentation@accessdata.com
+
+professional services
+the accessdata professional services staff comes with a varied and extensive background in digital
+investigations including law enforcement, counter-intelligence, and corporate security. their collective
+experience in working with both government and commercial entities, as well as in providing expert testimony,
+enables them to provide a full range of computer forensic and ediscovery services.
+at this time, professional services provides support for sales, installation, training, and utilization of ftk, ftk
+pro, enterprise, ediscovery, and lab. they can help you resolve any questions or problems you may have
+regarding these products
+
+accessdata legal and contact information    professional services |   5
+
+contact information for professional services
+contact accessdata professional services in the following ways:
+
+table 1-3  accessdata professional services contact information
+contact method number or address
+phone washington dc: 410.703.9237
+north america: 801.377.5410
+north america toll free: 800-489-5199, option 7
+international: +1.801.377.5410
+email adservices@accessdata.com
+
+accessdata legal and contact information    professional services |   6
+
+table of contents
+
+accessdata legal and contact information .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .2
+legal information .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .2
+accessdata trademarks and copyright information  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .2
+documentation conventions .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .3
+registration .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .3
+subscriptions .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .3
+accessdata contact information .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .3
+mailing address and general phone numbers .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .4
+technical support  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .4
+documentation .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .5
+professional services  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .5
+contact information for professional services  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .6
+
+table of contents  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .7
+chapter 1  overview and installation of
+ftk imager.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+ftk imager .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+installing ftk imager  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+installing locally .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
+installing to a portable device.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+running ftk imager .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+command line options .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+
+chapter 2  the ftk imager user interface .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14
+the ftk imager ui .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14
+menu bar  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14
+file menu.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14
+view menu .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 15
+mode menu  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+help menu .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+toolbar .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+view panes .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+evidence tree pane  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+file list pane  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+combination pane  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+
+table of contents     |   7
+
+viewer.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 20
+
+chapter 3  working with evidence .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+previewing evidence .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+preview modes .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+automatic mode .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+text mode  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+hex mode  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+adding evidence items  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+adding a single evidence item  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+adding all attached devices .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+image mounting  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+benefits of image mounting .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+characteristics of a logically mounted image .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+characteristics of a physically mounted image  .  .  .  .  .  .  .  .  .  .  .  .  .  . 23
+mounting an image .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 24
+removing evidence  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 26
+removing a single evidence item  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 26
+removing all evidence items  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 27
+obtaining protected registry files .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 27
+acquiring protected registry files on a local machine .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 27
+accessing registry files from a drive image  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 28
+using encrypted images  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 28
+detecting efs encryption  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 28
+ad encryption  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 29
+aff encryption .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 30
+
+chapter 4  ftk imager output files  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 31
+creating forensic images.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 31
+imaging complete drives or partitions .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 31
+creating custom content images.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 38
+exporting from ftk imager .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 42
+exporting forensic images .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 42
+exporting files .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 42
+exporting by sid .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 43
+exporting file hash lists .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 45
+evidence item information.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 46
+exporting directory listings  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 48
+decrypting ad1 images.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 48
+verifying drives and images .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 49
+importing sets of files.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 50
+
+table of contents     |   8
+
+appendix a  file systems and
+drive image formats  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 52
+file systems  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 52
+whole disk encrypted .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 52
+hard disk image formats.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 53
+cd and dvd image formats.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 53
+
+appendix b  using a
+logicube device  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 54
+integrating a logicube forensic md5 .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 54
+creating an image file with the logicube forensic md5 .  .  .  .  .  .  .  .  .  .  .  .  .  . 54
+formatting the logicube forensic md5 internal hard drive  .  .  .  .  .  .  .  .  .  .  .  . 55
+using the logicube forensic md5 internal drive as a usb drive .  .  .  .  .  .  .  .  . 55
+accessing the logicube forensic md5 compact flash drive as a usb drive  . 55
+viewing the logicube forensic md5 hardware information  .  .  .  .  .  .  .  .  .  .  .  . 55
+
+appendix c  using a
+fernico device  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 56
+integrating a fernico far system .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 56
+accessing the fernico far system from imager.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 56
+
+table of contents     |   9
+
+chapter 1  overview and installation of
+ftk imager
+
+ftk imager
+ftk® imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if
+further analysis with a forensic tool such as accessdata® forensic toolkit® (ftk) is warranted. ftk imager can
+also create perfect copies (forensic images) of computer data without making changes to the original evidence.
+with ftk imager, you can:
+create forensic images of local hard drives, floppy diskettes, zip disks, cds, and dvds, entire folders, or
+individual files from various places within the media.
+preview files and folders on local hard drives, network drives, floppy diskettes, zip disks, cds, and dvds
+preview the contents of forensic images stored on the local machine or on a network drive
+mount an image for a read-only view that leverages windows explorer to see the content of the image
+exactly as the user saw it on the original drive.
+export files and folders from forensic images.
+see and recover files that have been deleted from the recycle bin, but have not yet been overwritten on
+thedrive.
+create hashes of files using either of the two hash functions available in ftk imager: message digest 5
+(md5) and secure hash algorithm (sha-1).
+generate hash reports for regular files and disk images (including files inside disk images) that you can
+later use as a benchmark to prove the integrity of your case evidence. when a full drive is imaged, a hash
+generated by ftk imager can be used to verify that the image hash and the drive hash match after the
+image is created, and that the image has remained unchanged since acquisition.
+important:  when using ftk imager to create a forensic image of a hard drive or other electronic device,
+be sure you are using a hardware-based write-blocker. this ensures that your operating
+system does not alter the original source drive when you attach it to your computer.
+to prevent accidental or intentional manipulation of the original evidence, ftk imager makes a bit-for-bit
+duplicate image of the media. the forensic image is identical in every way to the original, including file slack and
+unallocated space or drive free space. this allows you to store the original media away, safe from harm while the
+investigation proceeds using the image.
+after you create an image of the data, you can then use accessdata forensic toolkit (ftk) to perform a
+complete and thorough forensic examination and create a report of your findings.
+
+installing ftk imager
+ftk imager can be installed to the computer where it will be used, or it can be run from a portable device such
+as a usb thumb drive connected to a machine in the field, so there is no need to install it on a suspect’s
+computer in order to capture its image.
+
+chapter 1 overview and installation of ftk imager    ftk imager |   10
+
+installing locally
+install ftk imager to a local hard drive when you intend to attach evidence hardware to that computer for
+previewing and imaging evidence.
+to install ftk imager
+1.   browse to the ftk imager setup file, either from an installation disc, or from the saved file downloaded
+from http://accessdata.com/support/adownloads. the following is an example of what you will find on the
+web site, however, the version number and its md5 hash number will change.
+
+figure 3-1 accessdata web site: imager downloads
+
+2.   under utilities, look for ftk imager. click download to download the latest released version.
+3.   click save file.
+4.   browse to the location where you wish to save the install file, and click save.
+5.   when the download is complete, browse to the location where it was saved.
+6.   execute the setup file by double-clicking it.
+7.   on the welcome screen, click next.
+8.   read and accept the license agreement, then click next.
+9.   do one of the following:
+accept the default installation location.
+browse to a different destination folder.
+10.   click next.
+11.   in the ready to install screen, click next.
+12.   do one of the following:
+mark the launch accessdata ftk imager box to force imager to run immediately after the install is
+complete.
+leave the box unmarked to run the newly installed program at a later time.
+note:  on ms windows server 2008r2 running user account control (uac), marking the launch box
+does nothing. you must manually run ftk imager after installation.
+13.   click finish to complete the installation and close the wizard.
+
+chapter 1 overview and installation of ftk imager    installing ftk imager |   11
+
+installing to a portable device
+there are two ways to use imager on a portable device:
+copy the ftk imager lite files directly to the device, avoiding installing to a local computer first.
+unzip the downloaded files to the portable drive and execute the file from there.
+the ftk imager lite program has fewer files (only the essentials) and does not require a separate
+installation, although you must unzip the downloaded file to extract its contents into a folder before use.
+run the installation on a local computer, then copy the ftk imager folder from the [drive]:\program
+files\accessdata\ftk imager to the thumb drive or other portable device.
+once the ftk imager program files are saved to the portable media, that media can be connected to any
+computer running a windows os, and the program file,
+ftk imager.exe can be executed from the portable media device.
+with either method, you will need to make a target drive available for saving the imaged data, and a reliable
+write-blocker must still be used.
+
+running ftk imager
+ftk imager can be run in a variety of ways:
+
+double-click on the desktop icon .
+execute the ftk imager.exe file from a thumb drive.
+click start > run > browse. browse to and select ftk imager.exe from the location it was installed to,
+and add a command line switch as discussed below.
+
+command line options
+ftk imager supports three command line options:
+/createdirlisting
+creates a directory listing file in the folder where ftk imager.exe is run from.
+sample:
+"ftk imager.exe" /createdirlisting e:\precious.e01
+/verifyimage
+verifies an image when you specify the image path and filename.
+sample:
+"ftk imager.exe" /verifyimage e:\precious.e01
+/enabledebuglog
+enables logging to the ftkimagedebug.log file created in the folder you run ftk imager.exe from.
+sample:
+"ftk imager.exe" /enabledebuglog
+note:  if you fail to specify an image when using the /createdirlisting
+or /verifyimage options, an error message appears indicating no image was found.
+to run ftk imager using the command line options
+1.   close ftk imager, then from the windows start menu, click run.
+2.   in the run text box, browse to the path and folder containing ftk imager.exe, then click open.
+
+chapter 1 overview and installation of ftk imager    running ftk imager |   12
+
+3.   at the end of the resulting text line:
+3a.   add one space before the option you wish to use
+3b.   type the option to use.
+3c.   add another space and any corresponding data.
+3d.   click ok.
+
+chapter 1 overview and installation of ftk imager    running ftk imager |   13
+
+chapter 2  the ftk imager user
+interface
+
+this chapter discusses the ftk imager user interface and options.
+
+the ftk imager ui
+the ftk imager user interface is divided into several panes; each is dockable. the evidence tree, file list,
+properties, hex value interpreter, custom content sources panes, menu, and toolbar can all be undocked and
+resized to best fit your needs. each can be re-docked individually, or you can reset the entire view for the next
+investigation.
+to undock a pane or toolbar
+select it and click and drag its title bar to the desired location.
+to re-dock a pane or toolbar
+drag the pane inside the ftk imager window until an outline shape snaps into place in the desired
+position, then release the pane.
+to return all panes to their original positions
+select view > reset docked windows.
+
+menu bar
+use the menu bar to access all the features of ftk imager. the menu bar is always visible and accessible.
+there are four items on the menu bar. they are discussed in detail in this section.
+
+file menu
+the file menu provides access to all the features you can use from the toolbar.
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   14
+
+figure 4-1 the file menu
+
+see toolbar (page 16).
+
+view menu
+the view menu allows you to customize the appearance of ftk imager, including showing or hiding panes and
+control bars.
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   15
+
+figure 4-2 the view menu
+
+mode menu
+the mode menu lets you select the preview mode of the viewer. each of the viewing modes is
+discussed in more detail in chapter 3. see preview modes (page 21).
+
+figure 4-3 the mode menu
+
+help menu
+the help menu provides access to the ftk imager user guide, and to information about the program version
+and so forth.
+
+figure 4-4 the help menu
+
+toolbar
+the toolbar contains all the tools, functions, or features, that can be accessed from the file menu, except exit.
+the following table provides basic information on each feature.
+
+table 4-1  ftk imager toolbar components
+button description
+add evidence item
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   16
+
+table 4-1  ftk imager toolbar components (continued)
+button description
+add all attached devices
+
+image mounting. opens the map image to drive dialog.
+
+remove evidence item
+
+remove all evidence items
+
+create disk image
+
+export disk image
+
+export logical image (ad1)
+
+add to custom content image (ad1)
+
+create custom content image (ad1)
+
+verify drive/image
+
+capture memory
+
+metacarve (deep scan)
+
+obtain protected files
+
+detect efs encryption
+
+export files
+
+export file hash list
+
+export directory listing
+
+choose ie, text, or hex viewer automatically
+
+view files in plain text
+
+view files in hex format
+
+open ftk imager user guide
+
+show or hide panels. choose to show or hide the toolbar, evidence tree, file
+list, properties, hex value interpreter, and/or custom content sources
+panes.
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   17
+
+view panes
+there are several basic view panes in ftk imager. they are described in this section.
+
+evidence tree pane
+the evidence tree pane (upper-left pane) displays added evidence items in a hierarchical tree. at the root of the
+tree are the selected evidence sources. listed below each source are the folders and files it contains.
+click the plus sign  next to a source or folder to expand the view to display its sub folders.
+click the minus sign  next to an expanded source or folder to hide its contents.
+when you select an object in the evidence tree, its contents are displayed in the file list. the properties of the
+selected object, such as object type, location on the storage media, and size, are displayed in the properties
+pane. any data contained in the selected object is displayed in the viewer pane.
+
+file list pane
+the file list pane shows the files and folders contained in whichever item is currently selected in the evidence
+tree. it changes as your selection changes.
+
+combination pane
+ftk imager’s lower-left pane has three tabs: properties, hex value interpreter, and custom content sources.
+each is described here.
+
+properties
+the properties tab displays a variety of information about the object currently selected in either the evidence
+tree or the file list.
+
+figure 4-5 the properties tab
+
+properties include information such as object type, size, location on the storage media, flags, and time stamps.
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   18
+
+hex value interpreter
+the hex value interpreter tab converts hexadecimal values selected in the viewer into decimal integers and
+possible time and date values.
+
+figure 4-6 the hex value interpreter tab
+
+to convert hexadecimal values, highlight one to eight adjacent bytes of hexadecimal code in the viewer. a
+variety of possible interpretations of the selected code are automatically displayed in the hex value interpreter.
+
+this feature is most useful if you are familiar with the internal code structure of different file types and know
+exactly where to look for specific data patterns or time and date information.
+
+custom content sources
+each time you add an item to be included in a custom content image, it is listed here.
+
+figure 4-7 the custom content sources tab
+
+you can add, edit, and remove one or all sources, and create the image from here.
+click edit to open the wild card options dialog box.
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   19
+
+figure 4-8 wild card options
+
+for more information, see creating custom content images (page 38).
+
+viewer
+the viewer shows the content of the currently selected file, based on the preview mode selected: natural, text,
+or hex. see preview modes (page 21) for more information.
+the content can be scrolled through so you can see the entire file content. in addition, with hex mode selected,
+and the combo pane hex value interpreter open, the hex interpretation of text selected in the viewer pane can
+be viewed simultaneously.
+
+chapter 2 the ftk imager user interface    the ftk imager ui |   20
+
+chapter 3  working with evidence
+
+use ftk imager to preview evidence prior to creating the image file(s). you can then choose to image the entire
+evidence object, or choose specific items to add to a custom content (ad1) image. this chapter discusses
+working with evidence and using ftk imager to accomplish the creation of forensic images that meet your exact
+needs.
+
+previewing evidence
+evidence items can be previewed prior to deciding what should be included in an image. beginning with ftk
+imager 3.0 support is included for vxfs, exfat, and ext4 file systems.
+w a r n i n g:  if the machine running ftk imager has an active internet connection and you are using imager to
+preview html content from the systems cache, there is a potential risk associated with microsoft
+security bulletin ms-09-054. accessdata recommends that, wherever possible, users not have an
+active internet connection while imager is running.
+
+preview modes
+ftk imager offers three modes for previewing electronic data: automatic mode, text mode, and hex mode.
+these modes are selectable from the mode menu, or from the toolbar, as introduced in chapter 2. each is
+described in more detail here.
+
+automatic mode
+automatic mode automatically chooses the best method for previewing a file’s contents, according to the file
+type. for example:
+web pages, web-related graphics (jpegs and gifs), and any other media types for which internet
+explorer plug-ins have been installed are displayed by an embedded version of internet explorer in the
+viewer.
+text files are displayed in the viewer as ascii or unicode characters.
+file types that cannot be viewed in internet explorer are displayed outside of ftk imager in their native
+application provided those applications are installed locally, and the appropriate file associations have
+been configured in windows.
+file types that cannot be viewed in internet explorer and that do not have a known native viewer are
+displayed by default in hexadecimal mode in the viewer.
+
+text mode
+text mode allows you to preview a file’s contents as ascii or unicode characters, even if the file is not a text file.
+this mode can be useful for viewing text and binary data that is not visible when a file is viewed in its native
+application.
+
+chapter 3 working with evidence    previewing evidence |   21
+
+hex mode
+hex mode allows you to view every byte of data in a file as hexadecimal code. you can use the hex value
+interpreter to interpret hexadecimal values as decimal integers and possible time and date values.
+note:  preview modes apply only when displaying file data. the data contained in folders or other non-file
+objects is always displayed in hexadecimal format.
+
+adding evidence items
+you can add a single evidence item, or several at one time. these procedures are explained in this section.
+
+adding a single evidence item
+to add an evidence item to the evidence tree
+1.   do one o f the following:
+click file > add evidence item.
+click the add evidence item button  on the toolbar.
+2.   select the source type you want to preview, then click next.
+3.   select the drive or browse to the source you want to preview, then click finish.
+the evidence item appears in the evidence tree.
+4.   repeat these steps to add more evidence items.
+
+adding all attached devices
+to add data from all of the devices attached to a machine
+do one of the following:
+click file > add all attached devices.
+click the add all attached devices button  on the toolbar.
+the add all attached devices function, also known as auto-mount, scans all connected physical and logical
+devices for media. if no media is present in an attached device such as a cd- or dvd-rom or a dvd-rw, the
+device is skipped.
+
+image mounting
+new beginning in version 3.0 of ftk imager, image mounting allows forensic images to be mounted as a drive
+or physical device, for read-only viewing. this action opens the image as a drive and allows you to browse the
+content in windows and other applications. supported types are raw/dd images, e01, s01, aff, ad1, and l01.
+full disk images raw/dd, e01, and s01 can be mounted physically. partitions contained within full disk images,
+as well as custom content images of ad1 and l01 formats can be mounted logically. the differences are
+explained in this section.
+note:  ad encrypted images can now be mounted as either a drive or a physical device. other types of
+encrypted images are not supported for mounting as either a drive or physical device.
+
+chapter 3 working with evidence    adding evidence items |   22
+
+benefits of image mounting
+the ability to mount an image with ftk imager provides the following benefits, and  you may find others as you
+use the feature:
+mount a full disk image with its partitions all at once; the disk is assigned a physicaldriven name and the
+partitions are automatically assigned a drive letter beginning with either the first available, or any
+available drive letter of your choice.
+read a full disk image mounted physically, and assigned a physical drive n name using imager or using
+any windows application that performs physical name querying.
+read and write to the mounted image using a cache file. the original content is not altered.
+mount images of multiple drives and/or partitions. the mounted images remain mounted until unmounted
+or until imager is closed.
+easily unmount mounted images in any order, individually or all at once.
+view a logically mounted image in windows explorer as though it were a drive attached to the computer,
+providing the following benefits:
+view file types with windows associations in their native or associated application, when that
+application is installed locally.
+run anti-virus applications on the mounted image.
+share and view the logically mounted image as a drive in windows explorer from remote computers
+when remote access has been configured correctly.
+copy files from the mounted image to another location.
+
+prevent files from being copied into the mounted image from another location. (because the image is
+read-only, there is no worry that a remote user, or any user, viewing the image will make a change that
+would render the data invalid.)
+
+characteristics of a logically mounted image
+ad1 and l01 are both custom content images, and contain full file structure, but do not contain any drive
+geometry other other physical drive data. thus, these images do not have the option of being mounted
+physically.
+note:  when logically mounting an image, the drive or partition size displays incorrectly in the windows start >
+computer view. however, when you open the “drive” from there, the folders and files contained within the
+mounted image do display correctly.
+
+characteristics of a physically mounted image
+when you mount an image physically, while it cannot be viewed by windows explorer, it can be viewed outside
+of imager using any windows application that performs physical name querying.
+e01, s01, aff, and 001 (raw/dd) images are drive images that have the disk, partition, and file structure as
+well as drive data. a physical disk image can be mounted physically; and its disk image partition(s) can be
+mounted logically.
+
+chapter 3 working with evidence    adding evidence items |   23
+
+mounting an image
+to mount an image
+1.   if you already have the desired image added as evidence in the imager evidence list, select that item,
+then do step 2 to auto-populate the source box with the image file to be mounted, as shown in step 3.
+if you do not already have the desired image added as evidence, begin with step 2.
+2.   do one of the following:
+click file >image mounting.
+click the image mounting  button on the toolbar.
+3.   type in the path and filename, or click browse to populate the source box with the path and filename of
+the image to be mounted.
+after selecting an image, the mount type will default to the supported mapping based on the image type
+selected. click the drop-down to display other available mount types.
+
+figure 5-1 mount image to drive
+
+4.   select the mount type to use for mounting.
+
+figure 5-2 mount image to drive: select mount type
+
+available mount types are physical & logical, physical only, and logical only.
+if the mount type selected includes logical, you can select the drive letter to assign as the mount point.
+5.   click the drive letter drop-down to see all drive letters that are available for assignment to the mounted
+image
+
+chapter 3 working with evidence    adding evidence items |   24
+
+figure 5-3 mount image to drive: select drive letter
+
+6.   select the drive letter to use for this mounting.
+7.   click the mount method drop-down to select from the available mount methods.
+
+figure 5-4 mount image to drive: select mount method
+
+available mount methods are shown and described in the following table:
+
+table 5-1  mount image: mount methods
+mount method description
+block device/read only reads the device as a block device, meaning that the mounted device must be
+viewed using any windows application that performs physical name querying
+block device/writable allows you to write to the evidence, make notes, and so forth. the changes and
+notations are saved in a cache file, but no changes are made to the original. if
+selected, provide path information for the cache file in the write cache folder field.
+file system/read only reads the device as a read-only device that you can view using windows explorer.
+
+8.   select the mount method to use for this mounting.
+9.   when all mount options are selected, click mount.
+all the related mount information will be displayed in the mapped image list.
+
+chapter 3 working with evidence    adding evidence items |   25
+
+figure 5-5 mount image to drive: mapped image list
+
+to mount another image, repeat the process. you can continue to mount images as needed, until you
+run out of evidence to add, or mount points to use. mounted images remain available until unmounted, or
+until imager is closed.
+10.   click close to return to ftk imager.
+
+unmounting an image
+to unmount a mounted image
+1.   click file > image mounting.
+2.   in the mount image to drive dialog box, highlight the image to unmount.
+3.   click unmount.
+4.   click done to close the mount image to drive dialog and return to ftk imager.
+to unmount multiple mappings
+1.   choose one of the following:
+click the first, then shift-click the last to select a block of contiguous mappings.
+click a mapping in the list, then ctrl-click individual mappings to select multiple non-contiguous
+mappings.
+click and drag to select multiple mounted images.
+2.   click done to close the mount image to drive dialog and return to ftk imager.
+
+removing evidence
+when required, evidence items can be removed individually, or altogether. both methods are discussed in this
+section.
+
+removing a single evidence item
+you can remove evidence items individually, or start over again by removing all evidence at once.
+to remove an evidence item
+1.   in the evidence tree, select the evidence item you want to remove.
+
+chapter 3 working with evidence    removing evidence |   26
+
+note:  you must select the entire evidence item to remove it; you cannot remove only part of an item.
+2.   do one of the following:
+click file > remove evidence item
+click the remove evidence item button  on the toolbar.
+the evidence item is removed from the evidence tree.
+
+removing all evidence items
+to remove all evidence items at once
+do one of the following:
+click file > remove all evidence items
+click the remove all evidence items button   on the toolbar.
+all evidence items are removed from the evidence tree.
+
+obtaining protected registry files
+the windows operating system does not allow you to copy or save live registry files. without ftk imager, users
+have had to image their hard drive and then extract the registry files, or boot their computer from a boot disk
+and copy the registry files from the inactive operating system on the drive. ftk imager provides a much easier
+solution. it circumvents the windows operating system and its file locks, thus allowing you to copy the live
+registry files.
+
+acquiring protected registry files on a local machine
+you can acquire the protected registry files using ftk imager running on the machine whose registry files you
+need.
+to acquire protected registry files on a local machine
+1.   launch ftk imager.
+2.   do one of the following:
+click file > obtain protected files.
+click the obtain protected files  button on the toolbar.
+3.   specify a destination directory.
+4.   select the option that suits your needs:
+minimum files for login recovery: retrieves users, system, and sam files from which you can
+recover a user’s account information.
+password recovery and all registry files: retrieves users, system, sam, ntuser.dat, default,
+security, software, and userdiff files from which you can recover account information and possible
+passwords to other files. this list can also be imported to the accessdata password recovery tools,
+such as prtk, and dna.
+5.   click ok.
+ftk imager exports the selected files to the designated location.
+6.   add the files to the case.
+
+chapter 3 working with evidence    obtaining protected registry files |   27
+
+7.   to open the registry files, do one of the following:
+click file > registry viewer.
+right-click a registry file in the file list, then select registry viewer.
+note:  these steps will not acquire protected files from a drive image; only from the live system running
+imager. see the directions below to acquire protected files from a drive image.
+
+accessing registry files from a drive image
+to access the protected registry files from a drive image using ftk imager
+in xp
+1.   navigate to [drive]:\documents and settings\[username]\.
+2.   export
+ ntuser.dat
+3.   navigate to [drive]:\windows\system32\config\.
+4.   export the following files:
+sam
+system
+software
+
+security
+in vista
+1.   navigate to [drive]:\users\[username]\
+2.   export
+ ntuser.dat
+3.   navigate to [drive]:\windows\system32\config\
+4.   export the following files:
+sam
+system
+software
+security
+regardless of the operating system, export the files to an accessible location (where you have rights and
+permissions), then add/open them one at a time in registry viewer.
+
+using encrypted images
+ftk imager can work with images that are encrypted with either efs or ad encryption.
+the use of encrypted images is discussed below.
+
+detecting efs encryption
+you can check for encrypted data on a physical drive or an image with ftk imager. the following figure
+represents a view of detected efs-encrypted files:
+
+chapter 3 working with evidence    using encrypted images |   28
+
+figure 5-6 detected efs encrypted files
+
+to detect encrypted files
+1.   do one of the following:
+click file > detect encryption.
+click the detect encryption button  on the toolbar.
+the program scans the evidence and notifies you if encrypted files are located. as illustrated in the figure
+above, efs encrypted files are indicated by a key icon, , in the evidence tree.
+note:  this feature does not work with .l01 files.
+
+ad encryption
+ftk imager 3.0 and later has the ability to encrypt data during export to an image. this feature is know as ad
+encryption.
+supported image types are:
+ad1 (ad custom content)
+e01 (encase compatible)
+s01 (smart)
+aff (advanced forensic format)
+001 (raw/dd)
+
+chapter 3 working with evidence    using encrypted images |   29
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

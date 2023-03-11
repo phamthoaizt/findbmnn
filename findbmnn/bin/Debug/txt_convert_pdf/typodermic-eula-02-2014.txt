@@ -1,0 +1,51 @@
+typodermic fonts inc. end user license agreement (02-2014)
+this is a legal contract. please read it before installing the fonts. if you don’t
+accept this agreement, don’t install the fonts. this end user license agreement
+(hereinafter “agreement”) is a legal agreement between you, or, if you represent a legal
+entity, that legal entity (hereinafter “you”) and typodermic fonts inc. (hereinafter
+“typodermic”). by installing the fonts, you accept this agreement. “fonts” means the fonts
+(i.e. font software) specified in your invoice or included with this agreement. this
+agreement covers free fonts as well as fonts for sale.
+1. installation
+1.1: your invoice indicates the number of workstations on which you may install the fonts.
+the basic license is for 1-5 workstations. if you need to use the fonts on more workstations
+than your invoice states, you must purchase an upgrade. any number of printers or output
+devices may be used. the licensed workstations need not be at the same business location.
+1.2: apart from the workstations licensed, you may also install the fonts on a network
+server. the number of workstations licensed means each and every workstation where the
+fonts will be used, not just the maximum number on a network that might possibly use it at
+any one time.
+1.3: for every workstation for which you are licensed, you may also install the fonts on a
+portable (laptop) computer, phone, tablet and/or a home computer, provided the fonts are
+not used on the secondary computer(s) at the same time. at home, you may not install the
+fonts on the computers of other family members.
+1.4: if the fonts are free, you may distribute the fonts within the same company or
+household, provided this license agreement is included.
+2. copyright
+2.1: you have not bought the fonts: you are licensed to use them, by the terms and
+conditions of this agreement. typodermic fonts inc. retains title and all copyrights to the
+fonts, and all copies and adaptations thereof in whatever media. the fonts are intellectual
+property, containing proprietary information and valuable trade secrets, and as such they are
+protected by the copyright laws of many nations, and by international treaties. you may not
+copy the fonts, except as specified in this agreement.
+2.2: archival copies of the fonts may be made.
+2.3: you may provide a copy of the fonts to your service bureau or commercial printer, with
+the job files for output, but only if you are assured that the fonts will be used only for
+outputting your files and will be deleted subsequently.
+2.4: embedding of the fonts in documents (e.g. pdf files) is permitted for viewing and
+printing, but not for editing. if someone at a remote location wants to edit a document
+which contains embedded fonts, they must purchase their own license. internal corporate
+documents with embedded fonts may of course be edited on licensed workstations.
+2.5: you may not rent, lease, sub-license, distribute, disseminate, give away or lend the
+fonts. you may permanently transfer the fonts provided the recipient accepts the terms of
+this agreement, and if you delete all your copies of the fonts.
+2.6: you may modify typesetting produced by the fonts in any way you see fit. you may
+also modify the fonts for your own personal or internal business use, but you may not
+distribute, or transfer your adaptations; for instance, (a) you may not make customized
+versions of the fonts for use by your clients, (b) you may not adapt, or merge the fonts to
+create hybrid fonts for resale. each workstation where a modified font is installed shall be
+counted as one of your permitted number of users.
+
+typodermic fonts inc. end user license agreement (02-2014) page 1 of 2
+
+coreated with a trial version of docotic.pdf.

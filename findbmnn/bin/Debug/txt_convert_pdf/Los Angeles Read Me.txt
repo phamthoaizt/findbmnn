@@ -1,0 +1,12 @@
+thank you for purchasing los angeles!
+here are a few tips real quick before you dive in:
+non-english characters are available via the glyphs panel.
+in a few cases with multiple-weight fonts, there have been installation issues where not all fonts
+will remain installed at the same time (i.e. los angeles regular will install, but los angeles bold
+will overwrite it). although this hasn’t happened often, i’ve included a workaround in the
+“workaround” folder where each font is its own independent version instead of a variant. if you
+have any installation issues, try this workaround to see if it ﬁxes the problem.
+if you have any other questions, comments, or need anything else, i’m happy to chat via
+creative market or you can email me at jenwagner93@gmail.com
+enjoy!
+jen

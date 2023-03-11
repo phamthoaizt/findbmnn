@@ -1,0 +1,407 @@
+abbyy® finereader 14
+
+guía de inicio rápido
+
+esta guía de inicio rápido le ofrece información básica sobre el uso de abbyy finereader. para ver el
+manual completo del usuario, visite http://help.abbyy.com/. si ya ha iniciado abbyy finereader, puede
+acceder al manual completo del usuario pulsando f1 o seleccionando el elemento del menú ayuda.
+
+guía de inicio rápido .......................................................................................................................................................................... 1
+
+introducción de abbyy finereader .............................................................................................................................................. 2
+
+requisitos del sistema ....................................................................................................................................................................... 3
+
+formatos de archivo admitidos ..................................................................................................................................................... 3
+
+instalar abbyy finereader ............................................................................................................................................................... 3
+
+iniciar abbyy finereader ................................................................................................................................................................. 4
+
+trabajar con abbyy finereader .................................................................................................................................................... 4
+
+la pantalla tarea nueva ................................................................................................................................................................ 4
+
+trabajar con documentos pdf ................................................................................................................................................... 6
+
+convertir documentos ................................................................................................................................................................... 8
+
+conversión rápida ....................................................................................................................................................................... 8
+
+conversión avanzada ............................................................................................................................................................... 10
+
+ajustar las áreas de reconocimiento .................................................................................................................................. 12
+
+comparar documentos ............................................................................................................................................................... 12
+
+conversión de documentos automatizada ......................................................................................................................... 14
+
+activar y registrar abbyy finereader ........................................................................................................................................ 16
+
+confidencialidad de los datos ...................................................................................................................................................... 16
+
+© 2017 abbyy production llc. todos los derechos reservados.
+
+abbyy® finereader 14
+guía de inicio rápido
+
+introducción de abbyy finereader
+
+abbyy finereader 14 es su solución perfecta para trabajar con documentos impresos y archivos pdf de
+cualquier tipo, y le ofrece un potente reconocimiento óptico de caracteres (ocr) y capacidades de
+creación y revisión de documentos pdf.
+
+características clave
+
+ digitalice y convierta documentos en papel y pdf a formatos editables (incluidos microsoft® word,
+microsoft excel®, pdf que permite la búsqueda y mucho más) para su posterior edición y
+reutilización.
+
+ trabaje con cualquier tipo de pdf, incluidas digitalizaciones de documentos.
+con abbyy finereader, podrá:
+
+o editar texto e imágenes
+
+o realizar búsquedas de texto completo en el texto de sus documentos y dentro de los comentarios,
+marcadores y metadatos.
+
+o añadir, eliminar y volver a ordenar páginas en los documentos pdf
+
+o citar fácilmente fragmentos de las digitalizaciones o fotos del documento
+
+o firmar documentos con una firma digital
+
+o proteger documentos pdf con contraseñas
+
+o eliminar información delicada
+
+o añadir comentarios y notas
+
+o crear documentos pdf adecuados para el almacenamiento a largo plazo
+
+o completar formularios pdf
+
+ comparar dos versiones del mismo documento.*
+las dos versiones no tienen por qué tener el mismo formato de archivo. por ejemplo, puede
+comparar un documento de texto y su imagen, o puede comparar una digitalización y su versión en
+microsoft word. abbyy finereader encontrará automáticamente las diferencias entre los dos textos,
+que pueden revisarse fácilmente elemento por elemento o guardarse en un archivo.
+
+ convierta automáticamente documentos usando abbyy hot folder.*
+abbyy hot folder es una aplicación de programación que procesa automáticamente los
+documentos almacenados en carpetas definidas por el usuario.
+
+* no disponible en algunas ediciones de abbyy finereader. para más información visite el sitio web:
+www.abbyy.com/finereader
+
+2
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+requisitos del sistema
+
+requisitos mínimos:
+
+ sistema operativo:
+
+o  microsoft® windows® 10 / 8.1 / 8 / 7
+
+o  microsoft windows server® 2016 / 2012 / 2012 r2 / 2008 r2
+
+ procesador de 1 ghz o más rápido x86 o x64 con el conjunto de instrucciones sse2
+
+ 1 gb de ram (recomendado: 4 gb de ram)
+
+en sistemas de varios núcleos, se requieren 512 mb de ram adicionales por cada núcleo de cpu.
+
+ 1,2 gb de espacio en el disco duro para instalar abbyy finereader localmente y 850 mb para
+ejecutar el programa
+
+ tarjeta de vídeo y monitor con una resolución de al menos 1024x768
+
+ conexión a internet para activar su número de serie
+
+formatos de archivo admitidos
+
+entrada:
+
+ documentos pdf, incluidos pdf/a
+
+ archivos de imagen: tiff, jpeg, jpeg 2000, jbig2, png, bmp, pcx, gif, djvu, xps*
+
+ documentos de texto editables:** doc(x), xls(x), ppt(x), vsd(x), html, rtf, txt, odt, ods, odp
+
+salida:
+
+ documentos pdf, incluidos pdf/a
+
+ archivos de imagen: tiff, jpeg, jpeg 2000, jbig2, png, bmp, pcx, djvu
+
+ documentos de texto editables: doc(x), xls(x), pptx, html, rtf, txt, csv, odt
+
+ formatos de ebook: epub, fb2
+
+* requiere microsoft .net framework 4.0.
+
+** para crear documentos pdf a partir de documentos de texto editables, tendrá que tener la versión adecuada de
+microsoft office o apache openoffice instalada en su equipo.
+
+instalar abbyy finereader
+
+3
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+para instalar abbyy finereader 14, inicie el archivo setup.exe de la carpeta que contiene los archivos de
+configuración, y siga las instrucciones del programa de instalación.
+
+puede instalar abbyy finereader 14 en varias estaciones de trabajo*. para obtener más instrucciones,
+consulte el manual del administrador del sistema.
+
+* no disponible en algunas ediciones de abbyy finereader. para más información visite el sitio web:
+www.abbyy.com/finereader
+
+iniciar abbyy finereader
+
+para iniciar abbyy finereader 14, realice una de las siguientes acciones:
+
+ haga clic en iniciar un programa>abbyy finereader 14 (en windows 10, haga clic en
+>todas las aplicaciones>abbyy finereader 14)
+
+ en windows explorer, haga clic con el botón derecho en un archivo en cualquiera de los formatos
+compatibles y luego haga clic en abrir con abbyy finereader 14 en el menú contextual, o haga
+clic en el formato de destino deseado.
+
+trabajar con abbyy finereader
+
+en esta sección se describen las tareas más comunes que pueden resolverse con abbyy finereader.
+
+la pantalla tarea nueva
+
+cuando inicia abbyy finereader, tarea nueva se abre una ventana en la que se muestran las tareas más
+comunes que puede necesitar cuando trabaja con documentos. si no ve tarea nueva la ventana (por
+ejemplo, si la ha cerrado o ha iniciado una tarea de abbyy finereader concreta haciendo clic con el botón
+derecho en un archivo en el explorador de windows), siempre puede abrirla haciendo clic en tarea nueva
+el icono en la barra de herramientas principal.
+
+4
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+para comenzar a procesar un documento, seleccione una tarea:
+
+1. en el panel izquierdo:
+
+ haga clic en abrir si ya tiene documentos que desea procesar.
+
+ haga clic en digitalizar si necesita digitalizar primero documentos en papel.
+
+ haga clic en comparar si desea comparar dos versiones del mismo documento.
+
+ haga clic en recientes para reanudar el trabajo sobre un documento pdf o proyecto ocr guardado
+previamente.
+
+2. en el panel derecho, haga clic en la tarea que desea realizar en su documento.
+
+para su comodidad, cuando pasa el cursor del ratón sobre una tarea, aparece una ventana emergente
+que enumera las situaciones más comunes que cubre esa tarea.
+
+5
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+los ajustes para todas las tareas de abbyy finereader se especifican en opciones el cuadro de diálogo.
+para abrir este cuadro de diálogo, haga clic opciones en la parte inferior del panel izquierdo.
+
+trabajar con documentos pdf
+
+abbyy finereader ofrece una amplia gama de potentes funciones para trabajar con todo tipo de
+documentos pdf, incluidas digitalizaciones pdf, que le permiten ver, buscar y editar su contenido.
+
+ver documentos pdf y comentar en ellos
+
+en la ventana tarea nueva haga clic en abrir y luego haga clic en abrir documento pdf. el documento
+se abrirá en un editor de pdf, donde podrá revisarlo y añadir sus comentarios.
+
+están disponibles los siguientes paneles de navegación y herramientas:
+
+6
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+para añadir sus comentarios, utilice las siguientes herramientas de revisión:
+
+ añadir nota
+
+ resaltar, subrayar, tachar, insertar texto
+
+ herramientas de dibujo, que le permiten dibujar líneas, flechas y formas
+
+editar documentos pdf
+
+para editar un documento pdf, utilice estas herramientas de edición:
+
+7
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+proteger documentos pdf
+
+con abbyy finereader, podrá:
+
+completar formularios pdf
+
+abbyy finereader le permite completar, guardar e imprimir formularios pdf.
+
+para completar un formulario pdf, seleccione un valor o introduzca texto en los campos en blanco (estos
+campos normalmente estarán resaltados).
+
+si no hay campos resaltados, utilice cuadro de texto la herramienta para escribir texto en el formulario.
+
+convertir documentos
+
+abbyy finereader ofrece dos tipos de conversión:
+
+ conversión rápida, para convertir documentos al formato deseado. también puede usar los ajustes
+de conversión predeterminados o especificar los suyos propios. el documento se guardará
+automáticamente en la carpeta que usted elija.
+
+ conversión avanzada, para convertir documentos en el editor de ocr y realizar cualquier ajuste
+necesario antes de guardar el resultado de la conversión.
+
+consejo.  utilice la conversión avanzada para documentos grandes con distribuciones complicadas y para
+tareas no triviales.
+
+conversión rápida
+
+la pestaña abrir en la pantalla de inicio contiene tareas que le permiten convertir documentos pdf o
+archivos de imagen en otros formatos, o crear documentos pdf desde documentos en otros formatos.
+
+8
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+1. haga clic en la pestaña abrir y luego haga clic en la tarea que desea realizar:
+
+ convertir a pdf crea un documento pdf desde archivos en otros formatos (*.pdf, *.docx, *.html,
+*.jpeg y muchos más) o combina varios archivos en un documento pdf.
+
+ convertir a microsoft® word crea un documento word desde un pdf o archivo de imagen, o
+combina varios archivos en un documento word.
+
+ convertir a microsoft excel® crea una hoja de cálculo excel desde un pdf o archivo de imagen,
+o combina varios archivos en una hoja de cálculo excel.
+
+ convertir a otros formatos convierte pdf y archivos de imagen en algunos de los formatos de
+documentos más comunes, como *.odt, *.pptx, .*epub, *.html y muchos más.
+
+9
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+2. en el cuadro de diálogo seleccionar archivos para convertir seleccione los archivos que desea
+convertir.
+
+3. especifique los ajustes de conversión.
+
+estos ajustes determinan el aspecto y las propiedades del documento de salida.
+
+4. añada o elimine archivos si es necesario.
+
+5. seleccione combinar todos los archivos en un solo documento y ordene los archivos en el orden
+deseado si necesita combinar todos sus archivos seleccionados en un documento.
+
+6. haga clic en el botón convertir a <formato>.
+
+7. especifique una carpeta de destino para el archivo de salida.
+
+una vez completada la tarea, el archivo resultante se colocará en la carpeta que haya especificado.
+
+conversión avanzada
+
+la conversión avanzada le permite trazar áreas ocr manualmente, comprobar el texto reconocido,
+entrenar el programa para que reconozca caracteres y fuentes no estándares, y usar otras funciones
+avanzadas para conseguir la máxima calidad de ocr y conversión.
+
+1. para iniciar la conversión avanzada, realice una de las siguientes acciones:
+
+ haga clic en tarea nueva>abrir>abrir en editor de ocr
+
+ haga clic en tarea nueva>herramientas>editor de ocr
+
+ en el editor de pdf, haga clic en herramientas>editor de ocr
+
+10
+
+
+abbyy® finereader 14
+guía de inicio rápido
+
+consejo.  puede usar el editor de ocr para que se abra automáticamente cada vez que inicie abbyy
+finereader. para conseguir esto, haga clic en tarea nueva>herramientas>opciones, en el cuadro de
+diálogo que se abre, haga clic en general la pestaña, y debajo de al iniciarse el editor de ocr,
+seleccione abrir un nuevo proyecto de ocr o abrir el último proyecto de ocr usado.
+
+2. en el cuadro de diálogo que se abre, seleccione los archivos que desea procesar.
+
+por defecto, el programa comenzará a analizar y reconocer el documento automáticamente. puede
+cambiar este comportamiento en procesamiento de imágenes la pestaña del opciones cuadro de
+diálogo (haga clic en herramientas >opciones... para abrir este cuadro de diálogo).
+
+3. en el panel imagen revise las áreas de reconocimiento detectadas y edítelas si es necesario.
+
+4. si ajusta la posición o tipo de cualquier área, asegúrese de hacer clic en el reconocer en la barra
+de herramientas principal.
+
+5. en el panel texto revise el texto reconocido y edítelo si es necesario.
+
+11
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.

@@ -1,0 +1,16 @@
+font manual
+
+1.
+access opentype features in adobe illustrator and adobe indesign
+
+go to window > type > opentype  (alt+shift+ctrl+t). in the opentype panel,
+simply click on the button to activate the opentype feature that you like.
+
+2.
+access all alternate characters in adobe illustrator and adobe indesign
+
+go to window > type > glyphs . the default on the ‘show’ dropdown list bar
+should be ‘entire font’, you can change it to every features that you like. you
+can also select a character on the font and then change the show list to
+‘alternates for current selection’ to access alternate characters that available for
+that character.

@@ -1,0 +1,95 @@
+the end user license agreement (eula)
+
+this eula applies to paid fonts. when you will download our free font , please read free font
+license agreement. when you will download bebas neue, bebas kai , please follow sil open
+font license 1.1. we recommend you keep a copy of these agreement for future reference.
+
+a. general:
+
+please read this legal agreement(the “eula”, “license” or “agreement”) between the end user
+(“you” or “licensee” ) and dharma type carefully before purchasing, downloading, installing or
+using dharma type font software (“font” or “software”). by installing or using the font, you
+are agreeing to be bound by the terms of this agreement. this agreement is common to flat-it,
+holiday type and prop-a-ganda.
+
+b. grant of license:
+
+this dharma type font, the design of the font embodied in it and the name of the font are the
+exclusive property of dharma type, and all rights not granted to you herein are specifically
+reserved to dharma type. this font is licensed, not sold to you, and this license does not trans-
+fer any right in the designs produced by the font, or in the font itself. the font and all copies
+made of it remain the property of dharma type. you are granted the non-exclusive, terminable
+and nontransferable right to use the font. the use of the font must be in accordance with the
+following terms and conditions.
+
+c. installation and number of users:
+
+the maximum number of simultaneous users and installable devices(workstation and laptop,
+or portable device used as a substitute for a workstation type computer) is specified when the
+font was purchased by the licensee. the default number of both are five (5). all users must be-
+long to the same company or household purchasing the font. you may install and use the font
+on a single file server for use on a single local area network (“lan”) provided that the use of the
+font is limited to the users and the number of users authorized under this agreement.
+
+d. multi-user license:
+
+additional licensing is required if the font is being used by or being installed on more than the
+authorized number of users or devices as specified when the font was purchased. it is able to
+purchase multi-user license through most distributers at a discounted price.
+
+e. permissions and restrictions:
+
+e1 – use of the font
+you may use the font in the creation of static images, vector outlines, bitmaps and graphic files
+(e.g. gif, jpg, png) for your personal and professional use in printings such as, but not limited
+
+to, book cover, logos, letterheads, business cards, business forms, banners, presentations, and
+artwork on clothed, toys and packaging that you or your clients are selling. and you may also
+use in the creation of rasterized images for web sites.
+
+e2 – third parties
+you may provide the font to a graphic designer, web designer, software designer, printer or oth-
+er service bureau that is working on your behalf only if they agree to use the font exclusively
+for your work, agree to the terms of this license, and retain no copies of the font on completion
+of the work or purchase their own license for continued use of the font. you may not provide
+the font to these parties for any other purpose. you may not provide the font nor make it ac-
+cessible to any other third parties.
+
+e3 – modifications
+you may import characters from the font as graphical objects into a drawing program and
+modify such graphical objects. you may modify the font solely for your own use. the modified
+font will be covered by the terms of this agreement. you may convert the font to other font
+format such as ttf and ps solely for your own use. the converted font will be covered by
+the terms of this agreement. the modified or converted font may not be sold or distributed.
+under no circumstances will dharma type be responsible to any end user, whether licensed,
+authorized or not, for the performance of any user modified or converted font nor will dhar-
+ma type support any user modified or converted font. converting to web font format such as
+woff and eot or using ttf with @font-face linking is not allowed. you may purchase web font
+license and can be provided web font service from most of distributors.
+
+e4 – back-up
+you may make a single back-up copy of the font for archival purposes only. upon termination
+of this agreement, you must destroy the original and any copies of the font.
+
+e5 – document embedding
+you may embed the font into pdf files provided that “subsetting” is employed to minimize as
+far as possible the number of the font characters being embedded and the document creat-
+ed is set to “print and preview” so that they cannot be edited, altered, enhanced or modified
+in any way or by any person other than an authorized user. you may also embed the font into
+other electronic documents (such as, but not limited to, ms word, ms powerpoint files and
+flash) in “print and preview” format only. editable embedding may requires an additional licens-
+ing for each recipient of the document and font files.
+
+e6 – web embedding
+a separate licensing is required in order to convert the font into any web font format (such as
+woff and eot) for the purpose of embedding the font into internet web sites. you may pur-
+chase web font license and available web font cloud service from our partners.
+
+e7 – epub or e-book embedding
+additional licensing is required in order to embed the font into commercial electronic publica-
+tions (such as files of epub, azw and pdf for commercial publications).
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

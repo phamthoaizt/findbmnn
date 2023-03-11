@@ -1,0 +1,42 @@
+fontlab font table nicky laatz
+font: chinupbuttercupextrachar 11/12/2017 10:15
+page 1/1
+
+.notdef eth eth lslash lslash scaron scaron yacute yacute ht lf thorn thorn cr zcaron zcaron
+
+0
+dle dc1 dc2 dc3 dc4 onehalf onequarter onesuperior threequartersthreesuperiortwosuperior brokenbar minus multiply rs us
+
+space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash
+
+1 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+zero one two three four ﬁve six seven eight nine colon semicolon less equal greater question
+
+32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+at a b c d e f g h i j k l m n o
+
+48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63
+p q r s t u v w x y z bracketleft backslash bracketright asciicircum underscore
+
+64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79
+grave a b c d e f g h i j k l m n o
+
+80 81 82 83 2 3 4 5 84 85 86 87 88 6 7 8
+p q r s t u v w x y z braceleft bar braceright asciitilde del
+
+9 89 10 11 12 13 14 15 90 16 91 92 93 94 95
+adieresis aring ccedilla eacute ntilde odieresis udieresis aacute agrave acircumﬂex adieresis atilde aring ccedilla eacute egrave
+
+ecircumﬂex edieresis iacute igrave icircumﬂex idieresis ntilde oacute ograve ocircumﬂex odieresis otilde uacute ugrave ucircumﬂex udieresis
+
+dagger degree cent sterling section bullet paragraph germandbls registered copyright trademark acute dieresis notequal ae oslash
+
+inﬁnity plusminus lessequal greaterequalyen mu partialdiff summation product pi integral ordfeminine ordmasculineomega ae oslash
+
+questiondownexclamdownlogicalnot radical ﬂorin approxequaldelta guillemotleft guillemotrightellipsis uni00a0 agrave atilde otilde oe oe
+
+endash emdash quotedblleft quotedblrightquoteleft quoteright divide lozenge ydieresis ydieresis fraction euro guilsinglleft guilsinglrightﬁ ﬂ
+
+daggerdbl periodcenteredquotesinglbasequotedblbaseperthousandacircumﬂex ecircumﬂex aacute edieresis egrave iacute icircumﬂex idieresis igrave oacute ocircumﬂex
+
+apple ograve uacute ucircumﬂex ugrave dotlessi circumﬂex tilde macron breve dotaccent ring cedilla hungarumlautogonek caron

@@ -1,0 +1,451 @@
+  
+
+(kèm theo công văn số702/cattt-vncertcc ngàyã2/6/2021
+của cục an toàn thông tin)
+
+1. quy định chung
+1.1. các bên liên quan
+
+- chủ quản hệ thống thông tin là cơ quan báo chí có thẩm quyền quần lý
+trực tiếp đối với hệ thống thông tin vận hành website, trang báo điện tử, tạp chí
+điện tử.
+
+- đơn vị vận hành hệ thống thông tin là tổ chức/doanh nghiệp/bộ phận được
+chủ quản hệ thống thông tin giao nhiệm vụ vận hành hệ thống thông tin bị sự có
+tấn công mạng.
+
+- bộ phận ứng cứu sự có tại chỗ (gọi là bộ phận ứng cứu sự cố) là bộ phận
+do chủ quản hệ thống thông tin thành lập và giao nhiệm vụ ứng cứu, xử lý sự có
+tấn công mạng.
+
+creatmdbvit#nce tpia a@r&inepot ioggiicp2gám các cơ
+
+quan, tổ chức, doanh nghiệp chịu sự điều phối ứng cứu sự cố của cục an toàn
+thông tin (cục attt) theo quyết định số 05/2017/qđ-ttg ngày 16/3/2017 của
+thủ tướng chính phủ.
+
+1.2. thông tin liên hệ cục an toàn thông tin
+
+trung tâm ứng cứu khẩn cấp không gian mạng việt nam (vncert/co):
+- địa chỉ: tầng 5, tòa nhà 115 trần duy hưng, cầu giấy, hà nội
+
+- website: wvww.vncert.gov.vn.
+
+- email: ir@vncert.vn.
+
+- số điện thoại đường dây nóng 0869 100317 (thoại, sms, viber, zalo).
+
+^ cô
+
+
+2. lược đồ quy trình ứng cứu, xử lý khẩn cấp sự cố tấn công mạng
+
+ 
+
+thành phân tham giá
+
+ 
+
+chủ tì: đơn vị vận hành
+phối hợp: bộ phận ứng cứu sự cố,
+cục an toàn thông tin.
+
+ 
+
+ 
+
+cấu hình hệ thống, thiết bị đề ghi log,
+giám sát hệ thống
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+1. phát hiện, báo cáo sự có
+
+ 
+
+"v7
+
+ 
+
+ 
+
+thởi gian thực hiện
+
+ 
+
+do cục attt cônh bóo——
+
+ 
+
+ 
+
+- thu thập thông tín, log..
+
+- báo cáo tình hình cho và chủ quản hệ thắng và bộ
+phận ứng cứu sự cễ.
+
+- báo cáo sự cố về cục attt (theo mẫu)
+
+- thực hiện các tác vụ khác theo quy trình ứng cứu
+
+yêu |attt
+cều | - cữ đầu mối phối hợp (tên, vị trí, số di động, email)
+
+- gửi xác nhận đã nhận được cảnh báo về cục
+
+- cung cắp thông in sự cố (theo mẫu)
+
+tốiđa 06h
+
+ 
+
+ 
+
+ 
+
+ 
+
+nội bộ.
+
+ 
+
+  
+
+không xóc định được nguyên nhôn,
+hình thức tấn công hoặc
+không tự xử lý được
+
+7. xác định hình thức tắn công
+mức độ khẳn cắp
+
+ 
+    
+
+chú trì: độ phận ứng cứu sự cổ
+phối hợp: đơn vị vận hành, cục an tự phân th, xử lý được
+toàn thông tn y
+
+- kiếm tra, theo dối nội dung trên website; kêm tra log
+hệ thống, ứng dụng.
+- theo dõi, đánh giá lưu lượng trên các hệ thống giám
+
+ 
+
+sát, trên log. , .
+lị ễ gay với cục attt để được hỗ trợ phân tối đa 03h
+- kiểm tra dấu hiệu bắt thường của dữ liệu, cầu hình, tải những lui
+khoăn trên hệ thống. z*
+
+- 8ao lưu dữ liệu phục vụ điều tra sự cố. trung - cung cấp đầy đủ thông tin về sự cổ cho cục attt
+
+hợp cần thiết, thực hiện cô lập hệ thống.
+- thực hiện các tác vụ khác theo quy trình ứng cứu nội
+bộ.
+
+ 
+
+ 
+
+ 
+
+docotic.pdt.
+
+tự xử lý, khôi phục được
+
+createtywjy3ttal,versio
+
+lọ
+công, giãm thiểu tác động của cuộc tắn công.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+chủ trì: độ phận ứng cứu sự có không tiếp tục tốida99h
+phối hợp: đơn vị vận hành, cục an - yêu cầu nhà cung cấp dịch vụ đường truyền hỗ trợ tự xử lý được
+người: co điều hướng lưu lượng, chặnlọc nguồn tắn công, tăng ————— —í
+9 băng thông, tài nguyên tạm thời.
+- để nghị các nhà cung cấp dịch vụ hỗ trợ các công cụ,
+giải pháp, thiết bị, nhân sự tham gia ứng cứu sự cố.
+- thực hiện các tác vụ khác theo quy trình ứng cứu nội
+bộ.
+14. điều phối ứng cứu sự có.
+cục attt thực hiện:
+chú tì: cục an toàn thông tín v. th ôh x0 sn
+phốihợp: bộ phận ứng cứu sự cổ, - điều phối bộ phận ứng cứu. bộ phận vận hành của tối đa 09h
+
+'đơn vị vận hành, thành viên mạng. chữ quản hệ thống thông tin thực hiện các tác vụ ứng
+lưới cứu sự cổ ban đầu, khôi phục hệ thống.
+
+- điều phối isp cung cấp tạm thời băng thông, đường
+truyền (nếu cẩn).
+
+- điều phối dn atttm khôi ph
+xác minh, truy vết sự có (nếu c¿ bh
+
+- điều phối đơn vị chuyên trách về ứng cứu sự cổ, sỡ
+thông tin và truyền thông có liên quan tham gia ứng
+cứu (nếu cần). |
+
+- điều phỗi thành viên mạng lưới khác (nấu cẳn)
+
+- hướng dẫn khắc phục, phòng ngừa sự cố tái diễn
+
+hệ thống, phân tích,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+5. kết thúc xử lý sự có
+
+- thực hiện các nghiệp vụ nhằm phân tích xác mình :
+chuyên sâu về mg tổi đa 6h
+- gửi báo cáo kết thúc sự cố về cho cục attt qua
+email.
+
+- thực hiện các tác vụ khác theo quy trình ứng cứu nội
+bộ.
+
+e==sscsec=cio=—=-s-xoesl-.suosoosecsessskseseus † essgeeoeeepssvovtgosedeereheroheee-or roehieseeeoheesuenes
+
+6. khắc phục, phòng ngừa sự cố tái diễn 7. hỗ trợ sau sự có
+
+cục an toàn thông tin hỗ trợ:
+- khắc phục lỗ hỗng, điểm yếu,
+- tăng cường giải pháp bảo vệ, phòng ngừa. - hỗ trợ, tiếp tục theo dối kết quã khắc phục.
+- rà soát quy trình ứng cứu, khắc phục các điểm yếu - khuyến nghị biện pháp khắc phục lỗ hỗng gây ra sự
+trong quy trình. cố.
+
+chủ tả: bộ phận ứng cứu sự cổ
+phối hợp: đơn vị vận hành
+
+ 
+
+ 
+
+ 
+
+chủ trì: bộ phận ứng cứu sự cốvà
+cục an toàn thông tin
+phối hợp: đơn vị vận hành
+
+do đơn vị chủ quản
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+4
+3. mô tả các bước trong quy trình ứng cứu, xử lý sự cố tấn công mạng
+
+hệ thống thông tin phải thường xuyên rà quét và thực hiện cấu hình hệ thống,
+thiết bị đề lưu nhật ký (log), giám sát hệ thống.
+
+1.1 phát hiện, báo cáo sự cổ
+
+a) bộ phận chủ trì: đơn vị vận hành
+
+b) bộ phận phối hợp: bộ phận ứng cứu sự cố tại chỗ, cục an toàn thông tin.
+c) nội dung công việc:
+
+(c1) đồi với sự có tự phát hiện được, thực hiện:
+
++ thu thập thông tin, log: dấu hiệu sự cố, thu thập log (ứng dụng, thiết bị
+mạng, thiết bị bảo mật,...) phục vụ xác định nguyên nhân, nguồn gốc và đưa ra
+giải pháp xử lý sự cố.
+
++ báo cáo tình hình cho chủ quản hệ thống thông tin và bộ phận ứng cứu sự
+
+co.
+
++ báo cáo sự có chỉ tiết về cục attt (mẫu báo cáo khẩn cấp sự có tấn công
+mạng tham khảo kèm theo).
+
++ thực số các tác vụ khác theo quy trình ứn eöc sự có cc
+c;ssied,witha.jal version of doootie.đöt.
++ gửi xác nhận đã nhận được cảnh báo về cục attt.
++ cử đầu mồi phối hợp (họ tên, chức vụ, số di động, email).
++ thực hiện các hoạt động như nội dung tại (c1).
+d) thời gian thực hiện: tối đa 06 giờ (h).
+1.2 xác định hình thức tắn công, mức độ khẩn cấp
+a) bộ phận chủ trì: bộ phận ứng cứu sự có
+b) bộ phận phối hợp: đơn vị vận hành, cục attt.
+c) nội dung công việc:
+(c1) trường hợp bộ phận ứng cứu tự phân tích, xử lý được:
+mm kiểm tra, theo dõi nội dung trên hệ thống, website; kiểm tra log (ứng dụng,
+thiệt bị mạng, thiết bị bảo mật....).
+- theo dõi, đánh giá lưu lượng trên các hệ thống giám sát, trên log đề đánh
+giá tình hình, phát hiện sự bất thường.
+- rà soát, kiểm tra dấu hiệu bất thường của dữ liệu, cấu hình, tải khoản trên
+hệ thông.
+
+
+đ
+
+- trên cơ sở đó xác định hình thức tân công và mức độ khân cấp của sự cô.
+
+- sao lưu dữ liệu phục vụ xác minh, truy vết sự cố. trong trường hợp cần
+thiết, thực hiện cô lập hệ thống.
+
+- thực hiện các nội dung khác theo quy trình nội bộ.
+
+(c2) trường hợp bộ phận ứng cứu sự cổ không tự phân tích, xử lý được:
+- liên hệ ngay với cục attt đề được hỗ trợ phân tích.
+
+- cung cấp đầy đủ các thông tin về sự có theo yêu cầu của cục attt.
+d) thời gian thực hiện: tối đa 03h
+
+1.3 ứng cứu sự cố, khôi phục hệ thống
+
+a) bộ phận chủ trì: bộ phận ứng cứu sự cố
+
+b) bộ phận phối hợp: đơn vị vận hành, cục attt.
+
+(e1) trường hợp tiếp tục tự xử lý được
+
+- căn cứ vào sự cố và hình thức tắn cống thực hiện cấu hình các hệ thống đề
+chặn lọc các nguồn tần công, giảm thiểu tác động của cuộc tấn công và khôi phục
+lại hệ thống.
+
+crpùtedlewittà gntrifl dre rgidmhbf,[3oøotj9npje...có liên
+
+quan hỗ trợ các công cụ, giải pháp, thiết bị, nhân sự tham gia ứng cứu sự có.
+
+- yêu cầu nhà cung cấp dịch vụ đường truyền hỗ trợ điều hướng lưu lượng,
+chặn/lọc nguồn tấn công, tăng băng thông, tài nguyền tạm thời (nếu cần).
+
+- thực hiện các nội dung khác theo quy trình nội bộ.
+
+(c2) trường hợp không tiếp tục tự xử lý được
+
+- liên hệ ngay với cục attt để được hỗ trợ phân tích, đánh giá tình trạng.
+- cung cấp đầy đủ các thông tin về sự cổ theo yêu cầu của cục attt.
+
+- thời gian thực hiện: tối đa 09h.
+
+1.4 điều phối ứng cứu sự cố
+
+trong trường hợp cần thiết, cục attt thực hiện điều phối ứng cứu sự cố.
+a) bộ phận chủ trì: cục attt.
+
+b) bộ phận phối hợp: bộ phận ứng cứu sự cố, đơn vị vận hành, thành viên
+mạng lưới.
+
+c) nội dung công việc:
+
+căn cứ trên tình hình thực tế, cục attt sẽ:
+
+⁄49⁄
+
+
+6
+
+- điều động lực lượng kỹ thuật của cục attt đề hướng dẫn các tác nghiệp
+ứng cứu, xử lý sự có, khôi phục hệ thống từ xa hoặc thực hiện ứng cứu, xử lý sự
+có, khôi phục hệ thống ngay tại hiện trường.
+
+- điều phối các đơn vị chuyên trách về ứng cứu sự có có liên quan trực tiếp
+thực hiện ứng cứu khân cấp sự cố.
+
+- điều phối đơn vị vận hành, bộ phận ứng cứu (gồm cả các doanh nghiệp/tổ
+chức cung cấp dịch vụ) cung cấp thông tin, thực hiện các tác nghiệp ứng cứu, xử
+lý sự cố và khôi phục hệ thống.
+
+- điều phối thành viên mạng lưới là các doanh nghiệp cung cấp hạ tầng
+internet có liên quan đề hỗ trợ tạm thời băng thông, đường truyền (nếu cần).
+
+- điều phối thành viên mạng lưới là các doanh nghiệp cung cấp dịch vụ an
+toàn thông tin mạng tham gia công tác ứng cứu, xử lý, khôi phục hệ thống, phân
+tích, xác minh, truy vết sự cổ (nếu cần).
+
+- điều phối thành viên mạng lưới là sở tt&tt tỉnh, thành phố liên quan;
+các đơn vị chuyên trách về ứng cứu sự cố và các thành viên mạng lưới khác tham
+gia ứng cứu, xử lý sự cổ (nếu cân).
+
+- hướng dẫn khắc phục, phòng ngừa sự có tái diễn.
+caeaiedawikhie.triglavegaken of docotic.pdt.
+
+1.5 kết thúc xử lý sự cố
+
+a) bộ phận chủ trì: bộ phận ứng cứu sự có.
+
+b) bộ phận phối hợp: đơn vị vận hành.
+
+c) nội dung công việc:
+
+- thực hiện các nghiệp vụ nhằm phân tích xác minh chuyên sâu về sự cố.
+
+- gửi báo cáo kết thúc sự có về cho cục attt qua email. báo cáo gôm các
+thông tin: diễn biến sự cố, cách thức xử lý sự cô và thời gian xử lý xong sự cô
+
+- thực hiện các tác vụ khác theo quy trình ứng cứu nội bộ.
+d) thời gian thực hiện: tối đa trong 06h.
+
+1.6 khắc phục, phòng ngừa sự cổ tái diễn.
+
+a) bộ phận chủ trì: bộ phận ứng cứu sự cố
+
+b) bộ phận phối hợp: đơn vị vận hành
+
+c) nội dung công việc:
+
+- triển khai các biện pháp khắc phục lỗ hồng, điểm yếu.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.
+
+
+oreated with a trial version of docotic.pdf.

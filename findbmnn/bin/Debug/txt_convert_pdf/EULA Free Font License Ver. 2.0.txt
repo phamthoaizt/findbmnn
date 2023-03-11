@@ -1,0 +1,38 @@
+fff eula ver. 2.0 june 2015
+
+by downloading and/or installing a fontfabric™ free font you agree to following eula license:
+
+all fonts on the site (fontfabric.com) available for free download (except “baron”)
+can be used for both personal and commercial work.
+
+allowed uses:
+you may use the free fonts to create images on any surface such as computer screens, paper,
+web pages, photographs, movie credits, printed material, t-shirts, and other surfaces
+where the image is a ﬁxed size.
+you may use the licensed fonts to create eps ﬁles or other scalable drawings.
+
+you may use the free fonts as web-fonts with @font-face declaration to create web sites,
+web templates, etc.
+
+you may use the free fonts to create web apps, mobile apps, windows apps, linux apps,
+os x apps, android apps. etc..
+
+number of users or page views:
+
+you’re allowed to install the free fonts on unlimited devices (computers, phones, tablets)
+
+you’re allowed to upload and use the free fonts on web sites/templates with unlimited pageviews.
+
+embedding:
+
+you may embed the free fonts into any document you send to third parties. such documents
+may be viewed, printed and edited by the recipients.
+
+you may embed the free fonts into software or hardware products in which the fonts
+will be used by the purchasers of such products (pdf’s, wp templates, e-books,
+website templates, mobile apps, etc.).
+
+you may embed the free fonts into a web page with a @font-face declaration.
+you’re able to generate web-font packages from the font ﬁles in a third party program or generator.
+
+oreated with a trial version of docotic.pdf.

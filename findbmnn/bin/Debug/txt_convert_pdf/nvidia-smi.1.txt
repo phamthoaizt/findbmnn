@@ -1,0 +1,794 @@
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+name
+nvidia−smi − nvidia system management interface program
+
+synopsis
+nvidia-smi [option1 [arg1]] [option2 [arg2]] ...
+
+description
+nvidia-smi (also nvsmi) provides monitoring and management capabilities for each of nvidia's tesla,
+quadro, grid and geforce devices from fermi and higher architecture families. geforce titan series
+devices are supported for most functions with very limited information provided for the remainder of the
+geforce brand. nvsmi is a cross platform tool that supports all standard nvidia driver-supported linux
+distros, as well as 64bit versions of windows starting with windows server 2008 r2. metrics can be con-
+sumed directly by users via stdout, or provided by ﬁle via csv and xml formats for scripting purposes.
+note that much of the functionality of nvsmi is provided by the underlying nvml c-based library. see
+the nvidia developer website link below for more information about nvml. nvml-based python bind-
+ings are also available.
+the output of nvsmi is not guaranteed to be backwards compatible. however, both nvml and the
+python bindings are backwards compatible, and should be the ﬁrst choice when writing any tools that must
+be maintained across nvidia driver releases.
+nvml sdk: http://developer.nvidia.com/nvidia-management-library-nvml/
+python bindings: http://pypi.python.org/pypi/nvidia-ml-py/
+
+options
+general options
+−h, −−help
+print usage information and exit.
+
+summary options
+−l, −−list−gpus
+list each of the nvidia gpus in the system, along with their uuids.
+
+query options
+−q, −−query
+display gpu or unit info. displayed info includes all data listed in the (gpu attributes) or (unit
+attributes) sections of this document. some devices and/or environments don't support all possible
+information. anyunsupported data is indicated by a "n/a" in the output. by default information for all
+available gpus or units is displayed. use the −i option to restrict the output to a single gpu or unit.
+
+[plus optional]
+−u, −−unit
+display unit data instead of gpu data.
+unit data is only available for nvidia s−class tesla enclosures.
+
+−i, −−id=id
+display data for a single speciﬁed gpu or unit. the speciﬁed id may be the gpu/unit's 0−based index in
+the natural enumeration returned by the driver, the gpu's board serial number, the gpu's uuid, or the
+gpu's pci bus id (as domain:bus:device.function in hex). it is recommended that users desiring consis-
+tency use either uuid or pci bus id, since device enumeration ordering is not guaranteed to be consistent
+between reboots and board serial number might be shared between multiple gpus on the same board.
+
+nvidia−smi 390.09 2017/12/12 1
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+−f file, −−ﬁlename=file
+redirect query output to the speciﬁed ﬁle in place of the default stdout. the speciﬁed ﬁle will be overwrit-
+ten.
+
+−x, −−xml−format
+produce xml output in place of the default human−readable format. both gpu and unit query outputs
+conform to corresponding dtds. these are available via the −−dtd ﬂag.
+
+−−dtd
+use with −x.
+embed the dtd in the xml output.
+
+−−debug=file
+produces an encrypted debug log for use in submission of bugs back to nvidia.
+
+−d type, −−display=type
+display only selected information: memory, utilization, ecc, temperature, power,
+clock, compute, pids, performance, supported_clocks, page_retirement,
+accounting flags can be combined with comma e.g. "memory,ecc". sampling data with max,
+min and avg is also returned for power, utilization and clock display types. doesn't work with
+-u/--unit or -x/--xml-format ﬂags.
+
+−l sec, −−loop=sec
+continuously report query data at the speciﬁed interval, rather than the default of just once. the applica-
+tion will sleep in−between queries. note that on linux ecc error or xid error events will print out during
+the sleep period if the -x ﬂag was not speciﬁed. pressing ctrl+c at any time will abort the loop, which will
+otherwise run indeﬁnitely. if no argument is speciﬁed for the −l form a default interval of 5 seconds is
+used.
+
+selective query options
+allows the caller to pass an explicit list of properties to query.
+
+[one of]
+−−query−gpu=
+information about gpu. pass comma separated list of properties you want to query. e.g.
+−−query−gpu=pci.bus_id,persistence_mode. call−−help−query−gpu for more info.
+
+−−query−supported−clocks=
+list of supported clocks. call −−help−query−supported−clocks for more info.
+
+−−query−compute−apps=
+list of currently active compute processes. call −−help−query−compute−apps for more info.
+−−query−accounted−apps=
+list of accounted compute processes. call −−help−query−accounted−apps for more info.
+
+−−query−retired−pages=
+list of gpu device memory pages that have been retired.
+call −−help−query−retired−pages for more info.
+
+nvidia−smi 390.09 2017/12/12 2
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+[mandatory]
+−−format=
+comma separated list of format options:
+• csv - comma separated values (mandat ory)
+• noheader - skip ﬁrst line with column headers
+• nounits - don' t print units for numerical values
+
+[plus any of]
+−i, −−id=id
+display data for a single speciﬁed gpu. the speciﬁed id may be the gpu's 0−based index in the natural
+enumeration returned by the driver, the gpu's board serial number, the gpu's uuid, or the gpu's pci bus
+id (as domain:bus:device.function in hex). it is recommended that users desiring consistency use either
+uuid or pci bus id, since device enumeration ordering is not guaranteed to be consistent between reboots
+and board serial number might be shared between multiple gpus on the same board.
+
+−f file, −−ﬁlename=file
+redirect query output to the speciﬁed ﬁle in place of the default stdout. the speciﬁed ﬁle will be overwrit-
+ten.
+
+−l sec, −−loop=sec
+continuously report query data at the speciﬁed interval, rather than the default of just once. the applica-
+tion will sleep in−between queries. note that on linux ecc error or xid error events will print out during
+the sleep period if the -x ﬂag was not speciﬁed. pressing ctrl+c at any time will abort the loop, which will
+otherwise run indeﬁnitely. if no argument is speciﬁed for the −l form a default interval of 5 seconds is
+used.
+
+−lms ms, −−loop−ms=ms
+same as −l,−−loop but in milliseconds.
+
+device modification options
+[any one of]
+−pm, −−persistence−mode=mode
+set the persistence mode for the target gpus. see the (gpu attributes) section for a description of
+persistence mode. requires root. will impact all gpus unless a single gpu is speciﬁed using the −i argu-
+ment. theeffect of this operation is immediate. however, it does not persist across reboots. after each
+reboot persistence mode will default to "disabled". available on linux only.
+
+−e, −−ecc−conﬁg=config
+set the ecc mode for the target gpus. see the (gpu attributes) section for a description of ecc
+mode. requires root. will impact all gpus unless a single gpu is speciﬁed using the −i argument. this
+setting takes effect after the next reboot and is persistent.
+
+−p, −−reset−ecc−errors=type
+reset the ecc error counters for the target gpus. see the (gpu attributes) section for a description
+of ecc error counter types. available arguments are 0|volatile or 1|aggregate. requires root.
+will impact all gpus unless a single gpu is speciﬁed using the −i argument. the effect of this operation
+is immediate.
+
+nvidia−smi 390.09 2017/12/12 3
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+−c, −−compute−mode=mode
+set the compute mode for the target gpus. see the (gpu attributes) section for a description of com-
+pute mode. requires root. will impact all gpus unless a single gpu is speciﬁed using the −i argument.
+the effect of this operation is immediate. however, it does not persist across reboots. after each reboot
+compute mode will reset to "default".
+
+−dm type, −−driver−model=type
+−fdm type, −−force−driver−model=type
+enable or disable tcc driver model. for windows only. requires administrator privileges. −dm will fail
+if a display is attached, but −fdm will force the driver model to change. will impact all gpus unless a sin-
+gle gpu is speciﬁed using the −i argument. a reboot is required for the change to take place. seedriver
+model for more information on windows driver models.
+
+−−gom=mode
+set gpu operation mode: 0/all_on, 1/compute, 2/low_dp supported on gk110 m-class and x-
+class tesla products from the kepler family. not supported on quadro and tesla c-class products.
+low_dp and all_on are the only modes supported on geforce titan devices. requires administrator
+privileges. see gpu operation mode for more information about gom. gom changes take effect after
+reboot. the reboot requirement might be removed in the future. compute only goms don' t support
+wddm (windows display driver model)
+
+−r, −−gpu−reset
+trigger a reset of one or more gpus. can be used to clear gpu hw and sw state in situations that would
+otherwise require a machine reboot. typically useful if a double bit ecc error has occurred. optional −i
+switch can be used to target one or more speciﬁc devices. without this option, all gpus are reset.
+requires root. there can't be any applications using these devices (e.g. cuda application, graphics appli-
+cation like x server, monitoring application like other instance of nvidia-smi). there also can't be any com-
+pute applications running on any other gpu in the system.
+
+any gpus with nvlink connections to a gpu being reset must also be reset in the same command. this
+can be done either by omitting the −i switch, or using the −i switch to specify the gpus to be reset. if the
+−i option does not specify a complete set of nvlink gpus to reset, this command will issue an error iden-
+tifying the additional gpus that must be included in the reset command.
+
+gpu reset is not guaranteed to work in all cases. it is not recommended for production environments at this
+time. in some situations there may be hw components on the board that fail to revert back to an initial
+state following the reset request. this is more likely to be seen on fermi-generation products vs. kepler,
+and more likely to be seen if the reset is being performed on a hung gpu.
+
+following a reset, it is recommended that the health of each reset gpu be veriﬁed before further use. the
+nvidia-healthmon tool is a good choice for this test. if any gpu is not healthy a complete reset should be
+instigated by power cycling the node.
+
+visit http://developer.nvidia.com/gpu-deployment-kit to download the gdk and nvidia-healthmon.
+
+−ac, −−applications−clocks=mem_clock,graphics_clock
+speciﬁes maximum <memory,graphics> clocks as a pair (e.g. 2000,800) that deﬁnes gpu's speed while
+running applications on a gpu. supported on maxwell-based geforce and from the kepler+ family in
+tesla/quadro/titan devices. requiresroot unless restrictions are relaxed with the −acp command..
+
+nvidia−smi 390.09 2017/12/12 4
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+−rac, −−reset−applications−clocks
+resets the applications clocks to the default value. supported on maxwell-based geforce and from the
+kepler+ family in tesla/quadro/titan devices. requiresroot unless restrictions are relaxed with the −acp
+command.
+
+−acp, −−applications−clocks−permission=mode
+toggle whether applications clocks can be changed by all users or only by root. available arguments are
+0|unrestricted, 1|restricted. supported on maxwell-based geforce and from the kepler+ fam-
+ily in tesla/quadro/titan devices. requiresroot.
+
+−pl, −−power−limit=power_limit
+speciﬁes maximum power limit in watts. accepts integer and ﬂoating point numbers. only on supported
+devices from kepler family. requires administrator privileges. value needs to be between min and max
+power limit as reported by nvidia-smi.
+
+−am, −−accounting−mode=mode
+enables or disables gpu accounting. with gpu accounting one can keep track of usage of resources
+throughout lifespan of a single process. only on supported devices from kepler family. requires adminis-
+trator privileges. available arguments are 0|disabled or 1|enabled.
+
+−caa, −−clear−accounted−apps
+clears all processes accounted so far. only on supported devices from kepler family. requires administra-
+tor privileges.
+
+−−auto−boost−default=mode
+set the default auto boost policy to 0/disabled or 1/enabled, enforcing the change only after the last
+boost client has exited. only on certain tesla devices from the kepler+ family and maxwell-based
+geforce devices. requiresroot.
+
+−−auto−boost−default−force=mode
+set the default auto boost policy to 0/disabled or 1/enabled, enforcing the change immediately.
+only on certain tesla devices from the kepler+ family and maxwell-based geforce devices. requires
+root.
+
+−−auto−boost−permission=mode
+allow non-admin/root control over auto boost mode. available arguments are 0|unrestricted,
+1|restricted. only on certain tesla devices from the kepler+ family and maxwell-based geforce
+devices. requiresroot.
+
+[plus optional]
+−i, −−id=id
+modify a single speciﬁed gpu. the speciﬁed id may be the gpu/unit's 0−based index in the natural enu-
+meration returned by the driver, the gpu's board serial number, the gpu's uuid, or the gpu's pci bus id
+(as domain:bus:device.function in hex). itis recommended that users desiring consistency use either uuid
+or pci bus id, since device enumeration ordering is not guaranteed to be consistent between reboots and
+board serial number might be shared between multiple gpus on the same board.
+
+unit modification options
+
+nvidia−smi 390.09 2017/12/12 5
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+−t, −−toggle−led=state
+set the led indicator state on the front and back of the unit to the speciﬁed color. see the (unit
+attributes) section for a description of the led states. allowed colors are 0|green and 1|amber.
+requires root.
+
+[plus optional]
+−i, −−id=id
+modify a single speciﬁed unit. the speciﬁed id is the unit's 0-based index in the natural enumeration
+returned by the driver.
+
+show dtd options
+−−dtd
+display device or unit dtd.
+
+[plus optional]
+−f file, −−ﬁlename=file
+redirect query output to the speciﬁed ﬁle in place of the default stdout. the speciﬁed ﬁle will be overwrit-
+ten.
+
+−u, −−unit
+display unit dtd instead of device dtd.
+
+stats
+display statistics information about the gpu.
+use "nvidia-smi stats -h" for more information.
+linux only.
+
+topo
+display topology information about the system. use "nvidia-smi topo -h" for more information. linux
+only. shows all gpus nvml is able to detect but cpu afﬁnity information will only be shown for gpus
+with kepler or newer architectures. note: gpu enumeration is the same as nvml.
+
+drain
+display and modify the gpu drain states.
+use "nvidia-smi drain -h" for more information. linux only.
+
+nvlink
+display nvlink information.
+use "nvidia-smi nvlink -h" for more information.
+
+clocks
+query and control clocking behavior. currently, this only pertains to synchronized boost. use "nvidia-smi
+clocks --help" for more information.
+
+vgpu
+display information on grid virtual gpus. use "nvidia-smi vgpu -h" for more information.
+
+return value
+return code reﬂects whether the operation succeeded or failed and what was the reason of failure.
+• return code 0 − success
+• return code 2 − a supplied argument or ﬂag is invalid
+
+nvidia−smi 390.09 2017/12/12 6
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+• return code 3 − the requested operation is not available on target device
+• return code 4 − the current user does not have permission to access this device or perform this
+operation
+• return code 6 − a query to ﬁnd an object was unsuccessful
+• return code 8 − a device's external power cables are not properly attached
+• return code 9 − nvidia driver is not loaded
+• return code 10 − nvidia kernel detected an interrupt issue with a gpu
+• return code 12 − nvml shared library couldn' t be found or loaded
+• return code 13 − local version of nvml doesn' t implement this function
+• return code 14 − inforom is corrupted
+• return code 15 − the gpu has fallen off the bus or has otherwise become inaccessible
+• return code 255 − other error or internal driver error occurred
+
+gpu attributes
+the following list describes all possible data returned by the −q device query option. unless otherwise
+noted all numerical results are base 10 and unitless.
+
+timestamp
+the current system timestamp at the time nvidia−smi was invoked. format is "day−of−week month day
+hh:mm:ss year".
+
+driver version
+the version of the installed nvidia display driver. this is an alphanumeric string.
+
+attached gpus
+the number of nvidia gpus in the system.
+
+product name
+the ofﬁcial product name of the gpu.
+this is an alphanumeric string.
+for all products.
+
+display mode
+a ﬂag that indicates whether a physical display (e.g. monitor) is currently connected to any of the gpu's
+connectors. "enabled"indicates an attached display. "disabled" indicates otherwise.
+
+display active
+a ﬂag that indicates whether a display is initialized on the gpu's (e.g. memory is allocated on the device
+for display). display can be active even when no monitor is physically attached. "enabled" indicates an
+active display. "disabled" indicates otherwise.
+
+persistence mode
+a ﬂag that indicates whether persistence mode is enabled for the gpu. value is either "enabled" or "dis-
+abled". when persistence mode is enabled the nvidia driver remains loaded even when no active clients,
+such as x11 or nvidia-smi, exist. this minimizes the driver load latency associated with running dependent
+apps, such as cuda programs. for all cuda-capable products. linux only.
+
+nvidia−smi 390.09 2017/12/12 7
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+accounting mode
+a ﬂag that indicates whether accounting mode is enabled for the gpu value is either when accounting is
+enabled statistics are calculated for each compute process running on the gpu. statistics can be queried
+during the lifetime or after termination of the process. the execution time of process is reported as 0 while
+the process is in running state and updated to actual execution time after the process has terminated. see
+--help-query-accounted-apps for more info.
+
+accounting mode buffer size
+returns the size of the circular buffer that holds list of processes that can be queried for accounting stats.
+this is the maximum number of processes that accounting information will be stored for before information
+about oldest processes will get overwritten by information about new processes.
+
+driver model
+on windows, the tcc and wddm driver models are supported. the driver model can be changed with
+the (−dm) or (−fdm) ﬂags. the tcc driver model is optimized for compute applications. i.e. kernel
+launch times will be quicker with tcc. the wddm driver model is designed for graphics applications
+and is not recommended for compute applications. linux does not support multiple driver models, and will
+always have the value of "n/a".
+
+current the driver model currently in use. always "n/a" on linux.
+
+pending the driver model that will be used on the next reboot. always "n/a" on linux.
+
+serial number
+this number matches the serial number physically printed on each board. it is a globally unique immutable
+alphanumeric value.
+
+gpu uuid
+this value is the globally unique immutable alphanumeric identiﬁer of the gpu. it does not correspond to
+any physical label on the board.
+
+minor number
+the minor number for the device is such that the nvidia device node ﬁle for each gpu will have the form
+/dev/nvidia[minor number]. available only on linux platform.
+
+vbios version
+the bios of the gpu board.
+
+multigpu board
+whether or not this gpu is part of a multigpu board.
+
+board id
+the unique board id assigned by the driver. if two or more gpus have the same board id and the above
+"multigpu" ﬁeld is true then the gpus are on the same board.
+
+inforom version
+version numbers for each object in the gpu board's inforom storage. the inforom is a small, persistent
+store of conﬁguration and state data for the gpu. all inforom version ﬁelds are numerical. it can be useful
+to know these version numbers because some gpu features are only available with inforoms of a certain
+version or higher.
+
+nvidia−smi 390.09 2017/12/12 8
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+if any of the ﬁelds below return unknown error additional inforom veriﬁcation check is performed and
+appropriate warning message is displayed.
+
+image version
+global version of the inforom image. image version just like vbios version uniquely
+describes the exact version of the inforom ﬂashed on the board in contrast to inforom
+object version which is only an indicator of supported features.
+
+oem object version for the oem conﬁguration data.
+
+ecc object version for the ecc recording data.
+
+power object version for the power management data.
+
+gpu operation mode
+gom allows to reduce power usage and optimize gpu throughput by disabling gpu features.
+
+each gom is designed to meet speciﬁc user needs.
+
+in "all on" mode everything is enabled and running at full speed.
+
+the "compute" mode is designed for running only compute tasks. graphics operations are not allowed.
+
+the "low double precision" mode is designed for running graphics applications that don' t require high
+bandwidth double precision.
+
+gom can be changed with the (−−gom) ﬂag.
+
+supported on gk110 m-class and x-class tesla products from the kepler family. not supported on
+quadro and tesla c-class products. low double precision and all on modes are the only modes available
+for supported geforce titan products.
+
+current the gom currently in use.
+
+pending the gom that will be used on the next reboot.
+
+pci
+basic pci info for the device. some of this information may change whenever cards are
+added/removed/moved in a system. for all products.
+
+bus pci bus number, in hex
+
+device pci device number, in hex
+
+domain pci domain number, in hex
+
+device id pci vendor device id, in hex
+
+nvidia−smi 390.09 2017/12/12 9
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+sub system id pci sub system id, in hex
+
+bus id pci bus id as "domain:bus:device.function", in hex
+gpu link information
+the pcie link generation and bus width
+
+current the current link generation and width. these may be reduced when the gpu is not in
+use.
+
+maximum the maximum link generation and width possible with this gpu and system conﬁgura-
+tion. for example, if the gpu supports a higher pcie generation than the system sup-
+ports then this reports the system pcie generation.
+
+bridge chip
+information related to bridge chip on the device. the bridge chip ﬁrmware is only present on certain
+boards and may display "n/a" for some newer multigpus boards.
+
+type the type of bridge chip. reported as n/a if doesn' t exist.
+
+firmware version
+the ﬁrmware version of the bridge chip. reported as n/a if doesn' t exist.
+
+replay counter
+this is the internal counter that records various errors on the pcie bus.
+tx throughput
+the gpu-centric transmission throughput across the pcie bus in mb/s over the past 20ms. only supported
+on maxwell architectures and newer.
+rx throughput
+the gpu-centric receive throughput across the pcie bus in mb/s over the past 20ms. only supported on
+maxwell architectures and newer.
+
+fan speed
+the fan speed value is the percent of maximum speed that the device's fan is currently intended to run at. it
+ranges from 0 to 100%. note: the reported speed is the intended fan speed. if the fan is physically
+blocked and unable to spin, this output will not match the actual fan speed. many parts do not report fan
+speeds because they rely on cooling via fans in the surrounding enclosure. for all discrete products with
+dedicated fans.
+
+performance state
+the current performance state for the gpu. states range from p0 (maximum performance) to p12 (mini-
+mum performance).
+
+clocks throttle reasons
+retrieves information about factors that are reducing the frequency of clocks.
+
+if all throttle reasons are returned as "not active" it means that clocks are running as high as possible.
+
+idle nothing is running on the gpu and the clocks are dropping to idle state. this limiter
+may be removed in a later release.
+
+nvidia−smi 390.09 2017/12/12 10
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+application clocks setting
+gpu clocks are limited by applications clocks setting. e.g. can be changed using
+nvidia−smi −−applications−clocks=
+
+sw power cap
+sw power scaling algorithm is reducing the clocks below requested clocks because the
+gpu is consuming too much power. e.g. sw power cap limit can be changed with
+nvidia−smi −−power−limit=
+
+hw slowdown
+hw slowdown (reducing the core clocks by a factor of 2 or more) is engaged. hw
+thermal slowdown and hw power brake will be displayed on pascal+.
+
+this is an indicator of:
+* temperature being too high (hw thermal slowdown)
+* external power brake assertion is triggered (e.g. by the system power supply) (hw
+power brake slowdown)
+* power draw is too high and fast trigger protection is reducing the clocks
+
+sw thermal slowdown
+sw thermal capping algorithm is reducing clocks below requested clocks because gpu
+temperature is higher than max operating temp
+
+fb memory usage
+on-board frame buffer memory information. reported total memory is affected by ecc state. if ecc is
+enabled the total available memory is decreased by several percent, due to the requisite parity bits. the
+driver may also reserve a small amount of memory for internal use, even without active work on the gpu.
+for all products.
+
+total total size of fb memory.
+
+used used size of fb memory.
+
+free available size of fb memory.
+
+bar1 memory usage
+bar1 is used to map the fb (device memory) so that it can be directly accessed by the cpu or by 3rd
+party devices (peer-to-peer on the pcie bus).
+
+total total size of bar1 memory.
+
+used used size of bar1 memory.
+
+free available size of bar1 memory.
+
+compute mode
+the compute mode ﬂag indicates whether individual or multiple compute applications may run on the
+gpu.
+
+"default" means multiple contexts are allowed per device.
+
+"exclusive process" means only one context is allowed per device, usable from multiple threads at a time.
+
+nvidia−smi 390.09 2017/12/12 11
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+"prohibited" means no contexts are allowed per device (no compute apps).
+
+"exclusive_process" was added in cuda 4.0. prior cudareleases supported only one exclusive
+mode, which is equivalent to "exclusive_thread" in cuda 4.0 and beyond.
+
+for all cuda-capable products.
+
+utilization
+utilization rates report how busy each gpu is over time, and can be used to determine how much an appli-
+cation is using the gpus in the system.
+
+note: during driver initialization when ecc is enabled one can see high gpu and memory utilization
+readings. this is caused by ecc memory scrubbing mechanism that is performed during driver initializa-
+tion.
+
+gpu percent of time over the past sample period during which one or more kernels was exe-
+cuting on the gpu. the sample period may be between 1 second and 1/6 second
+depending on the product.
+
+memory percent of time over the past sample period during which global (device) memory was
+being read or written. the sample period may be between 1 second and 1/6 second
+depending on the product.
+
+encoder percent of time over the past sample period during which the gpu's video encoder was
+being used. the sampling rate is variable and can be obtained directly via the nvmlde-
+vicegetencoderutilization() api
+
+decoder percent of time over the past sample period during which the gpu's video decoder was
+being used. the sampling rate is variable and can be obtained directly via the nvmlde-
+vicegetdecoderutilization() api
+
+ecc mode
+a ﬂag that indicates whether ecc support is enabled. may be either "enabled" or "disabled". changes to
+ecc mode require a reboot. requires inforom ecc object version 1.0 or higher.
+
+current the ecc mode that the gpu is currently operating under.
+
+pending the ecc mode that the gpu will operate under after the next reboot.
+
+ecc errors
+nvidia gpus can provide error counts for various types of ecc errors. some ecc errors are either sin-
+gle or double bit, where single bit errors are corrected and double bit errors are uncorrectable. texture
+memory errors may be correctable via resend or uncorrectable if the resend fails. these errors are available
+across two timescales (volatile and aggregate). single bit ecc errors are automatically corrected by the
+hw and do not result in data corruption. double bit errors are detected but not corrected. please see the
+ecc documents on the web for information on compute application behavior when double bit errors occur.
+volatile error counters track the number of errors detected since the last driver load. aggregate error counts
+persist indeﬁnitely and thus act as a lifetime counter.
+
+a note about volatile counts: on windows this is once per boot. on linux this can be more frequent. on
+
+nvidia−smi 390.09 2017/12/12 12
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+linux the driver unloads when no active clients exist. hence, if persistence mode is enabled or there is
+always a driver client active (e.g. x11), then linux also sees per-boot behavior. if not, volatile counts are
+reset each time a compute app is run.
+
+tesla and quadro products from the fermi and kepler family can display total ecc error counts, as well as
+a breakdown of errors based on location on the chip. the locations are described below. location−based
+data for aggregate error counts requires inforom ecc object version 2.0. all other ecc counts require
+ecc object version 1.0.
+
+device memory errors detected in global device memory.
+
+register file errors detected in register ﬁle memory.
+
+l1 cache errors detected in the l1 cache.
+
+l2 cache errors detected in the l2 cache.
+
+texture memory
+parity errors detected in texture memory.
+
+total total errors detected across entire chip. sum of device memory, register file, l1
+cache, l2 cache and texture memory.
+
+page retirement
+nvidia gpus can retire pages of gpu device memory when they become unreliable. this can happen
+when multiple single bit ecc errors occur for the same page, or on a double bit ecc error. when a page is
+retired, the nvidia driver will hide it such that no driver, or application memory allocations can access it.
+
+double bit ecc the number of gpu device memory pages that have been retired due to a double bit ecc
+error.
+
+single bit ecc the number of gpu device memory pages that have been retired due to multiple single bit
+ecc errors.
+
+pending checks if any gpu device memory pages are pending retirement on the next reboot. pages that
+are pending retirement can still be allocated, and may cause further reliability issues.
+
+temperature
+readings from temperature sensors on the board. all readings are in degrees c. not all products support
+all reading types. in particular, products in module form factors that rely on case fans or passive cooling do
+not usually provide temperature readings. see below for restrictions.
+
+gpu core gpu temperature. for all discrete and s-class products.
+
+shutdown temp the temperature at which a gpu will shutdown.
+slowdown temp
+the temperature at which a gpu will begin slowing itself down through hw, in order to
+cool.
+
+nvidia−smi 390.09 2017/12/12 13
+
+nvidia−smi(1) nvidia nvidia−smi(1)
+
+max operating temp
+the temperature at which a gpu will begin slowing itself down through sw, in order to
+cool.
+
+power readings
+power readings help to shed light on the current power usage of the gpu, and the factors that affect that
+usage. when power management is enabled the gpu limits power draw under load to ﬁt within a prede-
+ﬁned power envelope by manipulating the current performance state. see below for limits of availability.
+please note that power readings are not applicable for pascal and higher gpus with ba sensor boards.
+
+power state
+power state is deprecated and has been renamed to performance state in 2.285. to
+maintain xml compatibility, in xml format performance state is listed in both places.
+
+power management
+a ﬂag that indicates whether power management is enabled. either "supported" or
+"n/a". requires inforom pwr object version 3.0 or higher or kepler device.
+
+power draw
+the last measured power draw for the entire board, in watts. only available if power
+management is supported. this reading is accurate to within +/- 5 watts. requires
+inforom pwr object version 3.0 or higher or kepler device. please note that for boards
+without ina sensors, this refers to the power draw for the gpu and not for the entire
+board.
+
+power limit
+the software power limit, in watts. setby software such as nvidia-smi. only available
+if power management is supported. requires inforom pwr object version 3.0 or higher
+or kepler device. on kepler devices power limit can be adjusted using
+−pl,−−power−limit= switches.
+
+enforced power limit
+the power management algorithm's power ceiling, in watts. total board power draw is
+manipulated by the power management algorithm such that it stays under this value.
+this limit is the minimum of various limits such as the software limit listed above. only
+available if power management is supported. requires a kepler device. please note that
+for boards without ina sensors, it is the gpu power draw that is being manipulated.
+
+default power limit
+the default power management algorithm's power ceiling, in watts. power limit will be
+set back to default power limit after driver unload. only on supported devices from
+kepler family.
+
+min power limit
+the minimum value in watts that power limit can be set to. only on supported devices
+from kepler family.
+
+max power limit
+the maximum value in watts that power limit can be set to. only on supported devices
+from kepler family.
+
+nvidia−smi 390.09 2017/12/12 14
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.
+
+
+coreated with a trial version of docotic.pdf.

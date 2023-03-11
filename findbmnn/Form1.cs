@@ -96,6 +96,10 @@ namespace findbmnn
                 string pathResultSearchString = currentDirectory + @"\save_data\resultSearchStringInPDF" + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".txt";
                 File.Create(pathResultSearchString);
 
+                // tạo folder chứa kết quả convert file txt
+                string pathsavefolderpdf = CreateFolder("txt_convert_pdf");
+                DeleleAllFile(pathsavefolderpdf);
+
                 foreach (string pathfilepdf in listpathfilepdf)
                 {
                     // khởi tạo task đối với từng file word
@@ -103,7 +107,12 @@ namespace findbmnn
                     {
                         try
                         {
-                            string content = FindContentPDF(pathfilepdf);
+                            // lấy nội dung file pdf và lưu trữ vào folder để kiểm tra sau
+                            string content = FindContentPDF(pathfilepdf).ToLower();
+                            string pathfiletxt = pathsavefolderpdf + @"\" + Path.GetFileNameWithoutExtension(pathfilepdf) + ".txt";
+                            File.WriteAllText(pathfiletxt, content);
+                            AppendTextBox("Đã tạo file " + pathfiletxt, 1);
+
                             bool detectkey = false;
                             foreach (string searchString in listKeys)
                             {
@@ -263,7 +272,7 @@ namespace findbmnn
             // Lấy thư mục của User trên hệ thống
             string currentDirectory = Directory.GetCurrentDirectory();
             string pathResultSearchString = currentDirectory + @"\save_data";
-            if (!Directory.Exists(pathResultSearchString))
+            if (Directory.Exists(pathResultSearchString))
             {
                 Process.Start(pathResultSearchString);
             }

@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonSearchpdf = new System.Windows.Forms.Button();
             this.buttonResult = new System.Windows.Forms.Button();
             this.buttonLoadDisk = new System.Windows.Forms.Button();
             this.richTextBoxKey = new System.Windows.Forms.RichTextBox();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBoxLog = new System.Windows.Forms.RichTextBox();
-            this.buttonSearchpdf = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Input keyword";
             // 
+            // buttonSearchpdf
+            // 
+            this.buttonSearchpdf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.buttonSearchpdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSearchpdf.Location = new System.Drawing.Point(786, 57);
+            this.buttonSearchpdf.Name = "buttonSearchpdf";
+            this.buttonSearchpdf.Size = new System.Drawing.Size(98, 32);
+            this.buttonSearchpdf.TabIndex = 9;
+            this.buttonSearchpdf.Text = "Find pdf";
+            this.buttonSearchpdf.UseVisualStyleBackColor = false;
+            this.buttonSearchpdf.Click += new System.EventHandler(this.buttonSearchpdf_Click);
+            // 
             // buttonResult
             // 
             this.buttonResult.BackColor = System.Drawing.Color.Red;
@@ -66,7 +78,6 @@
             this.buttonResult.TabIndex = 8;
             this.buttonResult.Text = "Result";
             this.buttonResult.UseVisualStyleBackColor = false;
-            this.buttonResult.Visible = false;
             this.buttonResult.Click += new System.EventHandler(this.buttonResult_Click);
             // 
             // buttonLoadDisk
@@ -122,18 +133,6 @@
             this.richTextBoxLog.Size = new System.Drawing.Size(878, 328);
             this.richTextBoxLog.TabIndex = 0;
             this.richTextBoxLog.Text = "";
-            // 
-            // buttonSearchpdf
-            // 
-            this.buttonSearchpdf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonSearchpdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSearchpdf.Location = new System.Drawing.Point(786, 57);
-            this.buttonSearchpdf.Name = "buttonSearchpdf";
-            this.buttonSearchpdf.Size = new System.Drawing.Size(98, 32);
-            this.buttonSearchpdf.TabIndex = 9;
-            this.buttonSearchpdf.Text = "Find pdf";
-            this.buttonSearchpdf.UseVisualStyleBackColor = false;
-            this.buttonSearchpdf.Click += new System.EventHandler(this.buttonSearchpdf_Click);
             // 
             // mainForm
             // 

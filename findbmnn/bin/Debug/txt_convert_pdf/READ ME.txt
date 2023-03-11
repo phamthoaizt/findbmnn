@@ -1,0 +1,34 @@
+hi and thanks so much for your purchase!
+
+in your download you will see two folders containing font files.  one is called hanley block ot and the
+other is called hanley block non ot.
+
+if you are using software that supports open type features, such as adobe products, please only install the
+font in the hanley block ot folder.  these font files contain all of the characters have ot features such as
+ligatures, discretionary ligatures, stylistic sets, swashes, ornaments and so on.
+
+if you are using software that does not support open type such as silhouette, cricut, inkscape, ms office,
+etc. please install and use the files that are in the hanley block non ot folder.  there are 12 font files
+including one where the swashes for the script are pulled out separately.. these will all appear separately in
+your menu and you can select your characters as usual, or you can access them through fontbook or charac-
+ter map if you wish.  we’ve included a character map to show you which extras and swashes are in the differ-
+ent fonts.
+here are some tutorials from adobe regarding the glyphs panel and special characters for your refererence:
+https://helpx.adobe.com/illustrator/using/special-characters.html
+https://helpx.adobe.com/photoshop/using/glyph-panel.html
+https://helpx.adobe.com/indesign/using/glyphs-special-characters.html
+
+here are links to videos on how to access glyphs through font book or character viewer.
+https://www.youtube.com/watch?v=juunsiisj-i
+https://www.youtube.com/watch?v=d2xh8osk6fc
+
+here is a very thorough tutorial on how to access special characters in silhouette studio:
+http://kimberdawnco.com/how-to-use-font-glyphs-in-silhouette-studio/
+
+and here is  link to our website where you will find some free logo templates.  sign up for our newsletter to
+find out about new releases and freebies.
+http://www.district62.com/freebies/
+
+have fun!  and find us at @d62studio on instagram or at www.district62.com.  feel free to contact me-
+gan@district62.com if you have any questions.  we worked really hard on all the kerning and spacing in this
+font, but if you see something that needs fixing or need extra ligatures drop us a line.

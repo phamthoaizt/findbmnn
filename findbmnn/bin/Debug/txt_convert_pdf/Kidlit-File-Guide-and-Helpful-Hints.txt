@@ -1,0 +1,36 @@
+kidlit file guide & helpful hints!
+
+thank you for your purchase of kidlit!  you may be wondering what all of the different versions are for.
+
+if you’re using software that has quick and easy access to opentype features, like photoshop cc, illustrator, or indesign,
+you can install just one file: kidlit.otf. this file has all of the alternate alphabets coded into it. just type a letter, highlight
+it, and either select the contextual alternates button for alphabet 2, or the stylistic alternates button for alphabet 3.
+
+if that sounds like gibberish to you, or if your software of choice doesn’t have easy opentype feature access, fear not!
+you can install the three different alphabet files instead: kidlit-alphabet-1.otf, kidlit-alphabet-2.otf, and
+kidlit-alphabet-3.otf. (i always recommend installing the otf versions, as they’re friendlier with most software;
+however, if your software will only allow ttf files, those are included for you too!)
+
+if you’re using the three separate alphabet files, you may find that you need to do some manual adjusting to get spacing
+right when mixing the alphabets together. and note: alphabets 1 and 2 can work by themselves, but alphabet 3 is meant
+to be used sparingly for emphasis; a lot of those swashes and flourishes overlap or bump into each other.
+
+alphabet 1 contains all of the punctuation and numbers; 2 and 3 are primarily just letters. and i’ve created additional
+sets of accented characters for both alphabet 2 and alphabet 3, allowing you even more variety!
+
+alphabet 1
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 1 2 3 4 5 6 7 8 9 0 ! ? @ # $ % & * ( ) { } [ ] , . : ; -
+' " ‘ ’ “ ” < > / = + ¢ £ ® © €
+
+alphabet 2
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+alphabet 3
+
+a b c d e f g h  i j k  l m n op q r s t u v w x y z
+a b c d e  f  g h  i j  k l m  n o  p q r  s t  u v w x   y  z

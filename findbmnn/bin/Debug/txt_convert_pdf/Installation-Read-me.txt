@@ -1,0 +1,20 @@
+how to install the
+rose gold styles
+
+1. open the style panel
+by going to
+window » styles
+
+2. click on the dropdown
+menu and select
+load styles
+
+3. select the rosegold.asl
+from the download folder
+and press open
+
+4. type out some letters, click
+the style you want and it’ll
+automatically add the pattern to
+your work. works on groups in
+cs6 above.

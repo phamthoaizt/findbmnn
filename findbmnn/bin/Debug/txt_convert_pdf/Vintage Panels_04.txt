@@ -1,0 +1,172 @@
+fontlab font printout
+vintagepanels_04 11/09/14 09:08:55
+page 1/1
+
+a
+index: 0, unicode:
+nodes: 263, contours: 7
+bbox: (0, 0) - (2197, 987)
+lsb: 0, rsb: 40, width: 2237
+lsb: 0, rsb: 40, width: 2197
+b
+index: 1, unicode: f042
+nodes: 748, contours: 44
+bbox: (0, 7) - (2138, 2180)
+lsb: 0, rsb: 40, width: 2178
+lsb: 714, rsb: 773, width: 691
+
+c
+index: 2, unicode: f043
+nodes: 436, contours: 25
+bbox: (0, 0) - (1900, 1893)
+lsb: 0, rsb: 40, width: 1940
+lsb: 0, rsb: 40, width: 1900
+d
+index: 3, unicode: f044
+nodes: 541, contours: 25
+bbox: (0, 4) - (1120, 2184)
+lsb: 0, rsb: 40, width: 1160
+lsb: 0, rsb: 40, width: 1120
+
+e
+index: 4, unicode: f045
+nodes: 1259, contours: 74
+bbox: (0, -9) - (2466, 1972)
+lsb: 0, rsb: 39, width: 2505
+lsb: 556, rsb: 598, width: 1351
+f
+index: 5, unicode: f046
+nodes: 827, contours: 42
+bbox: (0, 0) - (1969, 2279)
+lsb: 0, rsb: 40, width: 2009
+lsb: 758, rsb: 807, width: 444
+
+g
+index: 6, unicode: f047
+nodes: 998, contours: 57
+bbox: (0, -3) - (1751, 2152)
+lsb: 0, rsb: 40, width: 1791
+lsb: 641, rsb: 683, width: 467
+h
+index: 7, unicode: f048
+nodes: 79, contours: 2
+bbox: (0, -1) - (2245, 1032)
+lsb: 0, rsb: 39, width: 2284
+lsb: 0, rsb: 39, width: 2245
+
+i
+index: 8, unicode: f049
+nodes: 427, contours: 36
+bbox: (0, 2) - (1627, 2202)
+lsb: 0, rsb: 40, width: 1667
+lsb: 215, rsb: 259, width: 1193
+j
+index: 9, unicode: f04a
+nodes: 491, contours: 17
+bbox: (0, 0) - (2499, 1794)
+lsb: 0, rsb: 40, width: 2539
+lsb: 0, rsb: 40, width: 2499
+
+k
+index: 10, unicode: f04b
+nodes: 460, contours: 24
+bbox: (0, -8) - (2204, 1695)
+lsb: 0, rsb: 40, width: 2244
+lsb: 161, rsb: 196, width: 1887
+l
+index: 11, unicode: f04c
+nodes: 161, contours: 4
+bbox: (0, -1) - (2368, 1563)
+lsb: 0, rsb: 40, width: 2408
+lsb: 80, rsb: 125, width: 2203
+
+m
+index: 12, unicode: f04d
+nodes: 330, contours: 9
+bbox: (0, 0) - (2289, 1557)
+lsb: 0, rsb: 40, width: 2329
+lsb: 212, rsb: 252, width: 1865
+n
+index: 13, unicode: f04e
+nodes: 429, contours: 24
+bbox: (0, 0) - (2336, 892)
+lsb: 0, rsb: 40, width: 2376
+lsb: 0, rsb: 40, width: 2336
+
+o
+index: 14, unicode: f04f
+nodes: 258, contours: 13
+bbox: (0, 0) - (2180, 1669)
+lsb: 0, rsb: 40, width: 2220
+lsb: 144, rsb: 178, width: 1898
+p
+index: 15, unicode: f050
+nodes: 209, contours: 4
+bbox: (0, 1) - (2099, 2104)
+lsb: 0, rsb: 40, width: 2139
+lsb: 459, rsb: 500, width: 1180
+
+q
+index: 16, unicode: f051
+nodes: 267, contours: 4
+bbox: (0, -2) - (2074, 1845)
+lsb: 0, rsb: 39, width: 2113
+lsb: 470, rsb: 509, width: 1134
+r
+index: 17, unicode: f052
+nodes: 407, contours: 8
+bbox: (0, -7) - (2186, 1752)
+lsb: 0, rsb: 39, width: 2225
+lsb: 122, rsb: 164, width: 1939
+
+s
+index: 18, unicode: f053
+nodes: 399, contours: 8
+bbox: (0, -5) - (2159, 1834)
+lsb: 0, rsb: 40, width: 2199
+lsb: 132, rsb: 174, width: 1893
+t
+index: 19, unicode: f054
+nodes: 815, contours: 9
+bbox: (0, -3) - (2273, 2148)
+lsb: 0, rsb: 40, width: 2313
+lsb: 541, rsb: 588, width: 1184
+
+u
+index: 20, unicode: f055
+nodes: 729, contours: 88
+bbox: (0, 1) - (2588, 1995)
+lsb: 0, rsb: 40, width: 2628
+lsb: 736, rsb: 780, width: 1112
+v
+index: 21, unicode: f056
+nodes: 466, contours: 13
+bbox: (0, -1) - (2054, 2156)
+lsb: 0, rsb: 40, width: 2094
+lsb: 246, rsb: 285, width: 1563
+
+w
+index: 22, unicode: f057
+nodes: 157, contours: 10
+bbox: (0, 0) - (2349, 1720)
+lsb: 0, rsb: 40, width: 2389
+lsb: 0, rsb: 40, width: 2349
+x
+index: 23, unicode: f058
+nodes: 501, contours: 12
+bbox: (0, 1) - (2470, 1957)
+lsb: 0, rsb: 40, width: 2510
+lsb: 412, rsb: 452, width: 1646
+
+y
+index: 24, unicode: f059
+nodes: 270, contours: 6
+bbox: (0, -1) - (2492, 1360)
+lsb: 0, rsb: 40, width: 2532
+lsb: 0, rsb: 40, width: 2492
+z
+index: 25, unicode: f05a
+nodes: 169, contours: 8
+bbox: (0, 0) - (2545, 1972)
+lsb: 0, rsb: 39, width: 2584
+lsb: 0, rsb: 39, width: 2545

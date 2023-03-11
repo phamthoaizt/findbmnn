@@ -1,0 +1,35 @@
+thank you for purchasing our font. if you have any questions
+that are beyond the scope of this help file, please feel free to
+email us on afandihore@gmail.com
+
+how to use neon effect action on photoshop?
+
+1. open your photoshop
+application and start type
+using good vibes font
+
+2. change your type layer
+name with “neon 1” and
+then open the action
+window from menu
+window->action
+
+01
+
+3. click the menu icon from
+the action window, choose
+‘load actions’ and then
+locate the good vibes
+neon effect.atn file.
+
+4. once you have successfully
+load the action file, you will see
+the action folder like the
+screenshot on the right. make
+sure you selected the ‘neon 1’
+layer first (from step number 2)
+and then click play button below
+
+02
+
+oreated with a trial version of docotic.pdf.

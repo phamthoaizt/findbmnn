@@ -1,0 +1,158 @@
+eula end user license agreement
+district 62 studio (d62) desktop license
+
+license overview
+you may:
+- install the font software on one desktop and one backup device. (see section 2.1)
+- use the fonts in the creation of or as part of a company logo.
+- use the fonts in the creation of design works, rasterized images for web sites and for personal and commer-
+cial use, including items for resale, where the image is fixed and the entire font is not displayed.  fonts may
+not be embedded in any of these files, outlines must be created in vector files.
+
+you may not:
+- use any of the frames, borders, swashes, elements, etc. that appear in the font software or extras in designs
+for sale on stock imagery sites.
+- use the fonts for web fonts or embed them on web pages. (a separate license is required).
+- alter, convert or reformat the font in any manner whatsoever (including webfont conversion)
+- use the fonts for personalized/customized products for resale including, by way of example, personalized
+invitations, cards, t-shirts, etc. on sites such as minted, zazzle, etc. where the end customer is able to use/ma-
+nipulate the fonts - a separate server license is required.
+- use the fonts to create alphabets or letterform related products or in letterform creation for products or
+devices.
+- use the fonts in broadcast on television, cable, or the internet; commercial exhibition or film, where the total
+impressions per month is over 10,000. (a separate license is required)
+- embed the fonts in electronic devices, gaming devices, e-readers and so on. (a separate license is required)
+
+please read the entire license for a detailed description of
+all rights and restrictions
+district 62 studio (d62)
+eula end user license agreement
+
+license
+
+this is a binding legal agreement between you, the end user, and district 62 studio (d62). by
+downloading, installing or using the font software, you agree to the terms of this agreement.  if you
+do not agree to the terms detailed below, do not purchase the license, download, install or use the
+font software.
+
+1. grant of license. upon payment in full, d62 grants a non-exclusive and terminable license to use
+the font software, but you use must be in accordance with the terms and conditions of this agreement.
+1.1  exclusive ownership.  d62 together with its successors retains all rights and titles to the font
+software, trademarks, copyrights and designs embodied within the font software.  you hereby agree that this
+term is contractual in nature and that the inauthorized use of the design of the font and/or the fontsoftware
+shall be an infringement of d62’s rights causing significant monetary harm.  this license grants no own-
+ership rights to the fnt software.you agree that the font software, its structure, organization, code and
+related files are the exclusive and valuable property of d62 and that any use of the font software not expressly
+permitted by the agreement constituteds inringement, causing significant monetary harm to d62.  all rights
+not expressly granted in this agreement are expressly reserved by d62.
+
+eula end user license agreement
+district 62 studio (d62) desktop license
+
+2. permitted installations and uses.
+2.1 installations.  use of d62 font software is limited to the number of end users identified when this license
+was purchased.  the font software may be installed on not more than 2 (two) computers (workstation and
+laptop, ipad or other portable device that is used as a substitute for the primary workstation of each licensed
+end user provided that both computers are not used simultaneously.)
+using the font software on a server over a network, lan, wan or internet is strictly prohibited.  if you
+want to use the font software in such a manner, you will need to purchase a separate server license
+from d62 studio.
+
+2.2 design uses.  use of the font software in the creation of or as part of a company logo is permitted.
+use of the font software in the creation of design works where the works are rasterized or outlines are created
+for vectors, for your personal and commercial use is permitted, given that the entire font is not displayed
+where a third party could potentially extract the letterforms and create an illegal copy of the font software.
+the font software may not be transferred to any unlicensed party.  other restrictions to the use of the font
+software are set forth in this agreement.
+
+2.3 stock sites and stock imagery.  the font software may not be resold, in part or in whole, by
+the end user on any stock site or font seller.  this included the frames and borders, etc that are a part of the
+extras of the font software.  the end user may not claim authorship or sell any part of this font.  the font
+software may be used to create digital images for sale on stock sites, but the image must be rasterized or
+outlines must be created for vector files.  the font software may not be embedded in such files for sale.
+
+2.4 one font software back-up.  you are permitted to make a single back-up copy of the font
+software.  the font software may not be (in whole or in part) sublicensed, sold, leased , rented, loaned or
+given away to any person or entity.
+
+2.5 service providers/bureaus.  in the event that you require the services of a third party for the
+production of color proofs, film or preparation for digital pre-press production or printing, you may provide
+the service provider with a copy of the font software provided that at the end of the job, the provider must
+delete the copy of the font software or purchase their own license.
+
+3. refunds.  if you do not agree with the terms of the font software eula, do not download or install the
+font software.  the d62 software may be exchanged only if defective.  if you do not agree to the terms of this
+agreement and you wish to claim a refund, you must a) prove and certify that no copy of the font software
+remains in your possession or control and b) provide proof of a valid sale and a valid sales receipt.  all claims
+must be made within one (1) week of purchase.
+
+4. embedding
+4.1 software/hardware embedding.  you may not, under any circumstances embed the licensed
+fonts into software or hardware products in which the fonts will be used by the purchasers of such products.
+such use requires a separate license upgrade.
+
+4.2 pdf type embedding.  you may embed the licensed font into any document you send to third parties.
+such documents may be viewed and printed (but not edited) by the recipients.
+
+4.3 webfont embedding.  this license does not permit the transmitting of the font software over the
+internet for the purposes of font serving or font replacement by means of technologies such as, but not limited
+to, cufon, eot, sifr or other technologies that now exist or may be developed in the future.  if you wish to
+use the font software in such a manner, a special license must be purchased.  translation or adaptation of the
+
+eula end user license agreement
+district 62 studio (d62) desktop license
+
+font software and/or serving translated font software to viewers on the internet such as, but nit limited to,
+cufon, woff, sifr, typekit, embeddable opentype,etc. is not permitted under this license and requires a
+separate license upgrade.
+
+5.restrictions.  except as may be otherwise expressly permitted by your specific license, you may not
+distribute, sell, modify, include, adapt, translate, reverse engineer, decompile, disassemble, or translate into
+other fonts formats or formats for use with other forms of devices or otherwise copy and/or make available the
+d62 font software or the design of the font software without the written consent of district 62 studio.  any
+modification, derivations and or adaptations of the font software or the design embodied within, is strictly
+prohibited without the express written permission of district 62 studio, who reserves all rights to this font
+software.  this term is contractual in nature.
+
+6 other restrictions.  use of the d62 font software and the design of the font therein is not permitted
+in the following circumstances or applications without purchasing a license upgrade.  if you are unsure wheth-
+er your use of the font software is specifically permitted under this agreement, contact district 62 studio.
+6a) personalized products for resale including, but not limited to, use of the font software to create physical
+goods for retail sale, by way of example only, using the font software as a resource to create individually
+customized t-shirts, greeting cards, invitations, etc on a per order basis for the retail sale on such sites as, by
+example only,  zazzle, minted, cafe press, etsy, etc.  if you wish to use the font software in such a manner, a
+license upgrade must be purchased.  failure to purchase the proper license for such uses is a breach of this
+contract causing significant monetary damages and harm to district 62 studio.
+
+6b) alphabet or letterform related products or in letterform creation products or devices. including but not
+limited to scrapbooking, digital alphabets, adhesive sticker alphabets, embroidery letters or fonts, signage or
+numbering products, monogram products, rubber stamps, die cut products or any other application, device or
+product where the product producing or containing any image of the letterforms or images in the font
+software could potentially be reproduced, distributed and resold in whole or in part.
+
+6c) broadcast on television, cable or the internet: commercial exhibition or film including, but not limited to,
+creating titling and/or credits for any broadcast.  for use in broadcasts where a license for the same has been
+purchased, the terms of any such license are limited to an annual broadcast season or the initial release.  unless
+otherwise provided for, broadcast usage licensing must be renewed prior to the following season to retain a
+valid license.  failure to renew the license is a breach of this license causing significant monetary harm to
+district 62 studio.
+
+6d) embedding in electronic devices, all gaming devices, e-readers.
+
+6e) large volume commercial uses include, but are not limited to, proper and authorized use of the font
+software in the creation of products, promotional campaigns and related materials, advertising campaigns,
+product packaging or printed materials that require or results in the creation of more than 250,000 reproduc-
+tions: interior or exterior store signage for regional or international uses including billboards.  under such
+circumstances an additional license is required.
+
+6f) webfont uses.
+
+7) rights reserved.  this font software is licensed and not sold to you, the end user, by district
+62 studio and is licensed for use in accordance with the terms of the agreement.  district 62 studio retains any
+and all copyrights to the font software and the design of the letterforms/glyphs/swashes,etc within and is
+protected under both domestic and international copyright, trademark and unfair competition laws.  the various
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

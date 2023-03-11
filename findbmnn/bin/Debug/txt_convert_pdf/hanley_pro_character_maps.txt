@@ -1,0 +1,39 @@
+pro
+v e r s i o n
+
+font colection
+c hara c t e r
+map s
+
+a á ă â ä à ā ą å ã æ b
+
+c ć č ç d ð ď ð e é ě ê
+
+ë ė è ē ę f g ģ h i í î
+
+ï ì ī į j k ķ l ĺ ľ ļ ł
+
+m n ń ň ņ ŋ ñ o ó ô ö ò
+
+ő ō ø õ œ p þ q r ŕ s t
+
+u ú û ü ù ű ū ų ů v w ẃ
+
+ŵ x a á ă â ä à ā ą å ã
+
+æ b c ć č ç d đ ď đ e é
+
+ě ê ë ė è ē ę f g ģ h i
+
+í î ï ì ī į j k ķ l o ó
+
+ô ö ò ő ō ø õ œ p þ q r
+
+ŕ ř ŗ s ś ŝ ș ß t ŧ ť ţ
+
+ú û ü ù ẃ ŵ ẅ ẁ x y
+
+created with a trial version of docotic.pdf.
+
+
+created with a trial version of docotic.pdf.

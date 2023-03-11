@@ -1,0 +1,18 @@
+change colour tutorial
+
+click the zip flow file and extract then go to the svg flow folder
+
+click install font
+
+go to photoshop (cc 2017 and later)
+write the text you want keep changing font to flow
+
+to change color:
+click create new fill and adjustment layers
+select hue / saturation then set as your desire
+
+then click the color balance and set according to your wishes
+
+sample change change the font color of svg flow
+
+nb: for those of you who use photoshop cc2016 down you can use flow layered psd file
